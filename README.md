@@ -56,3 +56,20 @@ ID vanishes.
 ## Authoring
 
 See [`docs/authoring/`](docs/authoring/).
+
+## Licence
+
+**CC BY-SA 4.0** — see [`LICENSE`](LICENSE).
+
+Lessons are not software, which is why this repo is licensed differently from the
+[platform](https://github.com/copperkeep/copperkeep) (AGPL-3.0). Use these lessons, adapt
+them, translate them, teach from them commercially — attribute, and share your
+adaptations under the same terms.
+
+Share-alike is the part that matters: it keeps an adapted curriculum open rather than
+letting it be repackaged as a closed product.
+
+Contributions follow the platform's [CLA](https://github.com/copperkeep/copperkeep/blob/main/CLA.md),
+for the same reason it exists there.
+
+Copyright (C) 2026 Jeffrey Chin.
