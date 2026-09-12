@@ -1,0 +1,12 @@
+# syntax=docker/dockerfile:1
+#
+# Narration only. Separate from content because this is 50-200MB against ~2MB of JSON,
+# and a prose typo fix must not re-pull the whole corpus.
+#
+# Audio is generated on the CI runner (tools/audio.py, Piper) rather than here, so this
+# image is a copy. Build with --build-arg AUDIO_DIR pointing at that output.
+ARG BASE_VERSION=0.1.0
+FROM ghcr.io/copperkeep/audio-base:${BASE_VERSION}
+
+ARG AUDIO_DIR=dist-audio
+COPY ${AUDIO_DIR} /usr/share/nginx/html

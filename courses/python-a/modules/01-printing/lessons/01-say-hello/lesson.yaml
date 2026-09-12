@@ -1,0 +1,10 @@
+id: say-hello
+title: Say hello
+# The claim is the headline. Headlines are claims in sentence case: "print shows words on
+# the screen", never "Printing".
+claim: print shows words on the screen
+steps:
+  - 01-what-print
+  - 02-predict-print
+  - 03-say-hello
+  - 04-your-name

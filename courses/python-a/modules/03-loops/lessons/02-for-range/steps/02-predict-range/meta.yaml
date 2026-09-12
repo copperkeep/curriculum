@@ -1,0 +1,23 @@
+id: py.loops.for-range.predict-range
+type: predict
+title: Where does it start?
+skills:
+  - id: for-loop-range
+    weight: primary
+  - id: int-literals
+    weight: supporting
+prerequisites: [print-output]
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+# The off-by-one at the start of range is the single most common misconception in this
+# lesson, so it gets probed before anyone writes a loop.
+options:
+  - "0 1 2"
+  - "1 2 3"
+  - "0 1 2 3"
+  - "1 2"
+answer: "0 1 2"
+hints: []
+audio:
+  grade3: audio/py/loops/for-range/predict-range.grade3.ogg

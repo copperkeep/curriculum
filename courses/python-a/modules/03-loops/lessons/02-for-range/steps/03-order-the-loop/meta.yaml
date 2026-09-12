@@ -1,0 +1,26 @@
+id: py.loops.for-range.order-the-loop
+# The no-typing on-ramp, and hard to brute force with distractors present. Real Python
+# stays on screen from the first lesson; there are no blocks anywhere in this system.
+type: parsons
+title: Put the loop in order
+skills:
+  - id: for-loop-range
+    weight: primary
+prerequisites: [print-output]
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+  - "for i in range(3):"
+  - "    print(i)"
+# Without distractors pGuess climbs sharply — with two lines and no decoys, ordering is
+# a coin flip.
+distractors:
+  - "print(range(3))"
+  - "for i in 3:"
+hints:
+  - afterSemanticFailures: 2
+    tier: grade3
+    text: "The line that repeats goes under the for line, and it is pushed in."
+audio:
+  grade3: audio/py/loops/for-range/order-the-loop.grade3.ogg

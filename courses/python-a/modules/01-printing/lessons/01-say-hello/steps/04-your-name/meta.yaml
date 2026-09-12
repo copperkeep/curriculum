@@ -1,0 +1,21 @@
+id: py.printing.say-hello.your-name
+type: free-code
+title: Say your own words
+skills:
+  - id: print-output
+    weight: primary
+  - id: string-literals
+    weight: supporting
+prerequisites: []
+estimatedMinutes: 3
+aiGuidance: allow
+# A visibly different problem shape for a skill already taught. Transfer is the strongest
+# single signal that a learner understands rather than pattern-matches — and an
+# AI-assisted solve cannot count as mastery until one of these is passed.
+transferFor: [print-output]
+hints:
+  - afterSemanticFailures: 2
+    tier: grade3
+    text: "Show three lines. That means three prints, one under the other."
+audio:
+  grade3: audio/py/printing/say-hello/your-name.grade3.ogg

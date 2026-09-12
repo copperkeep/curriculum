@@ -1,0 +1,23 @@
+id: py.printing.say-hello.say-hello
+type: free-code
+title: Say hello
+skills:
+  - id: print-output
+    weight: primary
+  - id: string-literals
+    weight: supporting
+prerequisites: []
+estimatedMinutes: 3
+aiGuidance: allow
+transferFor: []
+# The ladder counts SEMANTIC failures only. A learner can fight a missing quote mark
+# twenty times without any of this firing.
+hints:
+  - afterSemanticFailures: 2
+    tier: grade3
+    text: "The word you want to show goes inside the quote marks."
+  - afterSemanticFailures: 4
+    tier: grade3
+    text: "Try starting your line with print and one round mark."
+audio:
+  grade3: audio/py/printing/say-hello/say-hello.grade3.ogg

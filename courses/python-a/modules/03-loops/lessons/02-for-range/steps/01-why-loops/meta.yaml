@@ -1,0 +1,15 @@
+id: py.loops.for-range.why-loops
+type: narrative
+title: Why loops
+skills:
+  - id: for-loop-range
+    weight: primary
+# The step gate: a learner who has not mastered these cannot post attempts here, and the
+# skill map shows the lesson as not yet available rather than failing silently.
+prerequisites: [print-output]
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/loops/for-range/why-loops.grade3.ogg

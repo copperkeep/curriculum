@@ -1,0 +1,19 @@
+id: py.loops.for-range.count-by-twos
+type: free-code
+title: Count by twos
+skills:
+  - id: for-loop-range
+    weight: primary
+prerequisites: [print-output]
+estimatedMinutes: 4
+aiGuidance: allow
+# The transfer item for this lesson: same skill, visibly different problem shape. A
+# learner who only pattern-matched the previous step will not clear this one, and mastery
+# after AI guidance is withheld until it is passed.
+transferFor: [for-loop-range]
+hints:
+  - afterSemanticFailures: 2
+    tier: grade3
+    text: "range can take a third number. That number is how big each step is."
+audio:
+  grade3: audio/py/loops/for-range/count-by-twos.grade3.ogg

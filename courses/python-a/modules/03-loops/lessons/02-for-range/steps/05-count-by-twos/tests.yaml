@@ -1,0 +1,9 @@
+cases:
+  - id: counts-by-twos
+    expectedStdout: |
+      0
+      2
+      4
+      6
+      8
+    message: "shows 0, 2, 4, 6 and 8"

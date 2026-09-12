@@ -1,0 +1,108 @@
+name: release
+
+# Curriculum releases on a calendar version, independently of the application's semver.
+# The manifest's minAppVersion is what keeps the two honest.
+on:
+  push:
+    tags: ["20*"] # 2026.09.1
+  workflow_dispatch:
+    inputs:
+      version:
+        description: "Content version, e.g. 2026.09.1"
+        required: true
+
+env:
+  REGISTRY: ghcr.io
+  NAMESPACE: copperkeep
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    permissions:
+      contents: read
+      packages: write
+      id-token: write
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      - id: version
+        run: |
+          if [ "${{ github.event_name }}" = "workflow_dispatch" ]; then
+            version="${{ inputs.version }}"
+          else
+            version="${GITHUB_REF_NAME}"
+          fi
+          declared="$(python -c "import yaml;print(yaml.safe_load(open('manifest.yaml'))['contentVersion'])")"
+          if [ "$declared" != "$version" ]; then
+            echo "::error::manifest.yaml declares $declared but the release is $version"
+            exit 1
+          fi
+          echo "version=$version" >> "$GITHUB_OUTPUT"
+
+      - name: Gates
+        run: python tools/check.py
+
+      - name: Narration
+        # Piper voice models carry their own licences. Ship the model as a repo secret or
+        # a vendored file; without one this step is a no-op and the audio image is empty.
+        run: |
+          if [ -f voices/voice.onnx ]; then
+            sudo apt-get update && sudo apt-get install -y ffmpeg
+            pipx install piper-tts || pip install piper-tts
+            python tools/audio.py --voice voices/voice.onnx --out dist-audio
+          else
+            echo "no voice model at voices/voice.onnx — skipping narration"
+            mkdir -p dist-audio
+          fi
+
+      - uses: docker/setup-qemu-action@v3
+      - uses: docker/setup-buildx-action@v3
+      - uses: docker/login-action@v3
+        with:
+          registry: ${{ env.REGISTRY }}
+          username: ${{ github.actor }}
+          password: ${{ secrets.GITHUB_TOKEN }}
+
+      - name: content image
+        id: content
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.content
+          platforms: linux/amd64,linux/arm64
+          push: true
+          provenance: mode=max
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/content:${{ steps.version.outputs.version }}
+            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/content:latest
+
+      - name: audio image
+        id: audio
+        uses: docker/build-push-action@v6
+        with:
+          context: .
+          file: Dockerfile.audio
+          platforms: linux/amd64,linux/arm64
+          push: true
+          provenance: mode=max
+          tags: |
+            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/audio:${{ steps.version.outputs.version }}
+            ${{ env.REGISTRY }}/${{ env.NAMESPACE }}/audio:latest
+
+      - uses: sigstore/cosign-installer@v3
+      - name: Sign both images
+        run: |
+          cosign sign --yes "${REGISTRY}/${NAMESPACE}/content@${{ steps.content.outputs.digest }}"
+          cosign sign --yes "${REGISTRY}/${NAMESPACE}/audio@${{ steps.audio.outputs.digest }}"
+
+      - name: Record the released IDs
+        # From here on, these IDs are a public contract: a later release that drops one
+        # without a transition fails CI.
+        run: |
+          python tools/check.py --update-snapshot
+          echo "Commit the updated released-ids.json — it is the ID stability baseline."
+          cat released-ids.json

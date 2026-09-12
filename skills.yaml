@@ -1,0 +1,55 @@
+# The skill registry — the ID contract.
+#
+# Skill IDs are stored as opaque strings in an append-only event log. Renaming one
+# silently orphans every historical event: mastery estimates reset and parent reports go
+# blank. IDs are never renamed and never reused; a split or merge is a transition below,
+# applied at projection time.
+#
+# pInit / pLearn / pSlip are per skill and tunable here. pGuess is NOT here — it is a
+# property of the item, derived from the step type, because a 4-option predict step has a
+# 25% floor by construction.
+
+ontologyVersion: 1
+
+skills:
+  - id: print-output
+    title: Printing
+    prerequisites: []
+    pInit: 0.20 # many learners arrive having seen this in Scratch
+    pLearn: 0.25
+    pSlip: 0.10
+    reportQuestion: "Ask {name} to show you how to make the computer say something."
+
+  - id: string-literals
+    title: Text in quotes
+    prerequisites: []
+    pInit: 0.15
+    pLearn: 0.20
+    pSlip: 0.12 # a missed quote is a slip, not a gap in understanding
+    reportQuestion: "Ask {name} why some words need quote marks around them."
+
+  - id: int-literals
+    title: Numbers
+    prerequisites: []
+    pInit: 0.30 # counting is not new; typing it is
+    pLearn: 0.25
+    pSlip: 0.08
+
+  - id: for-loop-range
+    title: Repeating with for
+    prerequisites: [print-output, int-literals]
+    pInit: 0.05 # genuinely new; almost nobody arrives holding this
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what a loop does, and how the computer knows when to stop."
+
+# Splits and merges need more than a 1:1 alias. Because skill_state is a recomputable
+# cache, applying a transition is a replay of progress_events through this mapping, not a
+# destructive migration. Historical events keep their original IDs forever.
+#
+# Example, for when this first happens:
+#   - from: for-loop-range
+#     to: [for-loop-iteration, range-generator]
+#     kind: split
+#     policy: carry-forward-reduced
+transitions: []
