@@ -1,0 +1,15 @@
+# syntax=docker/dockerfile:1
+#
+# The shipping `content` image: the platform's base (nginx plus the serving policy) with
+# this release's built JSON copied in. The nginx config lives in the platform repo so
+# there is one copy of it, not two that drift.
+ARG BASE_VERSION=0.1.0
+FROM python:3.12-slim AS build
+
+WORKDIR /src
+RUN pip install --no-cache-dir pyyaml
+COPY . .
+RUN python tools/check.py && python tools/build.py --out /dist
+
+FROM ghcr.io/copperkeep/content-base:${BASE_VERSION}
+COPY --from=build /dist /usr/share/nginx/html

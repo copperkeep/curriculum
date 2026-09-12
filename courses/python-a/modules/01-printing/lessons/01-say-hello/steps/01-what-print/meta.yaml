@@ -1,0 +1,14 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.say-hello.what-print
+type: narrative
+title: What print does
+skills:
+  - id: print-output
+    weight: primary
+prerequisites: []
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/printing/say-hello/what-print.grade3.ogg

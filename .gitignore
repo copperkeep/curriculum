@@ -1,0 +1,9 @@
+dist/
+dist-audio/
+__pycache__/
+*.py[cod]
+.venv/
+
+# Piper voice models: large, and each carries its own licence. Vendor deliberately.
+voices/*.onnx
+voices/*.onnx.json

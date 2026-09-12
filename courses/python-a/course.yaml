@@ -1,0 +1,7 @@
+id: python-a
+title: Python A — Foundations
+description: Output and strings, variables, numbers, and repeating with for.
+targetAge: "8 and up"
+modules:
+  - 01-printing
+  - 03-loops

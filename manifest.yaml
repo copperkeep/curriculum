@@ -1,0 +1,24 @@
+# Calendar version: content reads far better this way than semver, and it moves on its
+# own cadence.
+contentVersion: "2026.09.1"
+
+# The compatibility guard. The API checks this at startup and fails its readiness probe
+# on a mismatch, so a curriculum that needs a newer app never goes live; the SPA checks
+# it at boot and shows a plain message rather than a broken lesson.
+minAppVersion: "0.1.0"
+
+courses:
+  - id: python-a
+    title: Python A — Foundations
+    path: courses/python-a/course.json
+
+# Packages a lesson may import. micropip resolves against the vendored wheel index in the
+# runtimes image, never PyPI, so this list and that directory must agree — CI fails on a
+# lesson that imports something not shipped.
+allowedPackages: []
+
+readingTiers:
+  # Ship two. A third triples authoring effort for a benefit that cannot be measured
+  # until real learners are using the first two.
+  - grade3
+  - adult

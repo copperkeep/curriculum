@@ -1,0 +1,7 @@
+cases:
+  - id: three-lines
+    expectedStdout: |
+      red
+      green
+      blue
+    message: "shows red, green and blue on three lines"

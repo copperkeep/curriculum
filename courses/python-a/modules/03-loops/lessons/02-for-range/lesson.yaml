@@ -1,0 +1,9 @@
+id: for-range
+title: Repeating with for
+claim: Loops repeat things
+steps:
+  - 01-why-loops
+  - 02-predict-range
+  - 03-order-the-loop
+  - 04-count-to-ten
+  - 05-count-by-twos

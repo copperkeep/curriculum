@@ -1,0 +1,5 @@
+# Case messages are learner-facing and reading-tier aware. Never a stack trace.
+cases:
+  - id: shows-hello
+    expectedStdout: "Hello"
+    message: "shows Hello"

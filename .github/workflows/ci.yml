@@ -1,0 +1,45 @@
+name: ci
+
+on:
+  pull_request:
+  push:
+    branches: [main]
+
+jobs:
+  gates:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          # ID stability is checked against the previous release, so the history matters.
+          fetch-depth: 0
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install pyyaml
+
+      # Structure, ID stability, reference solutions, readability, subresources,
+      # packages. Running every reference solution against its own tests is the
+      # highest-value gate here: it catches a broken exercise before a child does.
+      - run: python tools/check.py
+
+      - run: python tools/build.py --out dist
+
+      - name: The built content must be servable as-is
+        run: |
+          python - <<'PY'
+          import json, pathlib
+          manifest = json.loads(pathlib.Path("dist/manifest.json").read_text())
+          steps = json.loads(pathlib.Path("dist/steps.json").read_text())["steps"]
+          assert manifest["contentVersion"], "no contentVersion"
+          assert manifest["minAppVersion"], "no minAppVersion"
+          assert steps, "no steps in the index"
+          # Reference solutions never travel to the browser.
+          for course in manifest["courses"]:
+              tree = json.loads((pathlib.Path("dist") / course["path"]).read_text())
+              for module in tree["modules"]:
+                  for lesson in module["lessons"]:
+                      for step in lesson["steps"]:
+                          assert "solution" not in step, f"{step['id']} ships its solution"
+          print(f"{len(steps)} steps, version {manifest['contentVersion']}")
+          PY

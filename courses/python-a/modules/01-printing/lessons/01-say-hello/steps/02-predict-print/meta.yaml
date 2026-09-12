@@ -1,0 +1,24 @@
+id: py.printing.say-hello.predict-print
+# predict kills tweak-until-green: there is nothing to permute.
+type: predict
+title: What will this show?
+skills:
+  - id: print-output
+    weight: primary
+  - id: string-literals
+    weight: supporting
+prerequisites: []
+estimatedMinutes: 2
+aiGuidance: suppress # this is an understanding probe; the point is that it is unaided
+transferFor: []
+# Four options, so pGuess is 0.25 by construction. The engine derives that from the step
+# type and option count rather than from the skill.
+options:
+  - "Hello"
+  - "'Hello'"
+  - "print"
+  - "Nothing"
+answer: "Hello"
+hints: []
+audio:
+  grade3: audio/py/printing/say-hello/predict-print.grade3.ogg
