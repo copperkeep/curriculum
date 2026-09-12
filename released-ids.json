@@ -1,0 +1,20 @@
+{
+  "contentVersion": "2026.09.1",
+  "skills": [
+    "for-loop-range",
+    "int-literals",
+    "print-output",
+    "string-literals"
+  ],
+  "steps": [
+    "py.loops.for-range.count-by-twos",
+    "py.loops.for-range.count-ten",
+    "py.loops.for-range.order-the-loop",
+    "py.loops.for-range.predict-range",
+    "py.loops.for-range.why-loops",
+    "py.printing.say-hello.predict-print",
+    "py.printing.say-hello.say-hello",
+    "py.printing.say-hello.what-print",
+    "py.printing.say-hello.your-name"
+  ]
+}
