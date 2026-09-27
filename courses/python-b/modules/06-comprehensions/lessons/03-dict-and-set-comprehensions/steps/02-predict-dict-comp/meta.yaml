@@ -17,3 +17,5 @@ options:
 - '{(1, 1), (2, 4), (3, 9)}'
 answer: '{1: 1, 2: 4, 3: 9}'
 hints: []
+audio:
+  grade3: audio/py/comprehensions/dict-and-set-comprehensions/predict-dict-comp.grade3.ogg

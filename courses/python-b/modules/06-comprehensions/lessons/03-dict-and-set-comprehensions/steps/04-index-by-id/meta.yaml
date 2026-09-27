@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: '{key_expr: value_expr for item in items}'
+audio:
+  grade3: audio/py/comprehensions/dict-and-set-comprehensions/index-by-id.grade3.ogg

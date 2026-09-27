@@ -17,3 +17,5 @@ options:
 - '  7'
 answer: '007'
 hints: []
+audio:
+  grade3: audio/py/text/format-numbers/predict-pad.grade3.ogg

@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Then filter range(n) through is_prime.
+audio:
+  grade3: audio/py/comprehensions/filtering/primes.grade3.ogg

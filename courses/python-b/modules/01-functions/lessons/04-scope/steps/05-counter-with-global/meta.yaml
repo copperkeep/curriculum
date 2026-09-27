@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Inside the function, declare global calls before changing it.
+audio:
+  grade3: audio/py/return-values/scope/counter-with-global.grade3.ogg

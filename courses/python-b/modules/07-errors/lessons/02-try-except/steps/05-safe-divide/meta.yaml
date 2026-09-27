@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Dividing by zero raises ZeroDivisionError; dividing a string raises TypeError.
+audio:
+  grade3: audio/py/errors/try-except/safe-divide.grade3.ogg

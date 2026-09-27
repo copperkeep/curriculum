@@ -11,3 +11,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/list-tools/two-names-one-list/names-are-labels.grade3.ogg

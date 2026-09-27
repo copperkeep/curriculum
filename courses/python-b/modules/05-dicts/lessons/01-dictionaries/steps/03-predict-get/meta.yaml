@@ -17,3 +17,5 @@ options:
 - banana
 answer: '0'
 hints: []
+audio:
+  grade3: audio/py/dicts/dictionaries/predict-get.grade3.ogg

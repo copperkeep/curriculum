@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Mode "a" adds to the end instead of starting over.
+audio:
+  grade3: audio/py/files/write-a-file/append-log.grade3.ogg

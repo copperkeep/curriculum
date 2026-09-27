@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The last index of a list is len(xs) - 1.
+audio:
+  grade3: audio/py/errors/reading-errors/index-error.grade3.ogg

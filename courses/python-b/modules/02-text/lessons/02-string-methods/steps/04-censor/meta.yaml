@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: replace returns a new string, so return its result.
+audio:
+  grade3: audio/py/text/string-methods/censor.grade3.ogg

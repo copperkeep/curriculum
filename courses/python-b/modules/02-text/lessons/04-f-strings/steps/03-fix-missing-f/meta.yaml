@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Without the f, the braces are just characters.
+audio:
+  grade3: audio/py/text/f-strings/fix-missing-f.grade3.ogg

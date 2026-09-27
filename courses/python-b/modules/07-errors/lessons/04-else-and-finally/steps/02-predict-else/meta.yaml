@@ -17,3 +17,5 @@ options:
 - try else
 answer: try else finally
 hints: []
+audio:
+  grade3: audio/py/errors/else-and-finally/predict-else.grade3.ogg

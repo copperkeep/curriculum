@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: math.sqrt takes a square root; math.hypot does the whole thing.
+audio:
+  grade3: audio/py/modules/importing/hypotenuse.grade3.ogg

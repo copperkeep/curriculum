@@ -17,3 +17,5 @@ options:
 - '[0, 0]'
 answer: '[0, 2, 0, 4]'
 hints: []
+audio:
+  grade3: audio/py/comprehensions/filtering/predict-ternary.grade3.ogg

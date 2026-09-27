@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Build each new row by taking row[c] from every old row.
+audio:
+  grade3: audio/py/list-tools/nested-lists/transpose.grade3.ogg

@@ -11,3 +11,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/return-values/any-number-of-arguments/star-args.grade3.ogg

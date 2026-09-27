@@ -17,3 +17,5 @@ options:
 - '3'
 answer: '[(''a'', 3)]'
 hints: []
+audio:
+  grade3: audio/py/modules/collections/predict-most-common.grade3.ogg

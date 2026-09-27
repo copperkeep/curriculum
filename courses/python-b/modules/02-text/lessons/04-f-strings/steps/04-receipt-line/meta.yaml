@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Any expression can go in the braces, including a multiplication.
+audio:
+  grade3: audio/py/text/f-strings/receipt-line.grade3.ogg

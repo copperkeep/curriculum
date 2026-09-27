@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Copy the list first, then change the copy.
+audio:
+  grade3: audio/py/list-tools/two-names-one-list/safe-function.grade3.ogg

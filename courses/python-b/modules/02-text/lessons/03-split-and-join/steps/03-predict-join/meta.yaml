@@ -17,3 +17,5 @@ options:
 - -2026-09-27
 answer: '2026-09-27'
 hints: []
+audio:
+  grade3: audio/py/text/split-and-join/predict-join.grade3.ogg

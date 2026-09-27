@@ -17,3 +17,5 @@ options:
 - 3 + 4 = 34
 answer: 3 + 4 = 7
 hints: []
+audio:
+  grade3: audio/py/text/f-strings/predict-f.grade3.ogg

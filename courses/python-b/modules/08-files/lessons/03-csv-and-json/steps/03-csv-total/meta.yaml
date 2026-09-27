@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Remember newline="" when opening a file for csv.
+audio:
+  grade3: audio/py/files/csv-and-json/csv-total.grade3.ogg

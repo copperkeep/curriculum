@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'A function that adds would end with: return a + b'
+audio:
+  grade3: audio/py/return-values/return-a-value/area.grade3.ogg

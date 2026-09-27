@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Use n % len(xs) so rotating by more than the length still works.
+audio:
+  grade3: audio/py/list-tools/slicing-lists/rotate.grade3.ogg

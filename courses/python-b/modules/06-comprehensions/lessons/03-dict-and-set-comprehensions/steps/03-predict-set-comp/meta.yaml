@@ -17,3 +17,5 @@ options:
 - '1'
 answer: '2'
 hints: []
+audio:
+  grade3: audio/py/comprehensions/dict-and-set-comprehensions/predict-set-comp.grade3.ogg

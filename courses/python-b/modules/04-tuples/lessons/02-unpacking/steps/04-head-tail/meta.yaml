@@ -13,4 +13,6 @@ transferFor: []
 hints:
 - afterSemanticFailures: 2
   tier: grade3
-  text: first, *rest = xs
+  text: first, *others = [10, 20, 30] makes first 10 and others [20, 30].
+audio:
+  grade3: audio/py/tuples/unpacking/head-tail.grade3.ogg

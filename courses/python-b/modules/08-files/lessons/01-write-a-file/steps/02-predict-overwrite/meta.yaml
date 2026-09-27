@@ -17,3 +17,5 @@ options:
 - a
 answer: b
 hints: []
+audio:
+  grade3: audio/py/files/write-a-file/predict-overwrite.grade3.ogg

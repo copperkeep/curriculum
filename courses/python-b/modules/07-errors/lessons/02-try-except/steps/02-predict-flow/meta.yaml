@@ -17,3 +17,5 @@ options:
 - a d
 answer: a c d
 hints: []
+audio:
+  grade3: audio/py/errors/try-except/predict-flow.grade3.ogg

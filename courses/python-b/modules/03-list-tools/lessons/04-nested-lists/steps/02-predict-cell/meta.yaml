@@ -17,3 +17,5 @@ options:
 - b
 answer: h
 hints: []
+audio:
+  grade3: audio/py/list-tools/nested-lists/predict-cell.grade3.ogg

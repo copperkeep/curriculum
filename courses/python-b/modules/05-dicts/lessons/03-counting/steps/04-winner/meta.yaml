@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: max(counts, key=counts.get) finds the key with the largest value.
+audio:
+  grade3: audio/py/dicts/counting/winner.grade3.ogg

@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'for key in d: gives each key; d[key] is its value.'
+audio:
+  grade3: audio/py/dicts/dictionaries/invert.grade3.ogg

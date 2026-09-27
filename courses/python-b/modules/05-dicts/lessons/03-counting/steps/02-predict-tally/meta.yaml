@@ -17,3 +17,5 @@ options:
 - '3'
 answer: '{''a'': 2, ''b'': 1}'
 hints: []
+audio:
+  grade3: audio/py/dicts/counting/predict-tally.grade3.ogg

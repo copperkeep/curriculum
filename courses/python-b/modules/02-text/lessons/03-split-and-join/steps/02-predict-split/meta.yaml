@@ -17,3 +17,5 @@ options:
 - '1'
 answer: '4'
 hints: []
+audio:
+  grade3: audio/py/text/split-and-join/predict-split.grade3.ogg

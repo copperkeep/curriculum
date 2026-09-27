@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'Negative numbers count from the end: s[-2:] is the last two.'
+audio:
+  grade3: audio/py/text/slicing-text/initials.grade3.ogg

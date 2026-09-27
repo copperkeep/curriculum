@@ -16,3 +16,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Loop over string.punctuation and replace each mark with nothing.
+audio:
+  grade3: audio/py/projects-b/word-report/clean.grade3.ogg

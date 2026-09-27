@@ -17,3 +17,5 @@ options:
 - '1'
 answer: '3'
 hints: []
+audio:
+  grade3: audio/py/dicts/sets/predict-dedupe.grade3.ogg

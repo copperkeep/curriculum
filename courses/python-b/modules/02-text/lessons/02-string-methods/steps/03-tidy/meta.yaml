@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'Methods can be chained: s.strip().lower()'
+audio:
+  grade3: audio/py/text/string-methods/tidy.grade3.ogg

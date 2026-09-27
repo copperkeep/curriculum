@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: strip each line so the newline is not part of the item.
+audio:
+  grade3: audio/py/files/read-a-file/load-list.grade3.ogg

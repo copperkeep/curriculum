@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Before adding, check if it is already in the set.
+audio:
+  grade3: audio/py/dicts/sets/first-repeat.grade3.ogg

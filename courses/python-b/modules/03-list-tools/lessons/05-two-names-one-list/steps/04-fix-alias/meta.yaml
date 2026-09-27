@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: backup = original makes a second name, not a second list.
+audio:
+  grade3: audio/py/list-tools/two-names-one-list/fix-alias.grade3.ogg

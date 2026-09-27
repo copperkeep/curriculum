@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Catch FileNotFoundError around the open.
+audio:
+  grade3: audio/py/files/read-a-file/missing-file.grade3.ogg

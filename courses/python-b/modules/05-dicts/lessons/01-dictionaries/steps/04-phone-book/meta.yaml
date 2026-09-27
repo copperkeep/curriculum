@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: get(name, "unknown") covers missing names.
+audio:
+  grade3: audio/py/dicts/dictionaries/phone-book.grade3.ogg

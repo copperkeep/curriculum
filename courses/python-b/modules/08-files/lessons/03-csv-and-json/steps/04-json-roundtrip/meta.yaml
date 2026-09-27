@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: json.dump(obj, f) writes; json.load(f) reads.
+audio:
+  grade3: audio/py/files/csv-and-json/json-roundtrip.grade3.ogg

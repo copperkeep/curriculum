@@ -17,3 +17,5 @@ options:
 - None
 answer: TypeError
 hints: []
+audio:
+  grade3: audio/py/tuples/tuples/predict-immutable.grade3.ogg

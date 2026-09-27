@@ -17,3 +17,5 @@ options:
 - 'Line 5: the print is in the wrong place'
 answer: 'Line 3: count starts again at 0 on every pass'
 hints: []
+audio:
+  grade3: audio/py/debugging/tracing/find-the-line.grade3.ogg

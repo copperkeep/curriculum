@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'One assert per behaviour: a normal case, a boundary, an empty input.'
+audio:
+  grade3: audio/py/debugging/assert/write-tests.grade3.ogg

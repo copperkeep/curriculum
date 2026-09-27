@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'if item not in result:'
+audio:
+  grade3: audio/py/list-tools/list-methods/without-duplicates.grade3.ogg

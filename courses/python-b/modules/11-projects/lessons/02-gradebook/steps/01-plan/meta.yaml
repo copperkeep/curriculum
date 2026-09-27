@@ -15,3 +15,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/projects-b/gradebook/plan.grade3.ogg

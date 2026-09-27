@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Two different checks, two different raises.
+audio:
+  grade3: audio/py/errors/raising/withdraw.grade3.ogg

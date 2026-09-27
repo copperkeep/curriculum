@@ -24,3 +24,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Writes must be inside the with block, or the file is already closed.
+audio:
+  grade3: audio/py/files/write-a-file/order-write.grade3.ogg

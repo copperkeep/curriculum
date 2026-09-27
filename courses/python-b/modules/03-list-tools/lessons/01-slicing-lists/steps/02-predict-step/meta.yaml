@@ -17,3 +17,5 @@ options:
 - '[2, 4]'
 answer: '[0, 2, 4]'
 hints: []
+audio:
+  grade3: audio/py/list-tools/slicing-lists/predict-step.grade3.ogg

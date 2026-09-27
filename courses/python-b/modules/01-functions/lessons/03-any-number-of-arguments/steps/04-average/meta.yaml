@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'def mean(*nums): gives you a tuple called nums.'
+audio:
+  grade3: audio/py/return-values/any-number-of-arguments/average.grade3.ogg

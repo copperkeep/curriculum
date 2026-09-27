@@ -17,3 +17,5 @@ options:
 - '-1'
 answer: 'no: negative'
 hints: []
+audio:
+  grade3: audio/py/errors/raising/predict-raise.grade3.ogg
