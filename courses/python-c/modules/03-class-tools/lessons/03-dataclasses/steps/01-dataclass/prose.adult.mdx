@@ -1,0 +1,16 @@
+```python
+from dataclasses import dataclass, field
+
+@dataclass
+class Point:
+    x: float
+    y: float = 0.0
+    tags: list = field(default_factory=list)
+```
+
+From the annotated fields, the decorator generates `__init__`, a readable
+`__repr__`, and a field-by-field `__eq__`. `order=True` adds comparisons;
+`frozen=True` makes instances immutable (and hashable).
+
+Mutable defaults need `field(default_factory=list)` — the same shared-list trap
+as class attributes, which the decorator refuses to let you fall into.

@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.iterators.reusable
+type: free-code
+title: Iterable, not iterator
+skills:
+- id: iterator-protocol
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- iterator-protocol
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Make __iter__ return a fresh iterator each time — iter() of a new range works.

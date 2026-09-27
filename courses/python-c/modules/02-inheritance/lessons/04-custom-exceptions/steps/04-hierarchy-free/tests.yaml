@@ -1,0 +1,13 @@
+cases:
+- id: ok
+  assert: parse(' 42 ') == 42
+  message: parse(' 42 ') gives 42
+- id: empty
+  assert: __import__('unittest').TestCase().assertRaises(EmptyInput, parse, '  ') is None
+  message: blank input raises EmptyInput
+- id: bad
+  assert: __import__('unittest').TestCase().assertRaises(BadNumber, parse, 'x') is None
+  message: junk raises BadNumber
+- id: family
+  assert: issubclass(EmptyInput, ParseError) and issubclass(BadNumber, ParseError)
+  message: both are ParseErrors

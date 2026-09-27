@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.closures.predict-late-binding
+type: predict
+title: Late binding
+skills:
+- id: closures
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[2, 2, 2]'
+- '[0, 1, 2]'
+- '[0, 0, 0]'
+- Error
+answer: '[2, 2, 2]'
+hints: []

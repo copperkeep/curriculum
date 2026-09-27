@@ -1,0 +1,10 @@
+cases:
+- id: square
+  assert: Square(3).describe() == 'Square with area 9'
+  message: Square(3) has area 9
+- id: circle
+  assert: Circle(1).describe() == 'Circle with area 3.14'
+  message: Circle(1) has area 3.14
+- id: isinstance
+  assert: isinstance(Square(1), Shape) and isinstance(Circle(1), Shape)
+  message: both are Shapes

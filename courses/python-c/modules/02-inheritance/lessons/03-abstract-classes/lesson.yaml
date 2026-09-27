@@ -1,0 +1,8 @@
+id: abstract-classes
+title: Abstract base classes
+claim: An abstract base class refuses to be created until its subclass fills in the gaps
+steps:
+- 01-abc
+- 02-predict-abc
+- 03-storage
+- 04-template-method

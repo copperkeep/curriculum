@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.class-and-static-methods.validator
+type: free-code
+title: A static helper
+skills:
+- id: class-static-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- class-static-methods
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'is_valid does not need self or cls: make it a staticmethod.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: __init__ can call it as self.is_valid(...) or Email.is_valid(...).

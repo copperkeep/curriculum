@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.functools.predict-partial
+type: predict
+title: Pre-filled arguments
+skills:
+- id: functools-module
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 8 9
+- 8 27
+- 6 9
+- Error
+answer: 8 9
+hints: []

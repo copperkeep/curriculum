@@ -1,0 +1,4 @@
+cases:
+- id: captures
+  assert: 'captured(lambda: print(''hello'')) == ''hello\n'''
+  message: returns what the function printed

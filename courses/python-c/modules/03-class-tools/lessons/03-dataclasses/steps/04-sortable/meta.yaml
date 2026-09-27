@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.dataclasses.sortable
+type: free-code
+title: Frozen and ordered
+skills:
+- id: dataclasses
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- dataclasses
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '@dataclass(order=True, frozen=True)'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Comparison uses the fields in the order they are declared.

@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.abstract-classes.template-method
+type: free-code
+title: Template method
+skills:
+- id: abstract-classes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- abstract-classes
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The base class's concrete method calls the abstract one.

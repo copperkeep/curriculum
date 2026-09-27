@@ -1,0 +1,18 @@
+```python
+from contextlib import contextmanager
+
+@contextmanager
+def tag(name):
+    print(f"<{name}>")
+    try:
+        yield
+    finally:
+        print(f"</{name}>")
+```
+
+Code before `yield` is `__enter__`; what is yielded is bound by `as`; code after is
+`__exit__`. Wrap the `yield` in `try`/`finally` or the cleanup is skipped when the
+block raises.
+
+`contextlib` also has `suppress(*exceptions)`, `redirect_stdout(f)`, and
+`ExitStack` for managing a dynamic number of contexts.

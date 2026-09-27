@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.methods.stack
+type: free-code
+title: A stack
+skills:
+- id: methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- methods
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Keep a list on self. push appends; pop removes from the end.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: is_empty returns a bool.

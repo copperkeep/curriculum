@@ -1,0 +1,9 @@
+id: with-protocol
+title: How with works
+claim: with calls __enter__ on the way in and __exit__ on the way out, whatever happens
+steps:
+- 01-protocol
+- 02-predict-order
+- 03-predict-exception
+- 04-temporary-setting
+- 05-suppress

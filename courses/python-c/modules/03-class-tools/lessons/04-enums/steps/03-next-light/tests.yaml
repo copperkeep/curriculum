@@ -1,0 +1,4 @@
+cases:
+- id: cycle
+  assert: next_light(Light.RED) is Light.GREEN and next_light(Light.AMBER) is Light.RED
+  message: red goes to green, and amber back to red

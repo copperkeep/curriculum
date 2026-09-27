@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.decorators-with-arguments.register
+type: free-code
+title: A plugin registry
+skills:
+- id: decorator-arguments
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- decorator-arguments
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The decorator stores func in the dict and returns func unchanged.

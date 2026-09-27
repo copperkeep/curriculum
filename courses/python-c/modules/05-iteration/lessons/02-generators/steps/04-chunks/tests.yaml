@@ -1,0 +1,7 @@
+cases:
+- id: chunks
+  assert: list(chunks([1, 2, 3, 4, 5], 2)) == [[1, 2], [3, 4], [5]]
+  message: splits into [1, 2], [3, 4], [5]
+- id: generator
+  assert: hasattr(chunks([1], 1), '__next__')
+  message: chunks returns a generator

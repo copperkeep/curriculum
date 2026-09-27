@@ -1,0 +1,8 @@
+id: generators
+title: Generators
+claim: A function with yield pauses at each value and resumes where it left off
+steps:
+- 01-yield
+- 02-predict-lazy
+- 03-fibonacci
+- 04-chunks

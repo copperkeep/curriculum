@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.itertools.running-balance
+type: free-code
+title: Running balance
+skills:
+- id: itertools-module
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- itertools-module
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: accumulate(amounts, initial=start) includes the starting balance.

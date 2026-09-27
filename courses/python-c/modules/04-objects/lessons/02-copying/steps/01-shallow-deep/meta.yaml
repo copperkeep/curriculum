@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.copying.shallow-deep
+type: narrative
+title: How deep does the copy go?
+skills:
+- id: copying
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

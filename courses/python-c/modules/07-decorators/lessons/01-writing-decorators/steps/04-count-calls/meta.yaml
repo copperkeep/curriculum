@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.writing-decorators.count-calls
+type: free-code
+title: Count the calls
+skills:
+- id: decorators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Store the count as an attribute on the wrapper: wrapper.calls = 0.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Pass *args and **kwargs through and return the result.

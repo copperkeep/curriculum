@@ -1,0 +1,8 @@
+id: class-and-static-methods
+title: Class and static methods
+claim: classmethod receives the class, and staticmethod receives nothing extra
+steps:
+- 01-kinds
+- 02-predict-cls
+- 03-from-string
+- 04-validator

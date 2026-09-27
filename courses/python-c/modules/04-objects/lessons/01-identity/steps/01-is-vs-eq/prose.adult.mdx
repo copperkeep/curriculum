@@ -1,0 +1,9 @@
+Every object has an identity (`id(x)`), a type, and a value. `a == b` compares
+values (via `__eq__`); `a is b` checks they are the very same object.
+
+Use `is` only for singletons: `x is None`, `x is True`. For everything else use
+`==`. Small integers and short strings are sometimes cached, so `is` can
+*happen* to work on them — which makes the bug intermittent, not absent.
+
+Immutable objects (ints, strings, tuples) cannot change, so sharing them is safe.
+Mutable ones (lists, dicts, sets, most of your classes) are where aliasing bites.

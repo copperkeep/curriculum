@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.decorators-with-arguments.predict-stack
+type: predict
+title: Stacking
+skills:
+- id: decorator-arguments
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- <b><i>hi</i></b>
+- <i><b>hi</b></i>
+- <b>hi</b>
+- hi
+answer: <b><i>hi</i></b>
+hints: []

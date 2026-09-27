@@ -1,0 +1,7 @@
+cases:
+- id: example
+  assert: rle('aaabcc') == 'a3b1c2'
+  message: aaabcc becomes a3b1c2
+- id: empty
+  assert: rle('') == ''
+  message: empty stays empty

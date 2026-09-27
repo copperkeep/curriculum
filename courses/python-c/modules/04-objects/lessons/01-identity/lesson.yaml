@@ -1,0 +1,9 @@
+id: identity
+title: Identity and equality
+claim: == asks "same value?" and is asks "same object?"
+steps:
+- 01-is-vs-eq
+- 02-predict-is
+- 03-predict-default-arg
+- 04-fix-default
+- 05-same-object

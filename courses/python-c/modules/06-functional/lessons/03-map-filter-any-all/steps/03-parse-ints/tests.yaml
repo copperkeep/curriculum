@@ -1,0 +1,4 @@
+cases:
+- id: parse
+  assert: parse('3 1 4 1 5') == [3, 1, 4, 1, 5]
+  message: parses five numbers

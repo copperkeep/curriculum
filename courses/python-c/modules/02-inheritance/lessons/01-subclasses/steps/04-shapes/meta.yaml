@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.subclasses.shapes
+type: free-code
+title: Shapes
+skills:
+- id: inheritance
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Shape.area can raise NotImplementedError; subclasses override it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: describe lives on Shape and calls self.area().

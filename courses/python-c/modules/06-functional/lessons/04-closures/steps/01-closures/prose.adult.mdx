@@ -1,0 +1,17 @@
+A function defined inside another can use the outer function's variables — and
+keeps them alive after the outer function returns. That captured environment is a
+*closure*.
+
+```python
+def make_counter():
+    count = 0
+    def next_value():
+        nonlocal count
+        count += 1
+        return count
+    return next_value
+```
+
+`nonlocal` is needed only to *rebind* an outer name; reading it needs nothing.
+Closures capture variables, not values: a loop creating lambdas that all use `i`
+sees `i`'s final value.

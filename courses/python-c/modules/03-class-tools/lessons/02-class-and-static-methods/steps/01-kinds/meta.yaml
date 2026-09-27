@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.class-and-static-methods.kinds
+type: narrative
+title: Three kinds of method
+skills:
+- id: class-static-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

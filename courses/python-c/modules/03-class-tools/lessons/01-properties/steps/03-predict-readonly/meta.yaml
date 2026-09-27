@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.properties.predict-readonly
+type: predict
+title: No setter
+skills:
+- id: properties
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- AttributeError
+- '5'
+- None
+- '3'
+answer: AttributeError
+hints: []

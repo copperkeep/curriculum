@@ -1,0 +1,14 @@
+A function containing `yield` is a generator function. Calling it runs nothing;
+it returns a generator — an iterator. Each `next()` runs the body until the next
+`yield`, hands out that value, and freezes, locals and all.
+
+```python
+def countdown(n):
+    while n > 0:
+        yield n
+        n -= 1
+```
+
+That is the whole `Countdown` class from the last lesson. Generators are lazy:
+they produce values only when asked, so they can describe huge or infinite
+sequences in constant memory. `yield from other` delegates to another iterable.

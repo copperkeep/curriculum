@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.writing-decorators.predict-lost-return
+type: predict
+title: Where did the result go?
+skills:
+- id: decorators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- None
+- '5'
+- Error
+- wrapper
+answer: None
+hints: []

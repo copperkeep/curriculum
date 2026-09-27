@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.identity.predict-default-arg
+type: predict
+title: The mutable default trap
+skills:
+- id: object-identity
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[1] [1, 2]'
+- '[1] [2]'
+- '[1, 2] [1, 2]'
+- Error
+answer: '[1, 2] [1, 2]'
+hints: []

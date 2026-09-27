@@ -1,0 +1,13 @@
+cases:
+- id: good
+  assert: strong('Tr0ubador') is True
+  message: Tr0ubador is strong
+- id: short
+  assert: strong('Ab1') is False
+  message: too short fails
+- id: no-digit
+  assert: strong('Password') is False
+  message: no digit fails
+- id: no-upper
+  assert: strong('password1') is False
+  message: no capital fails

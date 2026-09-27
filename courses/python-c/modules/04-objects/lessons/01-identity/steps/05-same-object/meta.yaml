@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.identity.same-object
+type: free-code
+title: Detect sharing
+skills:
+- id: object-identity
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- object-identity
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Compare each pair with is, not ==.

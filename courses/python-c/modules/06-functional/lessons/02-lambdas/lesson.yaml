@@ -1,0 +1,8 @@
+id: lambdas
+title: Lambdas
+claim: lambda writes a small one-expression function inline
+steps:
+- 01-lambda
+- 02-predict-key
+- 03-sort-records
+- 04-make-adder

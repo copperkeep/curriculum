@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.enums.predict-enum
+type: predict
+title: Name and value
+skills:
+- id: enums
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- GREEN green
+- green GREEN
+- Light.GREEN green
+- Error
+answer: GREEN green
+hints: []

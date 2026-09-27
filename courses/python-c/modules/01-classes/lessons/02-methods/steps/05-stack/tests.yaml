@@ -1,0 +1,10 @@
+cases:
+- id: lifo
+  assert: '(lambda s: (s.push(1), s.push(2), s.pop(), s.pop())[2:])(Stack()) == (2, 1)'
+  message: the last thing pushed is the first popped
+- id: peek
+  assert: '(lambda s: (s.push(''a''), s.peek(), s.is_empty())[1:])(Stack()) == (''a'', False)'
+  message: peek looks without removing
+- id: empty
+  assert: Stack().is_empty() is True
+  message: a new stack is empty

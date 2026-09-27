@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.decorators-with-arguments.retry
+type: free-code
+title: Retry on failure
+skills:
+- id: decorator-arguments
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Loop times times; return on success, remember the exception on failure.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: After the loop, re-raise the last exception.

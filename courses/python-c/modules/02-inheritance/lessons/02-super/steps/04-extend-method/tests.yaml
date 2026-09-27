@@ -1,0 +1,4 @@
+cases:
+- id: describe
+  assert: Car(5).describe() == '4 wheels, 5 seats'
+  message: Car(5).describe() gives '4 wheels, 5 seats'

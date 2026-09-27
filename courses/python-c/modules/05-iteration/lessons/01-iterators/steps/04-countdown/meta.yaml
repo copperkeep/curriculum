@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.iterators.countdown
+type: free-code
+title: An iterator class
+skills:
+- id: iterator-protocol
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: __iter__ returns self; __next__ returns the next value or raises StopIteration.

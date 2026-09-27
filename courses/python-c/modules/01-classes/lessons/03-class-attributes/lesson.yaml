@@ -1,0 +1,9 @@
+id: class-attributes
+title: Class and instance attributes
+claim: An attribute on the class is shared by every instance
+steps:
+- 01-shared
+- 02-predict-shadow
+- 03-predict-shared-list
+- 04-fix-shared
+- 05-count-instances

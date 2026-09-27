@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.dataclasses.inventory-item
+type: free-code
+title: An inventory item
+skills:
+- id: dataclasses
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Fields with defaults come after fields without.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Methods work in dataclasses exactly as in normal classes.

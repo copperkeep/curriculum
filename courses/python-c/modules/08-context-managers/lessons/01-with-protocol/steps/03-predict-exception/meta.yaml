@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.context-managers.with-protocol.predict-exception
+type: predict
+title: Exit runs on error too
+skills:
+- id: context-managers
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- exit caught
+- caught exit
+- caught
+- exit
+answer: exit caught
+hints: []

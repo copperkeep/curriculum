@@ -1,0 +1,7 @@
+cases:
+- id: multiplied
+  assert: shares_rows([[0]] * 2) is True
+  message: '[[0]] * 2 repeats one row object'
+- id: separate
+  assert: shares_rows([[0], [0]]) is False
+  message: two literal rows are separate objects

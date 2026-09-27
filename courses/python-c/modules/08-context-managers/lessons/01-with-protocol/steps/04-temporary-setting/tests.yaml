@@ -1,0 +1,9 @@
+cases:
+- id: inside
+  assert: '(lambda s: (s.__enter__(), settings[''debug''], s.__exit__(None, None, None))[1])(Setting(''debug'',
+    True)) is True'
+  message: inside the block the setting is changed
+- id: restored
+  assert: '(lambda s: (s.__enter__(), s.__exit__(None, None, None), settings[''debug''])[2])(Setting(''debug'',
+    True)) is False'
+  message: afterwards it is restored

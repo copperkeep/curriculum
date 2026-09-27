@@ -1,0 +1,4 @@
+cases:
+- id: both
+  assert: '(lambda d: (d.name, d.breed))(Dog(''Rex'', ''pug'')) == (''Rex'', ''pug'')'
+  message: a Dog has a name and a breed

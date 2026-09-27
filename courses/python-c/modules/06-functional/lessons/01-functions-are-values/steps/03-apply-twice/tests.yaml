@@ -1,0 +1,7 @@
+cases:
+- id: add
+  assert: 'twice(lambda n: n + 3, 1) == 7'
+  message: adding 3 twice to 1 gives 7
+- id: str
+  assert: twice(str.upper, 'a') == 'A'
+  message: works with any function

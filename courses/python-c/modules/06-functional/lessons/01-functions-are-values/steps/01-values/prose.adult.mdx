@@ -1,0 +1,12 @@
+`def` creates a function object and binds it to a name. Without parentheses you
+are talking *about* the function; with them you are *calling* it.
+
+```python
+def shout(s): return s.upper()
+speak = shout            # another name for the same function
+handlers = {"loud": shout, "quiet": str.lower}
+handlers["loud"]("hi")   # "HI"
+```
+
+Passing functions to functions — like `key=len` in `sorted` — is how you
+customise behaviour without writing a new version of the whole algorithm.

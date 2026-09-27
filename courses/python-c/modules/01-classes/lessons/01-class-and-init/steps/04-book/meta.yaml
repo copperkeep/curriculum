@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.class-and-init.book
+type: free-code
+title: A Book class
+skills:
+- id: class-basics
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Store each argument on self in __init__.

@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.abstract-classes.abc
+type: narrative
+title: A contract
+skills:
+- id: abstract-classes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

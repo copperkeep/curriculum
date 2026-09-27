@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.lambdas.lambda
+type: narrative
+title: Anonymous functions
+skills:
+- id: lambda-functions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

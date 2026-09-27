@@ -1,0 +1,7 @@
+cases:
+- id: registers
+  assert: '(lambda f: (register(''x'')(f), HANDLERS[''x''] is f))(lambda: 1)[1]'
+  message: the function is stored under its name
+- id: unchanged
+  assert: '(lambda f: register(''y'')(f) is f)(lambda: 2)'
+  message: the function itself is returned unchanged

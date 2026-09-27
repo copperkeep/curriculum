@@ -1,0 +1,8 @@
+cases:
+- id: result
+  assert: 'memoize(lambda x: x * 2)(4) == 8'
+  message: returns f's result
+- id: cached
+  assert: '(lambda calls: (lambda m: (m(1), m(1), m(2), len(calls))[3])(memoize(lambda x: calls.append(x)
+    or x)))([]) == 2'
+  message: f runs once per distinct argument

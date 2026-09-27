@@ -1,0 +1,14 @@
+Functions defined inside a class are methods. `acct.deposit(50)` is shorthand for
+`Account.deposit(acct, 50)` — the object before the dot arrives as `self`.
+
+```python
+class Account:
+    def __init__(self, balance=0):
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+```
+
+Methods read and change the object's state through `self`. Forgetting `self` in
+the parameter list gives a `TypeError` about the number of arguments.

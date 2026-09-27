@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.dataclasses.predict-repr
+type: predict
+title: Free repr and eq
+skills:
+- id: dataclasses
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Point(x=1, y=2) True
+- <Point object> False
+- Point(1, 2) True
+- Point(x=1, y=2) False
+answer: Point(x=1, y=2) True
+hints: []

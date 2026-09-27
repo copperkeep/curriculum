@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.super.extend
+type: narrative
+title: Extend, don't copy
+skills:
+- id: super-calls
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

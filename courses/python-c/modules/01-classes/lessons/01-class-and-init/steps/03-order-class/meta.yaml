@@ -1,0 +1,28 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.class-and-init.order-class
+type: parsons
+title: Build a class
+skills:
+- id: class-basics
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'class Point:'
+- '    def __init__(self, x, y):'
+- '        self.x = x'
+- '        self.y = y'
+- p = Point(2, 5)
+distractors:
+- '    def __init__(x, y):'
+- '        x = x'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The first parameter of __init__ is always self.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Assigning to plain x makes a local variable, not an attribute.

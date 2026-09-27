@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.subclasses.predict-lookup
+type: predict
+title: Inherited methods call overrides
+skills:
+- id: inheritance
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- I am a Cat
+- I am a Animal
+- I am a ...
+- Error
+answer: I am a Cat
+hints: []

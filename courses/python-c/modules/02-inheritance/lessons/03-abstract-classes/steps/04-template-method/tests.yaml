@@ -1,0 +1,10 @@
+cases:
+- id: english
+  assert: English().greet('Ana') == 'Hello, Ana!'
+  message: English greets with Hello
+- id: spanish
+  assert: Spanish().greet('Ana') == 'Hola, Ana!'
+  message: Spanish greets with Hola
+- id: abstract
+  assert: __import__('unittest').TestCase().assertRaises(TypeError, Greeter) is None
+  message: Greeter itself cannot be created

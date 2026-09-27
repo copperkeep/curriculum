@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.generator-expressions.parens
+type: narrative
+title: Lazy comprehensions
+skills:
+- id: generator-expressions
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

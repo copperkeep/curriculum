@@ -1,0 +1,7 @@
+id: inheritance
+title: Inheritance
+lessons:
+- 01-subclasses
+- 02-super
+- 03-abstract-classes
+- 04-custom-exceptions

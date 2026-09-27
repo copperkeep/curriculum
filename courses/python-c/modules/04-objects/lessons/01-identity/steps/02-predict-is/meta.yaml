@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.identity.predict-is
+type: predict
+title: Equal but not identical
+skills:
+- id: object-identity
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- True False
+- True True
+- False False
+- False True
+answer: True False
+hints: []

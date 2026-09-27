@@ -1,0 +1,10 @@
+cases:
+- id: list
+  assert: '(lambda l: (l.append(1), l.append(2), list(l))[2])(LoggedList()) == [1, 2]'
+  message: it still works as a list
+- id: log
+  assert: '(lambda l: (l.append(''a''), l.log)[1])(LoggedList()) == [''a'']'
+  message: appends are logged
+- id: initial
+  assert: LoggedList([1, 2]) == [1, 2]
+  message: it can start with items

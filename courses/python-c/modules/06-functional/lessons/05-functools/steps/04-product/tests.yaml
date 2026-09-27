@@ -1,0 +1,7 @@
+cases:
+- id: product
+  assert: product([2, 3, 4]) == 24
+  message: product([2, 3, 4]) gives 24
+- id: empty
+  assert: product([]) == 1
+  message: the empty product is 1

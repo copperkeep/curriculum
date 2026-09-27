@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.context-managers.with-protocol.temporary-setting
+type: free-code
+title: Temporarily change a setting
+skills:
+- id: context-managers
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Remember the old value in __enter__, restore it in __exit__.

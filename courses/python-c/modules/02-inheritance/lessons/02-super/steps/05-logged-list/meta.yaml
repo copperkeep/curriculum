@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.super.logged-list
+type: free-code
+title: Extend a built-in
+skills:
+- id: super-calls
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- super-calls
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Subclass list, override append, and call super().append(x) to do the real work.

@@ -1,0 +1,7 @@
+cases:
+- id: small
+  assert: fib(10) == 55
+  message: fib(10) gives 55
+- id: big
+  assert: fib(80) == 23416728348467685
+  message: fib(80) finishes quickly

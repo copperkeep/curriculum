@@ -1,0 +1,4 @@
+cases:
+- id: works
+  assert: '(lambda c: (c.add(''pen''), c.add(''ink''), c.count())[2])(Cart()) == 2'
+  message: adding two items gives a count of 2

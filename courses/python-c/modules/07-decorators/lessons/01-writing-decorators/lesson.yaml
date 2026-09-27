@@ -1,0 +1,9 @@
+id: writing-decorators
+title: Writing a decorator
+claim: A decorator is a function that takes a function and returns a replacement
+steps:
+- 01-sugar
+- 02-predict-order
+- 03-predict-lost-return
+- 04-count-calls
+- 05-guard-args

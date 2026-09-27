@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.map-filter-any-all.predict-all-empty
+type: predict
+title: Empty cases
+skills:
+- id: map-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- True False
+- False False
+- True True
+- False True
+answer: True False
+hints: []

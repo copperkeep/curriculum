@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.methods.fix-self
+type: fill-blank
+title: Forgot self
+skills:
+- id: methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Every method's first parameter is self.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Attributes are reached through self: self.items'

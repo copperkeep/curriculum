@@ -1,0 +1,10 @@
+cases:
+- id: counts
+  assert: '(lambda c: (c(), c(), c()))(make_counter()) == (1, 2, 3)'
+  message: counts 1, 2, 3
+- id: start
+  assert: make_counter(10)() == 11
+  message: can start from 10
+- id: independent
+  assert: '(lambda a, b: (a(), a(), b()))(make_counter(), make_counter()) == (1, 2, 1)'
+  message: each counter is separate

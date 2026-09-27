@@ -1,0 +1,7 @@
+cases:
+- id: rect
+  assert: Rect(3, 4).area == 12
+  message: Rect(3, 4) has area 12
+- id: square
+  assert: '(lambda r: (r.height, r.area))(Rect(5)) == (5, 25)'
+  message: Rect(5) is a 5x5 square

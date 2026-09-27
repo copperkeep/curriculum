@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.copying.predict-deep
+type: predict
+title: Deep copy of a grid
+skills:
+- id: copying
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[[1, 2], [3, 4]]'
+- '[[9, 2], [3, 4]]'
+- '[[9, 2]]'
+- Error
+answer: '[[1, 2], [3, 4]]'
+hints: []

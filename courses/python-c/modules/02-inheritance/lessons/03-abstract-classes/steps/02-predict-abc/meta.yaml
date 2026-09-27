@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.abstract-classes.predict-abc
+type: predict
+title: Can you make one?
+skills:
+- id: abstract-classes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- TypeError
+- <__main__.Shape object>
+- None
+- NotImplementedError
+answer: TypeError
+hints: []

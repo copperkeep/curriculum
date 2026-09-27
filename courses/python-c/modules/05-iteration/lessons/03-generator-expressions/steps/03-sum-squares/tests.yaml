@@ -1,0 +1,7 @@
+cases:
+- id: three
+  assert: sum_squares(3) == 14
+  message: sum_squares(3) gives 14
+- id: big
+  assert: sum_squares(1000) == 333833500
+  message: sum_squares(1000) gives 333833500

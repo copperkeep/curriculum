@@ -1,0 +1,20 @@
+```python
+class Temp:
+    def __init__(self, celsius):
+        self.celsius = celsius
+
+    @property
+    def fahrenheit(self):
+        return self.celsius * 9 / 5 + 32
+
+    @fahrenheit.setter
+    def fahrenheit(self, value):
+        self.celsius = (value - 32) * 5 / 9
+```
+
+`t.fahrenheit` reads like an attribute but is always computed from the real
+state, so the two can never disagree. A setter can validate. Without a setter
+the property is read-only.
+
+Start with plain attributes. Python lets you swap one for a property later
+without changing any caller — so there is no need for Java-style getters.

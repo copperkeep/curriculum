@@ -1,0 +1,9 @@
+id: itertools
+title: itertools
+claim: itertools has fast building blocks for combining and slicing iterators
+steps:
+- 01-toolbox
+- 02-predict-combos
+- 03-predict-groupby
+- 04-run-length
+- 05-running-balance

@@ -1,0 +1,15 @@
+Attributes assigned in the class body belong to the class and are shared:
+
+```python
+class Cat:
+    species = "Felis catus"     # class attribute: one copy
+    def __init__(self, name):
+        self.name = name        # instance attribute: one per object
+```
+
+Looking up `tom.species` checks the instance first, then the class. *Assigning*
+`tom.species = ...` creates an instance attribute that shadows the class one — it
+does not change the class.
+
+Never use a mutable class attribute (a list, a dict) as per-object state: every
+instance would share the one list.

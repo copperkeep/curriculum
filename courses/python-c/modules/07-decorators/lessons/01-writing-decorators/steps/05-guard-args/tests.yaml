@@ -1,0 +1,8 @@
+cases:
+- id: ok
+  assert: 'positive_args(lambda a, b: a * b)(3, 4) == 12'
+  message: valid arguments work
+- id: bad
+  assert: '__import__(''unittest'').TestCase().assertRaises(ValueError, positive_args(lambda a: a), -1)
+    is None'
+  message: a negative argument raises ValueError

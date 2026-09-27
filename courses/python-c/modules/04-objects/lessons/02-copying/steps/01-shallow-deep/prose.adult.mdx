@@ -1,0 +1,6 @@
+`list(xs)`, `xs[:]`, `xs.copy()` and `copy.copy(xs)` are *shallow*: a new outer
+list, holding the same inner objects. Fine for a list of numbers; surprising for a
+list of lists.
+
+`copy.deepcopy(xs)` recursively copies everything inside, so the result shares
+nothing mutable with the original.

@@ -1,0 +1,5 @@
+cases:
+- id: undo
+  assert: '(lambda e: (e.state[''lines''].append(''a''), e.snapshot(), e.state[''lines''].append(''b''),
+    e.undo(), e.state)[4])(Editor()) == {''lines'': [''a'']}'
+  message: undo restores the state as it was at the snapshot

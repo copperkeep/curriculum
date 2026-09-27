@@ -1,0 +1,11 @@
+Every exception is a class, and `except X` catches `X` *and its subclasses*. That
+is why `except Exception` catches nearly everything — and why you should not.
+
+```python
+class BankError(Exception): pass
+class InsufficientFunds(BankError): pass
+```
+
+A library that raises its own hierarchy lets callers choose: catch the one
+specific failure, or everything from that library with the base class.
+Exceptions can carry data like any object — add attributes in `__init__`.

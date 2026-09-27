@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.custom-exceptions.predict-catch-parent
+type: predict
+title: Caught by the parent
+skills:
+- id: custom-exceptions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- bank problem
+- InsufficientFunds
+- nothing
+- Exception
+answer: bank problem
+hints: []

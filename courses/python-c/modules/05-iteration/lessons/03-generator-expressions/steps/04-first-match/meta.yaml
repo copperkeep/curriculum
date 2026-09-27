@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.generator-expressions.first-match
+type: free-code
+title: First match
+skills:
+- id: generator-expressions
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- generator-expressions
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: next(generator, default) gives the first value, or default if there is none.

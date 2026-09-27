@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.closures.counter
+type: free-code
+title: A counter without a class
+skills:
+- id: closures
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The inner function needs nonlocal to change the outer count.

@@ -1,0 +1,12 @@
+```python
+from abc import ABC, abstractmethod
+
+class Storage(ABC):
+    @abstractmethod
+    def save(self, key, value): ...
+```
+
+A class with abstract methods cannot be instantiated. A subclass that does not
+implement every one of them cannot be either — you find out when you create the
+object, not three calls later. ABCs document "what must a plug-in provide?" in
+code.

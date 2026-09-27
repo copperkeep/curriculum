@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.functions-are-values.apply-twice
+type: free-code
+title: Apply twice
+skills:
+- id: first-class-functions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Call f on x, then call f on the result.

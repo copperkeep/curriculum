@@ -1,0 +1,8 @@
+cases:
+- id: attrs
+  assert: '(lambda b: (b.title, b.author, b.pages))(Book(''Dune'', ''Herbert'', 412)) == (''Dune'', ''Herbert'',
+    412)'
+  message: a Book stores title, author and pages
+- id: separate
+  assert: Book('A', 'x', 1).title != Book('B', 'y', 2).title
+  message: each Book has its own title
