@@ -54,22 +54,40 @@ def _exec(code: str, stdin_text: str = "") -> tuple[dict, str, BaseException | N
     return namespace, out.getvalue(), failure
 
 
+def _all_failed(cases: list[dict], failure: BaseException) -> EvalResult:
+    """A program that never ran cleanly tells us nothing, so no case is attempted."""
+    return EvalResult(
+        passed=False,
+        failure_kind=_classify(failure),
+        cases=[CaseResult(id=c.get("id", "?"), passed=False, message=str(failure)) for c in cases],
+    )
+
+
 def evaluate(code: str, spec: dict) -> EvalResult:
-    namespace, stdout, failure = _exec(code)
     cases = spec.get("cases", [])
 
-    if failure is not None:
-        return EvalResult(
-            passed=False,
-            failure_kind=_classify(failure),
-            cases=[
-                CaseResult(id=c.get("id", "?"), passed=False, message=str(failure))
-                for c in cases
-            ],
-        )
+    # A case with its own stdin gets a run of its own; the shared input-less run exists
+    # only for cases without stdin. Otherwise a program that calls input() fails with
+    # EOFError before any case is looked at.
+    shared = None
+    if not cases or any(not c.get("stdin") for c in cases):
+        shared = _exec(code)
+        if shared[2] is not None:
+            return _all_failed(cases, shared[2])
 
     results: list[CaseResult] = []
+    run_failure: BaseException | None = None
     for case in cases:
+        if case.get("stdin"):
+            namespace, stdout, failure = _exec(code, case["stdin"])
+            if failure is not None:
+                if _classify(failure) == "parse":
+                    return _all_failed(cases, failure)
+                run_failure = run_failure or failure
+                results.append(CaseResult(id=case["id"], passed=False, message=str(failure)))
+                continue
+        else:
+            namespace, stdout, _ = shared
         try:
             if case.get("assert"):
                 passed = bool(eval(case["assert"], dict(namespace)))  # noqa: S307
@@ -83,28 +101,24 @@ def evaluate(code: str, spec: dict) -> EvalResult:
                     )
                 )
             else:
-                if case.get("stdin"):
-                    _, actual, case_failure = _exec(code, case["stdin"])
-                    if case_failure is not None:
-                        results.append(
-                            CaseResult(id=case["id"], passed=False, message=str(case_failure))
-                        )
-                        continue
-                else:
-                    actual = stdout
                 expected = case.get("expectedStdout", "")
                 results.append(
                     CaseResult(
                         id=case["id"],
-                        passed=actual.strip() == expected.strip(),
+                        passed=stdout.strip() == expected.strip(),
                         message=case.get("message", ""),
                         expected=expected,
-                        actual=actual,
+                        actual=stdout,
                     )
                 )
         except BaseException as exc:  # noqa: BLE001
             results.append(CaseResult(id=case["id"], passed=False, message=str(exc)))
 
     passed = bool(results) and all(r.passed for r in results)
-    # Ran clean and failed the tests: the real signal.
-    return EvalResult(passed=passed, failure_kind=None if passed else "semantic", cases=results)
+    if passed:
+        kind = None
+    elif run_failure is not None:
+        kind = _classify(run_failure)  # crashed on some input: not a clean run
+    else:
+        kind = "semantic"  # ran clean and failed the tests: the real signal
+    return EvalResult(passed=passed, failure_kind=kind, cases=results)

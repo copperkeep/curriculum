@@ -1,12 +1,13 @@
 # Calendar version: content reads far better this way than semver, and it moves on its
 # own cadence.
-contentVersion: "2026.09.3"
+contentVersion: "2026.09.4"
 
 # The compatibility guard. The API checks this at startup and fails its readiness probe
 # on a mismatch, so a curriculum that needs a newer app never goes live; the SPA checks
 # it at boot and shows a plain message rather than a broken lesson.
 # 0.1.3 is the first release that expects content nested under /content/.
-minAppVersion: "0.1.3"
+# 0.1.8 is the first that grades programs reading input() (copperkeep/copperkeep#21).
+minAppVersion: "0.1.8"
 
 courses:
   - id: python-a

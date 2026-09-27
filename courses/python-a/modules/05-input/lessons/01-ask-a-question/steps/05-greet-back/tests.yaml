@@ -1,0 +1,9 @@
+cases:
+- id: greets-mo
+  stdin: Mo
+  expectedStdout: What is your name? Hi Mo
+  message: says Hi Mo when Mo is typed
+- id: greets-zed
+  stdin: Zed
+  expectedStdout: What is your name? Hi Zed
+  message: says Hi Zed when Zed is typed

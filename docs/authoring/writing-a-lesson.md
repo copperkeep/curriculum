@@ -84,6 +84,18 @@ For anything not about output, use an expression evaluated in the learner's name
     message: "adds the numbers up to 45"
 ```
 
+For a program that reads input, give the case its own `stdin`. Each such case gets a
+run of its own, so use at least two with different input — one could be hard-coded:
+
+```yaml
+  - id: greets-mo
+    stdin: "Mo"
+    expectedStdout: "Name? Hi Mo"   # input() echoes its prompt, with no newline
+    message: "says Hi Mo when Mo is typed"
+```
+
+An `assert` case can carry `stdin` too, and is checked against that run.
+
 ## grade3 prose is gated mechanically
 
 Not by discipline. `python tools/check.py` fails on:

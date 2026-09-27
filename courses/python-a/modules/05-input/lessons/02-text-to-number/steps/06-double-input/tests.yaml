@@ -1,0 +1,9 @@
+cases:
+- id: four
+  stdin: '4'
+  expectedStdout: Number? 8
+  message: shows 8 when 4 is typed
+- id: twenty-one
+  stdin: '21'
+  expectedStdout: Number? 42
+  message: shows 42 when 21 is typed

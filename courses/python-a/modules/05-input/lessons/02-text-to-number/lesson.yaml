@@ -7,3 +7,4 @@ steps:
 - 03-fix-the-age
 - 04-add-two-answers
 - 05-number-in-words
+- 06-double-input
