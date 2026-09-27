@@ -142,7 +142,6 @@ Deliberately out of scope for this pass, with the reason:
 
 | Topic | Why not yet |
 |---|---|
-| `input()` as a graded exercise | The grading harness runs every program once with empty stdin before any case, so `input()` raises `EOFError` for everyone. Taught with predict, parsons and explain-back steps until the harness skips that pass for stdin cases. |
 | `async` / `await` | Pyodide runs Python on the browser's own event loop, so `asyncio.run()` does not behave as it does in CPython. Needs a runtime spike before a lesson can be graded. |
 | Threads and processes | Pyodide is single-threaded; `threading` and `multiprocessing` cannot be demonstrated honestly in the browser. |
 | Packaging, `pip`, virtual environments | Nothing to run in the browser. Mentioned in *Scripts and modules*; a project outside the platform suits it better. |
