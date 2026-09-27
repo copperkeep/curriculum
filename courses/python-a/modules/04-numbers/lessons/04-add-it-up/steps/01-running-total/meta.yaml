@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.add-it-up.running-total
+type: narrative
+title: A running total
+skills:
+- id: loop-accumulator
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/numbers/add-it-up/running-total.grade3.ogg

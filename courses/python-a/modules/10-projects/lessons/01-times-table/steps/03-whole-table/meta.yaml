@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-a.times-table.whole-table
+type: project
+title: The whole table
+skills:
+- id: for-loop-range
+  weight: primary
+- id: arithmetic
+  weight: supporting
+- id: function-parameters
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 10
+aiGuidance: allow
+transferFor:
+- function-parameters
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Put the one line inside a loop that goes from 1 to 5.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Use n in place of a, and let the loop give you b.
+audio:
+  grade3: audio/py/projects-a/times-table/whole-table.grade3.ogg

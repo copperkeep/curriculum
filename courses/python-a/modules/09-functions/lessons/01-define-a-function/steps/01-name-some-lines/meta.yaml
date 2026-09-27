@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.define-a-function.name-some-lines
+type: narrative
+title: Give some lines a name
+skills:
+- id: define-function
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/functions/define-a-function/name-some-lines.grade3.ogg

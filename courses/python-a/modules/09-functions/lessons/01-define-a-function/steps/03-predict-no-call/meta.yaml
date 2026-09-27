@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.define-a-function.predict-no-call
+type: predict
+title: Define is not run
+skills:
+- id: define-function
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Nothing
+- Boo
+- Boo Boo
+- scare
+answer: Nothing
+hints: []
+audio:
+  grade3: audio/py/functions/define-a-function/predict-no-call.grade3.ogg

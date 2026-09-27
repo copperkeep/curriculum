@@ -1,0 +1,29 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.add-it-up.order-total
+type: parsons
+title: Build the total
+skills:
+- id: loop-accumulator
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- total = 0
+- 'for i in range(5):'
+- '    total = total + i'
+- print(total)
+distractors:
+- '    total = 0'
+- '    print(total)'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The total starts at 0 before the loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Show the total only once, after the loop.
+audio:
+  grade3: audio/py/numbers/add-it-up/order-total.grade3.ogg

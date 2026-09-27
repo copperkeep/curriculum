@@ -1,0 +1,10 @@
+cases:
+- id: counts-then-shouts
+  expectedStdout: |
+    1
+    2
+    3
+    4
+    5
+    Ready or not!
+  message: shows 1 to 5, then Ready or not!

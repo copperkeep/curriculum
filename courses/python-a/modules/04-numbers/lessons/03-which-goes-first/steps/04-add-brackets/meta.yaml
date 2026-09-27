@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.which-goes-first.add-brackets
+type: fill-blank
+title: Fix the order
+skills:
+- id: operator-precedence
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The adding needs to happen first.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Put round marks around 4 + 6.
+audio:
+  grade3: audio/py/numbers/which-goes-first/add-brackets.grade3.ogg

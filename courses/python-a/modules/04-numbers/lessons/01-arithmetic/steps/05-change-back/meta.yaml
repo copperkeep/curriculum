@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.arithmetic.change-back
+type: free-code
+title: Change from the shop
+skills:
+- id: arithmetic
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- arithmetic
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: What is left is what you had, minus what you spent.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'This takes one box away from another: gap = big - small'
+audio:
+  grade3: audio/py/numbers/arithmetic/change-back.grade3.ogg

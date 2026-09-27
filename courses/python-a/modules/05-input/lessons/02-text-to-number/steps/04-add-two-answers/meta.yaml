@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.text-to-number.add-two-answers
+type: free-code
+title: Add two answers
+skills:
+- id: type-conversion
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Both boxes hold text. Use int on each one.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Here is one done for you: int("4") + int("6") is 10.'
+audio:
+  grade3: audio/py/input/text-to-number/add-two-answers.grade3.ogg

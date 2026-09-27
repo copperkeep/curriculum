@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.if-else.order-if-else
+type: parsons
+title: Rain or shine
+skills:
+- id: if-else
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'if raining:'
+- '    print("Take a coat")'
+- 'else:'
+- '    print("Wear a hat")'
+distractors:
+- if raining
+- 'else raining:'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Each question line ends with a : mark.'
+audio:
+  grade3: audio/py/decisions/if-else/order-if-else.grade3.ogg

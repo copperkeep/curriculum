@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.store-a-value.what-variable
+type: narrative
+title: A name for a value
+skills:
+- id: variables
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/variables/store-a-value/what-variable.grade3.ogg

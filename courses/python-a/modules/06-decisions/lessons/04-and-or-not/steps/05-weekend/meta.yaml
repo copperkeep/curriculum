@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.and-or-not.weekend
+type: free-code
+title: No school today
+skills:
+- id: logical-operators
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- logical-operators
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: It is a day off if it is Sat or if it is Sun.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Each side needs its own ==: pet == "cat" or pet == "dog"'
+audio:
+  grade3: audio/py/decisions/and-or-not/weekend.grade3.ogg

@@ -1,0 +1,9 @@
+id: and-or-not
+title: And, or, not
+claim: and needs both sides True, or needs just one
+steps:
+- 01-joining-questions
+- 02-predict-and
+- 03-predict-or
+- 04-park-open
+- 05-weekend

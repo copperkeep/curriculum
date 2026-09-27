@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.which-goes-first.predict-order
+type: predict
+title: What does it make?
+skills:
+- id: operator-precedence
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '14'
+- '20'
+- '24'
+- '9'
+answer: '14'
+hints: []
+audio:
+  grade3: audio/py/numbers/which-goes-first/predict-order.grade3.ogg

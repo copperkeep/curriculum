@@ -1,0 +1,7 @@
+cases:
+- id: size-medium
+  assert: size == 'medium'
+  message: size holds medium for 12 kg
+- id: shows-medium
+  expectedStdout: medium
+  message: shows medium

@@ -1,0 +1,28 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.give-it-something.order-function
+type: parsons
+title: Build a function
+skills:
+- id: function-parameters
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'def shout(word):'
+- '    print(word + "!")'
+- shout("Yes")
+distractors:
+- 'def shout():'
+- '    print("word!")'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The box name goes in the round marks after shout.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: word should not have quote marks, or it is just the text word.
+audio:
+  grade3: audio/py/functions/give-it-something/order-function.grade3.ogg

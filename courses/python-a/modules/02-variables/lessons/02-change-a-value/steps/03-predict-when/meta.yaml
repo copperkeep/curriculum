@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.change-a-value.predict-when
+type: predict
+title: When do you look?
+skills:
+- id: reassignment
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 1 then 1
+- 1 then 2
+- 2 then 2
+- 2 then 1
+answer: 1 then 2
+hints: []
+audio:
+  grade3: audio/py/variables/change-a-value/predict-when.grade3.ogg

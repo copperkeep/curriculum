@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.which-goes-first.party-cost
+type: free-code
+title: Party bags
+skills:
+- id: operator-precedence
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- operator-precedence
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Each bag costs the toy plus the sweets. Work that out first.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Round marks make a part go first: (1 + 2) * 5 is 15.'
+audio:
+  grade3: audio/py/numbers/which-goes-first/party-cost.grade3.ogg

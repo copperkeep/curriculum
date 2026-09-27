@@ -1,0 +1,9 @@
+id: change-a-value
+title: Change a value
+claim: Giving a variable a new value throws the old one away
+steps:
+- 01-new-value
+- 02-predict-last-value
+- 03-predict-when
+- 04-add-one
+- 05-double-it

@@ -1,0 +1,4 @@
+cases:
+- id: shows-good-day
+  expectedStdout: Good day
+  message: shows Good day and nothing else

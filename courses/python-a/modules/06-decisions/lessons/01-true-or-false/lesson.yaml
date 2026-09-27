@@ -1,0 +1,9 @@
+id: true-or-false
+title: True or False
+claim: A question like 3 > 2 has an answer of True or False
+steps:
+- 01-yes-no-questions
+- 02-predict-compare
+- 03-predict-equal
+- 04-is-tall-enough
+- 05-same-word

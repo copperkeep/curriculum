@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.loops.loop-body.predict-after-loop
+type: predict
+title: What runs once?
+skills:
+- id: for-loop-range
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- hip hip hooray
+- hip hooray hip hooray
+- hooray hip hip
+- hip hip
+answer: hip hip hooray
+hints: []
+audio:
+  grade3: audio/py/loops/loop-body/predict-after-loop.grade3.ogg

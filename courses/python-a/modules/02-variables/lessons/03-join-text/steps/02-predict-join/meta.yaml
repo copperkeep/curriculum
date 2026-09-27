@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.join-text.predict-join
+type: predict
+title: Where did the space go?
+skills:
+- id: string-concat
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Hi Sam
+- HiSam
+- Hi + Sam
+- Hi name
+answer: HiSam
+hints: []
+audio:
+  grade3: audio/py/variables/join-text/predict-join.grade3.ogg

@@ -1,0 +1,9 @@
+id: add-it-up
+title: Add it up with a loop
+claim: A loop can keep a running total
+steps:
+- 01-running-total
+- 02-predict-total
+- 03-order-total
+- 04-sum-to-ten
+- 05-stars-each-day

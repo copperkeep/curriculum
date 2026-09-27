@@ -1,0 +1,7 @@
+cases:
+- id: says-hi
+  expectedStdout: |
+    Hi Ava
+    Hi Ben
+    Hi Cy
+  message: shows Hi Ava, Hi Ben and Hi Cy

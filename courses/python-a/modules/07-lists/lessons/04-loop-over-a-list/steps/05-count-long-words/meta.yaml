@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.loop-over-a-list.count-long-words
+type: free-code
+title: Count the long words
+skills:
+- id: for-over-list
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- for-over-list
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Use if inside the loop. len(word) tells you how long a word is.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Inside the loop, only add 1 to count when len(word) > 4.
+audio:
+  grade3: audio/py/lists/loop-over-a-list/count-long-words.grade3.ogg

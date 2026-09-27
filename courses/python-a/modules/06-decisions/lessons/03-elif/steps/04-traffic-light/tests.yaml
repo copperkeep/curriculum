@@ -1,0 +1,4 @@
+cases:
+- id: amber-waits
+  expectedStdout: Wait
+  message: shows Wait for amber

@@ -1,0 +1,7 @@
+cases:
+- id: sunday-off
+  assert: day_off is True
+  message: day_off holds True on Sun
+- id: shows-true
+  expectedStdout: 'True'
+  message: shows True

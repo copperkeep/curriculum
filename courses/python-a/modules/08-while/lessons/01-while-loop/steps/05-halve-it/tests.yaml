@@ -1,0 +1,7 @@
+cases:
+- id: six-cuts
+  assert: cuts == 6
+  message: cuts ends up as 6
+- id: shows-six
+  expectedStdout: '6'
+  message: shows 6

@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.arithmetic.predict-divide
+type: predict
+title: What does divide give?
+skills:
+- id: arithmetic
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '5'
+- '5.0'
+- 10 / 2
+- '2'
+answer: '5.0'
+hints: []
+audio:
+  grade3: audio/py/numbers/arithmetic/predict-divide.grade3.ogg

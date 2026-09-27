@@ -43,6 +43,786 @@ skills:
     pSlip: 0.10
     reportQuestion: "Ask {name} what a loop does, and how the computer knows when to stop."
 
+  # --- Python A — Foundations ----------------------------------------------------------
+
+  - id: comments
+    title: Notes for people
+    prerequisites: [print-output]
+    pInit: 0.05
+    pLearn: 0.30
+    pSlip: 0.05
+    reportQuestion: "Ask {name} what a line starting with # does."
+
+  - id: variables
+    title: Naming a value
+    prerequisites: [print-output]
+    pInit: 0.05
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what a variable is, and why it helps to give a value a name."
+
+  - id: reassignment
+    title: Changing a value
+    prerequisites: [variables]
+    pInit: 0.05
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what happens to a variable when you give it a new value."
+
+  - id: string-concat
+    title: Joining text
+    prerequisites: [string-literals, variables]
+    pInit: 0.05
+    pLearn: 0.20
+    pSlip: 0.12 # the missing space between joined words is a slip
+    reportQuestion: "Ask {name} how to stick two words together in Python."
+
+  - id: arithmetic
+    title: Doing sums
+    prerequisites: [int-literals]
+    pInit: 0.25 # the maths is familiar; the symbols are not
+    pLearn: 0.25
+    pSlip: 0.08
+    reportQuestion: "Ask {name} which symbol Python uses for times."
+
+  - id: int-division-modulo
+    title: Sharing and leftovers
+    prerequisites: [arithmetic]
+    pInit: 0.03
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what 7 % 2 gives, and why that tells you a number is odd."
+
+  - id: operator-precedence
+    title: Which sum goes first
+    prerequisites: [arithmetic]
+    pInit: 0.10
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what 2 + 3 * 4 is, and why."
+
+  - id: loop-accumulator
+    title: Adding up in a loop
+    prerequisites: [for-loop-range, reassignment, arithmetic]
+    pInit: 0.02
+    pLearn: 0.15
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how a loop can add up all the numbers from 1 to 10."
+
+  - id: input-text
+    title: Asking a question
+    prerequisites: [print-output, variables]
+    pInit: 0.05
+    pLearn: 0.22
+    pSlip: 0.08
+    reportQuestion: "Ask {name} how a program can ask you a question."
+
+  - id: type-conversion
+    title: Turning text into numbers
+    prerequisites: [input-text, arithmetic]
+    pInit: 0.02
+    pLearn: 0.15
+    pSlip: 0.12
+    reportQuestion: "Ask {name} why \"5\" + \"5\" is not 10 in Python."
+
+  - id: booleans-comparison
+    title: True or False
+    prerequisites: [int-literals]
+    pInit: 0.10
+    pLearn: 0.22
+    pSlip: 0.10 # = versus == is the classic slip
+    reportQuestion: "Ask {name} what the difference is between = and ==."
+
+  - id: if-else
+    title: Making a choice
+    prerequisites: [booleans-comparison]
+    pInit: 0.05
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how a program decides which of two things to do."
+
+  - id: elif-chains
+    title: Many choices
+    prerequisites: [if-else]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} why the order of the checks matters in an if and elif."
+
+  - id: logical-operators
+    title: And, or, not
+    prerequisites: [booleans-comparison]
+    pInit: 0.05
+    pLearn: 0.18
+    pSlip: 0.12
+    reportQuestion: "Ask {name} when \"this and that\" is True, and when \"this or that\" is."
+
+  - id: list-basics
+    title: Keeping many things in a list
+    prerequisites: [variables]
+    pInit: 0.03
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} to show you how to make a list of their favourite foods."
+
+  - id: list-indexing
+    title: Finding a thing in a list
+    prerequisites: [list-basics]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.12 # counting from zero is a slip long after it is understood
+    reportQuestion: "Ask {name} why the first thing in a list is number 0."
+
+  - id: list-append-len
+    title: Growing a list
+    prerequisites: [list-basics]
+    pInit: 0.02
+    pLearn: 0.20
+    pSlip: 0.08
+    reportQuestion: "Ask {name} how to add something to the end of a list."
+
+  - id: for-over-list
+    title: Looping over a list
+    prerequisites: [list-basics, for-loop-range]
+    pInit: 0.02
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to show every item in a list, one at a time."
+
+  - id: while-loop
+    title: Repeating until done
+    prerequisites: [booleans-comparison, reassignment]
+    pInit: 0.03
+    pLearn: 0.16
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how a while loop knows when to stop."
+
+  - id: break-continue
+    title: Leaving a loop early
+    prerequisites: [while-loop]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what break does inside a loop."
+
+  - id: define-function
+    title: Making your own command
+    prerequisites: [print-output]
+    pInit: 0.03
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} why you might give a few lines of code a name with def."
+
+  - id: function-parameters
+    title: Giving a function something to use
+    prerequisites: [define-function, variables]
+    pInit: 0.02
+    pLearn: 0.16
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what goes inside the round brackets of a function."
+
+  # --- Python B — Working Programs -----------------------------------------------------
+
+  - id: function-return
+    title: Functions that give back a value
+    prerequisites: [function-parameters]
+    pInit: 0.03
+    pLearn: 0.16
+    pSlip: 0.12 # print-instead-of-return persists well after it is understood
+    reportQuestion: "Ask {name} the difference between printing a value and returning it."
+
+  - id: default-keyword-args
+    title: Default and keyword arguments
+    prerequisites: [function-parameters]
+    pInit: 0.03
+    pLearn: 0.20
+    pSlip: 0.08
+    reportQuestion: "Ask {name} how a function can have a setting you only change sometimes."
+
+  - id: star-args
+    title: Any number of arguments
+    prerequisites: [default-keyword-args, list-basics]
+    pInit: 0.01
+    pLearn: 0.15
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how print can take any number of things to show."
+
+  - id: variable-scope
+    title: Where a name lives
+    prerequisites: [function-return]
+    pInit: 0.02
+    pLearn: 0.14
+    pSlip: 0.12
+    reportQuestion: "Ask {name} why a variable made inside a function cannot be seen outside it."
+
+  - id: string-slicing
+    title: Slicing text
+    prerequisites: [list-indexing, string-literals]
+    pInit: 0.02
+    pLearn: 0.16
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how to get just the first three letters of a word."
+
+  - id: string-methods
+    title: Text tools
+    prerequisites: [string-literals, variables]
+    pInit: 0.03
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to make a word all capital letters in Python."
+
+  - id: split-join
+    title: Splitting and joining text
+    prerequisites: [string-methods, list-basics]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to turn a sentence into a list of words."
+
+  - id: f-strings
+    title: Filling in text
+    prerequisites: [string-concat]
+    pInit: 0.03
+    pLearn: 0.22
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what the f in front of a string is for."
+
+  - id: format-spec
+    title: Formatting numbers in text
+    prerequisites: [f-strings]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how to show a price with exactly two decimal places."
+
+  - id: list-slicing
+    title: Slicing lists
+    prerequisites: [list-indexing]
+    pInit: 0.02
+    pLearn: 0.16
+    pSlip: 0.12
+    reportQuestion: "Ask {name} what my_list[1:3] gives back."
+
+  - id: list-methods
+    title: List tools
+    prerequisites: [list-append-len]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to take something out of a list."
+
+  - id: sorting
+    title: Sorting
+    prerequisites: [list-methods]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} the difference between sort() and sorted()."
+
+  - id: nested-lists
+    title: Lists inside lists
+    prerequisites: [list-indexing, for-over-list]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how to get one square out of a grid stored as a list of lists."
+
+  - id: aliasing
+    title: Two names, one list
+    prerequisites: [list-methods]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.12
+    reportQuestion: "Ask {name} why changing one list can change another one too."
+
+  - id: tuples
+    title: Tuples
+    prerequisites: [list-indexing]
+    pInit: 0.02
+    pLearn: 0.20
+    pSlip: 0.08
+    reportQuestion: "Ask {name} when to use a tuple instead of a list."
+
+  - id: unpacking
+    title: Unpacking
+    prerequisites: [tuples]
+    pInit: 0.02
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to swap two variables in one line."
+
+  - id: enumerate-zip
+    title: enumerate and zip
+    prerequisites: [for-over-list, unpacking]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to loop over two lists at the same time."
+
+  - id: dict-basics
+    title: Dictionaries
+    prerequisites: [list-basics]
+    pInit: 0.02
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how a dictionary is like a real dictionary."
+
+  - id: dict-iteration
+    title: Looping over a dictionary
+    prerequisites: [dict-basics, for-over-list, unpacking]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how to show every key and value in a dictionary."
+
+  - id: dict-counting
+    title: Counting with a dictionary
+    prerequisites: [dict-basics, loop-accumulator]
+    pInit: 0.01
+    pLearn: 0.15
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how to count how many times each word appears."
+
+  - id: set-basics
+    title: Sets
+    prerequisites: [list-basics]
+    pInit: 0.02
+    pLearn: 0.20
+    pSlip: 0.08
+    reportQuestion: "Ask {name} how a set gets rid of repeats."
+
+  - id: list-comprehension
+    title: List comprehensions
+    prerequisites: [for-over-list, list-append-len]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.12
+    reportQuestion: "Ask {name} to read a list comprehension out loud, in words."
+
+  - id: comprehension-filter
+    title: Filtering in a comprehension
+    prerequisites: [list-comprehension, if-else]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+
+  - id: dict-set-comprehension
+    title: Dict and set comprehensions
+    prerequisites: [list-comprehension, dict-basics, set-basics]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+
+  - id: reading-errors
+    title: Reading an error
+    prerequisites: [print-output]
+    pInit: 0.05
+    pLearn: 0.20
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what an error message tells you, and where to look first."
+
+  - id: try-except
+    title: Catching an error
+    prerequisites: [reading-errors, if-else]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+    reportQuestion: "Ask {name} how a program can keep going after something goes wrong."
+
+  - id: raise-exceptions
+    title: Raising an error
+    prerequisites: [try-except, function-return]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.08
+
+  - id: try-else-finally
+    title: else and finally
+    prerequisites: [try-except]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+
+  - id: file-write
+    title: Writing a file
+    prerequisites: [string-methods]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.10
+    reportQuestion: "Ask {name} why programs save things in files."
+
+  - id: file-read
+    title: Reading a file
+    prerequisites: [file-write, for-over-list]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.10
+
+  - id: csv-json
+    title: CSV and JSON
+    prerequisites: [file-read, dict-basics, split-join]
+    pInit: 0.01
+    pLearn: 0.15
+    pSlip: 0.10
+
+  - id: import-modules
+    title: Importing modules
+    prerequisites: [function-return]
+    pInit: 0.02
+    pLearn: 0.22
+    pSlip: 0.08
+    reportQuestion: "Ask {name} what import does."
+
+  - id: collections-module
+    title: Counter and defaultdict
+    prerequisites: [import-modules, dict-counting]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.08
+
+  - id: debug-tracing
+    title: Tracing a program
+    prerequisites: [print-output, variables]
+    pInit: 0.02
+    pLearn: 0.16
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how they find out which line of a program is wrong."
+
+  - id: assert-statement
+    title: Checking with assert
+    prerequisites: [booleans-comparison, function-return]
+    pInit: 0.01
+    pLearn: 0.20
+    pSlip: 0.08
+
+  # --- Python C — Real Code ------------------------------------------------------------
+
+  - id: class-basics
+    title: Classes and objects
+    prerequisites: [function-return, dict-basics]
+    pInit: 0.02
+    pLearn: 0.14
+    pSlip: 0.10
+    reportQuestion: "Ask {name} the difference between a class and an object."
+
+  - id: methods
+    title: Methods
+    prerequisites: [class-basics]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.12 # a forgotten self is the classic slip
+    reportQuestion: "Ask {name} what self means inside a method."
+
+  - id: class-attributes
+    title: Class and instance attributes
+    prerequisites: [methods]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+
+  - id: dunder-methods
+    title: Special methods
+    prerequisites: [methods]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+
+  - id: inheritance
+    title: Inheritance
+    prerequisites: [methods]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+    reportQuestion: "Ask {name} what it means for one class to inherit from another."
+
+  - id: super-calls
+    title: Calling the parent with super
+    prerequisites: [inheritance]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+
+  - id: abstract-classes
+    title: Abstract base classes
+    prerequisites: [inheritance, import-modules]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.08
+
+  - id: custom-exceptions
+    title: Your own exceptions
+    prerequisites: [inheritance, raise-exceptions]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.08
+
+  - id: properties
+    title: Properties
+    prerequisites: [methods]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+
+  - id: class-static-methods
+    title: Class and static methods
+    prerequisites: [class-attributes]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+
+  - id: dataclasses
+    title: Dataclasses
+    prerequisites: [class-basics, import-modules]
+    pInit: 0.01
+    pLearn: 0.20
+    pSlip: 0.08
+
+  - id: enums
+    title: Enums
+    prerequisites: [class-basics, import-modules]
+    pInit: 0.01
+    pLearn: 0.20
+    pSlip: 0.08
+
+  - id: object-identity
+    title: Identity and equality
+    prerequisites: [aliasing]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.12
+
+  - id: copying
+    title: Shallow and deep copies
+    prerequisites: [object-identity, nested-lists]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.12
+
+  - id: iterator-protocol
+    title: Iterators
+    prerequisites: [for-over-list, methods]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.10
+
+  - id: generators
+    title: Generators
+    prerequisites: [function-return]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+
+  - id: generator-expressions
+    title: Generator expressions
+    prerequisites: [list-comprehension, generators]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.08
+
+  - id: itertools-module
+    title: itertools
+    prerequisites: [generators, import-modules]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.08
+
+  - id: first-class-functions
+    title: Functions are values
+    prerequisites: [function-return]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+
+  - id: lambda-functions
+    title: Lambdas
+    prerequisites: [first-class-functions, sorting]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.10
+
+  - id: map-filter
+    title: map, filter, any and all
+    prerequisites: [lambda-functions]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.08
+
+  - id: closures
+    title: Closures
+    prerequisites: [first-class-functions, variable-scope]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.10
+
+  - id: functools-module
+    title: functools
+    prerequisites: [closures, import-modules]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.08
+
+  - id: decorators
+    title: Decorators
+    prerequisites: [closures, star-args]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.10
+
+  - id: decorator-arguments
+    title: Decorators that take arguments
+    prerequisites: [decorators]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.10
+
+  - id: context-managers
+    title: Context managers
+    prerequisites: [try-else-finally, methods]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.08
+
+  - id: contextlib-module
+    title: contextlib
+    prerequisites: [context-managers, generators]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.08
+
+  - id: type-hints
+    title: Type hints
+    prerequisites: [function-return]
+    pInit: 0.02
+    pLearn: 0.20
+    pSlip: 0.08
+
+  - id: typing-generics
+    title: Generic types
+    prerequisites: [type-hints]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.08
+
+  - id: protocols
+    title: Protocols
+    prerequisites: [typing-generics, class-basics]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.08
+
+  - id: pattern-matching
+    title: match and case
+    prerequisites: [elif-chains, tuples]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.10
+
+  - id: structural-patterns
+    title: Matching structure
+    prerequisites: [pattern-matching, dict-basics, class-basics]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.10
+
+  - id: regex-search
+    title: Regular expressions
+    prerequisites: [string-methods, import-modules]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.12
+
+  - id: regex-groups
+    title: Regex groups and substitution
+    prerequisites: [regex-search]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.12
+
+  - id: unittest-module
+    title: unittest
+    prerequisites: [assert-statement, class-basics]
+    pInit: 0.01
+    pLearn: 0.16
+    pSlip: 0.08
+
+  - id: recursion
+    title: Recursion
+    prerequisites: [function-return, if-else]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.12
+    reportQuestion: "Ask {name} how a function can call itself without running forever."
+
+  - id: searching
+    title: Searching
+    prerequisites: [for-over-list, while-loop]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.12
+
+  - id: sorting-algorithms
+    title: Sorting algorithms
+    prerequisites: [nested-lists, while-loop, unpacking]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.12
+
+  - id: complexity
+    title: How work grows
+    prerequisites: [searching]
+    pInit: 0.01
+    pLearn: 0.14
+    pSlip: 0.10
+
+  - id: datetime-module
+    title: Dates and times
+    prerequisites: [import-modules, format-spec]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.08
+
+  - id: conditional-expression
+    title: One-line if
+    prerequisites: [if-else]
+    pInit: 0.01
+    pLearn: 0.22
+    pSlip: 0.08
+
+  - id: walrus-operator
+    title: Assignment expressions
+    prerequisites: [while-loop, conditional-expression]
+    pInit: 0.01
+    pLearn: 0.18
+    pSlip: 0.08
+
+  - id: main-guard
+    title: Scripts and modules
+    prerequisites: [import-modules]
+    pInit: 0.01
+    pLearn: 0.22
+    pSlip: 0.06
+
+  - id: dynamic-attributes
+    title: Dynamic attributes
+    prerequisites: [dunder-methods]
+    pInit: 0.01
+    pLearn: 0.12
+    pSlip: 0.10
+
+  - id: descriptors
+    title: Descriptors
+    prerequisites: [properties, dynamic-attributes]
+    pInit: 0.01
+    pLearn: 0.10
+    pSlip: 0.10
+
+  - id: class-creation
+    title: How classes are made
+    prerequisites: [inheritance, dynamic-attributes]
+    pInit: 0.01
+    pLearn: 0.10
+    pSlip: 0.10
+
 # Splits and merges need more than a 1:1 alias. Because skill_state is a recomputable
 # cache, applying a transition is a replay of progress_events through this mapping, not a
 # destructive migration. Historical events keep their original IDs forever.

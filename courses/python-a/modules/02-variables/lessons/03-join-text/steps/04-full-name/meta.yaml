@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.join-text.full-name
+type: free-code
+title: Make a full name
+skills:
+- id: string-concat
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'You need three things joined: first, a space, and last.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: A space on its own is written " "
+audio:
+  grade3: audio/py/variables/join-text/full-name.grade3.ogg

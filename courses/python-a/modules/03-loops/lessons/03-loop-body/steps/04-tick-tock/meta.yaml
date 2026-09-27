@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.loops.loop-body.tick-tock
+type: free-code
+title: Tick, tock, ding
+skills:
+- id: for-loop-range
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'The loop needs two lines pushed in: one for tick, one for tock.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: The ding line is not pushed in, so it runs one time.
+audio:
+  grade3: audio/py/loops/loop-body/tick-tock.grade3.ogg

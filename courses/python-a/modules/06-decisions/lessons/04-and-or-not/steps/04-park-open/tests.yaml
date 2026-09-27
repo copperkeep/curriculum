@@ -1,0 +1,7 @@
+cases:
+- id: open-at-two
+  assert: open_now is True
+  message: open_now holds True at 14
+- id: shows-true
+  expectedStdout: 'True'
+  message: shows True

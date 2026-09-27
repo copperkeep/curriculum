@@ -1,0 +1,7 @@
+cases:
+- id: stars-twenty-one
+  assert: stars == 21
+  message: stars holds 21
+- id: shows-twenty-one
+  expectedStdout: '21'
+  message: shows 21

@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.which-goes-first.predict-brackets
+type: predict
+title: With round marks
+skills:
+- id: operator-precedence
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '5'
+- '7'
+- '9'
+- '11'
+answer: '9'
+hints: []
+audio:
+  grade3: audio/py/numbers/which-goes-first/predict-brackets.grade3.ogg

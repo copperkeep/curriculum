@@ -1,0 +1,23 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-a.times-table.one-line
+type: free-code
+title: One line of the table
+skills:
+- id: type-conversion
+  weight: primary
+- id: arithmetic
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Use str to turn each number into text before you join them.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: str(3) + " x " + str(4) + " = " + str(3 * 4)
+audio:
+  grade3: audio/py/projects-a/times-table/one-line.grade3.ogg

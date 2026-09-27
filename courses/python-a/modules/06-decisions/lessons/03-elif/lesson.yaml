@@ -1,0 +1,9 @@
+id: elif
+title: More than two choices
+claim: elif checks the next question only when the ones before were False
+steps:
+- 01-many-roads
+- 02-predict-first-wins
+- 03-fix-the-order
+- 04-traffic-light
+- 05-size-of-dog

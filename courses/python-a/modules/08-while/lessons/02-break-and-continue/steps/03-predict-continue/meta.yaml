@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.break-and-continue.predict-continue
+type: predict
+title: What gets skipped?
+skills:
+- id: break-continue
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 1 2 4 5
+- 1 2
+- '3'
+- 1 2 3 4 5
+answer: 1 2 4 5
+hints: []
+audio:
+  grade3: audio/py/while-loops/break-and-continue/predict-continue.grade3.ogg

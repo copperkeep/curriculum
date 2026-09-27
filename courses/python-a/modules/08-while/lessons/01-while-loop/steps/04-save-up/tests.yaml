@@ -1,0 +1,7 @@
+cases:
+- id: seven-weeks
+  assert: weeks == 7
+  message: weeks ends up as 7
+- id: shows-seven
+  expectedStdout: '7'
+  message: shows 7

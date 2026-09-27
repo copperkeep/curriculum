@@ -1,0 +1,7 @@
+cases:
+- id: now-twelve
+  assert: coins == 12
+  message: coins ends up as 12
+- id: shows-twelve
+  expectedStdout: '12'
+  message: shows 12

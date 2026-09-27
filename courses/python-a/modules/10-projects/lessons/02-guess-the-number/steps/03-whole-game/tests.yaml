@@ -1,0 +1,11 @@
+cases:
+- id: plays
+  expectedStdout: |
+    Too small
+    Too big
+    Too small
+    You got it!
+  message: says Too small, Too big, Too small, then You got it!
+- id: tries
+  assert: tries == 4
+  message: tries holds 4

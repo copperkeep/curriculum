@@ -1,0 +1,4 @@
+cases:
+- id: sentence
+  expectedStdout: A spider has 8 legs
+  message: shows A spider has 8 legs

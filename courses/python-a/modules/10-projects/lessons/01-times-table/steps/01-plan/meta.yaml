@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-a.times-table.plan
+type: narrative
+title: The plan
+skills:
+- id: for-loop-range
+  weight: primary
+- id: arithmetic
+  weight: supporting
+- id: function-parameters
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/projects-a/times-table/plan.grade3.ogg

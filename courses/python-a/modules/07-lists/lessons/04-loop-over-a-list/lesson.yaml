@@ -1,0 +1,9 @@
+id: loop-over-a-list
+title: Loop over a list
+claim: for can walk through a list, one thing at a time
+steps:
+- 01-walk-the-list
+- 02-predict-walk
+- 03-shout-names
+- 04-add-the-list
+- 05-count-long-words

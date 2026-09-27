@@ -1,0 +1,7 @@
+cases:
+- id: result-try-again
+  assert: result == 'try again'
+  message: result holds try again for a score of 43
+- id: shows-it
+  expectedStdout: try again
+  message: shows try again

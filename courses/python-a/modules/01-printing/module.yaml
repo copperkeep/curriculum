@@ -1,4 +1,6 @@
 id: printing
 title: Making the computer talk
 lessons:
-  - 01-say-hello
+- 01-say-hello
+- 02-numbers-and-words
+- 03-comments

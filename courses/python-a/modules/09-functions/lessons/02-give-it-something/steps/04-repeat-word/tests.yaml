@@ -1,0 +1,7 @@
+cases:
+- id: echo-hey
+  expectedStdout: |
+    hey
+    hey
+    hey
+  message: shows hey three times

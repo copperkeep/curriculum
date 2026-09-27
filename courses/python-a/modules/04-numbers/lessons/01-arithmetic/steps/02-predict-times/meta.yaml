@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.arithmetic.predict-times
+type: predict
+title: What is the star?
+skills:
+- id: arithmetic
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '12'
+- '7'
+- '34'
+- 3 * 4
+answer: '12'
+hints: []
+audio:
+  grade3: audio/py/numbers/arithmetic/predict-times.grade3.ogg

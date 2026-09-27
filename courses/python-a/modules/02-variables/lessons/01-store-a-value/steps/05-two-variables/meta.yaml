@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.store-a-value.two-variables
+type: free-code
+title: Two boxes
+skills:
+- id: variables
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- variables
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: You need two variables. Each one gets its own line.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Show them with two prints, one for each name.
+audio:
+  grade3: audio/py/variables/store-a-value/two-variables.grade3.ogg

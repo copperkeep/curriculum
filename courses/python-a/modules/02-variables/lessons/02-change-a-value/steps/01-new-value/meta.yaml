@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.change-a-value.new-value
+type: narrative
+title: A box holds one thing
+skills:
+- id: reassignment
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/variables/change-a-value/new-value.grade3.ogg

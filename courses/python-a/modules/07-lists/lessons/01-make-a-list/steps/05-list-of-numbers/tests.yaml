@@ -1,0 +1,7 @@
+cases:
+- id: scores
+  assert: scores == [7, 3, 9]
+  message: scores holds 7, 3 and 9
+- id: empty
+  assert: empty == []
+  message: empty is a list with nothing in it

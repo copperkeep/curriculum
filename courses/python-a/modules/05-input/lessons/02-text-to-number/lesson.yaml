@@ -1,0 +1,9 @@
+id: text-to-number
+title: Turn text into a number
+claim: int turns text into a number you can do sums with
+steps:
+- 01-text-is-not-number
+- 02-predict-text-sum
+- 03-fix-the-age
+- 04-add-two-answers
+- 05-number-in-words

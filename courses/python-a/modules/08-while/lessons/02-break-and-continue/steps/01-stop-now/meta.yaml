@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.break-and-continue.stop-now
+type: narrative
+title: Stop now, or skip this one
+skills:
+- id: break-continue
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/while-loops/break-and-continue/stop-now.grade3.ogg

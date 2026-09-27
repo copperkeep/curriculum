@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.arithmetic.cookies
+type: free-code
+title: Cookies for all
+skills:
+- id: arithmetic
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Five boxes of six is five times six.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Times is written with a star: *'
+audio:
+  grade3: audio/py/numbers/arithmetic/cookies.grade3.ogg

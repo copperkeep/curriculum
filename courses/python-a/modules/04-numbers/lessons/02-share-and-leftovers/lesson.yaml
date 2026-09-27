@@ -1,0 +1,9 @@
+id: share-and-leftovers
+title: Sharing and leftovers
+claim: // shares things out and % finds what is left over
+steps:
+- 01-two-slashes
+- 02-predict-leftover
+- 03-predict-share
+- 04-share-sweets
+- 05-minutes

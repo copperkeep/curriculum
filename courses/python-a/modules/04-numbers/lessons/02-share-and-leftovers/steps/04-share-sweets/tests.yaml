@@ -1,0 +1,12 @@
+cases:
+- id: each-three
+  assert: each == 3
+  message: each holds 3
+- id: left-two
+  assert: left == 2
+  message: left holds 2
+- id: shows-both
+  expectedStdout: |
+    3
+    2
+  message: shows 3, then 2

@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.ask-a-question.explain-input
+type: explain-back
+title: Where does the answer go?
+skills:
+- id: input-text
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Into the box called pet
+- Onto the screen, right away
+- Nowhere, it is thrown away
+- Into a box called input
+answer: Into the box called pet
+hints: []
+audio:
+  grade3: audio/py/input/ask-a-question/explain-input.grade3.ogg

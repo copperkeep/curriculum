@@ -1,4 +1,5 @@
 id: loops
 title: Loops
 lessons:
-  - 02-for-range
+- 02-for-range
+- 03-loop-body

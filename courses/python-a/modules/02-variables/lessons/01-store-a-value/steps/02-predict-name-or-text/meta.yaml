@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.store-a-value.predict-name-or-text
+type: predict
+title: Name or text?
+skills:
+- id: variables
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- pet
+- cat
+- '"cat"'
+- pet cat
+answer: cat
+hints: []
+audio:
+  grade3: audio/py/variables/store-a-value/predict-name-or-text.grade3.ogg

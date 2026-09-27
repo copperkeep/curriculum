@@ -1,0 +1,4 @@
+cases:
+- id: seven-is-odd
+  expectedStdout: odd
+  message: shows odd for 7

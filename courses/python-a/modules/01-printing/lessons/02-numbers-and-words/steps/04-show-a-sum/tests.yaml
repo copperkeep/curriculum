@@ -1,0 +1,4 @@
+cases:
+- id: shows-fifteen
+  expectedStdout: '15'
+  message: shows 15

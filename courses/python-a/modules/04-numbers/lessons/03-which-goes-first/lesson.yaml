@@ -1,0 +1,9 @@
+id: which-goes-first
+title: Which sum goes first
+claim: Times and divide go before plus and minus, unless brackets say so
+steps:
+- 01-times-first
+- 02-predict-order
+- 03-predict-brackets
+- 04-add-brackets
+- 05-party-cost

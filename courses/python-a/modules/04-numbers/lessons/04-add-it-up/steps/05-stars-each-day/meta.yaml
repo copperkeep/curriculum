@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.add-it-up.stars-each-day
+type: free-code
+title: Stars for a week
+skills:
+- id: loop-accumulator
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- loop-accumulator
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The loop runs once for each day. Each day adds 3 stars.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Inside the loop, add the same number each time: coins = coins + 5'
+audio:
+  grade3: audio/py/numbers/add-it-up/stars-each-day.grade3.ogg

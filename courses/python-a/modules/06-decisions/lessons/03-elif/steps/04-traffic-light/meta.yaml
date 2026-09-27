@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.elif.traffic-light
+type: free-code
+title: Traffic light
+skills:
+- id: elif-chains
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Ask if light == "red" first, then elif for "amber".
+- afterSemanticFailures: 4
+  tier: grade3
+  text: else can take care of green.
+audio:
+  grade3: audio/py/decisions/elif/traffic-light.grade3.ogg

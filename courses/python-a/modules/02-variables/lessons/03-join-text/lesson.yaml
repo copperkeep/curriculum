@@ -1,0 +1,9 @@
+id: join-text
+title: Join text together
+claim: A plus mark joins two bits of text into one
+steps:
+- 01-plus-for-text
+- 02-predict-join
+- 03-fill-the-space
+- 04-full-name
+- 05-store-joined

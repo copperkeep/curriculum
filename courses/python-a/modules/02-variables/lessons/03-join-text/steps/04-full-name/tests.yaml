@@ -1,0 +1,4 @@
+cases:
+- id: full-name
+  expectedStdout: Ada Lovelace
+  message: shows Ada Lovelace

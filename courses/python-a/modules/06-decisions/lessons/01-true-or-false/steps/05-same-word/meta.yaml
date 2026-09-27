@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.true-or-false.same-word
+type: free-code
+title: Same password?
+skills:
+- id: booleans-comparison
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- booleans-comparison
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Two == marks ask if things are the same.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'This asks if two boxes are the same: same = a == b'
+audio:
+  grade3: audio/py/decisions/true-or-false/same-word.grade3.ogg

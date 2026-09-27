@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.elif.predict-first-wins
+type: predict
+title: The first True wins
+skills:
+- id: elif-chains
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- big
+- medium
+- big medium
+- small
+answer: big
+hints: []
+audio:
+  grade3: audio/py/decisions/elif/predict-first-wins.grade3.ogg

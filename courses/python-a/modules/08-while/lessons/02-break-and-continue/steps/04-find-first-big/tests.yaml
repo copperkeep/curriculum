@@ -1,0 +1,7 @@
+cases:
+- id: first-big-twelve
+  assert: first_big == 12
+  message: first_big holds 12
+- id: shows-twelve
+  expectedStdout: '12'
+  message: shows 12

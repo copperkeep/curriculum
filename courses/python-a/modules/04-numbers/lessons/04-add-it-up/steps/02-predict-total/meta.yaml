@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.add-it-up.predict-total
+type: predict
+title: What is the total?
+skills:
+- id: loop-accumulator
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '6'
+- '3'
+- 0 1 2 3
+- '10'
+answer: '6'
+hints: []
+audio:
+  grade3: audio/py/numbers/add-it-up/predict-total.grade3.ogg

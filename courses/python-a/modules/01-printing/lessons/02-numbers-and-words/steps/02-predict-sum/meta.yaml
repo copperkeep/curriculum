@@ -1,0 +1,23 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.numbers-and-words.predict-sum
+type: predict
+title: Sum or text?
+skills:
+- id: int-literals
+  weight: primary
+- id: print-output
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 3 + 4
+- '7'
+- '34'
+- '"3 + 4"'
+answer: 3 + 4
+hints: []
+audio:
+  grade3: audio/py/printing/numbers-and-words/predict-sum.grade3.ogg

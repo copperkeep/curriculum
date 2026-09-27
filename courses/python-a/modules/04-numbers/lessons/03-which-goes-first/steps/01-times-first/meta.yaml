@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.which-goes-first.times-first
+type: narrative
+title: Times goes first
+skills:
+- id: operator-precedence
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/numbers/which-goes-first/times-first.grade3.ogg

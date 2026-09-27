@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.text-to-number.text-is-not-number
+type: narrative
+title: 5 is not "5"
+skills:
+- id: type-conversion
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/input/text-to-number/text-is-not-number.grade3.ogg

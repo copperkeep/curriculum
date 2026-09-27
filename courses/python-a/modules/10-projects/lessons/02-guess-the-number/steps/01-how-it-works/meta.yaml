@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-a.guess-the-number.how-it-works
+type: narrative
+title: How the game works
+skills:
+- id: while-loop
+  weight: primary
+- id: elif-chains
+  weight: supporting
+- id: list-indexing
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/projects-a/guess-the-number/how-it-works.grade3.ogg

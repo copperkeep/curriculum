@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.define-a-function.make-a-song
+type: free-code
+title: Chorus
+skills:
+- id: define-function
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Start with: def chorus():'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Push the two print lines in under the def. Then call the function two times.
+audio:
+  grade3: audio/py/functions/define-a-function/make-a-song.grade3.ogg

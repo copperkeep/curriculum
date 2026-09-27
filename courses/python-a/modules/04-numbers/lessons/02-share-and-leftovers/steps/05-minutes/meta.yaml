@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.share-and-leftovers.minutes
+type: free-code
+title: Hours and minutes
+skills:
+- id: int-division-modulo
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- int-division-modulo
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: There are 60 minutes in each hour. Share 135 into groups of 60.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: hours uses //. mins uses %.
+audio:
+  grade3: audio/py/numbers/share-and-leftovers/minutes.grade3.ogg

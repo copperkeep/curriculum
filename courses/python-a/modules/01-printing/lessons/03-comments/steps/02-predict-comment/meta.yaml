@@ -1,0 +1,23 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.comments.predict-comment
+type: predict
+title: What runs?
+skills:
+- id: comments
+  weight: primary
+- id: print-output
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- one
+- two
+- one and two
+- Nothing
+answer: two
+hints: []
+audio:
+  grade3: audio/py/printing/comments/predict-comment.grade3.ogg

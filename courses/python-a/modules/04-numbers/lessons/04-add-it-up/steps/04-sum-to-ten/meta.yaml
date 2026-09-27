@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.add-it-up.sum-to-ten
+type: free-code
+title: One to ten
+skills:
+- id: loop-accumulator
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Start with total = 0 before the loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: range(1, 11) gives 1 to 10.
+audio:
+  grade3: audio/py/numbers/add-it-up/sum-to-ten.grade3.ogg

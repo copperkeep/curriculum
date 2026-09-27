@@ -1,0 +1,12 @@
+cases:
+- id: first-is-three
+  assert: first == 3
+  message: first holds 3
+- id: last-is-eight
+  assert: last == 8
+  message: last holds 8
+- id: shows-both
+  expectedStdout: |
+    3
+    8
+  message: shows 3, then 8

@@ -1,0 +1,7 @@
+cases:
+- id: three-items
+  assert: shopping == ['eggs', 'milk', 'bread']
+  message: shopping holds eggs, milk and bread
+- id: shows-three
+  expectedStdout: '3'
+  message: shows 3

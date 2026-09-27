@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.text-to-number.number-in-words
+type: free-code
+title: A number in a sentence
+skills:
+- id: type-conversion
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- type-conversion
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: You can not join text and a number with +. Turn the number into text.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: str(legs) turns the number into text.
+audio:
+  grade3: audio/py/input/text-to-number/number-in-words.grade3.ogg

@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.make-a-list.list-of-numbers
+type: free-code
+title: A list of numbers
+skills:
+- id: list-basics
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- list-basics
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Numbers in a list still need no quote marks.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: An empty list is just [] with nothing inside.
+audio:
+  grade3: audio/py/lists/make-a-list/list-of-numbers.grade3.ogg

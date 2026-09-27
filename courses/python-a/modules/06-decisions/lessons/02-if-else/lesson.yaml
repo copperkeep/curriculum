@@ -1,0 +1,9 @@
+id: if-else
+title: If this, else that
+claim: if runs its lines only when the question is True
+steps:
+- 01-two-roads
+- 02-predict-branch
+- 03-order-if-else
+- 04-odd-or-even
+- 05-pass-or-try-again

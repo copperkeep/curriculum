@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.while-loop.save-up
+type: free-code
+title: Save up
+skills:
+- id: while-loop
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Keep going while money is less than 50.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Inside the loop, add 8 to money and 1 to weeks.
+audio:
+  grade3: audio/py/while-loops/while-loop/save-up.grade3.ogg

@@ -1,0 +1,9 @@
+id: arithmetic
+title: Plus, minus, times, divide
+claim: Python does sums with + - * and /
+steps:
+- 01-four-marks
+- 02-predict-times
+- 03-predict-divide
+- 04-cookies
+- 05-change-back

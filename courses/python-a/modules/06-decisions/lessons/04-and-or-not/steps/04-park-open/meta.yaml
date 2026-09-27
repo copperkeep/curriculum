@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.and-or-not.park-open
+type: free-code
+title: Is the park open?
+skills:
+- id: logical-operators
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The hour must be 9 or more, and less than 17.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'This checks a number is between 1 and 10: n >= 1 and n <= 10'
+audio:
+  grade3: audio/py/decisions/and-or-not/park-open.grade3.ogg
