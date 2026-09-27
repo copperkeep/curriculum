@@ -96,6 +96,20 @@ run of its own, so use at least two with different input — one could be hard-c
 
 An `assert` case can carry `stdin` too, and is checked against that run.
 
+## Predict answers are checked by running the code
+
+The `predictions` gate runs each predict step's code and compares its output with
+`answer`. Write multi-line output on one line, space-separated (`"0 1 2"`); `"1 then 2"`
+reads better and is accepted. `"Nothing"` means no output. If the code raises, the
+answer is the output followed by the exception name (`"one AssertionError"`).
+
+When the code reads input, set what the prose tells the learner to imagine typing:
+
+```yaml
+predictStdin: "Mo"
+predictCheck: last-line   # the question is about the line after the input() prompt
+```
+
 ## grade3 prose is gated mechanically
 
 Not by discipline. `python tools/check.py` fails on:
