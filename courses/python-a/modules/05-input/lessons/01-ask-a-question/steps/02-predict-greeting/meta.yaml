@@ -19,3 +19,7 @@ answer: Hi Mo
 hints: []
 audio:
   grade3: audio/py/input/ask-a-question/predict-greeting.grade3.ogg
+# Only the check gate reads these: the prose asks the learner to imagine typing Mo, and
+# asks about the greeting line, which follows the input() prompt.
+predictStdin: "Mo"
+predictCheck: last-line

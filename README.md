@@ -40,6 +40,8 @@ Run on every pull request. None of them are advisory.
 | `readability` | grade3 prose above the target grade, a sentence too long, a word outside the allowlist |
 | `subresources` | Any external URL. Everything ships inside the image |
 | `packages` | A lesson importing something the runtimes image does not vendor |
+| `starters` | A starter that already passes its own tests — a free pass for every learner |
+| `predictions` | A predict step whose answer is not what its code really prints |
 
 ## The ID contract
 

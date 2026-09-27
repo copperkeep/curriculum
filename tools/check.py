@@ -10,6 +10,8 @@ worth a readability report.
   readability  grade3 prose clears the grade, sentence and vocabulary gates
   subresources no external URL anywhere in the content
   packages     no lesson imports something the runtimes image does not ship
+  starters     no starter already passes its own tests
+  predictions  every predict answer is what the shown code really prints
 
 `solutions` is the highest-value gate here: it catches a broken exercise before a child
 does.
@@ -21,13 +23,14 @@ import argparse
 import ast
 import json
 import re
+import signal
 import sys
 from pathlib import Path
 
 sys.path.insert(0, str(Path(__file__).resolve().parent))
 
 from build import ROOT, build_course, read_yaml  # noqa: E402
-from harness import evaluate  # noqa: E402
+from harness import _exec, evaluate  # noqa: E402
 from readability import check as readability_check  # noqa: E402
 from readability import load_allowlist  # noqa: E402
 
@@ -206,6 +209,92 @@ def check_subresources(steps: list[dict], report: Report) -> None:
         report.ok("subresources")
 
 
+STARTER_SECONDS = 5  # the browser's wall clock; a starter slower than that times out there
+
+
+class _TimedOut(Exception):
+    pass
+
+
+def _alarm(_signum, _frame):
+    raise _TimedOut
+
+
+def _with_timeout(fn, *args):
+    """Runs fn under the browser's time budget. A starter that is deliberately slow (an
+    uncached fib(80)) would otherwise hang CI — and it fails in the browser anyway."""
+    previous = signal.signal(signal.SIGALRM, _alarm)
+    signal.alarm(STARTER_SECONDS)
+    try:
+        return fn(*args)
+    except _TimedOut:
+        return None
+    finally:
+        signal.alarm(0)
+        signal.signal(signal.SIGALRM, previous)
+
+
+def check_starters(steps: list[dict], report: Report) -> None:
+    """A starter that already passes its own tests hands every learner a free pass."""
+    for step in steps:
+        starter = step["_dir"] / "starter.py"
+        if "tests" not in step or not starter.exists():
+            continue
+        result = _with_timeout(evaluate, starter.read_text(), step["tests"])
+        # The harness catches everything, so a timeout arrives as an ordinary failure.
+        if result is not None and result.passed:
+            report.fail("starters", f"step {step['id']} starter already passes its own tests")
+
+    if not any(f.startswith("[starters]") for f in report.failures):
+        report.ok("starters")
+
+
+def _normalise(text: str) -> str:
+    """Predict options show multi-line output on one line, space-separated, and may say
+    "1 then 2" for readability. "Nothing" means no output at all."""
+    text = " ".join(text.replace(" then ", " ").split())
+    return "" if text == "Nothing" else text
+
+
+def check_predictions(steps: list[dict], report: Report) -> None:
+    """A predict step's answer is graded in the browser, so a wrong key marks every
+    correct learner wrong. Run the shown code and compare.
+
+    What a run shows is its output followed, if it raised, by the exception's name — so
+    an answer like "one AssertionError" is checkable. A step whose code reads input sets
+    predictStdin in meta.yaml to the line the prose tells the learner to imagine typing.
+    """
+    checked = 0
+    for step in steps:
+        starter = step["_dir"] / "starter.py"
+        if step["type"] != "predict" or not starter.exists():
+            continue
+        meta = read_yaml(step["_dir"] / "meta.yaml")
+        ran = _with_timeout(_exec, starter.read_text(), meta.get("predictStdin", ""))
+        if ran is None or isinstance(ran[2], _TimedOut):
+            report.fail("predictions", f"step {step['id']} code did not finish in time")
+            continue
+        _namespace, stdout, failure = ran
+        if meta.get("predictCheck") == "last-line":
+            # For a question about one line, e.g. the greeting after an input() prompt.
+            stdout = stdout.rstrip("\n").rsplit("\n", 1)[-1]
+            if "predictStdin" in meta:
+                # input() writes its prompt with no newline, so it shares the last line.
+                stdout = stdout.split("? ", 1)[-1]
+        shown = " ".join(stdout.split())
+        if failure is not None:
+            shown = f"{shown} {type(failure).__name__}".strip()
+        checked += 1
+        if _normalise(step["answer"]) != shown:
+            report.fail(
+                "predictions",
+                f"step {step['id']} answer is {step['answer']!r} but the code shows {shown!r}",
+            )
+
+    if not any(f.startswith("[predictions]") for f in report.failures):
+        report.ok(f"predictions ({checked} checked)")
+
+
 def check_packages(manifest: dict, steps: list[dict], report: Report) -> None:
     allowed = set(manifest.get("allowedPackages", [])) | set(sys.stdlib_module_names)
 
@@ -274,6 +363,8 @@ def main() -> int:
     check_readability(steps, report)
     check_subresources(steps, report)
     check_packages(manifest, steps, report)
+    check_starters(steps, report)
+    check_predictions(steps, report)
 
     for note in report.notes:
         print(f"note  {note}")
