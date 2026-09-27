@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Put the work in main(), and call it only under the __name__ check.
+audio:
+  grade3: audio/py/idioms/scripts-and-modules/structure.grade3.ogg

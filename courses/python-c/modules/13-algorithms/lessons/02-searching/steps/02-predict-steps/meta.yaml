@@ -17,3 +17,5 @@ options:
 - '500'
 answer: '9'
 hints: []
+audio:
+  grade3: audio/py/algorithms/searching/predict-steps.grade3.ogg

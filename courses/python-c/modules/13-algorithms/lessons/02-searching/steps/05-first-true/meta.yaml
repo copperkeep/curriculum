@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'Keep the invariant: everything below lo is too small, hi is big enough.'
+audio:
+  grade3: audio/py/algorithms/searching/first-true.grade3.ogg

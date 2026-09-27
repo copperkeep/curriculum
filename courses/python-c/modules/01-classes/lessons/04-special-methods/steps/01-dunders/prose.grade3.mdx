@@ -1,0 +1,6 @@
+Some methods have two lines before and after the name, like `__len__`. Python uses
+them for its own marks and tools.
+
+`len(x)` runs `__len__`. `a + b` runs `__add__`. `a == b` runs `__eq__`. `print(x)`
+runs `__str__` or `__repr__`. Add them, and your objects work like the ones Python
+has.

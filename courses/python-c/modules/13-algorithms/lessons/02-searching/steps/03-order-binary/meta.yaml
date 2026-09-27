@@ -29,3 +29,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: If lo = mid when the target is bigger, the loop can get stuck.
+audio:
+  grade3: audio/py/algorithms/searching/order-binary.grade3.ogg

@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Pass the expected type to the descriptor's __init__.
+audio:
+  grade3: audio/py/under-the-hood/descriptors/typed-field.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - wrapper
 answer: None
 hints: []
+audio:
+  grade3: audio/py/decorators/writing-decorators/predict-lost-return.grade3.ogg

@@ -15,3 +15,5 @@ hints:
   tier: grade3
   text: __set_name__ stores the attribute name; __get__ and __set__ use getattr/setattr on the instance
     with a private name.
+audio:
+  grade3: audio/py/under-the-hood/descriptors/positive.grade3.ogg

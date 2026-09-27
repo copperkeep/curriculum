@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: withdraw should raise ValueError before changing the balance.
+audio:
+  grade3: audio/py/classes/methods/account.grade3.ogg

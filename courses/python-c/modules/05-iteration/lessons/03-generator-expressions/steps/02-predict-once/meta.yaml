@@ -17,3 +17,5 @@ options:
 - Error
 answer: 6 0
 hints: []
+audio:
+  grade3: audio/py/iteration/generator-expressions/predict-once.grade3.ogg

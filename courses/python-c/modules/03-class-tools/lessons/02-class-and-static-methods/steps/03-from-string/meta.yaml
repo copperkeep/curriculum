@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Split the string, convert the parts, and return cls(...).
+audio:
+  grade3: audio/py/class-tools/class-and-static-methods/from-string.grade3.ogg

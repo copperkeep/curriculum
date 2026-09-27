@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: issubclass(exc_type, self.kind) handles subclasses too. exc_type is None when nothing failed.
+audio:
+  grade3: audio/py/context-managers/with-protocol/suppress.grade3.ogg

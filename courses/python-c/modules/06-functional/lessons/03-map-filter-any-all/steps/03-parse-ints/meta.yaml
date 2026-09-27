@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: map(int, pieces) converts each piece.
+audio:
+  grade3: audio/py/functional/map-filter-any-all/parse-ints.grade3.ogg

@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'case Circle(r=r): matches a Circle and binds its r attribute.'
+audio:
+  grade3: audio/py/pattern-matching/structural-patterns/area.grade3.ogg

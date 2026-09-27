@@ -1,0 +1,4 @@
+A `with` line runs `__enter__` on the way in. It runs `__exit__` on the way out.
+
+The way out always runs, even if something goes wrong. That is why files use it. It
+makes sure clean up always happens.

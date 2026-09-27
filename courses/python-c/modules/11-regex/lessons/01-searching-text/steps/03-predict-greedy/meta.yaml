@@ -17,3 +17,5 @@ options:
 - bold
 answer: <b>bold</b>
 hints: []
+audio:
+  grade3: audio/py/regex/searching-text/predict-greedy.grade3.ogg

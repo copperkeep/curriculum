@@ -17,3 +17,5 @@ options:
 - None
 answer: 'False'
 hints: []
+audio:
+  grade3: audio/py/classes/special-methods/predict-eq.grade3.ogg

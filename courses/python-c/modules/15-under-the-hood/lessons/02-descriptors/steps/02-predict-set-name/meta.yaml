@@ -17,3 +17,5 @@ options:
 - None
 answer: price
 hints: []
+audio:
+  grade3: audio/py/under-the-hood/descriptors/predict-set-name.grade3.ogg

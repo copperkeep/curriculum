@@ -17,3 +17,5 @@ options:
 - '3'
 answer: AttributeError
 hints: []
+audio:
+  grade3: audio/py/class-tools/properties/predict-readonly.grade3.ogg

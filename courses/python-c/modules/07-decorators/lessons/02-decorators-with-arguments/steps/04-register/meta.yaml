@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The decorator stores func in the dict and returns func unchanged.
+audio:
+  grade3: audio/py/decorators/decorators-with-arguments/register.grade3.ogg

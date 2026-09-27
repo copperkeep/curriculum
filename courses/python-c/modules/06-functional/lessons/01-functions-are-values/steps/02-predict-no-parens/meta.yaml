@@ -17,3 +17,5 @@ options:
 - Error
 answer: True 6
 hints: []
+audio:
+  grade3: audio/py/functional/functions-are-values/predict-no-parens.grade3.ogg

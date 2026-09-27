@@ -17,3 +17,5 @@ options:
 - Error
 answer: 1 missing:y
 hints: []
+audio:
+  grade3: audio/py/under-the-hood/dynamic-attributes/predict-getattr.grade3.ogg

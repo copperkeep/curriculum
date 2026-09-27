@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Loop over the dict's items and setattr each one — but only if hasattr is already true.
+audio:
+  grade3: audio/py/under-the-hood/dynamic-attributes/update-from.grade3.ogg

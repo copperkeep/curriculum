@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[[9, 2], [3, 4]]'
 hints: []
+audio:
+  grade3: audio/py/objects/copying/predict-shallow.grade3.ogg

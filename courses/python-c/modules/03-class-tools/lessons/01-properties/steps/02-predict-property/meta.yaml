@@ -17,3 +17,5 @@ options:
 - Error
 answer: '212.0'
 hints: []
+audio:
+  grade3: audio/py/class-tools/properties/predict-property.grade3.ogg

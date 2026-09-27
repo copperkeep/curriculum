@@ -17,3 +17,5 @@ options:
 - RecursionError
 answer: '24'
 hints: []
+audio:
+  grade3: audio/py/algorithms/recursion/predict-factorial.grade3.ogg

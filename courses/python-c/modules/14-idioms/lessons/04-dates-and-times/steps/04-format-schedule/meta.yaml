@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: date.fromisoformat parses; strftime("%a %d %b") formats like Sun 27 Sep.
+audio:
+  grade3: audio/py/idioms/dates-and-times/format-schedule.grade3.ogg

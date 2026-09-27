@@ -17,3 +17,5 @@ options:
 - enter body
 answer: enter body exit
 hints: []
+audio:
+  grade3: audio/py/context-managers/with-protocol/predict-order.grade3.ogg

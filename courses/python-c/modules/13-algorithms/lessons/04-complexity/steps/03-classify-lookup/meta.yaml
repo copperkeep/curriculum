@@ -17,3 +17,5 @@ options:
 - O(1)
 answer: O(n)
 hints: []
+audio:
+  grade3: audio/py/algorithms/complexity/classify-lookup.grade3.ogg

@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: '@runtime_checkable on the Protocol allows isinstance.'
+audio:
+  grade3: audio/py/types/protocols/sized.grade3.ogg

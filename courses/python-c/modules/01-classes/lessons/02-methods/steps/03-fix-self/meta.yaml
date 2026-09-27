@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'Attributes are reached through self: self.items'
+audio:
+  grade3: audio/py/classes/methods/fix-self.grade3.ogg

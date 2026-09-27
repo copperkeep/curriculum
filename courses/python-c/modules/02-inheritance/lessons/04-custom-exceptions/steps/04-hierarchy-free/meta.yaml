@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Two subclasses of one base; raise the specific one.
+audio:
+  grade3: audio/py/inheritance/custom-exceptions/hierarchy-free.grade3.ogg

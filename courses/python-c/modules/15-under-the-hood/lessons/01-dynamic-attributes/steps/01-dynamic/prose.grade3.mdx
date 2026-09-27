@@ -1,0 +1,5 @@
+`getattr(obj, "name")` reads a value by its name, held as text. `setattr` sets one.
+`hasattr` asks if it is there.
+
+A class can have a `__getattr__` method. Python calls it only when a name is not
+found the normal way.

@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: A dict from each member to the next one is the clearest way.
+audio:
+  grade3: audio/py/class-tools/enums/next-light.grade3.ogg

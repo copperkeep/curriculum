@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'A guard: case n if 500 <= n < 600:'
+audio:
+  grade3: audio/py/pattern-matching/match-case/http-status.grade3.ogg

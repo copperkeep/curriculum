@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The getter joins first and last; the setter splits a string into them.
+audio:
+  grade3: audio/py/class-tools/properties/full-name.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[2, 2, 2]'
 hints: []
+audio:
+  grade3: audio/py/functional/closures/predict-late-binding.grade3.ogg

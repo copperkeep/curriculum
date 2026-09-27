@@ -17,3 +17,5 @@ options:
 - Error
 answer: True 4
 hints: []
+audio:
+  grade3: audio/py/idioms/walrus/predict-walrus.grade3.ogg

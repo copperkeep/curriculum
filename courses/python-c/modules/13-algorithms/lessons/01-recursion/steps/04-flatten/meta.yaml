@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: isinstance(item, list) tells you which case you are in.
+audio:
+  grade3: audio/py/algorithms/recursion/flatten.grade3.ogg

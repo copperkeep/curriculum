@@ -17,3 +17,5 @@ options:
 - Error
 answer: '... Woof'
 hints: []
+audio:
+  grade3: audio/py/inheritance/subclasses/predict-override.grade3.ogg

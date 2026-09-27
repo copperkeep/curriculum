@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The inner function needs nonlocal to change the outer count.
+audio:
+  grade3: audio/py/functional/closures/counter.grade3.ogg

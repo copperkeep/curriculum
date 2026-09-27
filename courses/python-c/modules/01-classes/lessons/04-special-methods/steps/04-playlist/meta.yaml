@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: With __getitem__ defined, for loops work automatically.
+audio:
+  grade3: audio/py/classes/special-methods/playlist.grade3.ogg

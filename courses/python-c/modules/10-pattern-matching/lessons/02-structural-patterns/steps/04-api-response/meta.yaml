@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'Nest patterns: {"status": "ok", "data": {"user": {"name": name}}}'
+audio:
+  grade3: audio/py/pattern-matching/structural-patterns/api-response.grade3.ogg

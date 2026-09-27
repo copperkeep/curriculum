@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Loop over range(0, len(xs), size) and yield a slice each time.
+audio:
+  grade3: audio/py/iteration/generators/chunks.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - exit
 answer: exit caught
 hints: []
+audio:
+  grade3: audio/py/context-managers/with-protocol/predict-exception.grade3.ogg

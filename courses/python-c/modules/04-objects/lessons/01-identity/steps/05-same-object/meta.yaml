@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Compare each pair with is, not ==.
+audio:
+  grade3: audio/py/objects/identity/same-object.grade3.ogg

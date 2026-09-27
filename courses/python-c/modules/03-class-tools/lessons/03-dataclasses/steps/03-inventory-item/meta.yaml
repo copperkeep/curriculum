@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Methods work in dataclasses exactly as in normal classes.
+audio:
+  grade3: audio/py/class-tools/dataclasses/inventory-item.grade3.ogg

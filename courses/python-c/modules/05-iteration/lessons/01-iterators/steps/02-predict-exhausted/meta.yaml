@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[1, 2] []'
 hints: []
+audio:
+  grade3: audio/py/iteration/iterators/predict-exhausted.grade3.ogg

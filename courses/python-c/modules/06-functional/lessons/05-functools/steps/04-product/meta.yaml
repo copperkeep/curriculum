@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'reduce(lambda acc, x: acc * x, xs, 1)'
+audio:
+  grade3: audio/py/functional/functools/product.grade3.ogg
