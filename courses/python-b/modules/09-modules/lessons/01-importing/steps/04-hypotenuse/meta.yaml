@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.importing.hypotenuse
+type: free-code
+title: Use math
+skills:
+- id: import-modules
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: math.sqrt takes a square root; math.hypot does the whole thing.

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.collections.predict-most-common
+type: predict
+title: Most common
+skills:
+- id: collections-module
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[(''a'', 3)]'
+- '[''a'']'
+- ('a', 3)
+- '3'
+answer: '[(''a'', 3)]'
+hints: []

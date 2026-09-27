@@ -1,0 +1,7 @@
+cases:
+- id: saved
+  assert: (save(['a', 'b', 'c'], '/tmp/ck-save.txt'), open('/tmp/ck-save.txt').read())[1] == 'a\nb\nc\n'
+  message: writes a, b and c on three lines
+- id: overwrites
+  assert: (save(['x'], '/tmp/ck-save.txt'), open('/tmp/ck-save.txt').read())[1] == 'x\n'
+  message: saving again replaces the old contents

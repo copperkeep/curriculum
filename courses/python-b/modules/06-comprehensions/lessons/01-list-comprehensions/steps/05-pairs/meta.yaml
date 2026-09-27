@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.list-comprehensions.pairs
+type: free-code
+title: Two loops in one
+skills:
+- id: list-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- list-comprehension
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A comprehension can have two for clauses; the first is the outer loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: '[(a, b) for a in xs for b in ys]'

@@ -1,0 +1,9 @@
+cases:
+- id: summary
+  assert: '(open(''/tmp/ck-grades.csv'', ''w'').write(''name,hw1,hw2\nAna,90,85\nBo,,x\nCy,70,\n''), summarise(''/tmp/ck-grades.csv'',
+    ''/tmp/ck-grades.json''))[1] == {''Ana'': 87.5, ''Bo'': None, ''Cy'': 70.0}'
+  message: averages Ana and Cy, and gives Bo null
+- id: file
+  assert: '__import__(''json'').load(open(''/tmp/ck-grades.json'')) == {''Ana'': 87.5, ''Bo'': None, ''Cy'':
+    70.0}'
+  message: the JSON file holds the same summary

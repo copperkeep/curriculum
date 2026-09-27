@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.list-methods.methods
+type: narrative
+title: Changing a list in place
+skills:
+- id: list-methods
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

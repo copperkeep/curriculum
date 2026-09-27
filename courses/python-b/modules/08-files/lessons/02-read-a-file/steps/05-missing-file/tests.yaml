@@ -1,0 +1,8 @@
+cases:
+- id: missing
+  assert: read_or_default('/tmp/ck-no-such-file.txt', 'none') == 'none'
+  message: a missing file gives the default
+- id: present
+  assert: (open('/tmp/ck-present.txt', 'w').write('hi'), read_or_default('/tmp/ck-present.txt', 'none'))[1]
+    == 'hi'
+  message: an existing file gives its text

@@ -1,0 +1,5 @@
+cases:
+- id: appends
+  assert: (open('/tmp/ck-log.txt', 'w').close(), log('one', '/tmp/ck-log.txt'), log('two', '/tmp/ck-log.txt'),
+    open('/tmp/ck-log.txt').read())[3] == 'one\ntwo\n'
+  message: two calls leave two lines

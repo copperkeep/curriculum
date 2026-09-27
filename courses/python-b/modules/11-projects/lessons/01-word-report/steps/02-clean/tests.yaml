@@ -1,0 +1,4 @@
+cases:
+- id: clean
+  assert: clean('Hello, world! Hello?') == ['hello', 'world', 'hello']
+  message: strips punctuation and lower-cases

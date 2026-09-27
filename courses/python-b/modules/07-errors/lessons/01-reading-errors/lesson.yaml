@@ -1,0 +1,9 @@
+id: reading-errors
+title: Reading an error
+claim: An error message names what went wrong and where
+steps:
+- 01-anatomy
+- 02-which-error-type
+- 03-which-error-value
+- 04-fix-three
+- 05-index-error

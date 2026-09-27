@@ -1,0 +1,7 @@
+cases:
+- id: span
+  assert: span([4, 9, 1, 7]) == (1, 9)
+  message: span([4, 9, 1, 7]) gives (1, 9)
+- id: is-tuple
+  assert: type(span([1])) is tuple
+  message: the result is a tuple

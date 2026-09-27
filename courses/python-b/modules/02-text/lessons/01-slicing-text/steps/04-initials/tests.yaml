@@ -1,0 +1,7 @@
+cases:
+- id: letters
+  assert: ends('abcdefgh') == 'abcfgh'
+  message: ends('abcdefgh') gives abcfgh
+- id: numbers
+  assert: ends('0123456789') == '012789'
+  message: ends('0123456789') gives 012789

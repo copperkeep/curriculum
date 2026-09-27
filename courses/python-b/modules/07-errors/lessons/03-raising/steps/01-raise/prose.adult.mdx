@@ -1,0 +1,13 @@
+Your own functions can fail loudly:
+
+```python
+def withdraw(balance, amount):
+    if amount > balance:
+        raise ValueError("insufficient funds")
+    return balance - amount
+```
+
+Raising is better than returning a sentinel like `-1` or `None` — the caller cannot
+accidentally ignore it. Pick the built-in type that fits: `ValueError` for a bad
+value, `TypeError` for a wrong type. Inside an `except`, a bare `raise` re-raises
+the exception you caught.

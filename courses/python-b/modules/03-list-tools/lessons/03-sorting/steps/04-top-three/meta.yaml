@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.sorting.top-three
+type: free-code
+title: Top three
+skills:
+- id: sorting
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Sort descending with reverse=True, then slice.

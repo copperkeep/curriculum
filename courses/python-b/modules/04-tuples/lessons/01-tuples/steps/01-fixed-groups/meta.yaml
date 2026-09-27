@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.tuples.fixed-groups
+type: narrative
+title: Fixed groups
+skills:
+- id: tuples
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

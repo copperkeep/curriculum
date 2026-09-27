@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.reading-errors.which-error-type
+type: explain-back
+title: Name that error
+skills:
+- id: reading-errors
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- TypeError
+- ValueError
+- NameError
+- SyntaxError
+answer: TypeError
+hints: []

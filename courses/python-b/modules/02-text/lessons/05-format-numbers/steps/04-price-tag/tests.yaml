@@ -1,0 +1,7 @@
+cases:
+- id: thousands
+  assert: tag(1299.5) == '$1,299.50'
+  message: tag(1299.5) gives $1,299.50
+- id: small
+  assert: tag(3) == '$3.00'
+  message: tag(3) gives $3.00

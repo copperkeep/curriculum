@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.string-methods.methods
+type: narrative
+title: Methods on strings
+skills:
+- id: string-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

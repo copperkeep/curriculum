@@ -1,0 +1,13 @@
+`print` takes any number of arguments. Yours can too:
+
+```python
+def total(*nums):        # nums is a tuple of every positional argument
+    return sum(nums)
+
+def tag(name, **attrs):  # attrs is a dict of every extra keyword argument
+    ...
+```
+
+The names `args` and `kwargs` are convention; the `*` and `**` are what matter.
+The same stars work in the other direction at a call site: `total(*[1, 2, 3])`
+spreads a list into separate arguments.

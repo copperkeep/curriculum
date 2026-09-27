@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.looping-over-a-dict.group-by-length
+type: free-code
+title: Group by length
+skills:
+- id: dict-iteration
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- dict-iteration
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The key is len(word). If it is not in the dict yet, start it as an empty list.

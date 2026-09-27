@@ -1,0 +1,9 @@
+id: slicing-text
+title: Slicing text
+claim: s[start:stop] cuts out a piece of a string
+steps:
+- 01-strings-are-sequences
+- 02-predict-slice
+- 03-predict-reverse
+- 04-initials
+- 05-palindrome

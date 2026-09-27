@@ -1,0 +1,7 @@
+cases:
+- id: mixed
+  assert: add_all(['1', 'x', '3']) == (4, 1)
+  message: add_all(['1', 'x', '3']) gives (4, 1)
+- id: clean
+  assert: add_all(['10', '20']) == (30, 0)
+  message: all good gives (30, 0)

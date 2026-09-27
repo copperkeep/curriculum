@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.try-except.predict-flow
+type: predict
+title: What runs?
+skills:
+- id: try-except
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- a c d
+- a b c d
+- a b d
+- a d
+answer: a c d
+hints: []

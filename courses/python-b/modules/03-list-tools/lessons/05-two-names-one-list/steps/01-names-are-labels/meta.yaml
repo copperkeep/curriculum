@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.two-names-one-list.names-are-labels
+type: narrative
+title: Names are labels
+skills:
+- id: aliasing
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

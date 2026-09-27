@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.dict-and-set-comprehensions.index-by-id
+type: free-code
+title: Index by id
+skills:
+- id: dict-set-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '{key_expr: value_expr for item in items}'

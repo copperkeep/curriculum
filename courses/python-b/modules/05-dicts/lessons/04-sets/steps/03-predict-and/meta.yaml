@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.sets.predict-and
+type: predict
+title: In both
+skills:
+- id: set-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '{''c''}'
+- '{''a'', ''b'', ''c'', ''d''}'
+- '{''a'', ''b''}'
+- '{''a'', ''b'', ''d''}'
+answer: '{''c''}'
+hints: []

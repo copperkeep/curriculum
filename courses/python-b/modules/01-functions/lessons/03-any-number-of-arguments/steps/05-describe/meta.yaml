@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.any-number-of-arguments.describe
+type: free-code
+title: Describe with keywords
+skills:
+- id: star-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- star-args
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '**info collects keyword arguments into a dict.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Loop over the dict's keys in the order they were given. sorted() is not needed.

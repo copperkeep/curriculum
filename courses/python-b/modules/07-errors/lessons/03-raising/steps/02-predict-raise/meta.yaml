@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.raising.predict-raise
+type: predict
+title: Caught by the caller
+skills:
+- id: raise-exceptions
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 'no: negative'
+- 'no'
+- ValueError
+- '-1'
+answer: 'no: negative'
+hints: []

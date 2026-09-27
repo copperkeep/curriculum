@@ -1,0 +1,9 @@
+id: string-methods
+title: Text tools
+claim: Strings come with methods that return new, changed strings
+steps:
+- 01-methods
+- 02-predict-immutable
+- 03-tidy
+- 04-censor
+- 05-file-type

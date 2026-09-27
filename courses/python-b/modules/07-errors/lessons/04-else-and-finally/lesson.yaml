@@ -1,0 +1,9 @@
+id: else-and-finally
+title: else and finally
+claim: else runs when nothing failed, and finally runs no matter what
+steps:
+- 01-four-clauses
+- 02-predict-else
+- 03-predict-finally-return
+- 04-log-attempts
+- 05-count-failures

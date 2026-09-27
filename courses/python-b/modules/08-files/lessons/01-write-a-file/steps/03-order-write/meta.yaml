@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.write-a-file.order-write
+type: parsons
+title: Write two lines
+skills:
+- id: file-write
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'with open("/tmp/todo.txt", "w") as f:'
+- '    f.write("milk\n")'
+- '    f.write("eggs\n")'
+distractors:
+- 'with open("/tmp/todo.txt") as f:'
+- f.write("eggs\n")
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Opening without a mode opens for reading.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Writes must be inside the with block, or the file is already closed.

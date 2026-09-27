@@ -1,0 +1,7 @@
+cases:
+- id: skips-blank
+  assert: 'row_average({''name'': ''Ana'', ''hw1'': ''90'', ''hw2'': '''', ''hw3'': ''80''}) == 85'
+  message: skips the blank and averages to 85
+- id: none
+  assert: 'row_average({''name'': ''Bo'', ''hw1'': ''n/a''}) is None'
+  message: no valid scores gives None

@@ -1,0 +1,9 @@
+id: nested-lists
+title: Lists inside lists
+claim: A list of lists makes a grid, indexed row first
+steps:
+- 01-grids
+- 02-predict-cell
+- 03-order-nested-loop
+- 04-column-sum
+- 05-transpose

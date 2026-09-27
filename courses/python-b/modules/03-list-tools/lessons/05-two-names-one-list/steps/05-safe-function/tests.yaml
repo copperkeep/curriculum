@@ -1,0 +1,7 @@
+cases:
+- id: returns
+  assert: with_item([1, 2], 3) == [1, 2, 3]
+  message: with_item([1, 2], 3) gives [1, 2, 3]
+- id: untouched
+  assert: '(lambda xs: (with_item(xs, 9), xs)[1])([1, 2]) == [1, 2]'
+  message: the caller's list is unchanged

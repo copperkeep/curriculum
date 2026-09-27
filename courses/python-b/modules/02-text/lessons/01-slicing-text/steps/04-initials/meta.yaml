@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.slicing-text.initials
+type: free-code
+title: First three, last three
+skills:
+- id: string-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Leave off the start to begin at 0: s[:3]'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Negative numbers count from the end: s[-2:] is the last two.'

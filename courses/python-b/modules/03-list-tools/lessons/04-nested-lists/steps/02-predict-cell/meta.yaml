@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.nested-lists.predict-cell
+type: predict
+title: Which cell?
+skills:
+- id: nested-lists
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- h
+- f
+- d
+- b
+answer: h
+hints: []

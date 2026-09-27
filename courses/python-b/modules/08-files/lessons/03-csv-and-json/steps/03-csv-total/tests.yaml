@@ -1,0 +1,5 @@
+cases:
+- id: total
+  assert: (open('/tmp/ck-sales.csv', 'w').write('item,amount\npen,2.5\n"ink, black",10\n'), total_amount('/tmp/ck-sales.csv'))[1]
+    == 12.5
+  message: adds the amounts to 12.5, even with a comma inside a field

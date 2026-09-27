@@ -1,0 +1,14 @@
+```python
+try:
+    risky()
+except SomeError:
+    handle()
+else:
+    only_if_no_exception()
+finally:
+    always()
+```
+
+`else` keeps the `try` block small — only the line that can fail goes in `try`,
+and what follows success goes in `else`. `finally` runs whether the block
+succeeded, failed, or returned early; it is where cleanup belongs.

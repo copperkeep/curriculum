@@ -1,0 +1,9 @@
+id: dict-and-set-comprehensions
+title: Dict and set comprehensions
+claim: Braces make the same comprehension build a dict or a set
+steps:
+- 01-braces
+- 02-predict-dict-comp
+- 03-predict-set-comp
+- 04-index-by-id
+- 05-domains

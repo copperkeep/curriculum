@@ -1,0 +1,9 @@
+id: filtering
+title: Filtering in a comprehension
+claim: An if at the end of a comprehension keeps only some items
+steps:
+- 01-trailing-if
+- 02-predict-filter
+- 03-predict-ternary
+- 04-short-words
+- 05-primes

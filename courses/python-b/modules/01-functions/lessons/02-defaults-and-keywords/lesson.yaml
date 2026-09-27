@@ -1,0 +1,9 @@
+id: defaults-and-keywords
+title: Defaults and keyword arguments
+claim: A parameter can have a default, and an argument can be passed by name
+steps:
+- 01-defaults
+- 02-predict-default
+- 03-order-defaults
+- 04-make-tag
+- 05-price-with-tax

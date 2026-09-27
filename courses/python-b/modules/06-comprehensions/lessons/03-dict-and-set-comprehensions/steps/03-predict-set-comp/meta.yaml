@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.dict-and-set-comprehensions.predict-set-comp
+type: predict
+title: How many?
+skills:
+- id: dict-set-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '2'
+- '4'
+- '3'
+- '1'
+answer: '2'
+hints: []

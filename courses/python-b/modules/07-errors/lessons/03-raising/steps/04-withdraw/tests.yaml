@@ -1,0 +1,13 @@
+cases:
+- id: ok
+  assert: withdraw(100, 30) == 70
+  message: withdraw(100, 30) gives 70
+- id: overdraw
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, withdraw, 10, 50) is None
+  message: withdrawing more than the balance raises ValueError
+- id: negative
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, withdraw, 10, -5) is None
+  message: withdrawing a negative amount raises ValueError
+- id: exact
+  assert: withdraw(10, 10) == 0
+  message: withdrawing the whole balance is allowed

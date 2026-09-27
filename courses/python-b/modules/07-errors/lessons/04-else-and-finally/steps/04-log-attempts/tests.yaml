@@ -1,0 +1,10 @@
+cases:
+- id: ok
+  assert: parse('5') == 5
+  message: parse('5') gives 5
+- id: bad
+  assert: parse('x') is None
+  message: parse('x') gives None
+- id: logged
+  assert: (parse('7'), parse('no'), log[-2:])[2] == ['7', 'no']
+  message: every attempt is logged

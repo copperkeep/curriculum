@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.reading-errors.fix-three
+type: fill-blank
+title: Three bugs, three errors
+skills:
+- id: reading-errors
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Run it and read the last line. Fix one error at a time.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Look for a missing colon, a misspelt name, and a number joined to text.

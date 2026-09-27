@@ -1,0 +1,9 @@
+id: looping-over-a-dict
+title: Looping over a dictionary
+claim: items gives each key and value together
+steps:
+- 01-views
+- 02-predict-items
+- 03-order-best
+- 04-total-value
+- 05-group-by-length

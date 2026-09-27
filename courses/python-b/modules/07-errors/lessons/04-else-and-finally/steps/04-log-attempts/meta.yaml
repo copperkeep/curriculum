@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.else-and-finally.log-attempts
+type: free-code
+title: Log every attempt
+skills:
+- id: try-else-finally
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Append to log in finally so it happens on success and failure.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Return the parsed number in else.

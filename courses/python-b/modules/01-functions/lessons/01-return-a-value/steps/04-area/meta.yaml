@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.return-a-value.area
+type: free-code
+title: Area of a rectangle
+skills:
+- id: function-return
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Two parameters, one return line.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'A function that adds would end with: return a + b'

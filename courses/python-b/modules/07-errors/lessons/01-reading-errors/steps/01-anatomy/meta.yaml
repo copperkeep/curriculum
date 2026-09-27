@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.reading-errors.anatomy
+type: narrative
+title: The last line first
+skills:
+- id: reading-errors
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.split-and-join.count-words
+type: free-code
+title: Count the words
+skills:
+- id: split-join
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: split() with no argument handles several spaces in a row.

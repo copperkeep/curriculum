@@ -1,0 +1,8 @@
+A set is an unordered collection of unique values: `{1, 2, 3}`, or `set(xs)` to
+build one from a list and drop duplicates. `{}` is an empty *dict* — an empty set
+is `set()`.
+
+`x in s` is fast no matter how large the set is, unlike a list, which checks each
+item. Sets support maths: `a | b` union, `a & b` intersection, `a - b`
+difference, `a ^ b` in one but not both. Add with `s.add(x)`, remove with
+`s.discard(x)`.

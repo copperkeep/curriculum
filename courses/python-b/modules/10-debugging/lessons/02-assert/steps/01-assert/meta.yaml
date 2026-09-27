@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.debugging.assert.assert
+type: narrative
+title: Executable beliefs
+skills:
+- id: assert-statement
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

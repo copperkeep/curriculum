@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.scope.counter-with-global
+type: free-code
+title: When global is right
+skills:
+- id: variable-scope
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- variable-scope
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Inside the function, declare global calls before changing it.

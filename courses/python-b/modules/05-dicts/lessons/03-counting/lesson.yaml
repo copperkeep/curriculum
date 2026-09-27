@@ -1,0 +1,8 @@
+id: counting
+title: Counting with a dictionary
+claim: A dictionary of counts answers "how many of each?"
+steps:
+- 01-tally
+- 02-predict-tally
+- 03-letter-counts
+- 04-winner

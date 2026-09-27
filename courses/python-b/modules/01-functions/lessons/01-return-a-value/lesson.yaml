@@ -1,0 +1,9 @@
+id: return-a-value
+title: Return a value
+claim: return hands a value back to whoever called the function
+steps:
+- 01-print-vs-return
+- 02-predict-none
+- 03-predict-stops
+- 04-area
+- 05-biggest

@@ -1,0 +1,10 @@
+cases:
+- id: racecar
+  assert: is_palindrome('racecar') is True
+  message: racecar is a palindrome
+- id: python
+  assert: is_palindrome('python') is False
+  message: python is not
+- id: single
+  assert: is_palindrome('a') is True
+  message: a single letter is a palindrome

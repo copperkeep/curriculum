@@ -1,0 +1,9 @@
+A dictionary maps keys to values: `ages = {"ana": 9, "bo": 12}`. Look up with
+`ages["ana"]`; add or overwrite with `ages["cy"] = 7`; remove with
+`del ages["bo"]`.
+
+A missing key raises `KeyError`. `key in ages` tests for one, and
+`ages.get(key, default)` returns the default instead of raising.
+
+Keys must be immutable (strings, numbers, tuples) and are unique. Since Python 3.7
+a dict remembers insertion order.

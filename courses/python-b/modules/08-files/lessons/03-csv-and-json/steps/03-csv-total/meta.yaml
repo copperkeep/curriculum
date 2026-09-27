@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.csv-and-json.csv-total
+type: free-code
+title: Total a CSV column
+skills:
+- id: csv-json
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: csv.DictReader gives dicts; row["amount"] is a string.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Remember newline="" when opening a file for csv.

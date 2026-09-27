@@ -1,0 +1,12 @@
+| Method | Does |
+|---|---|
+| `append(x)` | add one item at the end |
+| `extend(ys)` | add every item of `ys` at the end |
+| `insert(i, x)` | put `x` at index `i` |
+| `pop()` / `pop(i)` | remove and *return* the last / i-th item |
+| `remove(x)` | remove the first `x` (error if absent) |
+| `index(x)` | position of the first `x` |
+| `count(x)` | how many `x` |
+
+`x in xs` tests membership. Every method except `pop`, `index` and `count`
+returns `None`: `xs = xs.append(1)` throws the list away.

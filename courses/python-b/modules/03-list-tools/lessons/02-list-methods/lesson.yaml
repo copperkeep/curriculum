@@ -1,0 +1,9 @@
+id: list-methods
+title: List tools
+claim: Lists change in place with insert, remove, pop, extend and more
+steps:
+- 01-methods
+- 02-predict-pop
+- 03-predict-append-none
+- 04-queue
+- 05-without-duplicates

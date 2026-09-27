@@ -1,0 +1,9 @@
+id: enumerate-and-zip
+title: enumerate and zip
+claim: enumerate counts as you loop, and zip walks two lists side by side
+steps:
+- 01-two-helpers
+- 02-predict-enumerate
+- 03-predict-zip
+- 04-numbered
+- 05-dot-product

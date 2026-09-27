@@ -1,0 +1,9 @@
+id: read-a-file
+title: Reading a file
+claim: A file opened for reading can be looped over line by line
+steps:
+- 01-reading
+- 02-predict-newline
+- 03-count-lines
+- 04-load-list
+- 05-missing-file

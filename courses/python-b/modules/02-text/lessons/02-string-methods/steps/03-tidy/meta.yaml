@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.string-methods.tidy
+type: fill-blank
+title: Tidy the input
+skills:
+- id: string-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Each method returns a new string. Keep the result.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Methods can be chained: s.strip().lower()'

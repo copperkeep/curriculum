@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.collections.top-words
+type: free-code
+title: Top words
+skills:
+- id: collections-module
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Counter(list_of_words).most_common(n) returns (word, count) pairs.

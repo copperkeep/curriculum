@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.read-a-file.predict-newline
+type: predict
+title: Where did the blank lines come from?
+skills:
+- id: file-read
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''a\n'', ''b\n'']'
+- '[''a'', ''b'']'
+- a b
+- '[''a\nb\n'']'
+answer: '[''a\n'', ''b\n'']'
+hints: []

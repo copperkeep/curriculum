@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.any-number-of-arguments.average
+type: free-code
+title: Average of anything
+skills:
+- id: star-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: sum() and len() both work on the tuple args collects.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'def mean(*nums): gives you a tuple called nums.'

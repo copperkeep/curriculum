@@ -1,0 +1,10 @@
+cases:
+- id: length
+  assert: len(roll(10, 1)) == 10
+  message: roll(10, 1) gives 10 rolls
+- id: range
+  assert: all(1 <= r <= 6 for r in roll(100, 2))
+  message: every roll is from 1 to 6
+- id: repeatable
+  assert: roll(5, 42) == roll(5, 42)
+  message: the same seed gives the same rolls

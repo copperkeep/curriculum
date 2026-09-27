@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.dictionaries.predict-overwrite
+type: predict
+title: Same key twice
+skills:
+- id: dict-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '{''a'': 3, ''b'': 2}'
+- '{''a'': 1, ''b'': 2, ''a'': 3}'
+- '{''a'': 1, ''b'': 2}'
+- Error
+answer: '{''a'': 3, ''b'': 2}'
+hints: []

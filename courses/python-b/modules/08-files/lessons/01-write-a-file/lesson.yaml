@@ -1,0 +1,9 @@
+id: write-a-file
+title: Writing a file
+claim: open with "w" and a with block writes text that outlives the program
+steps:
+- 01-open-write
+- 02-predict-overwrite
+- 03-order-write
+- 04-save-list
+- 05-append-log

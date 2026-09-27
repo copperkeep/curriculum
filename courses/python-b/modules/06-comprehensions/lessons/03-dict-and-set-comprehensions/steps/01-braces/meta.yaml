@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.dict-and-set-comprehensions.braces
+type: narrative
+title: Braces instead of brackets
+skills:
+- id: dict-set-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

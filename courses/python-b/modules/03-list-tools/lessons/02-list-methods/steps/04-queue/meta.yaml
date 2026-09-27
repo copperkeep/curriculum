@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.list-methods.queue
+type: free-code
+title: Serve the queue
+skills:
+- id: list-methods
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: pop(0) removes and returns the first item.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Loop while the list is not empty: while queue:'

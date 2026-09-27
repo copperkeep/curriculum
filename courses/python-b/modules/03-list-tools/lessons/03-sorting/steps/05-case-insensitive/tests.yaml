@@ -1,0 +1,4 @@
+cases:
+- id: mixed
+  assert: alpha(['bob', 'Alice', 'carol']) == ['Alice', 'bob', 'carol']
+  message: sorts ignoring case, keeping the original spelling

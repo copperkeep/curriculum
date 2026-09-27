@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.dict-and-set-comprehensions.domains
+type: free-code
+title: Unique domains
+skills:
+- id: dict-set-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- dict-set-comprehension
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: email.split('@')[1] is the domain.

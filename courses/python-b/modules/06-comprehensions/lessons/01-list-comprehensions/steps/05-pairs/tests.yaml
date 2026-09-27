@@ -1,0 +1,7 @@
+cases:
+- id: two
+  assert: grid_points(2) == [(0, 0), (0, 1), (1, 0), (1, 1)]
+  message: grid_points(2) gives the four points in order
+- id: count
+  assert: len(grid_points(3)) == 9
+  message: grid_points(3) has 9 points

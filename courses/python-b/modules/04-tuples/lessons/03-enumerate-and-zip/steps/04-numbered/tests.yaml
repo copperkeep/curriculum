@@ -1,0 +1,7 @@
+cases:
+- id: numbered
+  expectedStdout: |
+    1. dishes
+    2. laundry
+    3. bins
+  message: prints the numbered list

@@ -1,0 +1,7 @@
+cases:
+- id: pen
+  assert: line('pen', 3, 2) == '3 x pen = 6'
+  message: line('pen', 3, 2) gives '3 x pen = 6'
+- id: cake
+  assert: line('cake', 1, 5) == '1 x cake = 5'
+  message: line('cake', 1, 5) gives '1 x cake = 5'

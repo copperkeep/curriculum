@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.counting.tally
+type: narrative
+title: The tally pattern
+skills:
+- id: dict-counting
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

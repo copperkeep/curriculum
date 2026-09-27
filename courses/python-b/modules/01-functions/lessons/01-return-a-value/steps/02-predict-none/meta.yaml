@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.return-a-value.predict-none
+type: predict
+title: What comes back?
+skills:
+- id: function-return
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- None
+- '10'
+- '5'
+- 10 then None
+answer: 10 then None
+hints: []

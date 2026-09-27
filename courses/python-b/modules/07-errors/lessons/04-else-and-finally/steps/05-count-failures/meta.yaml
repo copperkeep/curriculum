@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.else-and-finally.count-failures
+type: free-code
+title: Keep going through bad data
+skills:
+- id: try-else-finally
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- try-else-finally
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Loop over the items, with a try inside the loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Add to the total in else; count the failure in except.

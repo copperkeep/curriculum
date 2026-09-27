@@ -12,6 +12,12 @@ courses:
   - id: python-a
     title: Python A — Foundations
     path: courses/python-a/course.json
+  - id: python-b
+    title: Python B — Working Programs
+    path: courses/python-b/course.json
+  - id: python-c
+    title: Python C — Real Code
+    path: courses/python-c/course.json
 
 # Packages a lesson may import. micropip resolves against the vendored wheel index in the
 # runtimes image, never PyPI, so this list and that directory must agree — CI fails on a

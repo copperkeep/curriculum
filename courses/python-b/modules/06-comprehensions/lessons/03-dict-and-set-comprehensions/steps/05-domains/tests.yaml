@@ -1,0 +1,4 @@
+cases:
+- id: domains
+  assert: domains(['a@x.com', 'b@y.org', 'c@x.com']) == {'x.com', 'y.org'}
+  message: finds x.com and y.org once each

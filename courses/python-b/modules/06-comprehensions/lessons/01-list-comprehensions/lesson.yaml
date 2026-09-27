@@ -1,0 +1,9 @@
+id: list-comprehensions
+title: List comprehensions
+claim: A comprehension builds a list from a loop in one expression
+steps:
+- 01-loop-in-brackets
+- 02-predict-comp
+- 03-rewrite-loop
+- 04-celsius
+- 05-pairs

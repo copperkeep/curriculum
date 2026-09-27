@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.list-comprehensions.predict-comp
+type: predict
+title: What does it build?
+skills:
+- id: list-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''A'', ''B'', ''C'']'
+- '[''a'', ''b'', ''c'']'
+- '''ABC'''
+- Error
+answer: '[''A'', ''B'', ''C'']'
+hints: []

@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.nested-lists.transpose
+type: free-code
+title: Flip the grid
+skills:
+- id: nested-lists
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- nested-lists
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The result has one row for each column of the input.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Build each new row by taking row[c] from every old row.

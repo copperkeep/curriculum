@@ -1,0 +1,7 @@
+cases:
+- id: fifteen
+  assert: score == 15
+  message: score ends up as 15
+- id: pure
+  assert: add_bonus(1) == 6
+  message: add_bonus takes a score and returns it plus 5

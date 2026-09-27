@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.write-a-file.save-list
+type: free-code
+title: Save a list
+skills:
+- id: file-write
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Loop over the items and write each followed by \n.

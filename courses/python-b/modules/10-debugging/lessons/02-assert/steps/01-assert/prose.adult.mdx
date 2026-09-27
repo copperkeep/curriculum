@@ -1,0 +1,9 @@
+`assert condition, "message"` does nothing if the condition holds and raises
+`AssertionError` with the message if it does not.
+
+Use it to write down what you believe — "this list is sorted here", "total is
+never negative" — so the program tells you the moment it stops being true, near
+the cause instead of far downstream.
+
+It is also the smallest possible test: `assert add(2, 2) == 4`. Do not use it to
+validate user input; asserts can be switched off with `python -O`.

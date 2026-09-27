@@ -1,0 +1,14 @@
+Variables vanish when a program ends. Files do not.
+
+```python
+with open("/tmp/notes.txt", "w") as f:
+    f.write("first line\n")
+    f.write("second line\n")
+```
+
+`"w"` creates the file, or empties it if it exists; `"a"` appends to the end.
+`write` does not add newlines — put `\n` in yourself. The `with` block closes the
+file when it ends, even if an error happens inside it; always use it.
+
+Here files live in a sandbox inside your browser, but the code is exactly what you
+would write on a real machine.

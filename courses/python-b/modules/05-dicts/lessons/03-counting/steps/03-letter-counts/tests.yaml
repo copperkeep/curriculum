@@ -1,0 +1,7 @@
+cases:
+- id: hello
+  assert: 'letter_counts(''hello'') == {''h'': 1, ''e'': 1, ''l'': 2, ''o'': 1}'
+  message: counts the letters in hello
+- id: spaces
+  assert: 'letter_counts(''a a'') == {''a'': 2}'
+  message: spaces are not counted

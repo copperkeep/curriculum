@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.f-strings.debug-equals
+type: free-code
+title: Self-documenting output
+skills:
+- id: f-strings
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- f-strings
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: f"{x=}" shows both the name and the value.

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-b.gradebook.average-row
+type: free-code
+title: Average one row
+skills:
+- id: try-except
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Skip the name key. try float() on each other value.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Return None if no cell was valid.

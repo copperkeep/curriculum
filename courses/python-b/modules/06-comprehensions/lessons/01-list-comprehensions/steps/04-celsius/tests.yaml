@@ -1,0 +1,4 @@
+cases:
+- id: convert
+  assert: to_f([0, 100, -40]) == [32, 212, -40]
+  message: 0, 100 and -40 C are 32, 212 and -40 F

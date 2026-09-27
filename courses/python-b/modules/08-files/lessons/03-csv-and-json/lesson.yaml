@@ -1,0 +1,8 @@
+id: csv-and-json
+title: CSV and JSON
+claim: The csv and json modules read and write structured data for you
+steps:
+- 01-formats
+- 02-predict-json
+- 03-csv-total
+- 04-json-roundtrip

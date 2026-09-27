@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.scope.predict-shadow
+type: predict
+title: Which x?
+skills:
+- id: variable-scope
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 5 1
+- 5 5
+- 1 1
+- 1 5
+answer: 5 1
+hints: []

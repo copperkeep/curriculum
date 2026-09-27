@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.slicing-text.palindrome
+type: free-code
+title: Palindromes
+skills:
+- id: string-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- string-slicing
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A palindrome reads the same reversed.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Compare the string with a reversed slice of itself.

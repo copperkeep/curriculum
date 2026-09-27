@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.counting.letter-counts
+type: free-code
+title: Count the letters
+skills:
+- id: dict-counting
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A string can be looped over one character at a time.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Skip spaces with continue, or only count ch.isalpha().

@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.format-numbers.table
+type: free-code
+title: A lined-up table
+skills:
+- id: format-spec
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- format-spec
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Left-align the name in 8 characters, right-align the score in 5.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'The number after < or > is the width: {x:<4} pads x out to 4 characters.'

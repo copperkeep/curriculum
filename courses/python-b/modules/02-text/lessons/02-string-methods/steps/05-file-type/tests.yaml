@@ -1,0 +1,13 @@
+cases:
+- id: png
+  assert: is_image('cat.png') is True
+  message: cat.png is an image
+- id: upper
+  assert: is_image('PHOTO.JPG') is True
+  message: PHOTO.JPG is an image
+- id: text
+  assert: is_image('notes.txt') is False
+  message: notes.txt is not
+- id: sneaky
+  assert: is_image('png.txt') is False
+  message: png.txt is not

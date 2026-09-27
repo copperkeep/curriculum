@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.format-numbers.price-tag
+type: free-code
+title: Price tag
+skills:
+- id: format-spec
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Commas and decimals combine in one spec: ,.2f'

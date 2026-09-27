@@ -1,0 +1,7 @@
+cases:
+- id: example
+  assert: dot([1, 2, 3], [4, 5, 6]) == 32
+  message: dot([1, 2, 3], [4, 5, 6]) gives 32
+- id: empty
+  assert: dot([], []) == 0
+  message: empty lists give 0

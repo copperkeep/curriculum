@@ -1,0 +1,4 @@
+cases:
+- id: mixed
+  assert: shout_short(['a', 'tree', 'is', 'big', 'enough']) == ['A', 'IS', 'BIG']
+  message: keeps a, is and big, upper-cased

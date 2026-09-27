@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.defaults-and-keywords.order-defaults
+type: parsons
+title: A valid signature
+skills:
+- id: default-keyword-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'def power(base, exp=2):'
+- '    return base ** exp'
+- print(power(3), power(2, exp=5))
+distractors:
+- 'def power(exp=2, base):'
+- print(power(exp=5, 2))
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A parameter without a default cannot follow one with a default.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Positional arguments must come before keyword arguments in a call.

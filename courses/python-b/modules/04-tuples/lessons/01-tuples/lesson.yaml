@@ -1,0 +1,9 @@
+id: tuples
+title: Tuples
+claim: A tuple is a fixed group of values that cannot change
+steps:
+- 01-fixed-groups
+- 02-predict-type
+- 03-predict-immutable
+- 04-min-max
+- 05-distance

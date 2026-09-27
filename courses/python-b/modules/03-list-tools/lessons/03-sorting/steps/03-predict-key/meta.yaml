@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.sorting.predict-key
+type: predict
+title: Sorting by length
+skills:
+- id: sorting
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''hi'', ''hey'', ''hello'']'
+- '[''hello'', ''hey'', ''hi'']'
+- '[''hey'', ''hi'', ''hello'']'
+- '[''hi'', ''hello'', ''hey'']'
+answer: '[''hi'', ''hey'', ''hello'']'
+hints: []

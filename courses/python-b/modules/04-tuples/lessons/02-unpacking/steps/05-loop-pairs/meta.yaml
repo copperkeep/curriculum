@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.unpacking.loop-pairs
+type: free-code
+title: Unpack in the loop
+skills:
+- id: unpacking
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- unpacking
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Unpacking works in a for header: for name, age in people:'

@@ -1,0 +1,5 @@
+cases:
+- id: count
+  assert: (open('/tmp/ck-count.txt', 'w').write('a\n\nb\n  \nc\n'), count_lines('/tmp/ck-count.txt'))[1]
+    == 3
+  message: counts 3 non-blank lines

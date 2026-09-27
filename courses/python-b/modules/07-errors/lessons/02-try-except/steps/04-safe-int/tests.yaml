@@ -1,0 +1,10 @@
+cases:
+- id: good
+  assert: to_int('42') == 42
+  message: to_int('42') gives 42
+- id: bad
+  assert: to_int('forty') == 0
+  message: to_int('forty') gives 0
+- id: custom
+  assert: to_int('?', default=-1) == -1
+  message: the default can be changed

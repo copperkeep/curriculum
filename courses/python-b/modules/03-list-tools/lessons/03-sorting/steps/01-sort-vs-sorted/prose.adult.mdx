@@ -1,0 +1,7 @@
+`sorted(xs)` returns a new sorted list and leaves `xs` alone; it works on any
+iterable, including strings and tuples. `xs.sort()` sorts the list in place and
+returns `None`.
+
+Both take `reverse=True`, and a `key` — a function applied to each item to decide
+its position: `sorted(words, key=len)` sorts by length. Sorting is *stable*: items
+with equal keys keep their original order.

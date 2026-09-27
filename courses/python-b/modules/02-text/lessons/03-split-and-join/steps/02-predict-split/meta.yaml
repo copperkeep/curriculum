@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.split-and-join.predict-split
+type: predict
+title: How many pieces?
+skills:
+- id: split-join
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '4'
+- '3'
+- '2'
+- '1'
+answer: '4'
+hints: []

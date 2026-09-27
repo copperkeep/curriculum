@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.list-methods.without-duplicates
+type: free-code
+title: Keep the first of each
+skills:
+- id: list-methods
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- list-methods
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Build a new list. Only append an item if it is not already in it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'if item not in result:'

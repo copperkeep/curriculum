@@ -1,0 +1,7 @@
+id: dicts
+title: Dictionaries and sets
+lessons:
+- 01-dictionaries
+- 02-looping-over-a-dict
+- 03-counting
+- 04-sets

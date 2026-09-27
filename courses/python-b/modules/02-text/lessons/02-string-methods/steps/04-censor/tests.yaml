@@ -1,0 +1,10 @@
+cases:
+- id: one
+  assert: censor('oh darn') == 'oh ****'
+  message: censor('oh darn') gives 'oh ****'
+- id: many
+  assert: censor('darn darn') == '**** ****'
+  message: every darn is replaced
+- id: none
+  assert: censor('fine') == 'fine'
+  message: text without it is unchanged

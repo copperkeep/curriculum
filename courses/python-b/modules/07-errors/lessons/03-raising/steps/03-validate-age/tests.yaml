@@ -1,0 +1,13 @@
+cases:
+- id: ok
+  assert: check_age(30) == 30
+  message: check_age(30) gives 30
+- id: negative
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, check_age, -1) is None
+  message: check_age(-1) raises ValueError
+- id: too-old
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, check_age, 200) is None
+  message: check_age(200) raises ValueError
+- id: edges
+  assert: check_age(0) == 0 and check_age(150) == 150
+  message: 0 and 150 are both allowed

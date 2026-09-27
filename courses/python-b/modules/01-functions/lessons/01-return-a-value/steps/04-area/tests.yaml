@@ -1,0 +1,10 @@
+cases:
+- id: three-by-four
+  assert: area(3, 4) == 12
+  message: area(3, 4) gives back 12
+- id: square
+  assert: area(5, 5) == 25
+  message: area(5, 5) gives back 25
+- id: usable
+  assert: area(2, 3) + area(1, 1) == 7
+  message: the result can be used in a sum

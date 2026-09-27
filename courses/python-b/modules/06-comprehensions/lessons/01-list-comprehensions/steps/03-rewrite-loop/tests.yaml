@@ -1,0 +1,4 @@
+cases:
+- id: lengths
+  assert: lengths == [3, 5, 4]
+  message: lengths holds [3, 5, 4]

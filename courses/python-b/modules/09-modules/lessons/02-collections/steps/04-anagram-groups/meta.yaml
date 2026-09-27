@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.collections.anagram-groups
+type: free-code
+title: Group anagrams
+skills:
+- id: collections-module
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- collections-module
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Two words are anagrams if their sorted letters match: "".join(sorted(word)).'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: defaultdict(list) lets you append without checking the key first.

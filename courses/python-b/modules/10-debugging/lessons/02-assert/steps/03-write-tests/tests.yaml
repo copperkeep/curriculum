@@ -1,0 +1,8 @@
+cases:
+- id: exists
+  assert: callable(test_clamp)
+  message: there is a test_clamp function
+- id: catches-bugs
+  assert: '(lambda g: (g.__setitem__(''clamp'', lambda x, lo, hi: x), __import__(''unittest'').TestCase().assertRaises(AssertionError,
+    test_clamp))[1] is None)(test_clamp.__globals__)'
+  message: test_clamp fails when clamp is broken

@@ -1,0 +1,13 @@
+```python
+try:
+    n = int(text)
+except ValueError:
+    n = 0
+```
+
+If anything in the `try` block raises, Python jumps to the first `except` whose
+type matches, and carries on after it. `except ValueError as e:` gives you the
+exception object.
+
+Catch the *specific* exception you expect. A bare `except:` also swallows typos,
+`KeyboardInterrupt`, and bugs you would rather see.

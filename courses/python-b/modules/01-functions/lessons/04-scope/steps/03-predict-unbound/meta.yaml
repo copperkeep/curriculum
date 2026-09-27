@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.scope.predict-unbound
+type: predict
+title: Local for the whole function
+skills:
+- id: variable-scope
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '1'
+- '2'
+- UnboundLocalError
+- None
+answer: UnboundLocalError
+hints: []

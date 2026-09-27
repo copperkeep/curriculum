@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.tuples.min-max
+type: free-code
+title: Return two things
+skills:
+- id: tuples
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: min() and max() both work on a list.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: return a, b returns a tuple of two values.

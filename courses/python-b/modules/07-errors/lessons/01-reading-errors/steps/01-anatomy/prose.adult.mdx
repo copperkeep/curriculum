@@ -1,0 +1,14 @@
+A traceback is read bottom-up. The last line is the exception type and message:
+`NameError: name 'totl' is not defined`. The lines above it show where — the
+deepest call is the lowest.
+
+| Exception | Usually means |
+|---|---|
+| `SyntaxError` | Python could not parse the code: missing colon, bracket, quote |
+| `IndentationError` | a block is misaligned |
+| `NameError` | a name is misspelt or used before assignment |
+| `TypeError` | an operation got the wrong type: `"a" + 1` |
+| `ValueError` | right type, bad value: `int("ten")` |
+| `IndexError` / `KeyError` | position or key does not exist |
+| `AttributeError` | that object has no such method or attribute |
+| `ZeroDivisionError` | dividing by zero |

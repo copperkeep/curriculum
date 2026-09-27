@@ -1,0 +1,7 @@
+cases:
+- id: avg
+  assert: average([2, 4, 6]) == 4
+  message: average([2, 4, 6]) gives 4
+- id: one
+  assert: average([5]) == 5
+  message: average([5]) gives 5

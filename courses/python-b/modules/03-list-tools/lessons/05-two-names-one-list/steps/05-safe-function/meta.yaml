@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.two-names-one-list.safe-function
+type: free-code
+title: Do not touch the caller's list
+skills:
+- id: aliasing
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- aliasing
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Copy the list first, then change the copy.

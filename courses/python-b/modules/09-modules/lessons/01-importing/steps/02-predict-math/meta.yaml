@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.importing.predict-math
+type: predict
+title: Floor and ceiling
+skills:
+- id: import-modules
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 2 3
+- 3 3
+- 2 2
+- 2.5 2.5
+answer: 2 3
+hints: []

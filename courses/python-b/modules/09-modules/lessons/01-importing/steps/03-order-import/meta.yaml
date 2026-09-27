@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.importing.order-import
+type: parsons
+title: Import then use
+skills:
+- id: import-modules
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- from statistics import mean
+- print(mean([2, 4, 9]))
+distractors:
+- import mean from statistics
+- print(statistics.mean([2, 4, 9]))
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: from module import name, then use name on its own.

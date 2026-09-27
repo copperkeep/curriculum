@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.sorting.case-insensitive
+type: free-code
+title: Sort names properly
+skills:
+- id: sorting
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- sorting
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: key can be any function that takes one item — including a method like str.lower.

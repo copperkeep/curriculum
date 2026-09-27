@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.modules.importing.seeded-dice
+type: free-code
+title: Repeatable randomness
+skills:
+- id: import-modules
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- import-modules
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: random.seed(n) makes the sequence repeatable.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: random.randint(1, 6) includes both ends.

@@ -1,0 +1,8 @@
+Names assigned inside a function are *local*: created fresh on each call, gone
+when it returns, invisible outside. Names at the top level of a file are *global*
+and can be read from inside functions.
+
+Assigning to a name inside a function makes it local for the whole function —
+even lines before the assignment. `global x` opts out of that, and `nonlocal x`
+does the same for an enclosing function. Reach for them rarely: passing values
+in and returning them out is almost always clearer.

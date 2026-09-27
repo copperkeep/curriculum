@@ -1,0 +1,1 @@
+print(len({n % 2 for n in [1, 2, 3, 4]}))

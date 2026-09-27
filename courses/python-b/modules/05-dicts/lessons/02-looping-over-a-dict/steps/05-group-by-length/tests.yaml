@@ -1,0 +1,7 @@
+cases:
+- id: groups
+  assert: 'by_length([''hi'', ''sky'', ''yo'', ''cat'']) == {2: [''hi'', ''yo''], 3: [''sky'', ''cat'']}'
+  message: groups words by their length
+- id: empty
+  assert: by_length([]) == {}
+  message: no words gives an empty dict

@@ -1,0 +1,7 @@
+cases:
+- id: backup-unsorted
+  assert: backup == [3, 1, 2]
+  message: backup keeps the unsorted order
+- id: original-sorted
+  assert: original == [1, 2, 3]
+  message: original is sorted

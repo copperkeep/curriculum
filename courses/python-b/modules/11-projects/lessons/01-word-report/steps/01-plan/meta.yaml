@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-b.word-report.plan
+type: narrative
+title: The plan
+skills:
+- id: dict-counting
+  weight: primary
+- id: string-methods
+  weight: supporting
+- id: format-spec
+  weight: supporting
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

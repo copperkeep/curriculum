@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.filtering.predict-ternary
+type: predict
+title: Filter or transform?
+skills:
+- id: comprehension-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[0, 2, 0, 4]'
+- '[2, 4]'
+- '[1, 2, 3, 4]'
+- '[0, 0]'
+answer: '[0, 2, 0, 4]'
+hints: []

@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.counting.winner
+type: free-code
+title: Who won the vote?
+skills:
+- id: dict-counting
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- dict-counting
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Count first, then find the key with the biggest count.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: max(counts, key=counts.get) finds the key with the largest value.

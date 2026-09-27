@@ -1,0 +1,7 @@
+id: gradebook
+title: Gradebook
+claim: A real program reads data, survives bad rows, and summarises
+steps:
+- 01-plan
+- 02-average-row
+- 03-summary

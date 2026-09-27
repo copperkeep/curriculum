@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.split-and-join.snake-case
+type: free-code
+title: Title to snake_case
+skills:
+- id: split-join
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- split-join
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Split into words, lower-case them, then join with an underscore.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Build a list of lower-cased words in a loop, then "_".join(...).

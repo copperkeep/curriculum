@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.csv-and-json.json-roundtrip
+type: free-code
+title: Save and load settings
+skills:
+- id: csv-json
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- csv-json
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: json.dump(obj, f) writes; json.load(f) reads.

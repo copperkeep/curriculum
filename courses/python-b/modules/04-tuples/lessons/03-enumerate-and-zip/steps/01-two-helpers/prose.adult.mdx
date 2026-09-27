@@ -1,0 +1,6 @@
+`for i, item in enumerate(xs):` gives each item with its index — no
+`range(len(xs))` needed. `enumerate(xs, start=1)` counts from 1.
+
+`for a, b in zip(xs, ys):` walks two sequences in step, yielding pairs. It stops
+at the shorter one. Both return iterators of tuples, which is why unpacking in the
+loop header works.

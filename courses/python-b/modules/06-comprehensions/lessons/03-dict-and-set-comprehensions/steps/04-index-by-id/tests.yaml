@@ -1,0 +1,4 @@
+cases:
+- id: index
+  assert: 'by_id([(7, ''ana''), (9, ''bo'')]) == {7: ''ana'', 9: ''bo''}'
+  message: maps each id to its name
