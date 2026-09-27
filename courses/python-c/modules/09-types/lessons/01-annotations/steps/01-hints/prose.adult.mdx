@@ -1,0 +1,14 @@
+```python
+def greet(name: str, times: int = 1) -> str:
+    return ", ".join([f"Hi {name}"] * times)
+
+scores: dict[str, list[int]] = {}
+```
+
+Annotations are *not enforced* when the code runs — `greet(5)` still runs, and
+fails however it fails. Their value is that editors and checkers such as mypy
+and pyright read them and catch mistakes before you run anything.
+
+Built-in generics: `list[int]`, `dict[str, float]`, `tuple[int, int]`,
+`set[str]`. `X | None` means "an X or None". Functions that return nothing are
+`-> None`. Annotations are stored in `func.__annotations__`.

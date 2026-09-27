@@ -1,0 +1,14 @@
+cases:
+- id: ok
+  assert: '(lambda b: (b.width, b.height))(Box(2, 3)) == (2, 3)'
+  message: valid sizes are stored
+- id: bad-init
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, Box, 0, 3) is None
+  message: a zero width raises ValueError
+- id: bad-set
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, setattr, Box(1, 1), 'height', -2)
+    is None
+  message: a negative height raises ValueError
+- id: separate
+  assert: '(lambda a, b: (a.width, b.width))(Box(1, 1), Box(5, 1)) == (1, 5)'
+  message: each Box keeps its own values

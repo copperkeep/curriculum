@@ -1,0 +1,6 @@
+id: types
+title: Type hints
+lessons:
+- 01-annotations
+- 02-generics
+- 03-protocols

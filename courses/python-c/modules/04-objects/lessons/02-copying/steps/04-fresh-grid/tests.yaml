@@ -1,0 +1,7 @@
+cases:
+- id: shape
+  assert: make_grid(2, 3, 0) == [[0, 0, 0], [0, 0, 0]]
+  message: make_grid(2, 3, 0) is two rows of three zeros
+- id: independent
+  assert: '(lambda g: (g[0].__setitem__(0, 1), g[1][0])[1])(make_grid(2, 2, 0)) == 0'
+  message: changing one row leaves the others alone

@@ -1,0 +1,7 @@
+cases:
+- id: now-five
+  assert: points == 5
+  message: points ends up as 5
+- id: shows-five
+  expectedStdout: '5'
+  message: shows 5

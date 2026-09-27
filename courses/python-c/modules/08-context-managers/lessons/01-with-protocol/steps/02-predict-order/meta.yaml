@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.context-managers.with-protocol.predict-order
+type: predict
+title: In and out
+skills:
+- id: context-managers
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- enter body exit
+- body enter exit
+- enter exit body
+- enter body
+answer: enter body exit
+hints: []

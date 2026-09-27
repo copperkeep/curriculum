@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.itertools.predict-groupby
+type: predict
+title: Adjacent only
+skills:
+- id: itertools-module
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''a'', ''b'', ''a'']'
+- '[''a'', ''b'']'
+- '[''a'', ''a'', ''b'', ''a'']'
+- '[''b'', ''a'']'
+answer: '[''a'', ''b'', ''a'']'
+hints: []

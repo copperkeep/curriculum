@@ -1,0 +1,9 @@
+id: subclasses
+title: Subclasses
+claim: A subclass gets everything its parent has and can change or add to it
+steps:
+- 01-is-a
+- 02-predict-override
+- 03-predict-lookup
+- 04-shapes
+- 05-polymorphism

@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.debugging.tracing.fix-count-vowels
+type: free-code
+title: Two bugs
+skills:
+- id: debug-tracing
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- debug-tracing
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Try it on "AEIOU". Then try it on "aa".
+- afterSemanticFailures: 4
+  tier: grade3
+  text: One bug is about capital letters; one is about where the return is.

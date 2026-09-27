@@ -1,0 +1,9 @@
+id: super
+title: Calling the parent with super
+claim: super() lets a subclass extend its parent's method instead of replacing it
+steps:
+- 01-extend
+- 02-predict-missing-super
+- 03-fix-super
+- 04-extend-method
+- 05-logged-list

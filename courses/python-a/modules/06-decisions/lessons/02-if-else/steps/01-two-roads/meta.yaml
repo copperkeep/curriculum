@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.if-else.two-roads
+type: narrative
+title: Two roads
+skills:
+- id: if-else
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/decisions/if-else/two-roads.grade3.ogg

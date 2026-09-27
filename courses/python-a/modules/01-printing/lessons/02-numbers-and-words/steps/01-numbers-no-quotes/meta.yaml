@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.numbers-and-words.numbers-no-quotes
+type: narrative
+title: Numbers do not need quotes
+skills:
+- id: int-literals
+  weight: primary
+- id: print-output
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/printing/numbers-and-words/numbers-no-quotes.grade3.ogg

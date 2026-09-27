@@ -1,0 +1,4 @@
+cases:
+- id: label
+  assert: label == '6 apples'
+  message: label holds '6 apples'

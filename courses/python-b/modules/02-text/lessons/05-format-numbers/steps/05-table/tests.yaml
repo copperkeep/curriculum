@@ -1,0 +1,7 @@
+cases:
+- id: table
+  expectedStdout: |
+    Ana        91
+    Bo          7
+    Cyrus     100
+  message: prints the three rows lined up

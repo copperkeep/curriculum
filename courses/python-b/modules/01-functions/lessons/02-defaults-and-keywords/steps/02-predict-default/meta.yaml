@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.defaults-and-keywords.predict-default
+type: predict
+title: Which greeting?
+skills:
+- id: default-keyword-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Hello Ana Hi Bo
+- Hello Ana Hello Bo
+- Hi Ana Hi Bo
+- Error
+answer: Hello Ana Hi Bo
+hints: []

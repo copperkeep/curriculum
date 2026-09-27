@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.class-attributes.predict-shadow
+type: predict
+title: Shadowing
+skills:
+- id: class-attributes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 2 1 1
+- 2 2 2
+- 1 1 1
+- 2 2 1
+answer: 2 1 1
+hints: []

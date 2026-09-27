@@ -1,0 +1,9 @@
+id: find-in-a-list
+title: Find a thing in a list
+claim: Each thing in a list has a number, and the first one is 0
+steps:
+- 01-count-from-zero
+- 02-predict-index
+- 03-predict-last
+- 04-get-the-middle
+- 05-change-one

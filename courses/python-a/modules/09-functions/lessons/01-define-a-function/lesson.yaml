@@ -1,0 +1,9 @@
+id: define-a-function
+title: Make your own command
+claim: def gives a few lines a name you can run again and again
+steps:
+- 01-name-some-lines
+- 02-predict-calls
+- 03-predict-no-call
+- 04-make-a-song
+- 05-box-of-stars

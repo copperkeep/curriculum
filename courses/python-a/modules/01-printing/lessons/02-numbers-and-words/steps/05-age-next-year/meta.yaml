@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.numbers-and-words.age-next-year
+type: free-code
+title: Words and a number
+skills:
+- id: int-literals
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- int-literals
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: One print for the words. One print for the number.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: The words need quote marks. The sum does not.
+audio:
+  grade3: audio/py/printing/numbers-and-words/age-next-year.grade3.ogg

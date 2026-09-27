@@ -1,0 +1,9 @@
+id: complexity
+title: How work grows
+claim: Big-O describes how the work grows as the input grows
+steps:
+- 01-big-o
+- 02-classify
+- 03-classify-lookup
+- 04-speed-up
+- 05-two-sum

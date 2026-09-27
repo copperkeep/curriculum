@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.true-or-false.predict-compare
+type: predict
+title: Is it true?
+skills:
+- id: booleans-comparison
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 'True'
+- 'False'
+- '7'
+- 5 < 7
+answer: 'True'
+hints: []
+audio:
+  grade3: audio/py/decisions/true-or-false/predict-compare.grade3.ogg

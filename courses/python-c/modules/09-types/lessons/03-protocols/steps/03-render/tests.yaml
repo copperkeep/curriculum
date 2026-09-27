@@ -1,0 +1,7 @@
+cases:
+- id: render
+  assert: render([Circle(), Square(), Circle()]) == 'o [] o'
+  message: renders o [] o
+- id: no-inheritance
+  assert: Drawable not in Circle.__mro__
+  message: Circle does not inherit from Drawable

@@ -1,0 +1,8 @@
+id: generics
+title: Generic types
+claim: A type variable says "whatever type goes in, the same type comes out"
+steps:
+- 01-typevars
+- 02-predict-param
+- 03-box
+- 04-iterable

@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.slicing-lists.list-slices
+type: narrative
+title: Same rules as strings
+skills:
+- id: list-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

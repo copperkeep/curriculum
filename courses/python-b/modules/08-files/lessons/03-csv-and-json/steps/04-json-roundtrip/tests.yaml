@@ -1,0 +1,9 @@
+cases:
+- id: roundtrip
+  assert: '(save_settings({''theme'': ''dark'', ''size'': 14, ''tags'': [''a'']}, ''/tmp/ck-settings.json''),
+    load_settings(''/tmp/ck-settings.json''))[1] == {''theme'': ''dark'', ''size'': 14, ''tags'': [''a'']}'
+  message: settings come back exactly as saved
+- id: is-json
+  assert: '(save_settings({''x'': True}, ''/tmp/ck-settings.json''), open(''/tmp/ck-settings.json'').read())[1]
+    == ''{"x": true}'''
+  message: the file holds JSON text

@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.if-else.predict-branch
+type: predict
+title: Which side runs?
+skills:
+- id: if-else
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- cold
+- hot
+- hot cold
+- Nothing
+answer: cold
+hints: []
+audio:
+  grade3: audio/py/decisions/if-else/predict-branch.grade3.ogg

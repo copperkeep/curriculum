@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.share-and-leftovers.predict-share
+type: predict
+title: How many each?
+skills:
+- id: int-division-modulo
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '3'
+- '3.3'
+- '1'
+- '10'
+answer: '3'
+hints: []
+audio:
+  grade3: audio/py/numbers/share-and-leftovers/predict-share.grade3.ogg

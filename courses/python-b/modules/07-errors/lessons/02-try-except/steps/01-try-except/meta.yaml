@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.try-except.try-except
+type: narrative
+title: Planning for failure
+skills:
+- id: try-except
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

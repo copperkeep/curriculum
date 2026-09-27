@@ -1,0 +1,12 @@
+So far your functions have *shown* things. Most useful functions *give back* a
+value instead, with `return`, so the caller can store it, test it, or pass it on.
+
+```python
+def double(n):
+    return n * 2
+
+x = double(4) + 1   # 9
+```
+
+`print` sends text to the screen and gives the caller nothing. A function with no
+`return` gives back `None` — Python's value for "nothing here".

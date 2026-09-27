@@ -1,0 +1,9 @@
+id: conditional-expressions
+title: One-line if
+claim: x if condition else y picks a value without a full if statement
+steps:
+- 01-ternary
+- 02-predict-ternary
+- 03-predict-or-default
+- 04-plural
+- 05-sign

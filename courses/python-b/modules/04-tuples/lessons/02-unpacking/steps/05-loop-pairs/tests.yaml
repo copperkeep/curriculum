@@ -1,0 +1,6 @@
+cases:
+- id: adults
+  expectedStdout: |
+    Ana
+    Cy
+  message: prints Ana and Cy

@@ -1,0 +1,4 @@
+cases:
+- id: too-big
+  expectedStdout: Too big
+  message: shows Too big for a guess of 9

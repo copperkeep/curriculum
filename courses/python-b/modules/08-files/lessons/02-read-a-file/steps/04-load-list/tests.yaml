@@ -1,0 +1,4 @@
+cases:
+- id: load
+  assert: (open('/tmp/ck-load.txt', 'w').write('x\ny\n'), load('/tmp/ck-load.txt'))[1] == ['x', 'y']
+  message: loads ['x', 'y']

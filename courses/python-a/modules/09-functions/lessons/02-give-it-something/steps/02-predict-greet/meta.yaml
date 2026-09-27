@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.give-it-something.predict-greet
+type: predict
+title: Who gets greeted?
+skills:
+- id: function-parameters
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Hi Zoe Hi Raj
+- Hi name Hi name
+- Hi Zoe
+- Hi Raj Hi Zoe
+answer: Hi Zoe Hi Raj
+hints: []
+audio:
+  grade3: audio/py/functions/give-it-something/predict-greet.grade3.ogg

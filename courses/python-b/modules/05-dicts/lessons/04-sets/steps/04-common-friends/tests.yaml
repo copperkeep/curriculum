@@ -1,0 +1,7 @@
+cases:
+- id: overlap
+  assert: common(['ann', 'bob', 'cy'], ['cy', 'dee', 'ann']) == ['ann', 'cy']
+  message: ann and cy are in both
+- id: none
+  assert: common(['a'], ['b']) == []
+  message: nothing in common gives []

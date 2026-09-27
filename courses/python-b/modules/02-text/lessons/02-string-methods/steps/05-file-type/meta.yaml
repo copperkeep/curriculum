@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.string-methods.file-type
+type: free-code
+title: What kind of file?
+skills:
+- id: string-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- string-methods
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: endswith checks the end of a string.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Lower-case the name first so PHOTO.JPG counts.

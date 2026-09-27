@@ -1,0 +1,6 @@
+`lambda x: x * 2` is an expression that makes a function — same as a `def` whose
+body is `return x * 2`. It can only hold one expression, no statements.
+
+Their natural home is as an argument: `sorted(people, key=lambda p: p.age)`. If
+you are assigning a lambda to a name, write a `def` instead — it gets a proper
+name in tracebacks.

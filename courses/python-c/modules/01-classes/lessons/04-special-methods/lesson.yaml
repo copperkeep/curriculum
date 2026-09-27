@@ -1,0 +1,8 @@
+id: special-methods
+title: Special methods
+claim: Double-underscore methods let your objects work with Python's operators and built-ins
+steps:
+- 01-dunders
+- 02-predict-eq
+- 03-vector
+- 04-playlist

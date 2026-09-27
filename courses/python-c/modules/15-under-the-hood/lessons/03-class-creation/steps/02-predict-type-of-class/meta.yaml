@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.under-the-hood.class-creation.predict-type-of-class
+type: predict
+title: What is a class's type?
+skills:
+- id: class-creation
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- <class 'type'>
+- <class 'object'>
+- <class 'Dog'>
+- <class 'class'>
+answer: <class 'type'>
+hints: []

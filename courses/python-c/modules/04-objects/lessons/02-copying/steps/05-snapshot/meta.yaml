@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.copying.snapshot
+type: free-code
+title: Undo history
+skills:
+- id: copying
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- copying
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Store copy.deepcopy(self.state) so later changes do not touch the snapshot.

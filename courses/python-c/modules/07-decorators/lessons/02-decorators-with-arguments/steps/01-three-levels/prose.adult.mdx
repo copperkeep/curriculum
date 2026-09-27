@@ -1,0 +1,16 @@
+`@repeat(3)` is evaluated first: `repeat(3)` must *return* a decorator. So there
+are three levels:
+
+```python
+def repeat(n):                 # takes the arguments
+    def decorator(func):       # takes the function
+        @functools.wraps(func)
+        def wrapper(*args, **kwargs):   # takes the call's arguments
+            for _ in range(n):
+                result = func(*args, **kwargs)
+            return result
+        return wrapper
+    return decorator
+```
+
+Decorators stack; the one nearest the `def` is applied first.

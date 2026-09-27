@@ -1,0 +1,8 @@
+A string is a sequence of characters, so it indexes like a list: `word[0]` is the
+first character, `word[-1]` the last.
+
+A *slice* takes a range: `word[1:4]` is characters 1, 2 and 3 — start included,
+stop excluded, exactly like `range`. Leave either end off to mean "from the start"
+or "to the end". A third number is the step: `word[::-1]` reverses.
+
+Strings are immutable. `word[0] = "J"` is an error; build a new string instead.

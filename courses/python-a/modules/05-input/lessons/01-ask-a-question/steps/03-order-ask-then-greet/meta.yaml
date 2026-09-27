@@ -1,0 +1,24 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.ask-a-question.order-ask-then-greet
+type: parsons
+title: Ask, then answer
+skills:
+- id: input-text
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- food = input("Best food? ")
+- print("I like " + food + " too")
+distractors:
+- print("I like food too")
+- input = food("Best food? ")
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: You have to ask before you can use the answer.
+audio:
+  grade3: audio/py/input/ask-a-question/order-ask-then-greet.grade3.ogg

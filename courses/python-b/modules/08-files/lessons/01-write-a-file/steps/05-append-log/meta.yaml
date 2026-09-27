@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.write-a-file.append-log
+type: free-code
+title: Append to a log
+skills:
+- id: file-write
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- file-write
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Mode "a" adds to the end instead of starting over.

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.subclasses.predict-override
+type: predict
+title: Which speak?
+skills:
+- id: inheritance
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '... Woof'
+- '... ...'
+- Woof Woof
+- Error
+answer: '... Woof'
+hints: []

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.csv-and-json.predict-json
+type: predict
+title: JSON text
+skills:
+- id: csv-json
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '{"ok": true, "n": null}'
+- '{''ok'': True, ''n'': None}'
+- '{"ok": True, "n": None}'
+- '{ok: true, n: null}'
+answer: '{"ok": true, "n": null}'
+hints: []

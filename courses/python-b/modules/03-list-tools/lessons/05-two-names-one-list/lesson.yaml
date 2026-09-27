@@ -1,0 +1,9 @@
+id: two-names-one-list
+title: Two names, one list
+claim: Assignment never copies — two names can share one list
+steps:
+- 01-names-are-labels
+- 02-predict-alias
+- 03-predict-function
+- 04-fix-alias
+- 05-safe-function

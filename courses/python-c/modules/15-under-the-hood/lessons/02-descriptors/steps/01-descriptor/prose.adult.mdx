@@ -1,0 +1,21 @@
+A class attribute whose value defines `__get__` (and optionally `__set__`) is a
+*descriptor*: accessing it on an instance calls those methods instead. `property`
+is a descriptor; so are methods themselves, which is how `self` gets bound.
+
+```python
+class Positive:
+    def __set_name__(self, owner, name):
+        self.name = "_" + name
+    def __get__(self, obj, objtype=None):
+        return getattr(obj, self.name)
+    def __set__(self, obj, value):
+        if value <= 0:
+            raise ValueError(f"{self.name[1:]} must be positive")
+        setattr(obj, self.name, value)
+
+class Box:
+    width = Positive()
+    height = Positive()
+```
+
+One validator, reused for every field — which a `property` cannot do.

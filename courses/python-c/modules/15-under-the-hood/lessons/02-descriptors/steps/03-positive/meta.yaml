@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.under-the-hood.descriptors.positive
+type: free-code
+title: A validating descriptor
+skills:
+- id: descriptors
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: __set_name__ stores the attribute name; __get__ and __set__ use getattr/setattr on the instance
+    with a private name.

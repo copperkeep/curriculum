@@ -1,0 +1,5 @@
+The accumulator pattern: initialise a variable before the loop, update it inside,
+read it after. `total = 0`, then `total = total + i` in the body.
+
+Initialising inside the loop is the classic bug — the total resets every time
+round.

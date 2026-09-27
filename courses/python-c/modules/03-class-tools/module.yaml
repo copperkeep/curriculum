@@ -1,0 +1,7 @@
+id: class-tools
+title: Class tools
+lessons:
+- 01-properties
+- 02-class-and-static-methods
+- 03-dataclasses
+- 04-enums

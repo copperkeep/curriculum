@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.text-to-number.predict-text-sum
+type: predict
+title: Text or number?
+skills:
+- id: type-conversion
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '10'
+- '55'
+- 5 + 5
+- '"55"'
+answer: '55'
+hints: []
+audio:
+  grade3: audio/py/input/text-to-number/predict-text-sum.grade3.ogg

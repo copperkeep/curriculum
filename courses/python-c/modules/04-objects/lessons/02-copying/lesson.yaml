@@ -1,0 +1,9 @@
+id: copying
+title: Shallow and deep copies
+claim: A shallow copy shares the insides, and a deep copy duplicates everything
+steps:
+- 01-shallow-deep
+- 02-predict-shallow
+- 03-predict-deep
+- 04-fresh-grid
+- 05-snapshot

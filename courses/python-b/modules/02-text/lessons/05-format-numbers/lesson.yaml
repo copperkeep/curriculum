@@ -1,0 +1,9 @@
+id: format-numbers
+title: Formatting numbers
+claim: A format spec after a colon controls how a value is shown
+steps:
+- 01-format-spec
+- 02-predict-round
+- 03-predict-pad
+- 04-price-tag
+- 05-table

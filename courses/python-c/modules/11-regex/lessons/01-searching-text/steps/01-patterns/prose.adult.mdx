@@ -1,0 +1,18 @@
+```python
+import re
+re.search(r"\d+", "order 66 shipped")   # finds "66"
+re.findall(r"\d+", "3 cats, 12 dogs")    # ["3", "12"]
+re.fullmatch(r"[a-z]+", "hello")         # whole string must match
+```
+
+| Pattern | Matches |
+|---|---|
+| `\d` `\w` `\s` | digit, word character, whitespace |
+| `.` | any character except newline |
+| `[abc]` `[a-z]` `[^0-9]` | one of / range / not |
+| `*` `+` `?` `{2,4}` | 0+, 1+, 0 or 1, between 2 and 4 of the previous |
+| `^` `$` | start, end |
+| `\b` | word boundary |
+
+Always write patterns as raw strings (`r"..."`) so backslashes reach `re` intact.
+`search` returns a match object or `None`; `.group()` is the matched text.

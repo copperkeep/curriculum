@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.loop-over-a-list.add-the-list
+type: free-code
+title: Add up a list
+skills:
+- id: for-over-list
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Start total at 0 before the loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Inside the loop, add each number to total.
+audio:
+  grade3: audio/py/lists/loop-over-a-list/add-the-list.grade3.ogg

@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.break-and-continue.skip-the-odd
+type: free-code
+title: Only the evens
+skills:
+- id: break-continue
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- break-continue
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: If n is odd, use continue to skip it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: An odd number has 1 left over when you share by 2.
+audio:
+  grade3: audio/py/while-loops/break-and-continue/skip-the-odd.grade3.ogg

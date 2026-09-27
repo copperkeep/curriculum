@@ -1,0 +1,7 @@
+`(n * n for n in nums)` looks like a list comprehension but builds nothing up
+front: it is a generator. Pass one straight to a function and the extra
+parentheses can go: `sum(n * n for n in nums)`.
+
+Use one when you only need to walk the values once — summing, `max`, `any`,
+`"".join(...)` — especially over large inputs. Use a list when you need to index,
+reuse or `len()` the result.

@@ -1,0 +1,13 @@
+cases:
+- id: two
+  assert: rotate([1, 2, 3, 4, 5], 2) == [3, 4, 5, 1, 2]
+  message: rotating by 2 moves 1 and 2 to the end
+- id: zero
+  assert: rotate([1, 2, 3], 0) == [1, 2, 3]
+  message: rotating by 0 changes nothing
+- id: wrap
+  assert: rotate([1, 2, 3], 4) == [2, 3, 1]
+  message: rotating by 4 on three items is the same as rotating by 1
+- id: empty
+  assert: rotate([], 3) == []
+  message: an empty list stays empty

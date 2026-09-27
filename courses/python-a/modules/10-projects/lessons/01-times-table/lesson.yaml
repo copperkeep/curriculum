@@ -1,0 +1,7 @@
+id: times-table
+title: Times table
+claim: Loops, sums and functions together can make a whole times table
+steps:
+- 01-plan
+- 02-one-line
+- 03-whole-table

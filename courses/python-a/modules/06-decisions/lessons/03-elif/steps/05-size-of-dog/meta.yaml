@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.elif.size-of-dog
+type: free-code
+title: How big is the dog?
+skills:
+- id: elif-chains
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- elif-chains
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Three sizes means if, elif and else.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Check the big one first: if kg >= 25'
+audio:
+  grade3: audio/py/decisions/elif/size-of-dog.grade3.ogg

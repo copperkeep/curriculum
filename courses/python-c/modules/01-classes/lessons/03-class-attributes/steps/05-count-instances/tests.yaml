@@ -1,0 +1,5 @@
+cases:
+- id: serials
+  assert: '(lambda start: (Robot(''a'').serial - start, Robot(''b'').serial - start, Robot.count - start))(Robot.count)
+    == (1, 2, 2)'
+  message: serials go up by one and count keeps track

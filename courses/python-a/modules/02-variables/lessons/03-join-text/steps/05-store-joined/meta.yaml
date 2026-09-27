@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.join-text.store-joined
+type: free-code
+title: Keep the joined word
+skills:
+- id: string-concat
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- string-concat
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Make a new variable. Put the join on the right side of the = mark.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'This joins two boxes into a new one: both = a + b'
+audio:
+  grade3: audio/py/variables/join-text/store-joined.grade3.ogg

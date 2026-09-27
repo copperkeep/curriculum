@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.filtering.primes
+type: free-code
+title: Primes below n
+skills:
+- id: comprehension-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- comprehension-filter
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Write is_prime(k) first: k > 1 and no d from 2 to k-1 divides it.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Then filter range(n) through is_prime.

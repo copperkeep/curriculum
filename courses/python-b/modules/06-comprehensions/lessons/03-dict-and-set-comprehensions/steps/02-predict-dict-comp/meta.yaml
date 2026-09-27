@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.dict-and-set-comprehensions.predict-dict-comp
+type: predict
+title: What does it build?
+skills:
+- id: dict-set-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '{1: 1, 2: 4, 3: 9}'
+- '{1, 4, 9}'
+- '[1, 4, 9]'
+- '{(1, 1), (2, 4), (3, 9)}'
+answer: '{1: 1, 2: 4, 3: 9}'
+hints: []

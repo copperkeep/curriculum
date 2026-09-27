@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.change-a-value.double-it
+type: free-code
+title: Make it bigger
+skills:
+- id: reassignment
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- reassignment
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Use coins on both sides of the = mark.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: coins + coins is the same as two lots of coins.
+audio:
+  grade3: audio/py/variables/change-a-value/double-it.grade3.ogg

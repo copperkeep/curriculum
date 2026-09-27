@@ -1,0 +1,15 @@
+**CSV** is rows of comma-separated values — what spreadsheets export. Splitting on
+commas breaks on quoted fields like `"Smith, Jo"`, so use the `csv` module:
+
+```python
+import csv
+with open(path, newline="") as f:
+    for row in csv.DictReader(f):   # each row is a dict keyed by the header
+        print(row["name"])
+```
+
+**JSON** maps directly onto Python's dicts, lists, strings, numbers, `True`,
+`False` and `None`. `json.dumps(obj)` turns data into text; `json.loads(text)`
+turns it back. `json.dump` / `json.load` do the same to a file.
+
+Everything read from CSV is a string — convert numbers yourself.

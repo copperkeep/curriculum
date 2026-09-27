@@ -1,0 +1,10 @@
+With braces and a `key: value` expression you get a dict; with braces and a plain
+expression, a set:
+
+```python
+lengths = {w: len(w) for w in words}
+initials = {w[0] for w in words}
+```
+
+Parentheses do *not* give a tuple comprehension — `(x for x in xs)` is a
+generator expression, which Python C covers.

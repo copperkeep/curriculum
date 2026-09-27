@@ -1,0 +1,7 @@
+cases:
+- id: batches
+  assert: batches([1, 2, 3, 4, 5], 2) == [[1, 2], [3, 4], [5]]
+  message: splits into batches of 2
+- id: empty
+  assert: batches([], 3) == []
+  message: no data gives no batches

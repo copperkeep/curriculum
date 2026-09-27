@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.numbers-and-words.show-a-sum
+type: free-code
+title: Show a sum
+skills:
+- id: int-literals
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Numbers do not need quote marks.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Here is how to show 2 + 2 worked out: print(2 + 2)'
+audio:
+  grade3: audio/py/printing/numbers-and-words/show-a-sum.grade3.ogg

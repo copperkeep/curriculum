@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.abstract-classes.storage
+type: free-code
+title: Implement the contract
+skills:
+- id: abstract-classes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Subclass Storage and implement both save and load.

@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.elif.many-roads
+type: narrative
+title: More roads
+skills:
+- id: elif-chains
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/decisions/elif/many-roads.grade3.ogg

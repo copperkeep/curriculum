@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.conditional-expressions.predict-or-default
+type: predict
+title: or as a default
+skills:
+- id: conditional-expression
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- anon 0
+- anon anon
+- ' 0'
+- anon None
+answer: anon anon
+hints: []

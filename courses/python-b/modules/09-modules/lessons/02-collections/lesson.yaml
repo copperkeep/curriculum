@@ -1,0 +1,8 @@
+id: collections
+title: Counter and defaultdict
+claim: collections has ready-made versions of the dict patterns you wrote by hand
+steps:
+- 01-ready-made
+- 02-predict-most-common
+- 03-top-words
+- 04-anagram-groups

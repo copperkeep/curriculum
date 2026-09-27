@@ -1,0 +1,4 @@
+cases:
+- id: signs
+  assert: (sign(-5), sign(0), sign(3)) == (-1, 0, 1)
+  message: -1, 0, 1

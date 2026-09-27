@@ -1,0 +1,10 @@
+cases:
+- id: suppresses
+  assert: Ignore(KeyError).__exit__(KeyError, KeyError(), None) is True
+  message: a KeyError is suppressed
+- id: passes
+  assert: not Ignore(KeyError).__exit__(ValueError, ValueError(), None)
+  message: other errors are not
+- id: clean
+  assert: not Ignore(KeyError).__exit__(None, None, None)
+  message: a block with no error is fine

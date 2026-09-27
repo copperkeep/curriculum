@@ -1,0 +1,25 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.nested-lists.order-nested-loop
+type: parsons
+title: Visit every cell
+skills:
+- id: nested-lists
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- total = 0
+- 'for row in grid:'
+- '    for cell in row:'
+- '        total = total + cell'
+- print(total)
+distractors:
+- '    for cell in grid:'
+- '        total = total + row'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The inner loop walks one row, not the whole grid.

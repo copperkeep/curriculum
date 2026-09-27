@@ -1,0 +1,6 @@
+id: files
+title: Files
+lessons:
+- 01-write-a-file
+- 02-read-a-file
+- 03-csv-and-json

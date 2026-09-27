@@ -1,0 +1,8 @@
+id: annotations
+title: Type hints
+claim: Type hints document what a function takes and returns, and tools check them
+steps:
+- 01-hints
+- 02-predict-not-enforced
+- 03-annotate
+- 04-optional

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.properties.validated
+type: free-code
+title: Validate on set
+skills:
+- id: properties
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Store the real value in self._age; the property reads and writes it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Assigning self.age in __init__ goes through the setter too.

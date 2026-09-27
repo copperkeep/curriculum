@@ -1,0 +1,10 @@
+cases:
+- id: weekend
+  assert: Day.SAT.is_weekend() and Day.SUN.is_weekend()
+  message: SAT and SUN are the weekend
+- id: weekday
+  assert: not Day.MON.is_weekend()
+  message: MON is not
+- id: seven
+  assert: len(list(Day)) == 7
+  message: there are seven days

@@ -1,0 +1,6 @@
+cases:
+- id: two-lines
+  expectedStdout: |
+    Next year I will be
+    9
+  message: shows the words, then 9 on the next line

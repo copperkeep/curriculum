@@ -1,0 +1,4 @@
+cases:
+- id: top
+  assert: top_words('The cat and the hat and THE bat', 2) == [('the', 3), ('and', 2)]
+  message: the (3) and and (2) are the top two

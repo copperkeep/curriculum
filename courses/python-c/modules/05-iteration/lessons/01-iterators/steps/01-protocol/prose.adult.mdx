@@ -1,0 +1,15 @@
+`for x in thing:` is shorthand for:
+
+```python
+it = iter(thing)        # calls thing.__iter__()
+while True:
+    try:
+        x = next(it)    # calls it.__next__()
+    except StopIteration:
+        break
+    ...
+```
+
+An *iterable* can produce an iterator (lists, strings, dicts, files). An
+*iterator* produces values one at a time and is used up once exhausted. Any class
+with `__iter__` returning an object with `__next__` works in a `for` loop.

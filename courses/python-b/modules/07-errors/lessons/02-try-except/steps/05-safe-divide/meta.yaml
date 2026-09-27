@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.try-except.safe-divide
+type: free-code
+title: Two kinds of failure
+skills:
+- id: try-except
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- try-except
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: You can have more than one except clause.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Dividing by zero raises ZeroDivisionError; dividing a string raises TypeError.

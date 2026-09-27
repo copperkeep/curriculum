@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.unpacking.predict-swap
+type: predict
+title: Swap
+skills:
+- id: unpacking
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 2 1
+- 1 2
+- 2 2
+- 1 1
+answer: 2 1
+hints: []

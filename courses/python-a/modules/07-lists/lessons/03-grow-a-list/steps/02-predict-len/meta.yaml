@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.grow-a-list.predict-len
+type: predict
+title: How many now?
+skills:
+- id: list-append-len
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '3'
+- '2'
+- '4'
+- ant
+answer: '3'
+hints: []
+audio:
+  grade3: audio/py/lists/grow-a-list/predict-len.grade3.ogg

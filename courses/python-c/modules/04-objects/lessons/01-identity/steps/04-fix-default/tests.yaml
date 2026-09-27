@@ -1,0 +1,7 @@
+cases:
+- id: fresh
+  assert: add(1) == [1] and add(2) == [2]
+  message: each call without a list starts fresh
+- id: given
+  assert: add(3, [0]) == [0, 3]
+  message: a list passed in is used

@@ -1,0 +1,8 @@
+id: protocols
+title: Protocols
+claim: A Protocol describes the methods an object must have, not the class it must be
+steps:
+- 01-duck-typing
+- 02-predict-structural
+- 03-render
+- 04-sized

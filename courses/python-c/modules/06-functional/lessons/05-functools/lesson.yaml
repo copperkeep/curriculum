@@ -1,0 +1,8 @@
+id: functools
+title: functools
+claim: functools packages common function-building patterns
+steps:
+- 01-tools
+- 02-predict-partial
+- 03-fast-fib
+- 04-product

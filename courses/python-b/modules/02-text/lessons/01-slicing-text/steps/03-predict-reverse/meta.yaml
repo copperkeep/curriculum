@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.slicing-text.predict-reverse
+type: predict
+title: Backwards
+skills:
+- id: string-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- olleh
+- hello
+- o
+- Error
+answer: olleh
+hints: []

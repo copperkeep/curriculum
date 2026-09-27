@@ -1,0 +1,22 @@
+cases:
+- id: lend
+  assert: '(lambda L: (L.add(Book(''1'', ''Dune'', ''Herbert'')), L.lend(''1'', ''ana'', date(2026, 9,
+    1)))[1])(Library()) == date(2026, 9, 15)'
+  message: lending returns a due date 14 days later
+- id: double-lend
+  assert: '(lambda L: (L.add(Book(''1'', ''Dune'', ''Herbert'')), L.lend(''1'', ''ana'', date(2026, 9,
+    1)), __import__(''unittest'').TestCase().assertRaises(LendingError, L.lend, ''1'', ''bo'', date(2026,
+    9, 2)))[2])(Library()) is None'
+  message: lending a book that is out raises LendingError
+- id: unknown
+  assert: __import__('unittest').TestCase().assertRaises(LendingError, Library().lend, 'x', 'ana', date(2026,
+    9, 1)) is None
+  message: lending an unknown book raises LendingError
+- id: available
+  assert: '(lambda L: (L.add(Book(''1'', ''Dune'', ''H'')), L.add(Book(''2'', ''Emma'', ''A'')), L.lend(''2'',
+    ''bo'', date(2026, 9, 1)), L.available())[3])(Library()) == [''Dune'']'
+  message: available lists the titles not on loan
+- id: frozen
+  assert: __import__('unittest').TestCase().assertRaises(Exception, setattr, Book('1', 'a', 'b'), 'title',
+    'c') is None
+  message: a Book cannot be changed

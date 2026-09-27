@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.searching.predict-steps
+type: predict
+title: How many halvings?
+skills:
+- id: searching
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '9'
+- '1000'
+- '100'
+- '500'
+answer: '9'
+hints: []

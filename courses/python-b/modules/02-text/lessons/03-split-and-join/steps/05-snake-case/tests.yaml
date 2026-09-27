@@ -1,0 +1,7 @@
+cases:
+- id: three
+  assert: snake('Hello Big World') == 'hello_big_world'
+  message: Hello Big World becomes hello_big_world
+- id: one
+  assert: snake('Python') == 'python'
+  message: one word is just lower-cased

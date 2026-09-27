@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.context-managers.with-protocol.suppress
+type: free-code
+title: Swallow one kind of error
+skills:
+- id: context-managers
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- context-managers
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: __exit__ receives the exception type; return True to suppress it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: issubclass(exc_type, self.kind) handles subclasses too. exc_type is None when nothing failed.

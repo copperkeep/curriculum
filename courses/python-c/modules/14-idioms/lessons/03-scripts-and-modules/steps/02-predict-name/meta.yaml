@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.scripts-and-modules.predict-name
+type: predict
+title: What is __name__ here?
+skills:
+- id: main-guard
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- __main__
+- lesson
+- main
+- None
+answer: __main__
+hints: []

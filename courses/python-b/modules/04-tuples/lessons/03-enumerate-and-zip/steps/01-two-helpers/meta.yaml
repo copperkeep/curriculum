@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.enumerate-and-zip.two-helpers
+type: narrative
+title: Two loop helpers
+skills:
+- id: enumerate-zip
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

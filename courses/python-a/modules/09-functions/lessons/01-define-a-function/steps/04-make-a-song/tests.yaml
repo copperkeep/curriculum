@@ -1,0 +1,11 @@
+cases:
+- id: has-chorus
+  assert: callable(chorus)
+  message: there is a function called chorus
+- id: sings-twice
+  expectedStdout: |
+    La la la
+    Sing it loud
+    La la la
+    Sing it loud
+  message: shows the chorus two times

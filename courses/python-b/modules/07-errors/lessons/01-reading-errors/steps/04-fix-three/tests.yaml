@@ -1,0 +1,4 @@
+cases:
+- id: output
+  expectedStdout: 'Total: 16'
+  message: 'prints Total: 16'

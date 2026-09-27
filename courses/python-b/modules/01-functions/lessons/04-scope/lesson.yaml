@@ -1,0 +1,9 @@
+id: scope
+title: Where a name lives
+claim: A name made inside a function lives only inside that function
+steps:
+- 01-local-names
+- 02-predict-shadow
+- 03-predict-unbound
+- 04-fix-with-return
+- 05-counter-with-global

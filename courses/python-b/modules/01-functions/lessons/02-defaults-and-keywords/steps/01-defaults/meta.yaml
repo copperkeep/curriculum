@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.defaults-and-keywords.defaults
+type: narrative
+title: Settings you rarely change
+skills:
+- id: default-keyword-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

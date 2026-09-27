@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.itertools.predict-combos
+type: predict
+title: How many pairs?
+skills:
+- id: itertools-module
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '6'
+- '12'
+- '4'
+- '16'
+answer: '6'
+hints: []

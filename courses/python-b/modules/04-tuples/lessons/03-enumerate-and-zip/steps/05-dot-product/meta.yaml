@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.enumerate-and-zip.dot-product
+type: free-code
+title: Multiply pairwise
+skills:
+- id: enumerate-zip
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- enumerate-zip
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: zip the two lists, multiply each pair, add up the results.

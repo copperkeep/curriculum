@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.while-loop.predict-countdown
+type: predict
+title: Countdown
+skills:
+- id: while-loop
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 3 2 1
+- 3 2 1 0
+- 2 1 0
+- '3'
+answer: 3 2 1
+hints: []
+audio:
+  grade3: audio/py/while-loops/while-loop/predict-countdown.grade3.ogg

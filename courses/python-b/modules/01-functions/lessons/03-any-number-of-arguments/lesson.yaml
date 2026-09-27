@@ -1,0 +1,9 @@
+id: any-number-of-arguments
+title: Any number of arguments
+claim: '*args collects extra positional arguments and **kwargs collects extra keyword ones'
+steps:
+- 01-star-args
+- 02-predict-args
+- 03-predict-spread
+- 04-average
+- 05-describe

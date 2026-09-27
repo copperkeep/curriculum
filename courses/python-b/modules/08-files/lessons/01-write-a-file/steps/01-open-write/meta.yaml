@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.write-a-file.open-write
+type: narrative
+title: Saving text
+skills:
+- id: file-write
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

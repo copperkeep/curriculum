@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.f-strings.fix-missing-f
+type: fill-blank
+title: Forgot the f
+skills:
+- id: f-strings
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Without the f, the braces are just characters.

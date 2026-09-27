@@ -1,0 +1,7 @@
+cases:
+- id: name
+  assert: Point.__name__ == 'Point' and isinstance(Point, type)
+  message: Point is a class called Point
+- id: norm
+  assert: '(lambda p: (setattr(p, ''x'', 3), setattr(p, ''y'', 4), p.norm())[2])(Point()) == 5'
+  message: norm works

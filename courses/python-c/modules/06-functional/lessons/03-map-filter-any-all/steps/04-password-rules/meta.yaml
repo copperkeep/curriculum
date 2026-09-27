@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.map-filter-any-all.password-rules
+type: free-code
+title: Password rules
+skills:
+- id: map-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- map-filter
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: any(ch.isdigit() for ch in pw) checks for at least one digit.

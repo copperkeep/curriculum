@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.comments.comment-out
+type: free-code
+title: Turn a line off
+skills:
+- id: comments
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Do not delete the line. Put a # at the start of it.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Only the cat line should have a # in front.'
+audio:
+  grade3: audio/py/printing/comments/comment-out.grade3.ogg

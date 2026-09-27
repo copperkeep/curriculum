@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.give-it-something.row-of-marks
+type: free-code
+title: A row of marks
+skills:
+- id: function-parameters
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- function-parameters
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'You can join text in a loop: row = row + mark'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Start with row = "" before the loop, and print row after it.
+audio:
+  grade3: audio/py/functions/give-it-something/row-of-marks.grade3.ogg

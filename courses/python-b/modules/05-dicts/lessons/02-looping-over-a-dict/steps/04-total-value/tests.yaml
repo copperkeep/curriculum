@@ -1,0 +1,4 @@
+cases:
+- id: worth
+  assert: worth() == 47
+  message: worth() gives 47

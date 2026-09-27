@@ -1,0 +1,12 @@
+Inside an f-string's braces, anything after a `:` is a *format spec*:
+
+| Spec | `x` | Shows |
+|---|---|---|
+| `.2f` | `3.14159` | `3.14` |
+| `,` | `1234567` | `1,234,567` |
+| `>6` | `"ab"` | `    ab` (right-aligned in 6) |
+| `<6`, `^6` | | left, centre |
+| `05d` | `42` | `00042` |
+| `.0%` | `0.25` | `25%` |
+
+They combine: `f"{price:>10,.2f}"` right-aligns a comma-grouped, two-decimal price.

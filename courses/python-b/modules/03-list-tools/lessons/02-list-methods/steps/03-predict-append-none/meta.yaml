@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.list-methods.predict-append-none
+type: predict
+title: The classic mistake
+skills:
+- id: list-methods
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- None
+- '[1, 2, 3]'
+- '[1, 2]'
+- Error
+answer: None
+hints: []

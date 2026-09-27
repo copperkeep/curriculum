@@ -1,0 +1,15 @@
+A class bundles data with the code that works on it. The class is the blueprint;
+each *instance* is one object built from it, with its own attributes.
+
+```python
+class Dog:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+rex = Dog("Rex", 3)
+rex.name   # "Rex"
+```
+
+Calling `Dog(...)` creates an empty object and passes it to `__init__` as `self`,
+along with your arguments. `__init__` fills it in. Class names are `CapWords`.

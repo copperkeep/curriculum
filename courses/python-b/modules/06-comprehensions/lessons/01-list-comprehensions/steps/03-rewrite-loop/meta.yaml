@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.list-comprehensions.rewrite-loop
+type: fill-blank
+title: Rewrite as a comprehension
+skills:
+- id: list-comprehension
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '[expression for item in iterable]'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: The expression here is len(word).

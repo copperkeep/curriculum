@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.arithmetic.four-marks
+type: narrative
+title: The four marks
+skills:
+- id: arithmetic
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/numbers/arithmetic/four-marks.grade3.ogg

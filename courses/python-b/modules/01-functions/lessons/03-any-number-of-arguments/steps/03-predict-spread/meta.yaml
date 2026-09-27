@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.any-number-of-arguments.predict-spread
+type: predict
+title: Spreading a list
+skills:
+- id: star-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '6'
+- '[1, 2, 3]'
+- Error
+- (1, 2, 3)
+answer: '6'
+hints: []

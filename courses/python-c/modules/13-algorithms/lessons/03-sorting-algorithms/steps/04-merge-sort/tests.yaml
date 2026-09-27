@@ -1,0 +1,10 @@
+cases:
+- id: sorts
+  assert: merge_sort([38, 27, 43, 3, 9, 82, 10]) == [3, 9, 10, 27, 38, 43, 82]
+  message: sorts seven numbers
+- id: big
+  assert: '(lambda xs: merge_sort(xs) == sorted(xs))([(i * 7919) % 10007 for i in range(20000)])'
+  message: sorts 20,000 numbers quickly
+- id: new-list
+  assert: '(lambda xs: (merge_sort(xs), xs)[1])([2, 1]) == [2, 1]'
+  message: the input is not changed

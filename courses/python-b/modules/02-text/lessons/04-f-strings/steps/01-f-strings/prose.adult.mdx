@@ -1,0 +1,9 @@
+Put `f` before the opening quote and any `{expression}` inside is evaluated and
+inserted:
+
+```python
+name, age = "Ana", 9
+print(f"{name} is {age} and will be {age + 1} next year")
+```
+
+No `str()` calls, no `+` chains. Add `=` for debugging: `f"{age=}"` gives `age=9`.

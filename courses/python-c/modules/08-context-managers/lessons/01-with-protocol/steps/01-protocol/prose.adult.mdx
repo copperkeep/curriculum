@@ -1,0 +1,9 @@
+`with thing as x:` calls `thing.__enter__()` and binds its return value to `x`.
+When the block ends — normally, by `return`, or by an exception —
+`thing.__exit__(exc_type, exc, tb)` runs. It is `try`/`finally` packaged into an
+object.
+
+If `__exit__` returns a true value, an exception from the block is suppressed.
+Return `None` (the default) to let it propagate — almost always what you want.
+
+Files, locks, database transactions and temporary settings all use this shape.

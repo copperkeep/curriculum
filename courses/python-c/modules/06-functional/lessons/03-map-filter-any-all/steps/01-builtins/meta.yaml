@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.map-filter-any-all.builtins
+type: narrative
+title: Four built-ins
+skills:
+- id: map-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

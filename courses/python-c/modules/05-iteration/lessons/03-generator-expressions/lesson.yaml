@@ -1,0 +1,8 @@
+id: generator-expressions
+title: Generator expressions
+claim: A comprehension in parentheses makes values lazily instead of building a list
+steps:
+- 01-parens
+- 02-predict-once
+- 03-sum-squares
+- 04-first-match

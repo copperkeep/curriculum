@@ -1,6 +1,6 @@
 # Calendar version: content reads far better this way than semver, and it moves on its
 # own cadence.
-contentVersion: "2026.09.2"
+contentVersion: "2026.09.3"
 
 # The compatibility guard. The API checks this at startup and fails its readiness probe
 # on a mismatch, so a curriculum that needs a newer app never goes live; the SPA checks
@@ -12,6 +12,12 @@ courses:
   - id: python-a
     title: Python A — Foundations
     path: courses/python-a/course.json
+  - id: python-b
+    title: Python B — Working Programs
+    path: courses/python-b/course.json
+  - id: python-c
+    title: Python C — Real Code
+    path: courses/python-c/course.json
 
 # Packages a lesson may import. micropip resolves against the vendored wheel index in the
 # runtimes image, never PyPI, so this list and that directory must agree — CI fails on a

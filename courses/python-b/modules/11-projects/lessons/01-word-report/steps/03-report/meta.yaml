@@ -1,0 +1,24 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-b.word-report.report
+type: project
+title: The report
+skills:
+- id: dict-counting
+  weight: primary
+- id: string-methods
+  weight: supporting
+- id: format-spec
+  weight: supporting
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 15
+aiGuidance: allow
+transferFor:
+- dict-counting
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Sort the (word, count) pairs by count, highest first; ties alphabetical.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'key=lambda pair: (-pair[1], pair[0]) sorts by count down, then word up.'

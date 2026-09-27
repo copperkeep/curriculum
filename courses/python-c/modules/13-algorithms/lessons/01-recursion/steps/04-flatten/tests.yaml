@@ -1,0 +1,7 @@
+cases:
+- id: deep
+  assert: flatten([1, [2, [3, [4]], 5]]) == [1, 2, 3, 4, 5]
+  message: flattens four levels deep
+- id: empty
+  assert: flatten([[], [[]]]) == []
+  message: empty lists vanish

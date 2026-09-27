@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.tuples.predict-immutable
+type: predict
+title: Can it change?
+skills:
+- id: tuples
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- TypeError
+- (9, 2)
+- (1, 2)
+- None
+answer: TypeError
+hints: []

@@ -1,0 +1,9 @@
+id: loop-body
+title: What repeats
+claim: Only the pushed-in lines repeat
+steps:
+- 01-pushed-in
+- 02-predict-after-loop
+- 03-order-jumps
+- 04-tick-tock
+- 05-ready-or-not

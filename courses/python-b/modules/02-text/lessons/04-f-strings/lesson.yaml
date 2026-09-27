@@ -1,0 +1,9 @@
+id: f-strings
+title: Filling in text
+claim: An f-string fills values straight into text
+steps:
+- 01-f-strings
+- 02-predict-f
+- 03-fix-missing-f
+- 04-receipt-line
+- 05-debug-equals

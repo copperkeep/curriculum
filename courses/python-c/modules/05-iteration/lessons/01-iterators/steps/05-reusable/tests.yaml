@@ -1,0 +1,7 @@
+cases:
+- id: values
+  assert: list(Evens(7)) == [0, 2, 4, 6]
+  message: Evens(7) gives 0, 2, 4, 6
+- id: twice
+  assert: '(lambda e: (list(e), list(e)))(Evens(5)) == ([0, 2, 4], [0, 2, 4])'
+  message: it can be looped over twice

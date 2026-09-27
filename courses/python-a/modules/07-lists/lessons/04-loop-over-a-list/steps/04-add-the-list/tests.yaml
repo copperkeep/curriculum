@@ -1,0 +1,7 @@
+cases:
+- id: total-twenty
+  assert: total == 20
+  message: total holds 20
+- id: shows-twenty
+  expectedStdout: '20'
+  message: shows 20

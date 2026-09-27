@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.class-attributes.fix-shared
+type: fill-blank
+title: Fix the shared list
+skills:
+- id: class-attributes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Create the list in __init__ so each object gets its own.

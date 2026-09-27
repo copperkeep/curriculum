@@ -1,0 +1,10 @@
+cases:
+- id: found
+  assert: find_index(['a', 'b'], 'b') == 1
+  message: finds b at 1
+- id: missing
+  assert: find_index(['a'], 'z') is None
+  message: missing gives None
+- id: hints
+  assert: find_index.__annotations__['return'] == (int | None)
+  message: the return type is int | None

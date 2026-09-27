@@ -1,0 +1,4 @@
+cases:
+- id: soup-first
+  assert: lunch == ['soup', 'cheese', 'apple']
+  message: lunch holds soup, cheese and apple

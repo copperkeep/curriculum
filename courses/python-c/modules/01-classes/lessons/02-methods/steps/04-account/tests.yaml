@@ -1,0 +1,11 @@
+cases:
+- id: flow
+  assert: '(lambda a: (a.deposit(50), a.withdraw(20), a.balance)[2])(Account(10)) == 40'
+  message: 10 + 50 - 20 leaves 40
+- id: overdraw
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, Account(5).withdraw, 10) is None
+  message: overdrawing raises ValueError
+- id: unchanged
+  assert: '(lambda a: (__import__(''unittest'').TestCase().assertRaises(ValueError, a.withdraw, 10), a.balance)[1])(Account(5))
+    == 5'
+  message: a failed withdrawal leaves the balance alone

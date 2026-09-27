@@ -1,0 +1,8 @@
+id: ask-a-question
+title: Ask a question
+claim: input waits for an answer and gives it back as text
+steps:
+- 01-what-input
+- 02-predict-greeting
+- 03-order-ask-then-greet
+- 04-explain-input

@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.functions-are-values.dispatch
+type: free-code
+title: A command table
+skills:
+- id: first-class-functions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- first-class-functions
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Store the functions themselves as dict values — no parentheses.

@@ -1,0 +1,6 @@
+id: comprehensions
+title: Comprehensions
+lessons:
+- 01-list-comprehensions
+- 02-filtering
+- 03-dict-and-set-comprehensions

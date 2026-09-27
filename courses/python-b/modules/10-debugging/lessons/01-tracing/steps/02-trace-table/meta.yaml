@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.debugging.tracing.trace-table
+type: predict
+title: Trace it by hand
+skills:
+- id: debug-tracing
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '8'
+- '6'
+- '15'
+- '4'
+answer: '8'
+hints: []

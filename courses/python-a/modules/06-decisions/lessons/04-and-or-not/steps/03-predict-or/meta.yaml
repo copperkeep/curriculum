@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.and-or-not.predict-or
+type: predict
+title: Now with or
+skills:
+- id: logical-operators
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 'True'
+- 'False'
+- '10'
+- Nothing
+answer: 'True'
+hints: []
+audio:
+  grade3: audio/py/decisions/and-or-not/predict-or.grade3.ogg

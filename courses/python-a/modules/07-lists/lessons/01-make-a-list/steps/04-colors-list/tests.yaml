@@ -1,0 +1,4 @@
+cases:
+- id: three-colors
+  assert: colors == ['red', 'green', 'blue']
+  message: colors holds red, green and blue, in that order

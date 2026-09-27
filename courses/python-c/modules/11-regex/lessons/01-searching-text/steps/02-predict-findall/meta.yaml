@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.regex.searching-text.predict-findall
+type: predict
+title: Find them all
+skills:
+- id: regex-search
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''2026'', ''09'', ''27'']'
+- '[''2026-09-27'']'
+- '[''2'', ''0'', ''2'', ''6'']'
+- '[]'
+answer: '[''2026'', ''09'', ''27'']'
+hints: []

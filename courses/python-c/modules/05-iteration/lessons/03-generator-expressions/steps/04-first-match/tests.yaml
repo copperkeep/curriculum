@@ -1,0 +1,7 @@
+cases:
+- id: found
+  assert: first_long(['a', 'abc', 'abcdef'], 2) == 'abc'
+  message: finds abc
+- id: none
+  assert: first_long(['a'], 5) is None
+  message: no match gives None

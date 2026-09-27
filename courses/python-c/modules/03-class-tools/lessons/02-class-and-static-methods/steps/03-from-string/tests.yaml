@@ -1,0 +1,7 @@
+cases:
+- id: parse
+  assert: '(lambda p: (p.x, p.y))(Point.from_string(''3,4'')) == (3, 4)'
+  message: from_string('3,4') gives a point at 3, 4
+- id: type
+  assert: isinstance(Point.from_string('0,0'), Point)
+  message: it returns a Point

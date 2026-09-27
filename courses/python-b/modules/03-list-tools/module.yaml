@@ -1,0 +1,8 @@
+id: list-tools
+title: More with lists
+lessons:
+- 01-slicing-lists
+- 02-list-methods
+- 03-sorting
+- 04-nested-lists
+- 05-two-names-one-list

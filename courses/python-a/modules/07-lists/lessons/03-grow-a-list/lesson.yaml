@@ -1,0 +1,9 @@
+id: grow-a-list
+title: Grow a list
+claim: append adds to the end of a list, and len counts what is in it
+steps:
+- 01-append-and-len
+- 02-predict-len
+- 03-order-grow
+- 04-shopping
+- 05-squares-list

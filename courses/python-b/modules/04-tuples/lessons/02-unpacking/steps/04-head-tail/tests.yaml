@@ -1,0 +1,7 @@
+cases:
+- id: three
+  assert: head_tail([1, 2, 3]) == (1, [2, 3])
+  message: head_tail([1, 2, 3]) gives (1, [2, 3])
+- id: one
+  assert: head_tail(['x']) == ('x', [])
+  message: one item leaves an empty rest

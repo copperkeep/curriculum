@@ -1,0 +1,4 @@
+cases:
+- id: separate
+  assert: '(lambda a, b: (a.add(1), b.add(2), a.items)[2])(Bag(), Bag()) == [1]'
+  message: each Bag keeps its own items

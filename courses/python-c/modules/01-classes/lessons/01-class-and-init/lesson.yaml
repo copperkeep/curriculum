@@ -1,0 +1,9 @@
+id: class-and-init
+title: Classes and objects
+claim: A class is a blueprint, and each object made from it has its own data
+steps:
+- 01-blueprint
+- 02-predict-instances
+- 03-order-class
+- 04-book
+- 05-defaults

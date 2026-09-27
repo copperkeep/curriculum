@@ -1,0 +1,7 @@
+id: classes
+title: Classes and objects
+lessons:
+- 01-class-and-init
+- 02-methods
+- 03-class-attributes
+- 04-special-methods

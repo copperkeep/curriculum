@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.generators.chunks
+type: free-code
+title: In chunks
+skills:
+- id: generators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- generators
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Loop over range(0, len(xs), size) and yield a slice each time.

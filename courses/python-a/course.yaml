@@ -1,7 +1,15 @@
 id: python-a
 title: Python A — Foundations
-description: Output and strings, variables, numbers, and repeating with for.
+description: Printing, variables, numbers, loops, input, choices, lists, while, and your own functions.
 targetAge: "8 and up"
 modules:
-  - 01-printing
-  - 03-loops
+- 01-printing
+- 02-variables
+- 03-loops
+- 04-numbers
+- 05-input
+- 06-decisions
+- 07-lists
+- 08-while
+- 09-functions
+- 10-projects

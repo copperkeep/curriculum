@@ -1,0 +1,8 @@
+id: enums
+title: Enums
+claim: An Enum is a fixed set of named values that cannot be misspelt
+steps:
+- 01-enum
+- 02-predict-enum
+- 03-next-light
+- 04-weekday

@@ -1,0 +1,7 @@
+cases:
+- id: middle
+  assert: column_sum([[1, 2], [3, 4], [5, 6]], 1) == 12
+  message: column 1 of [[1, 2], [3, 4], [5, 6]] adds to 12
+- id: first
+  assert: column_sum([[1, 2], [3, 4]], 0) == 4
+  message: column 0 of [[1, 2], [3, 4]] adds to 4

@@ -1,0 +1,21 @@
+id: python-c
+title: Python C — Real Code
+description: Classes, iterators and generators, functional tools, decorators, context managers, types, pattern matching, regex, testing, algorithms, and how Python works underneath.
+targetAge: "12 and up"
+modules:
+- 01-classes
+- 02-inheritance
+- 03-class-tools
+- 04-objects
+- 05-iteration
+- 06-functional
+- 07-decorators
+- 08-context-managers
+- 09-types
+- 10-pattern-matching
+- 11-regex
+- 12-testing
+- 13-algorithms
+- 14-idioms
+- 15-under-the-hood
+- 16-capstone

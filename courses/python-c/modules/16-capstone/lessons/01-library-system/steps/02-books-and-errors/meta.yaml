@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.capstone.library-system.books-and-errors
+type: free-code
+title: Books and errors
+skills:
+- id: dataclasses
+  weight: primary
+- id: custom-exceptions
+  weight: supporting
+prerequisites:
+- function-parameters
+estimatedMinutes: 10
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '@dataclass(frozen=True) for Book; class LendingError(Exception): pass'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Keep books in a dict keyed by isbn, and loans in a dict isbn -> (member, due).

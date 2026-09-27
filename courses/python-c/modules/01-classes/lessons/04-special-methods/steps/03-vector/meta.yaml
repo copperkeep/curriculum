@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.special-methods.vector
+type: free-code
+title: A 2D vector
+skills:
+- id: dunder-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: __add__ returns a new Vector; it does not change self.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: __eq__ compares the coordinates.

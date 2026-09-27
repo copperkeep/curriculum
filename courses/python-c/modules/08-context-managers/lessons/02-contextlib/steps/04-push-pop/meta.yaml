@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.context-managers.contextlib.push-pop
+type: free-code
+title: Write one with a generator
+skills:
+- id: contextlib-module
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- contextlib-module
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Change the list before yield, and undo it in a finally after.

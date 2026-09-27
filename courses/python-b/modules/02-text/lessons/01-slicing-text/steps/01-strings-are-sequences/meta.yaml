@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.slicing-text.strings-are-sequences
+type: narrative
+title: A string is a sequence
+skills:
+- id: string-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

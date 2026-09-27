@@ -1,0 +1,5 @@
+`x, y = (3, 4)` binds `x` to 3 and `y` to 4. It works with any sequence of the
+right length. The counts must match, or Python raises `ValueError`.
+
+Swapping needs no temporary: `a, b = b, a`. A starred name soaks up the rest:
+`first, *rest = [1, 2, 3, 4]` makes `rest` the list `[2, 3, 4]`.

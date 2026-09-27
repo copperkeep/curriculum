@@ -1,0 +1,10 @@
+cases:
+- id: init
+  assert: Item('pen', 1.5, 4).total() == 6
+  message: 4 pens at 1.5 total 6
+- id: default
+  assert: Item('ink', 3).qty == 0
+  message: qty defaults to 0
+- id: eq
+  assert: Item('a', 1, 2) == Item('a', 1, 2)
+  message: equal fields mean equal items

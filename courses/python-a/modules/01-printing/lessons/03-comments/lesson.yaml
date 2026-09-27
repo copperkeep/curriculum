@@ -1,0 +1,9 @@
+id: comments
+title: Notes in your code
+claim: Python skips any line that starts with a hash mark
+steps:
+- 01-what-comment
+- 02-predict-comment
+- 03-comment-out
+- 04-explain-comment
+- 05-note-and-print

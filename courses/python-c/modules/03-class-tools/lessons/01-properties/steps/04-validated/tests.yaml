@@ -1,0 +1,14 @@
+cases:
+- id: ok
+  assert: Person('Ana', 9).age == 9
+  message: a valid age is stored
+- id: set
+  assert: '(lambda p: (setattr(p, ''age'', 10), p.age)[1])(Person(''Ana'', 9)) == 10'
+  message: age can be changed
+- id: bad-init
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, Person, 'Bo', -1) is None
+  message: a negative age in the constructor raises ValueError
+- id: bad-set
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, setattr, Person('Ana', 9), 'age',
+    -5) is None
+  message: setting a negative age raises ValueError

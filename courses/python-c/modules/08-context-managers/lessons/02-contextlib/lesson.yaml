@@ -1,0 +1,8 @@
+id: contextlib
+title: contextlib
+claim: '@contextmanager turns a generator with one yield into a context manager'
+steps:
+- 01-contextmanager
+- 02-predict-tag
+- 03-capture
+- 04-push-pop

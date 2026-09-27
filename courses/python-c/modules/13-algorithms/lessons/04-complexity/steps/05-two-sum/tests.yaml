@@ -1,0 +1,10 @@
+cases:
+- id: small
+  assert: two_sum([2, 7, 11, 15], 9) == (0, 1)
+  message: finds 2 + 7
+- id: none
+  assert: two_sum([1, 2], 10) is None
+  message: no pair gives None
+- id: big
+  assert: two_sum(list(range(100000)), 199997) == (99998, 99999)
+  message: handles 100,000 items quickly

@@ -1,0 +1,10 @@
+Parentheses make a group: `m = re.search(r"(\d+)-(\d+)", "pages 10-24")` then
+`m.group(1)` is `"10"`, `m.groups()` is `("10", "24")`. Name them with
+`(?P<start>\d+)` and read `m["start"]`.
+
+With groups, `findall` returns the groups rather than the whole match — a list of
+tuples when there are several.
+
+`re.sub(pattern, replacement, text)` replaces every match. In the replacement,
+`\1` or `\g<name>` inserts a group. The replacement can also be a function that
+takes the match and returns a string.

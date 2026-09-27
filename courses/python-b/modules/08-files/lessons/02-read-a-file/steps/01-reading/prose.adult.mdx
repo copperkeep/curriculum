@@ -1,0 +1,8 @@
+`open(path)` opens for reading. Then:
+
+- `f.read()` — the whole file as one string
+- `f.readlines()` — a list of lines, each still ending in `\n`
+- `for line in f:` — one line at a time, which works for files of any size
+
+Lines keep their newline; `line.strip()` removes it (and other surrounding
+whitespace). Opening a path that does not exist raises `FileNotFoundError`.

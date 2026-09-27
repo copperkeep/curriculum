@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.store-a-value.make-a-variable
+type: free-code
+title: Make a variable
+skills:
+- id: variables
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The name goes first, then =, then the word in quote marks.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Here is a box called fruit with pear in it: fruit = "pear"'
+audio:
+  grade3: audio/py/variables/store-a-value/make-a-variable.grade3.ogg

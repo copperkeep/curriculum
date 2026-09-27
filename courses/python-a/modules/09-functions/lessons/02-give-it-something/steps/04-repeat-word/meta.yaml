@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.give-it-something.repeat-word
+type: free-code
+title: Say it many times
+skills:
+- id: function-parameters
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'def echo(word, times): makes two boxes.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Inside, loop range(times) and print word each time round.
+audio:
+  grade3: audio/py/functions/give-it-something/repeat-word.grade3.ogg

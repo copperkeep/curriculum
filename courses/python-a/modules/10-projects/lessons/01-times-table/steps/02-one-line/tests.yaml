@@ -1,0 +1,4 @@
+cases:
+- id: one-line
+  expectedStdout: 3 x 4 = 12
+  message: shows 3 x 4 = 12

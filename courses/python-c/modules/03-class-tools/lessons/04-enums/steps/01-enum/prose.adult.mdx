@@ -1,0 +1,14 @@
+```python
+from enum import Enum
+
+class Light(Enum):
+    RED = "red"
+    AMBER = "amber"
+    GREEN = "green"
+```
+
+`Light.RED` is a member with `.name` (`"RED"`) and `.value` (`"red"`).
+`Light("red")` looks one up by value. Iterating the class gives every member.
+
+A misspelt string like `"gren"` fails silently; `Light.GREN` fails loudly. Compare
+members with `is` or `==`. `auto()` picks values when you do not care what they are.

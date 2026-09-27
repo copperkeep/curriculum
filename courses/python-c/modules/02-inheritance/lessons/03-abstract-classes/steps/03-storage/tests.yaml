@@ -1,0 +1,7 @@
+cases:
+- id: roundtrip
+  assert: '(lambda s: (s.save(''a'', 1), s.load(''a''))[1])(MemoryStorage()) == 1'
+  message: save then load returns the value
+- id: is-storage
+  assert: isinstance(MemoryStorage(), Storage)
+  message: MemoryStorage is a Storage

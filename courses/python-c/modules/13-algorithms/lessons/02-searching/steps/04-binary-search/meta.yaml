@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.searching.binary-search
+type: free-code
+title: Write binary search
+skills:
+- id: searching
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Keep lo and hi as the range still in play; stop when lo passes hi.

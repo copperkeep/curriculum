@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.conditional-expressions.sign
+type: free-code
+title: Sign of a number
+skills:
+- id: conditional-expression
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- conditional-expression
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Two conditional expressions can chain: a if c1 else b if c2 else c — keep it readable.'

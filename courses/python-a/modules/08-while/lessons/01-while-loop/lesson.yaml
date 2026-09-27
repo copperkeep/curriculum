@@ -1,0 +1,9 @@
+id: while-loop
+title: Repeat while it is true
+claim: while keeps going as long as its question is True
+steps:
+- 01-keep-going
+- 02-predict-countdown
+- 03-order-while
+- 04-save-up
+- 05-halve-it

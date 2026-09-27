@@ -1,0 +1,16 @@
+`def first(xs: list) -> object` loses information: the caller knows it passed a
+`list[str]`, but the checker only knows it got an `object` back. A type parameter
+keeps the link:
+
+```python
+def first[T](xs: list[T]) -> T:
+    return xs[0]
+```
+
+(Before Python 3.12: `T = TypeVar("T")` from `typing`.) Classes can be generic too:
+`class Box[T]: ...`, used as `Box[int]`. `typing` also offers `Callable[[int],
+str]` for functions, `Iterable[T]` / `Sequence[T]` for "anything loopable /
+indexable", and `Any` as an escape hatch.
+
+Prefer the most general type you accept (`Iterable`) and the most specific you
+return (`list`).

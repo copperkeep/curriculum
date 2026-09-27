@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.writing-decorators.guard-args
+type: free-code
+title: Validate arguments
+skills:
+- id: decorators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- decorators
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Check every positional argument in the wrapper before calling func.

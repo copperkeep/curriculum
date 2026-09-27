@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.generators.predict-lazy
+type: predict
+title: When does it run?
+skills:
+- id: generators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- start 1 2
+- 1 start 2
+- start
+- 1 2
+answer: start 1 2
+hints: []

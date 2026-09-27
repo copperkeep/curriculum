@@ -1,0 +1,15 @@
+cases:
+- id: overdue
+  assert: '(lambda L: (L.add(Book(''1'', ''Dune'', ''H'')), L.add(Book(''2'', ''Emma'', ''A'')), L.add(Book(''3'',
+    ''Ulysses'', ''J'')), L.lend(''1'', ''ana'', date(2026, 9, 1)), L.lend(''2'', ''bo'', date(2026, 8,
+    20)), L.lend(''3'', ''cy'', date(2026, 9, 20)), list(L.overdue(date(2026, 9, 27))))[6])(Library())
+    == [(''bo'', ''Emma'', 24), (''ana'', ''Dune'', 12)]'
+  message: overdue lists late loans, most late first
+- id: generator
+  assert: hasattr(Library().overdue(date(2026, 1, 1)), '__next__')
+  message: overdue is a generator
+- id: roundtrip
+  assert: '(lambda L: (L.add(Book(''1'', ''Dune'', ''H'')), L.add(Book(''2'', ''Emma'', ''A'')), L.lend(''2'',
+    ''bo'', date(2026, 9, 1)), (lambda M: (M.books == L.books, M.loans == L.loans))(Library.from_json(L.to_json())))[3])(Library())
+    == (True, True)'
+  message: to_json and from_json round-trip books and loans

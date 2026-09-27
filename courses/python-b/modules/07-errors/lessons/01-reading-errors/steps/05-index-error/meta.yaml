@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.reading-errors.index-error
+type: free-code
+title: Off by one
+skills:
+- id: reading-errors
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- reading-errors
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The last index of a list is len(xs) - 1.

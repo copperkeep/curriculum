@@ -1,0 +1,6 @@
+cases:
+- id: two-rows
+  expectedStdout: |
+    #####
+    ===
+  message: 'shows ##### and then ==='

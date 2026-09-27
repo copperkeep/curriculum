@@ -1,0 +1,7 @@
+cases:
+- id: count-three
+  assert: count == 3
+  message: count holds 3
+- id: shows-three
+  expectedStdout: '3'
+  message: shows 3

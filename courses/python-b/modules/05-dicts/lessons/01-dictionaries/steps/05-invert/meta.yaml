@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.dictionaries.invert
+type: free-code
+title: Swap keys and values
+skills:
+- id: dict-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- dict-basics
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Start from an empty dict and fill it in a loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'for key in d: gives each key; d[key] is its value.'

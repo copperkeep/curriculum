@@ -1,0 +1,5 @@
+id: regex
+title: Regular expressions
+lessons:
+- 01-searching-text
+- 02-groups-and-substitution

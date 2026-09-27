@@ -1,0 +1,28 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.loops.loop-body.order-jumps
+type: parsons
+title: Jump, jump, done
+skills:
+- id: for-loop-range
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'for i in range(3):'
+- '    print("jump")'
+- print("done")
+distractors:
+- '    print("done")'
+- 'for i in range(4):'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: done should show up only one time.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: The line for done is not pushed in.
+audio:
+  grade3: audio/py/loops/loop-body/order-jumps.grade3.ogg

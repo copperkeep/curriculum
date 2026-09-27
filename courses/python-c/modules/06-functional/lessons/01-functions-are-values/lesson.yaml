@@ -1,0 +1,8 @@
+id: functions-are-values
+title: Functions are values
+claim: A function can be stored, passed in and returned like any other value
+steps:
+- 01-values
+- 02-predict-no-parens
+- 03-apply-twice
+- 04-dispatch

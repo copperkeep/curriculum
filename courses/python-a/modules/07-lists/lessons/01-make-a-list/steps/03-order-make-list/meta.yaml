@@ -1,0 +1,24 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.make-a-list.order-make-list
+type: parsons
+title: Build a list
+skills:
+- id: list-basics
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- fruit = ["pear", "plum"]
+- print(fruit)
+distractors:
+- fruit = "pear", "plum"]
+- fruit = ["pear" "plum"]
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A list needs a square mark at each end, and a comma between things.
+audio:
+  grade3: audio/py/lists/make-a-list/order-make-list.grade3.ogg

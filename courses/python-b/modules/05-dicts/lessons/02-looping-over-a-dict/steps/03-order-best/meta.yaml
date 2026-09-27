@@ -1,0 +1,24 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.looping-over-a-dict.order-best
+type: parsons
+title: Find the best score
+skills:
+- id: dict-iteration
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- best_name, best = None, -1
+- 'for name, score in scores.items():'
+- '    if score > best:'
+- '        best_name, best = name, score'
+distractors:
+- 'for name, score in scores:'
+- '    if scores > best:'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Looping over the dict itself only gives keys.

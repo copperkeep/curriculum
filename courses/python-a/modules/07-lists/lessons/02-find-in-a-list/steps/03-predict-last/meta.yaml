@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.find-in-a-list.predict-last
+type: predict
+title: From the end
+skills:
+- id: list-indexing
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- fish
+- cat
+- dog
+- Nothing
+answer: fish
+hints: []
+audio:
+  grade3: audio/py/lists/find-in-a-list/predict-last.grade3.ogg

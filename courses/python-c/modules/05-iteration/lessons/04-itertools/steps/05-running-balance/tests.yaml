@@ -1,0 +1,4 @@
+cases:
+- id: example
+  assert: balances(100, [-20, 50, -10]) == [100, 80, 130, 120]
+  message: tracks 100, 80, 130, 120

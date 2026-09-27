@@ -1,0 +1,12 @@
+cases:
+- id: inside
+  assert: '(lambda s, cm: (cm.__enter__(), list(s))[1])(*(lambda s: (s, pushed(s, ''x'')))([])) == [''x'']'
+  message: the item is on the stack inside the block
+- id: after
+  assert: '(lambda s, cm: (cm.__enter__(), cm.__exit__(None, None, None), s)[2])(*(lambda s: (s, pushed(s,
+    ''x'')))([]))  == []'
+  message: it is removed afterwards
+- id: on-error
+  assert: '(lambda s, cm: (cm.__enter__(), cm.__exit__(ValueError, ValueError(), None), s)[2])(*(lambda
+    s: (s, pushed(s, ''x'')))([]))  == []'
+  message: it is removed even if the block raised

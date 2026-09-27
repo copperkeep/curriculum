@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.debugging.assert.predict-assert
+type: predict
+title: Which line stops it?
+skills:
+- id: assert-statement
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- one AssertionError
+- one two
+- AssertionError
+- one
+answer: one AssertionError
+hints: []

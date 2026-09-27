@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.split-and-join.predict-join
+type: predict
+title: Joined up
+skills:
+- id: split-join
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '2026-09-27'
+- 2026 09 27
+- '[''2026'', ''09'', ''27'']'
+- -2026-09-27
+answer: '2026-09-27'
+hints: []

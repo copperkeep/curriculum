@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.lambdas.make-adder
+type: free-code
+title: Return a lambda
+skills:
+- id: lambda-functions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- lambda-functions
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The lambda can use n from the enclosing function.

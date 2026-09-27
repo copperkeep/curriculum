@@ -1,0 +1,8 @@
+id: descriptors
+title: Descriptors
+claim: A descriptor is a reusable property, defined once and attached to many attributes
+steps:
+- 01-descriptor
+- 02-predict-set-name
+- 03-positive
+- 04-typed-field

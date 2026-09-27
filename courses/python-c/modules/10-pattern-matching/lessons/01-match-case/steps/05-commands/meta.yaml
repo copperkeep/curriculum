@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.pattern-matching.match-case.commands
+type: free-code
+title: A command parser
+skills:
+- id: pattern-matching
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- pattern-matching
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Split the input into words and match on the list.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'case ["drop", *items]: captures every remaining word.'

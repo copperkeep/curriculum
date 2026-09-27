@@ -1,0 +1,10 @@
+cases:
+- id: first-bigger
+  assert: bigger(9, 4) == 9
+  message: bigger(9, 4) gives back 9
+- id: second-bigger
+  assert: bigger(2, 7) == 7
+  message: bigger(2, 7) gives back 7
+- id: equal
+  assert: bigger(3, 3) == 3
+  message: bigger(3, 3) gives back 3

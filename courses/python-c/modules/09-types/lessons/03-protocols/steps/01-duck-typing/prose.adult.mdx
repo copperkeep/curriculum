@@ -1,0 +1,15 @@
+Python has always been duck-typed: if it has a `.read()`, you can read from it.
+`Protocol` lets type checkers understand that:
+
+```python
+from typing import Protocol
+
+class Drawable(Protocol):
+    def draw(self) -> str: ...
+
+def render(items: list[Drawable]) -> str: ...
+```
+
+Any class with a matching `draw` satisfies `Drawable` — no inheritance required.
+That is the difference from an ABC. `@runtime_checkable` additionally allows
+`isinstance(x, Drawable)`, which checks only that the methods exist.

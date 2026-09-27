@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.printing.comments.explain-comment
+type: explain-back
+title: Why is this here?
+skills:
+- id: comments
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- It tells people what the code is for
+- It makes the code run faster
+- It shows words on the screen
+- It stops the code from working
+answer: It tells people what the code is for
+hints: []
+audio:
+  grade3: audio/py/printing/comments/explain-comment.grade3.ogg

@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.map-filter-any-all.parse-ints
+type: free-code
+title: Parse a line of numbers
+skills:
+- id: map-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: map(int, pieces) converts each piece.

@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.regex.searching-text.hashtags
+type: free-code
+title: Find hashtags
+skills:
+- id: regex-search
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- regex-search
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '# followed by one or more word characters: #\w+'

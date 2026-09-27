@@ -1,0 +1,9 @@
+id: make-a-list
+title: Make a list
+claim: A list keeps many values in one box
+steps:
+- 01-many-in-one
+- 02-predict-print-list
+- 03-order-make-list
+- 04-colors-list
+- 05-list-of-numbers

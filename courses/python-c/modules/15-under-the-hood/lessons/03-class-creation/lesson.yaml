@@ -1,0 +1,8 @@
+id: class-creation
+title: How classes are made
+claim: A class is an object too, made by calling its metaclass, usually type
+steps:
+- 01-type
+- 02-predict-type-of-class
+- 03-make-class
+- 04-registry

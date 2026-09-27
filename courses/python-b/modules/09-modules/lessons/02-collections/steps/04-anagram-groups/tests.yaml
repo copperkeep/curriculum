@@ -1,0 +1,5 @@
+cases:
+- id: groups
+  assert: anagrams(['listen', 'google', 'silent', 'enlist', 'cat', 'act']) == [['listen', 'silent', 'enlist'],
+    ['cat', 'act']]
+  message: finds the two anagram groups

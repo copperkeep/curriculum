@@ -1,0 +1,7 @@
+cases:
+- id: swap
+  assert: 'invert({''a'': 1, ''b'': 2}) == {1: ''a'', 2: ''b''}'
+  message: 'invert({''a'': 1, ''b'': 2}) gives {1: ''a'', 2: ''b''}'
+- id: empty
+  assert: invert({}) == {}
+  message: an empty dict stays empty

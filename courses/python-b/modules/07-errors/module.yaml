@@ -1,0 +1,7 @@
+id: errors
+title: When things go wrong
+lessons:
+- 01-reading-errors
+- 02-try-except
+- 03-raising
+- 04-else-and-finally

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.dates-and-times.predict-leap
+type: predict
+title: Leap year
+skills:
+- id: datetime-module
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '2028-02-29'
+- '2028-03-01'
+- '2028-02-30'
+- Error
+answer: '2028-02-29'
+hints: []

@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.recursion.base-case
+type: narrative
+title: Base case and recursive case
+skills:
+- id: recursion
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

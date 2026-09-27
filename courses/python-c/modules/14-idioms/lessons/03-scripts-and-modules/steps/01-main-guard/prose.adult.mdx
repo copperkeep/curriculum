@@ -1,0 +1,18 @@
+Every file is a module. When run directly, its `__name__` is `"__main__"`; when
+imported, it is the module's name. So:
+
+```python
+def main():
+    ...
+
+if __name__ == "__main__":
+    main()
+```
+
+lets a file be both a script and a library: importing it for its functions does
+not trigger the script's side effects. Top-level code should define things; the
+doing belongs inside `main()`.
+
+Packages are directories of modules; outside the browser you install third-party
+ones with `pip` into a virtual environment (`python -m venv .venv`) so each
+project has its own dependencies.

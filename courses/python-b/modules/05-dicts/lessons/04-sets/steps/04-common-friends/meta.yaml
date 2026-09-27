@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.sets.common-friends
+type: free-code
+title: Friends in common
+skills:
+- id: set-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Turn both lists into sets and use &.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: sorted() turns a set into a sorted list.

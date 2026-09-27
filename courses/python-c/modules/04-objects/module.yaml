@@ -1,0 +1,5 @@
+id: objects
+title: How objects behave
+lessons:
+- 01-identity
+- 02-copying

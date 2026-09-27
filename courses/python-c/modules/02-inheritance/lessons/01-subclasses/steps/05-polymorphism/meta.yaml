@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.subclasses.polymorphism
+type: free-code
+title: One loop, many types
+skills:
+- id: inheritance
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- inheritance
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Each subclass overrides cost(); total_cost does not check types at all.

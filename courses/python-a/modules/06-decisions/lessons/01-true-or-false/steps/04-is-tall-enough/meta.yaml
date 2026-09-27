@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.true-or-false.is-tall-enough
+type: free-code
+title: Tall enough?
+skills:
+- id: booleans-comparison
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Is height bigger than or the same as 120? That is >=
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'This asks if age is 7 or more: old_enough = age >= 7'
+audio:
+  grade3: audio/py/decisions/true-or-false/is-tall-enough.grade3.ogg

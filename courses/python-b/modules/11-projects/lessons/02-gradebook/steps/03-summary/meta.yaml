@@ -1,0 +1,24 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-b.gradebook.summary
+type: project
+title: The summary file
+skills:
+- id: csv-json
+  weight: primary
+- id: try-except
+  weight: supporting
+- id: dict-iteration
+  weight: supporting
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 15
+aiGuidance: allow
+transferFor:
+- csv-json
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Build a dict name -> rounded average, then json.dump it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: round(x, 1) rounds to one decimal place.

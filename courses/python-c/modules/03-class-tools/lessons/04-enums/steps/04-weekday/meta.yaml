@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.enums.weekday
+type: free-code
+title: Weekend or not
+skills:
+- id: enums
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- enums
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Members can be compared with is, and enums can have methods.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: from enum import Enum, auto

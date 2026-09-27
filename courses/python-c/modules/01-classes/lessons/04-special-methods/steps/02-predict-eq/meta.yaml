@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.special-methods.predict-eq
+type: predict
+title: Equal without __eq__?
+skills:
+- id: dunder-methods
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 'False'
+- 'True'
+- Error
+- None
+answer: 'False'
+hints: []

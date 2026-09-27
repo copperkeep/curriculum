@@ -1,0 +1,21 @@
+```python
+import unittest
+
+class TestSlug(unittest.TestCase):
+    def test_spaces(self):
+        self.assertEqual(slug("Hello World"), "hello-world")
+
+    def test_empty(self):
+        self.assertEqual(slug(""), "")
+
+    def test_rejects_none(self):
+        with self.assertRaises(TypeError):
+            slug(None)
+```
+
+Each `test_` method is one independent check. `assertEqual`, `assertTrue`,
+`assertIn`, `assertRaises` report *what* differed, not just that something did.
+`setUp` runs before every test for shared fixtures.
+
+Good tests cover a normal case, the edges (empty, zero, one, maximum), and the
+errors. `pytest` is the popular third-party runner; it runs `unittest` tests too.

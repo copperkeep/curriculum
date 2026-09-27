@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.inheritance.custom-exceptions.hierarchy-free
+type: free-code
+title: A small hierarchy
+skills:
+- id: custom-exceptions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- custom-exceptions
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Two subclasses of one base; raise the specific one.

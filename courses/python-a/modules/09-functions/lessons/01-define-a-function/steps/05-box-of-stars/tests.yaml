@@ -1,0 +1,10 @@
+cases:
+- id: has-stars
+  assert: callable(stars)
+  message: there is a function called stars
+- id: shows-box
+  expectedStdout: |
+    ***
+    ***
+    ***
+  message: shows three lines of stars

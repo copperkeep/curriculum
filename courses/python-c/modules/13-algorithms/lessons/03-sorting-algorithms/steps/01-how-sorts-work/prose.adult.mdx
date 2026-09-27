@@ -1,0 +1,9 @@
+*Insertion sort* takes each item and slides it left into place among those
+already sorted. Simple, fast on nearly-sorted data, slow on large random data.
+
+*Merge sort* splits the list in half, sorts each half recursively, then merges the
+two sorted halves by repeatedly taking the smaller front item. It does about
+`n log n` comparisons on any input.
+
+Python's own `sorted` is Timsort, a merge/insertion hybrid. In real code, use it.
+Writing these once is how you learn what "sorting" costs.

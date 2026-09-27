@@ -1,0 +1,8 @@
+id: structural-patterns
+title: Matching structure
+claim: Patterns can look inside dicts and objects and pull out the parts you need
+steps:
+- 01-mappings-classes
+- 02-predict-mapping
+- 03-area
+- 04-api-response

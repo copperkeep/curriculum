@@ -1,0 +1,9 @@
+A tuple is written with commas, usually in parentheses: `point = (3, 4)`. It
+indexes and slices like a list, but it is immutable — no `append`, no item
+assignment.
+
+Use a list for *many of the same thing* that may grow; use a tuple for *a fixed
+set of related things*: a coordinate, an RGB colour, a date. A function can return
+several values by returning a tuple: `return low, high`.
+
+A one-item tuple needs a trailing comma: `(5,)`. `(5)` is just `5`.

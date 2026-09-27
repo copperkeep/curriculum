@@ -1,0 +1,7 @@
+cases:
+- id: match-true
+  assert: match is True
+  message: match holds True
+- id: shows-true
+  expectedStdout: 'True'
+  message: shows True

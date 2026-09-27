@@ -1,0 +1,10 @@
+cases:
+- id: registered
+  assert: set(Command.registry) >= {'hello', 'bye'}
+  message: both subclasses are registered
+- id: runs
+  assert: Command.registry['bye']().run() == 'bye'
+  message: registered classes can be created and run
+- id: new
+  assert: '(lambda: (type(''Extra'', (Command,), {}), ''extra'' in Command.registry)[1])()'
+  message: a new subclass registers itself

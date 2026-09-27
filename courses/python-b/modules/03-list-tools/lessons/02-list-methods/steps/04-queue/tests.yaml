@@ -1,0 +1,7 @@
+cases:
+- id: order
+  assert: serve(['ann', 'bob', 'cat']) == ['ann', 'bob', 'cat']
+  message: people are served front first
+- id: empties
+  assert: '(lambda q: (serve(q), q)[1])([''x'', ''y'']) == []'
+  message: the queue is empty afterwards

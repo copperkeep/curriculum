@@ -1,0 +1,14 @@
+`:=` (the "walrus") assigns inside an expression:
+
+```python
+while (line := next_line()) != "":
+    handle(line)
+
+if (m := re.search(pattern, text)) is not None:
+    print(m.group())
+
+big = [y for x in data if (y := expensive(x)) > 10]
+```
+
+It removes a duplicated call or an awkward `while True`/`break`. The parentheses
+are usually required. Use it where it removes repetition, not everywhere.

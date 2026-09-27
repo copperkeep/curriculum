@@ -1,0 +1,9 @@
+id: tracing
+title: Tracing a program
+claim: Debugging is checking what the program actually does against what you think it does
+steps:
+- 01-method
+- 02-trace-table
+- 03-find-the-line
+- 04-fix-average
+- 05-fix-count-vowels

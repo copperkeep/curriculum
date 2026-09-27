@@ -1,0 +1,8 @@
+id: assert
+title: Checking with assert
+claim: assert stops the program the moment something you believe is not true
+steps:
+- 01-assert
+- 02-predict-assert
+- 03-write-tests
+- 04-invariant

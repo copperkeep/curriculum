@@ -1,0 +1,24 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.store-a-value.order-store-then-show
+type: parsons
+title: Store it, then show it
+skills:
+- id: variables
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- food = "apple"
+- print(food)
+distractors:
+- print("food")
+- '"apple" = food'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The name goes on the left side of the = mark.
+audio:
+  grade3: audio/py/variables/store-a-value/order-store-then-show.grade3.ogg

@@ -1,0 +1,4 @@
+cases:
+- id: older-nine
+  assert: older == 9
+  message: older holds the number 9

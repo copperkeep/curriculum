@@ -1,0 +1,11 @@
+cases:
+- id: ok
+  assert: 'describe({''status'': ''ok'', ''data'': {''user'': {''name'': ''Ana'', ''id'': 1}}}) == ''Hello,
+    Ana'''
+  message: greets the user
+- id: error
+  assert: 'describe({''status'': ''error'', ''code'': 404}) == ''Error 404'''
+  message: reports the error code
+- id: bad
+  assert: 'describe({''status'': ''ok''}) == ''Bad response'''
+  message: missing data is a bad response

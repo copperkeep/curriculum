@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-a.guess-the-number.one-guess
+type: free-code
+title: Check one guess
+skills:
+- id: elif-chains
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Three answers means if, elif and else.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Ask if guess > secret first. Then ask if it is less.
+audio:
+  grade3: audio/py/projects-a/guess-the-number/one-guess.grade3.ogg

@@ -1,0 +1,9 @@
+id: split-and-join
+title: Splitting and joining
+claim: split turns text into a list, and join turns a list back into text
+steps:
+- 01-split-join
+- 02-predict-split
+- 03-predict-join
+- 04-count-words
+- 05-snake-case

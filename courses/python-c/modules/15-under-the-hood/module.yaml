@@ -1,0 +1,6 @@
+id: under-the-hood
+title: Under the hood
+lessons:
+- 01-dynamic-attributes
+- 02-descriptors
+- 03-class-creation

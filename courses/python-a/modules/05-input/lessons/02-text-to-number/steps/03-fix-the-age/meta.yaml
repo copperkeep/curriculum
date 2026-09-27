@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.text-to-number.fix-the-age
+type: fill-blank
+title: One year older
+skills:
+- id: type-conversion
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: age holds text. Turn it into a number first.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Try: int(age) + 1'
+audio:
+  grade3: audio/py/input/text-to-number/fix-the-age.grade3.ogg

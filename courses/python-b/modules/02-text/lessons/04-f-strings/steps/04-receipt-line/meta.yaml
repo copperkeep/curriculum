@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.f-strings.receipt-line
+type: free-code
+title: A receipt line
+skills:
+- id: f-strings
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Any expression can go in the braces, including a multiplication.

@@ -1,0 +1,11 @@
+cases:
+- id: tick-tock-ding
+  expectedStdout: |
+    tick
+    tock
+    tick
+    tock
+    tick
+    tock
+    ding
+  message: shows tick and tock three times, then ding

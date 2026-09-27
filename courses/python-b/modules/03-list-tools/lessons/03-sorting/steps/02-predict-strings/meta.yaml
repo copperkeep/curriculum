@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.sorting.predict-strings
+type: predict
+title: Sorting text
+skills:
+- id: sorting
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''Banana'', ''apple'', ''cherry'']'
+- '[''apple'', ''Banana'', ''cherry'']'
+- '[''cherry'', ''apple'', ''Banana'']'
+- Error
+answer: '[''Banana'', ''apple'', ''cherry'']'
+hints: []

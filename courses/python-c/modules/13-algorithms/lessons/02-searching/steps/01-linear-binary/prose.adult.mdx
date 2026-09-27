@@ -1,0 +1,16 @@
+*Linear search* checks each item in turn — simple, works on anything, and slow
+on big inputs: a million items can mean a million checks.
+
+*Binary search* needs sorted input. Look at the middle; if the target is smaller,
+discard the right half, else the left. Each step halves what is left, so a
+million items need about 20 checks.
+
+```python
+lo, hi = 0, len(xs) - 1
+while lo <= hi:
+    mid = (lo + hi) // 2
+    ...
+```
+
+The standard library has it: `bisect.bisect_left(xs, x)` gives the insertion
+point.

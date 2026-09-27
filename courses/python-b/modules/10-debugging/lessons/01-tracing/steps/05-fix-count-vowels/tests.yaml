@@ -1,0 +1,10 @@
+cases:
+- id: lower
+  assert: count_vowels('banana') == 3
+  message: banana has 3 vowels
+- id: upper
+  assert: count_vowels('AEIOU') == 5
+  message: capital vowels count too
+- id: none
+  assert: count_vowels('xyz') == 0
+  message: xyz has none

@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.unpacking.unpack
+type: narrative
+title: One line, many names
+skills:
+- id: unpacking
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

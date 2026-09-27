@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.comprehensions.filtering.predict-filter
+type: predict
+title: Which survive?
+skills:
+- id: comprehension-filter
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[4, 5]'
+- '[1, 2, 3]'
+- '[False, False, False, True, True]'
+- '[3, 4, 5]'
+answer: '[4, 5]'
+hints: []

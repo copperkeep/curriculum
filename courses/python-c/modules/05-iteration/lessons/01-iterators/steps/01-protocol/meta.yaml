@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.iterators.protocol
+type: narrative
+title: What for actually does
+skills:
+- id: iterator-protocol
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

@@ -1,0 +1,7 @@
+cases:
+- id: five
+  assert: adder(5)(10) == 15
+  message: adder(5)(10) gives 15
+- id: independent
+  assert: '(lambda a, b: (a(0), b(0)))(adder(1), adder(2)) == (1, 2)'
+  message: each adder keeps its own n

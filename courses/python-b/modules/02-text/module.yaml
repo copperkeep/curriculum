@@ -1,0 +1,8 @@
+id: text
+title: Working with text
+lessons:
+- 01-slicing-text
+- 02-string-methods
+- 03-split-and-join
+- 04-f-strings
+- 05-format-numbers

@@ -1,0 +1,8 @@
+cases:
+- id: eventually
+  assert: '(lambda attempts: retry(3)(lambda: 1 / attempts.pop(0))())([0, 0, 1]) == 1'
+  message: succeeds when a later attempt works
+- id: gives-up
+  assert: '(lambda attempts: __import__(''unittest'').TestCase().assertRaises(ZeroDivisionError, retry(2)(lambda:
+    1 / attempts.pop(0))))([0, 0, 1]) is None'
+  message: re-raises after the last attempt

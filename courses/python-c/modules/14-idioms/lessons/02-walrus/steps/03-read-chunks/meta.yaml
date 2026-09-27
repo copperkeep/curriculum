@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.walrus.read-chunks
+type: free-code
+title: Consume until empty
+skills:
+- id: walrus-operator
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'A simpler shape: while (batch := data[:size]): then shorten data.'

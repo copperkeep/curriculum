@@ -1,0 +1,7 @@
+cases:
+- id: valid
+  assert: Email.is_valid('a@b.com') and not Email.is_valid('a@@b') and not Email.is_valid('@b')
+  message: is_valid accepts a@b.com and rejects bad forms
+- id: raise
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, Email, 'nope') is None
+  message: Email('nope') raises ValueError

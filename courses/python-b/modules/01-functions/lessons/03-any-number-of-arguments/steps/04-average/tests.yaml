@@ -1,0 +1,10 @@
+cases:
+- id: two
+  assert: mean(2, 4) == 3
+  message: mean(2, 4) gives 3
+- id: four
+  assert: mean(1, 2, 3, 4) == 2.5
+  message: mean(1, 2, 3, 4) gives 2.5
+- id: one
+  assert: mean(7) == 7
+  message: mean(7) gives 7

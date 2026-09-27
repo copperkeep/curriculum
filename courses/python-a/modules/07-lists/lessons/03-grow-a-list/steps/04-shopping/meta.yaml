@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.grow-a-list.shopping
+type: free-code
+title: Add to the shopping list
+skills:
+- id: list-append-len
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Use append two times, one for each thing.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'This adds one thing to a list: pets.append("frog")'
+audio:
+  grade3: audio/py/lists/grow-a-list/shopping.grade3.ogg

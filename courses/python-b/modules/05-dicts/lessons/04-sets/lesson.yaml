@@ -1,0 +1,9 @@
+id: sets
+title: Sets
+claim: A set holds each value at most once and answers "is it in here?" fast
+steps:
+- 01-sets
+- 02-predict-dedupe
+- 03-predict-and
+- 04-common-friends
+- 05-first-repeat

@@ -1,0 +1,8 @@
+id: custom-exceptions
+title: Your own exceptions
+claim: Subclassing Exception gives your errors names callers can catch precisely
+steps:
+- 01-hierarchy
+- 02-predict-catch-parent
+- 03-define-error
+- 04-hierarchy-free

@@ -1,0 +1,10 @@
+cases:
+- id: ok
+  assert: withdraw(10, 3) == 7
+  message: withdraw(10, 3) gives 7
+- id: raises
+  assert: __import__('unittest').TestCase().assertRaises(InsufficientFunds, withdraw, 5, 9) is None
+  message: overdrawing raises InsufficientFunds
+- id: message
+  assert: str(InsufficientFunds(9, 5)) == 'need 9, have 5' and InsufficientFunds(9, 5).needed == 9
+  message: the exception carries its message and data

@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.return-a-value.biggest
+type: free-code
+title: The bigger of two
+skills:
+- id: function-return
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- function-return
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Use if to decide which one to return. A function can have more than one return.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'if a > b: return a'

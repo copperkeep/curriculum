@@ -1,0 +1,13 @@
+A method is a function attached to a value, called with a dot: `name.upper()`.
+
+| Method | Does |
+|---|---|
+| `upper()`, `lower()`, `title()` | change case |
+| `strip()` | trim whitespace from both ends |
+| `replace(old, new)` | swap every occurrence |
+| `startswith(x)`, `endswith(x)` | test the ends |
+| `find(x)` | index of the first match, or `-1` |
+| `count(x)` | number of matches |
+
+Because strings are immutable, every one of these *returns a new string*. `name.upper()`
+on its own line changes nothing — you must keep the result.

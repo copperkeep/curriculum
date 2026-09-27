@@ -1,0 +1,9 @@
+id: searching
+title: Searching
+claim: Binary search finds an item in a sorted list by halving the search each step
+steps:
+- 01-linear-binary
+- 02-predict-steps
+- 03-order-binary
+- 04-binary-search
+- 05-first-true

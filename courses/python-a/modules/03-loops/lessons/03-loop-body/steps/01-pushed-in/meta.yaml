@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.loops.loop-body.pushed-in
+type: narrative
+title: The pushed-in lines
+skills:
+- id: for-loop-range
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/loops/loop-body/pushed-in.grade3.ogg

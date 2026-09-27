@@ -1,0 +1,9 @@
+id: give-it-something
+title: Give a function something to use
+claim: A parameter is a box that gets its value when the function is called
+steps:
+- 01-parameters
+- 02-predict-greet
+- 03-order-function
+- 04-repeat-word
+- 05-row-of-marks

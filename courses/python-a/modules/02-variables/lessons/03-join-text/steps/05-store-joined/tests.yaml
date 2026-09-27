@@ -1,0 +1,7 @@
+cases:
+- id: word-held
+  assert: word == 'rainbow'
+  message: word holds rainbow
+- id: shows-word
+  expectedStdout: rainbow
+  message: shows rainbow

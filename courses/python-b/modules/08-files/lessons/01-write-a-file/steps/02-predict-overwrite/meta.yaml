@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.files.write-a-file.predict-overwrite
+type: predict
+title: w twice
+skills:
+- id: file-write
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- b
+- ab
+- a b
+- a
+answer: b
+hints: []

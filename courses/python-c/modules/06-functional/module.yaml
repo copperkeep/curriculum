@@ -1,0 +1,8 @@
+id: functional
+title: Functions as values
+lessons:
+- 01-functions-are-values
+- 02-lambdas
+- 03-map-filter-any-all
+- 04-closures
+- 05-functools

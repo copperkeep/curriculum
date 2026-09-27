@@ -1,0 +1,9 @@
+id: unpacking
+title: Unpacking
+claim: Unpacking gives each value in a sequence its own name in one line
+steps:
+- 01-unpack
+- 02-predict-swap
+- 03-predict-star
+- 04-head-tail
+- 05-loop-pairs

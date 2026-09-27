@@ -1,0 +1,9 @@
+id: dictionaries
+title: Dictionaries
+claim: A dictionary looks up a value by its key
+steps:
+- 01-key-value
+- 02-predict-overwrite
+- 03-predict-get
+- 04-phone-book
+- 05-invert

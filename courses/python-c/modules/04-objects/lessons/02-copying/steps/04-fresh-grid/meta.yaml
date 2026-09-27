@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.objects.copying.fresh-grid
+type: free-code
+title: Build a grid safely
+skills:
+- id: copying
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Build each row separately in a comprehension instead of multiplying.

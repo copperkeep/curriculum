@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.debugging.tracing.find-the-line
+type: explain-back
+title: Which line is wrong?
+skills:
+- id: debug-tracing
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 'Line 3: count starts again at 0 on every pass'
+- 'Line 2: the loop should use range'
+- 'Line 4: it should be count + 2'
+- 'Line 5: the print is in the wrong place'
+answer: 'Line 3: count starts again at 0 on every pass'
+hints: []

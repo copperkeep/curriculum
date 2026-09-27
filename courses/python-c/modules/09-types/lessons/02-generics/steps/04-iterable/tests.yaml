@@ -1,0 +1,10 @@
+cases:
+- id: list
+  assert: longest(['a', 'abc', 'ab']) == 'abc'
+  message: works on a list
+- id: generator
+  assert: longest(w for w in ('xy', 'z')) == 'xy'
+  message: works on a generator
+- id: tie
+  assert: longest(['ab', 'cd']) == 'ab'
+  message: the first wins a tie

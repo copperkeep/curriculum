@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.try-except.predict-unmatched
+type: predict
+title: The wrong except
+skills:
+- id: try-except
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- KeyError
+- caught
+- None
+- caught KeyError
+answer: KeyError
+hints: []

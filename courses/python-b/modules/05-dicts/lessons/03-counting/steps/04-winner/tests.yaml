@@ -1,0 +1,7 @@
+cases:
+- id: cat
+  assert: winner(['cat', 'dog', 'cat', 'fox', 'cat', 'dog']) == 'cat'
+  message: cat wins with 3 votes
+- id: single
+  assert: winner(['owl']) == 'owl'
+  message: one vote wins

@@ -1,0 +1,18 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-b.word-report.clean
+type: free-code
+title: Clean the text
+skills:
+- id: string-methods
+  weight: primary
+- id: split-join
+  weight: supporting
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Loop over string.punctuation and replace each mark with nothing.

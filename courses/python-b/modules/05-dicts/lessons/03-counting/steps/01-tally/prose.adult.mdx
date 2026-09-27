@@ -1,0 +1,10 @@
+To count how many of each thing, keep a dict of counts:
+
+```python
+counts = {}
+for word in words:
+    counts[word] = counts.get(word, 0) + 1
+```
+
+`get(word, 0)` handles the first sighting. This is the dictionary version of the
+running total, and it underlies word frequencies, histograms and votes.

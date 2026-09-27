@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.variables.join-text.plus-for-text
+type: narrative
+title: Plus works on words
+skills:
+- id: string-concat
+  weight: primary
+- id: variables
+  weight: supporting
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/variables/join-text/plus-for-text.grade3.ogg

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.generators.fibonacci
+type: free-code
+title: Endless Fibonacci
+skills:
+- id: generators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'while True is fine in a generator: it only runs when asked.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: a, b = b, a + b

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.regex.groups-and-substitution.predict-groups
+type: predict
+title: Groups from findall
+skills:
+- id: regex-groups
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[(''a'', ''1''), (''b'', ''2'')]'
+- '[''a=1'', ''b=2'']'
+- '[''a'', ''1'', ''b'', ''2'']'
+- '[]'
+answer: '[(''a'', ''1''), (''b'', ''2'')]'
+hints: []

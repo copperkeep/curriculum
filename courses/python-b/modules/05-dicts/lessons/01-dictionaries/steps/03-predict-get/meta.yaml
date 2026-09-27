@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.dictionaries.predict-get
+type: predict
+title: Missing keys
+skills:
+- id: dict-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '0'
+- KeyError
+- None
+- banana
+answer: '0'
+hints: []

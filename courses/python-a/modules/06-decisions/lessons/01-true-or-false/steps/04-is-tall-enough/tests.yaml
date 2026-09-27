@@ -1,0 +1,7 @@
+cases:
+- id: tall-enough
+  assert: tall_enough is True
+  message: tall_enough holds True
+- id: shows-true
+  expectedStdout: 'True'
+  message: shows True

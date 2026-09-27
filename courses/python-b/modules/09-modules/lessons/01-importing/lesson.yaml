@@ -1,0 +1,9 @@
+id: importing
+title: Importing modules
+claim: import brings in code someone else already wrote
+steps:
+- 01-stdlib
+- 02-predict-math
+- 03-order-import
+- 04-hypotenuse
+- 05-seeded-dice

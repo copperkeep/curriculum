@@ -1,0 +1,10 @@
+cases:
+- id: simple
+  assert: word_count('the quick brown fox') == 4
+  message: counts 4 words
+- id: spaces
+  assert: word_count('  lots   of   space  ') == 3
+  message: extra spaces do not count as words
+- id: empty
+  assert: word_count('') == 0
+  message: an empty string has 0 words

@@ -1,0 +1,7 @@
+cases:
+- id: left-seven
+  assert: left == 7
+  message: left holds 7
+- id: shows-seven
+  expectedStdout: '7'
+  message: shows 7

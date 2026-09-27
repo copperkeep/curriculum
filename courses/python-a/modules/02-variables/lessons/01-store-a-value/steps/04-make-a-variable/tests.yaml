@@ -1,0 +1,7 @@
+cases:
+- id: color-is-green
+  assert: color == 'green'
+  message: there is a variable called color that holds green
+- id: shows-green
+  expectedStdout: green
+  message: shows green

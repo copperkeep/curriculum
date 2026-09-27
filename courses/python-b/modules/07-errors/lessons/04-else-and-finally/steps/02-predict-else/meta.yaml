@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.else-and-finally.predict-else
+type: predict
+title: Success path
+skills:
+- id: try-else-finally
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- try else finally
+- try finally
+- try except finally
+- try else
+answer: try else finally
+hints: []

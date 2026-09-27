@@ -1,0 +1,10 @@
+cases:
+- id: ok
+  assert: ratio(6, 3) == 2
+  message: ratio(6, 3) gives 2
+- id: zero
+  assert: ratio(1, 0) == 'undefined'
+  message: ratio(1, 0) gives undefined
+- id: type
+  assert: ratio('6', 3) == 'not a number'
+  message: ratio('6', 3) gives not a number

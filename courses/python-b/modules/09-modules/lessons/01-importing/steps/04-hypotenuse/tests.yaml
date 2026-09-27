@@ -1,0 +1,7 @@
+cases:
+- id: three-four
+  assert: hyp(3, 4) == 5
+  message: hyp(3, 4) gives 5
+- id: one-one
+  assert: hyp(1, 1) == 1.41
+  message: hyp(1, 1) gives 1.41

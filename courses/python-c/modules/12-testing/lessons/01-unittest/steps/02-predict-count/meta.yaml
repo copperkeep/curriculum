@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.testing.unittest.predict-count
+type: predict
+title: Which methods are tests?
+skills:
+- id: unittest-module
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '2'
+- '3'
+- '1'
+- '0'
+answer: '2'
+hints: []

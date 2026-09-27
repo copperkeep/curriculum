@@ -1,0 +1,16 @@
+Python's syntax calls methods with double-underscore names ("dunders"):
+
+| You write | Python calls |
+|---|---|
+| `str(x)`, `print(x)` | `x.__str__()` |
+| `repr(x)`, the REPL | `x.__repr__()` |
+| `a == b` | `a.__eq__(b)` |
+| `a < b` | `a.__lt__(b)` |
+| `a + b` | `a.__add__(b)` |
+| `len(x)` | `x.__len__()` |
+| `x[i]` | `x.__getitem__(i)` |
+| `item in x` | `x.__contains__(item)` |
+
+`__repr__` should be unambiguous, ideally valid code: `Point(2, 3)`. `__str__` is
+the friendly form and falls back to `__repr__`. Without `__eq__`, `==` means
+"same object".

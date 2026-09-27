@@ -1,0 +1,8 @@
+id: map-filter-any-all
+title: map, filter, any and all
+claim: map transforms, filter selects, any and all answer yes-or-no over a whole sequence
+steps:
+- 01-builtins
+- 02-predict-all-empty
+- 03-parse-ints
+- 04-password-rules

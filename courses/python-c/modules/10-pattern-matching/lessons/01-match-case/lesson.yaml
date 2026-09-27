@@ -1,0 +1,9 @@
+id: match-case
+title: match and case
+claim: match compares a value against patterns and runs the first case that fits
+steps:
+- 01-match
+- 02-predict-capture
+- 03-predict-sequence
+- 04-http-status
+- 05-commands

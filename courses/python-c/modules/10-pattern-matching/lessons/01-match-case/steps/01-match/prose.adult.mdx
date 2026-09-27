@@ -1,0 +1,14 @@
+```python
+match command:
+    case "quit" | "exit":
+        ...
+    case ("go", direction):        # a 2-item sequence; binds direction
+        ...
+    case _:                        # anything else
+        ...
+```
+
+Cases are tried top to bottom and only the first match runs. Literals match by
+equality; `|` combines alternatives; a bare name *captures* whatever is there
+(it does not compare against a variable of that name); `_` matches anything
+without binding. `case x if x > 0:` adds a guard.

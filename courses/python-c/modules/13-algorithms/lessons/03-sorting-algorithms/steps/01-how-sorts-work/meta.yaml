@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.sorting-algorithms.how-sorts-work
+type: narrative
+title: How sorting works
+skills:
+- id: sorting-algorithms
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

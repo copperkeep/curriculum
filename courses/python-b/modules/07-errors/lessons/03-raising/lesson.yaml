@@ -1,0 +1,8 @@
+id: raising
+title: Raising an error
+claim: raise stops a function when it has been given something it cannot use
+steps:
+- 01-raise
+- 02-predict-raise
+- 03-validate-age
+- 04-withdraw

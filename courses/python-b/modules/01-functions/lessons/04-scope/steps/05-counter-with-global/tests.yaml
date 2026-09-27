@@ -1,0 +1,8 @@
+cases:
+- id: returns-pong
+  assert: ping() == 'pong'
+  message: ping() gives back pong
+- id: counts
+  assert: '(lambda g: (g.__setitem__(''calls'', 0), ping(), ping(), g[''calls''])[-1])(ping.__globals__)
+    == 2'
+  message: each call adds 1 to calls

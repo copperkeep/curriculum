@@ -1,0 +1,7 @@
+`b = a` does not copy the list. It sticks a second label on the *same* list. Change
+it through `b` and `a` sees the change, because there is only one list.
+
+Functions get the same treatment: a list passed in is the caller's list, and
+`xs.append(...)` inside the function changes it for the caller too.
+
+To get an independent copy, ask for one: `a[:]`, `list(a)`, or `a.copy()`.

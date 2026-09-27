@@ -1,0 +1,7 @@
+cases:
+- id: two-keywords
+  assert: 'describe(''Rex'', kind=''dog'', age=3) == ''Rex: kind=dog, age=3'''
+  message: 'describe(''Rex'', kind=''dog'', age=3) gives Rex: kind=dog, age=3'
+- id: none
+  assert: 'describe(''Tom'') == ''Tom: '''
+  message: 'describe(''Tom'') gives ''Tom: '''

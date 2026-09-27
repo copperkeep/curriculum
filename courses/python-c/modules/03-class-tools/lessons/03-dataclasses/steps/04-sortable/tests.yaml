@@ -1,0 +1,14 @@
+cases:
+- id: order
+  assert: sorted([Version(1, 10, 0), Version(1, 2, 5), Version(0, 9, 9)])[0] == Version(0, 9, 9)
+  message: versions sort correctly
+- id: compare
+  assert: Version(1, 10, 0) > Version(1, 9, 9)
+  message: 1.10.0 is newer than 1.9.9
+- id: frozen
+  assert: __import__('unittest').TestCase().assertRaises(Exception, setattr, Version(1, 0, 0), 'major',
+    2) is None
+  message: a Version cannot be modified
+- id: hashable
+  assert: len({Version(1, 0, 0), Version(1, 0, 0)}) == 1
+  message: versions work in a set

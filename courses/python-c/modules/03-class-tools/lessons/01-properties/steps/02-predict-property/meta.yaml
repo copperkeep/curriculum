@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.class-tools.properties.predict-property
+type: predict
+title: Always up to date
+skills:
+- id: properties
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '212.0'
+- '32.0'
+- '100'
+- Error
+answer: '212.0'
+hints: []

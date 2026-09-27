@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.conditional-expressions.plural
+type: free-code
+title: Plurals
+skills:
+- id: conditional-expression
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: One f-string with a conditional expression inside the braces.

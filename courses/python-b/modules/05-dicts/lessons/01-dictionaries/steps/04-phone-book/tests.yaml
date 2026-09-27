@@ -1,0 +1,10 @@
+cases:
+- id: found
+  assert: lookup('ana') == '555-0101'
+  message: lookup('ana') finds her number
+- id: missing
+  assert: lookup('zed') == 'unknown'
+  message: lookup of a missing name gives unknown
+- id: adds
+  assert: (add('cy', '555-0123'), lookup('cy'))[1] == '555-0123'
+  message: add stores a number that lookup can find

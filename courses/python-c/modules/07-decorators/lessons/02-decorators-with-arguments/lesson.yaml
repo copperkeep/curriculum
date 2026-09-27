@@ -1,0 +1,8 @@
+id: decorators-with-arguments
+title: Decorators that take arguments
+claim: '@repeat(3) calls repeat(3) first, and what that returns is the decorator'
+steps:
+- 01-three-levels
+- 02-predict-stack
+- 03-retry
+- 04-register

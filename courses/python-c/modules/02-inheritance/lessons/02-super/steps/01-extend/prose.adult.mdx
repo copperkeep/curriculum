@@ -1,0 +1,13 @@
+Overriding `__init__` replaces the parent's entirely — including the attributes it
+set. `super().__init__(...)` runs the parent's version first, so you only add
+what is new:
+
+```python
+class Discounted(Item):
+    def __init__(self, name, price, percent):
+        super().__init__(name, price)
+        self.percent = percent
+```
+
+`super()` works in any method, not just `__init__`: call the parent's behaviour,
+then adjust the result.

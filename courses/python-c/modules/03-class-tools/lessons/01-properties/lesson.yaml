@@ -1,0 +1,9 @@
+id: properties
+title: Properties
+claim: A property looks like an attribute but runs code when read or set
+steps:
+- 01-property
+- 02-predict-property
+- 03-predict-readonly
+- 04-validated
+- 05-full-name

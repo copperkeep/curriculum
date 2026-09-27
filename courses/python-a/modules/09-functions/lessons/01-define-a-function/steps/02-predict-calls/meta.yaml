@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functions.define-a-function.predict-calls
+type: predict
+title: How many times?
+skills:
+- id: define-function
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- Hip hooray Hip hooray
+- Hip hooray
+- Nothing
+- cheer cheer
+answer: Hip hooray Hip hooray
+hints: []
+audio:
+  grade3: audio/py/functions/define-a-function/predict-calls.grade3.ogg

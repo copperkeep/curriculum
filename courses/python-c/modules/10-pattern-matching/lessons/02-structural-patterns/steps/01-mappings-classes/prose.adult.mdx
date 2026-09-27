@@ -1,0 +1,20 @@
+Mapping patterns match dicts that have *at least* the given keys:
+
+```python
+match event:
+    case {"type": "click", "x": x, "y": y}:
+        ...
+```
+
+Class patterns check the type and pull out attributes:
+
+```python
+match shape:
+    case Circle(r=radius):
+        ...
+    case Point(x=0, y=0):
+        ...
+```
+
+Dataclasses support positional class patterns (`Point(0, 0)`) out of the box.
+Patterns nest, so you can destructure JSON-shaped data in a single case.

@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.find-in-a-list.get-the-middle
+type: free-code
+title: Get one out
+skills:
+- id: list-indexing
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The first spot is 0. So the third spot is 2.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: The first planet is planets[0]. Count on from there.
+audio:
+  grade3: audio/py/lists/find-in-a-list/get-the-middle.grade3.ogg

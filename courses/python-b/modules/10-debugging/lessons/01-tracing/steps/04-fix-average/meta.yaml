@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.debugging.tracing.fix-average
+type: fill-blank
+title: Fix the average
+skills:
+- id: debug-tracing
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Print total and len(nums) just before the return. Which is wrong?
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Look at which items the loop actually visits.

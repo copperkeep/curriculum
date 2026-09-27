@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.functional.lambdas.predict-key
+type: predict
+title: Sort by the second item
+skills:
+- id: lambda-functions
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[(''b'', 1), (''c'', 2), (''a'', 3)]'
+- '[(''a'', 3), (''b'', 1), (''c'', 2)]'
+- '[(''a'', 3), (''c'', 2), (''b'', 1)]'
+- Error
+answer: '[(''b'', 1), (''c'', 2), (''a'', 3)]'
+hints: []

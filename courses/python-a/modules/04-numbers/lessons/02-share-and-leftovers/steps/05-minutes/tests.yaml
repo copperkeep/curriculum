@@ -1,0 +1,12 @@
+cases:
+- id: hours-two
+  assert: hours == 2
+  message: hours holds 2
+- id: mins-fifteen
+  assert: mins == 15
+  message: mins holds 15
+- id: shows-both
+  expectedStdout: |
+    2
+    15
+  message: shows 2, then 15

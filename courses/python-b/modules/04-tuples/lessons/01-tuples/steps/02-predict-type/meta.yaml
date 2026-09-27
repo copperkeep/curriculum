@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.tuples.predict-type
+type: predict
+title: Tuple or not?
+skills:
+- id: tuples
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- <class 'int'> <class 'tuple'>
+- <class 'tuple'> <class 'tuple'>
+- <class 'int'> <class 'int'>
+- <class 'tuple'> <class 'int'>
+answer: <class 'int'> <class 'tuple'>
+hints: []

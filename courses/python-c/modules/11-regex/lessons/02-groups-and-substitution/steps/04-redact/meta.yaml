@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.regex.groups-and-substitution.redact
+type: free-code
+title: Redact and reformat
+skills:
+- id: regex-groups
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- regex-groups
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Keep the last four digits in a group and put it back with \1.

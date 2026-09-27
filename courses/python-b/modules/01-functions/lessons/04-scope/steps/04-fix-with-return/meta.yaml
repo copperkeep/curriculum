@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.scope.fix-with-return
+type: fill-blank
+title: Pass it in, return it out
+skills:
+- id: variable-scope
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: The function should take the score as a parameter.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Return the new score, and assign the result back at the call site.

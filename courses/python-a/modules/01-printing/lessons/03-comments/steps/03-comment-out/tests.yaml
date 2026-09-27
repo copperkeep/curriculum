@@ -1,0 +1,6 @@
+cases:
+- id: no-cat
+  expectedStdout: |
+    dog
+    fish
+  message: shows dog and fish, but not cat

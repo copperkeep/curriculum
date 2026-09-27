@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.input.ask-a-question.what-input
+type: narrative
+title: The computer asks
+skills:
+- id: input-text
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/input/ask-a-question/what-input.grade3.ogg

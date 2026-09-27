@@ -1,0 +1,11 @@
+Build the core of a lending library:
+
+- `Book` — a frozen dataclass: `isbn`, `title`, `author`
+- `Library` — add books, lend them to members, return them
+- `LendingError` — raised for impossible actions (lending a book that is out, or
+  not in the catalogue)
+- `overdue()` — a generator of loans past their due date
+- `to_json()` / `from_json()` — save and restore the whole library
+
+Each step builds on the last, and each is graded on its own. Design the pieces
+so they can be tested alone — that is the real lesson.

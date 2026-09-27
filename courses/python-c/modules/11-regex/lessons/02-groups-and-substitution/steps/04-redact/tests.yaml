@@ -1,0 +1,7 @@
+cases:
+- id: one
+  assert: redact('card 1234 5678 9012 3456 ok') == 'card **** **** **** 3456 ok'
+  message: hides all but the last four digits
+- id: none
+  assert: redact('call 555 0101') == 'call 555 0101'
+  message: text without a card is unchanged

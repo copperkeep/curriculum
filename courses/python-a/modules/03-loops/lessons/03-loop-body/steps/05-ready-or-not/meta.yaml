@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.loops.loop-body.ready-or-not
+type: free-code
+title: Hide and seek
+skills:
+- id: for-loop-range
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- for-loop-range
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: range can start at a number that is not 0. Give it two numbers.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: range(1, 6) starts at 1 and stops before 6.
+audio:
+  grade3: audio/py/loops/loop-body/ready-or-not.grade3.ogg

@@ -1,0 +1,8 @@
+id: closures
+title: Closures
+claim: An inner function remembers the variables of the function that made it
+steps:
+- 01-closures
+- 02-predict-late-binding
+- 03-counter
+- 04-memo

@@ -1,0 +1,8 @@
+`label = "even" if n % 2 == 0 else "odd"` is an *expression*: it produces a value,
+so it can go anywhere a value can — an argument, an f-string, a return.
+
+Keep it for simple choices between two values. If either branch needs more than a
+short expression, or you are tempted to nest them, use a normal `if`.
+
+Relatedly, `or` returns the first truthy operand: `name = given or "anonymous"` —
+but only when an empty string or 0 should also fall back.

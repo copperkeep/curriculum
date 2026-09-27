@@ -1,0 +1,4 @@
+cases:
+- id: clean
+  assert: clean == 'hello world'
+  message: clean holds 'hello world' with no spaces at the ends

@@ -55,7 +55,8 @@ ID vanishes.
 
 ## Authoring
 
-See [`docs/authoring/`](docs/authoring/).
+See [`docs/authoring/`](docs/authoring/). What is covered, and what is not yet, is in
+[`docs/syllabus.md`](docs/syllabus.md).
 
 ## Licence
 

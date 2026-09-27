@@ -1,0 +1,7 @@
+cases:
+- id: two
+  assert: 'hashtags(''Loving #python and #regex!'') == [''python'', ''regex'']'
+  message: finds python and regex
+- id: none
+  assert: hashtags('no tags') == []
+  message: no tags gives []

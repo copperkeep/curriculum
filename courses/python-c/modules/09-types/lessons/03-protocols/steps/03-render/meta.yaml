@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.types.protocols.render
+type: free-code
+title: Render anything drawable
+skills:
+- id: protocols
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Define Drawable(Protocol) with draw(self) -> str: ...'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Circle and Square just need a draw method; they do not inherit from Drawable.

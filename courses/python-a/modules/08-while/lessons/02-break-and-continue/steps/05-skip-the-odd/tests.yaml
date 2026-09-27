@@ -1,0 +1,9 @@
+cases:
+- id: evens
+  expectedStdout: |
+    2
+    4
+    6
+    8
+    10
+  message: shows 2, 4, 6, 8 and 10

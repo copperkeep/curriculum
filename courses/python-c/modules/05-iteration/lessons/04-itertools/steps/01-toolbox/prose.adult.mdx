@@ -1,0 +1,13 @@
+| Function | Gives |
+|---|---|
+| `count(start)` | start, start+1, ... forever |
+| `islice(it, n)` | the first n items of any iterator |
+| `chain(a, b)` | a's items then b's |
+| `groupby(it, key)` | runs of consecutive items with equal keys |
+| `product(a, b)` | every (x, y) pair |
+| `permutations(xs, r)` | every ordering of r items |
+| `combinations(xs, r)` | every unordered choice of r items |
+| `accumulate(xs)` | running totals |
+
+All are lazy — wrap in `list()` to see them. `groupby` only groups *adjacent*
+items, so sort first when you want every equal key together.

@@ -1,0 +1,4 @@
+cases:
+- id: evens
+  assert: evens == [0, 2, 4, 6, 8]
+  message: evens holds 0, 2, 4, 6 and 8

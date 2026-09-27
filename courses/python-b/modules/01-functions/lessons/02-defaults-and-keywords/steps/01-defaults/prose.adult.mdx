@@ -1,0 +1,8 @@
+A parameter can have a default value: `def greet(name, greeting="Hello"):`. Callers
+can leave it out, or pass it to override.
+
+Arguments can be passed by name, in any order: `greet(greeting="Hi", name="Ana")`.
+Keyword arguments make calls self-documenting — `resize(w, h, keep_ratio=True)`
+reads far better than `resize(w, h, True)`.
+
+Parameters with defaults must come after those without.

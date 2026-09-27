@@ -1,0 +1,4 @@
+cases:
+- id: rank
+  assert: rank([('cy', 5), ('ana', 9), ('bo', 5)]) == [('ana', 9), ('bo', 5), ('cy', 5)]
+  message: ana first, then bo and cy tied on 5

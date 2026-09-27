@@ -1,0 +1,10 @@
+cases:
+- id: example
+  assert: report('b a b c a b', 2) == 'b           3\na           2'
+  message: the example gives b then a
+- id: ties
+  assert: report('z y x', 3) == 'x           1\ny           1\nz           1'
+  message: ties are alphabetical
+- id: punctuation
+  assert: report('Go! go, GO.', 1) == 'go          3'
+  message: punctuation and case do not split words

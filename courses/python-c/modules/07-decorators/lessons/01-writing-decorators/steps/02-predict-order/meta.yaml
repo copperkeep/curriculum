@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decorators.writing-decorators.predict-order
+type: predict
+title: Wrapper order
+skills:
+- id: decorators
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- before hi after
+- hi before after
+- before after hi
+- hi
+answer: before hi after
+hints: []

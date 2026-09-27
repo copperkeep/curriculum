@@ -1,0 +1,7 @@
+cases:
+- id: third-is-earth
+  assert: third == 'Earth'
+  message: third holds Earth
+- id: shows-earth
+  expectedStdout: Earth
+  message: shows Earth

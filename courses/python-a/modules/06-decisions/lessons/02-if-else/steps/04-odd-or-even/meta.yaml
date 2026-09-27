@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.if-else.odd-or-even
+type: free-code
+title: Odd or even
+skills:
+- id: if-else
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A number is even when % 2 gives 0.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Check the leftover: if n % 2 is 0, it is even.'
+audio:
+  grade3: audio/py/decisions/if-else/odd-or-even.grade3.ogg

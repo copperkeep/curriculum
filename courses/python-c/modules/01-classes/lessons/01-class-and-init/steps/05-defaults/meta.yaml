@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.class-and-init.defaults
+type: free-code
+title: Derived attributes
+skills:
+- id: class-basics
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- class-basics
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: __init__ can compute attributes, not only copy arguments.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Parameters can have defaults here too.

@@ -1,0 +1,4 @@
+cases:
+- id: output
+  expectedStdout: width=7, height=3, area=21
+  message: shows width=7, height=3, area=21

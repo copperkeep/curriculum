@@ -1,0 +1,7 @@
+cases:
+- id: works
+  assert: initials(['Ada', 'Lovelace'], '.') == 'A.L'
+  message: still works
+- id: annotated
+  assert: 'initials.__annotations__ == {''names'': list[str], ''sep'': str, ''return'': str}'
+  message: names is list[str], sep is str, and it returns str

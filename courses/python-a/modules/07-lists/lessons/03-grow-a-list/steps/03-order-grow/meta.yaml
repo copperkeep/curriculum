@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.grow-a-list.order-grow
+type: parsons
+title: Start empty, then grow
+skills:
+- id: list-append-len
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- toys = []
+- toys.append("ball")
+- toys.append("kite")
+- print(len(toys))
+distractors:
+- toys = append("ball")
+- print(toys.len)
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Start with an empty list, then add to it.
+audio:
+  grade3: audio/py/lists/grow-a-list/order-grow.grade3.ogg

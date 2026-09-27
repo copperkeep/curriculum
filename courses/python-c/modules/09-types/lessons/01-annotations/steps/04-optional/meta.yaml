@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.types.annotations.optional
+type: free-code
+title: Maybe a value
+skills:
+- id: type-hints
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- type-hints
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Return type int | None says it may return None.

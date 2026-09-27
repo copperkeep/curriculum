@@ -1,0 +1,4 @@
+cases:
+- id: first-eight
+  assert: '(lambda g: [next(g) for _ in range(8)])(fib()) == [0, 1, 1, 2, 3, 5, 8, 13]'
+  message: the first eight are 0, 1, 1, 2, 3, 5, 8, 13

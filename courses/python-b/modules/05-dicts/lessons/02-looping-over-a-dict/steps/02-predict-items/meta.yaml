@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.looping-over-a-dict.predict-items
+type: predict
+title: Pairs
+skills:
+- id: dict-iteration
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- a1 b2
+- a b
+- 1 2
+- ('a', 1) ('b', 2)
+answer: a1 b2
+hints: []

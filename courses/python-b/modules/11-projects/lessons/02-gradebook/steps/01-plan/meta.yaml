@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-b.gradebook.plan
+type: narrative
+title: The plan
+skills:
+- id: csv-json
+  weight: primary
+- id: try-except
+  weight: supporting
+- id: dict-iteration
+  weight: supporting
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

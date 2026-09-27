@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.list-methods.predict-pop
+type: predict
+title: What does pop give back?
+skills:
+- id: list-methods
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- c ['a', 'b']
+- '[''a'', ''b''] c'
+- c ['a', 'b', 'c']
+- None ['a', 'b']
+answer: c ['a', 'b']
+hints: []

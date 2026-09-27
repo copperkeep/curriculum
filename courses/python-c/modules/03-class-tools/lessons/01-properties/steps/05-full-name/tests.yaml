@@ -1,0 +1,8 @@
+cases:
+- id: read
+  assert: Name('Grace', 'Hopper').full == 'Grace Hopper'
+  message: full joins first and last
+- id: write
+  assert: '(lambda n: (setattr(n, ''full'', ''Ada Lovelace''), n.first, n.last)[1:])(Name(''x'', ''y''))
+    == (''Ada'', ''Lovelace'')'
+  message: setting full updates first and last

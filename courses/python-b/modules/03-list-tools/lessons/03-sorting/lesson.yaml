@@ -1,0 +1,9 @@
+id: sorting
+title: Sorting
+claim: sorted returns a new sorted list, and sort sorts in place
+steps:
+- 01-sort-vs-sorted
+- 02-predict-strings
+- 03-predict-key
+- 04-top-three
+- 05-case-insensitive

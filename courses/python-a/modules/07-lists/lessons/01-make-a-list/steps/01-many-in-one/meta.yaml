@@ -1,0 +1,15 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.make-a-list.many-in-one
+type: narrative
+title: Many things in one box
+skills:
+- id: list-basics
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []
+audio:
+  grade3: audio/py/lists/make-a-list/many-in-one.grade3.ogg

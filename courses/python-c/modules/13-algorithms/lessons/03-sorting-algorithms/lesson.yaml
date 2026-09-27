@@ -1,0 +1,8 @@
+id: sorting-algorithms
+title: Sorting algorithms
+claim: Merge sort sorts by splitting in half, sorting each half, and merging
+steps:
+- 01-how-sorts-work
+- 02-predict-merge
+- 03-insertion
+- 04-merge-sort

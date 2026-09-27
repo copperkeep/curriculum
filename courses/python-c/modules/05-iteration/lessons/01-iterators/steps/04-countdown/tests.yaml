@@ -1,0 +1,7 @@
+cases:
+- id: three
+  assert: list(Countdown(3)) == [3, 2, 1]
+  message: Countdown(3) gives 3, 2, 1
+- id: zero
+  assert: list(Countdown(0)) == []
+  message: Countdown(0) gives nothing

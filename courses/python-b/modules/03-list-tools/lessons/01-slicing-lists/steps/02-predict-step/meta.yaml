@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.slicing-lists.predict-step
+type: predict
+title: Every other one
+skills:
+- id: list-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[0, 2, 4]'
+- '[1, 3, 5]'
+- '[0, 1]'
+- '[2, 4]'
+answer: '[0, 2, 4]'
+hints: []

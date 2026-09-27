@@ -1,0 +1,7 @@
+cases:
+- id: total
+  assert: total_cost([Item('pen', 10), Discounted('ink', 20, 25)]) == 25
+  message: 10 plus 20 at 25% off is 25
+- id: subclass
+  assert: issubclass(Discounted, Item)
+  message: Discounted is a kind of Item

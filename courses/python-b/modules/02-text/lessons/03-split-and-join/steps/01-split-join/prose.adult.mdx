@@ -1,0 +1,5 @@
+`"a b c".split()` splits on any run of whitespace and gives `["a", "b", "c"]`.
+`"a,b,c".split(",")` splits on exactly that separator.
+
+`join` goes the other way. It is a method *of the separator*:
+`", ".join(["a", "b", "c"])` gives `"a, b, c"`. Every item must already be a string.

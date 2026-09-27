@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.iteration.iterators.predict-next
+type: predict
+title: Step by step
+skills:
+- id: iterator-protocol
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- a b
+- a a
+- b c
+- a c
+answer: a b
+hints: []

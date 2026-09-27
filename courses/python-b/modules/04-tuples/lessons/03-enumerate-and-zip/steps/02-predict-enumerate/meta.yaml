@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.tuples.enumerate-and-zip.predict-enumerate
+type: predict
+title: Counting from one
+skills:
+- id: enumerate-zip
+  weight: primary
+prerequisites:
+- for-over-list
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 1 a 2 b
+- 0 a 1 b
+- a 1 b 2
+- 1 2
+answer: 1 a 2 b
+hints: []

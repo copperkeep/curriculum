@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.two-names-one-list.predict-function
+type: predict
+title: Through a function
+skills:
+- id: aliasing
+  weight: primary
+prerequisites:
+- list-append-len
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[''x'', ''added'']'
+- '[''x'']'
+- '[''added'']'
+- None
+answer: '[''x'', ''added'']'
+hints: []

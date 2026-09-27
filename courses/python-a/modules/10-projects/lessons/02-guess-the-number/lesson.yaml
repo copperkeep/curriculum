@@ -1,0 +1,7 @@
+id: guess-the-number
+title: Guess the number
+claim: A game is just a loop, some checks, and a way to stop
+steps:
+- 01-how-it-works
+- 02-one-guess
+- 03-whole-game

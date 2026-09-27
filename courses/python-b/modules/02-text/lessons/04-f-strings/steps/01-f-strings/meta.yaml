@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.text.f-strings.f-strings
+type: narrative
+title: Holes in a string
+skills:
+- id: f-strings
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

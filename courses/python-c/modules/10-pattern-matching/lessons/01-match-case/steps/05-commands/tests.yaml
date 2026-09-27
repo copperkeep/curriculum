@@ -1,0 +1,13 @@
+cases:
+- id: look
+  assert: run('look') == 'You look around.'
+  message: look works
+- id: go
+  assert: run('go west') == 'You go west.'
+  message: go west works
+- id: drop
+  assert: run('drop sword shield') == 'Dropped 2 items.'
+  message: drop counts its items
+- id: huh
+  assert: run('dance') == 'Huh?' and run('drop') == 'Huh?'
+  message: anything else is Huh?

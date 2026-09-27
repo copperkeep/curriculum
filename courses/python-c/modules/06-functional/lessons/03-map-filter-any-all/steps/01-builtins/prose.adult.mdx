@@ -1,0 +1,10 @@
+- `map(f, xs)` — `f(x)` for each x, lazily
+- `filter(pred, xs)` — the xs where `pred(x)` is true, lazily
+- `any(xs)` — is at least one truthy? Stops at the first.
+- `all(xs)` — are they all truthy? Stops at the first falsy one.
+
+In Python a comprehension is usually clearer than `map`/`filter` with a lambda.
+`map` shines with an existing function: `map(int, "1 2 3".split())`. `any` and
+`all` with a generator expression are idiomatic everywhere.
+
+`all([])` is `True`; `any([])` is `False`.

@@ -1,0 +1,9 @@
+id: try-except
+title: Catching an error
+claim: try runs risky code, and except says what to do if it fails
+steps:
+- 01-try-except
+- 02-predict-flow
+- 03-predict-unmatched
+- 04-safe-int
+- 05-safe-divide

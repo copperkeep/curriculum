@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.projects-a.guess-the-number.whole-game
+type: project
+title: The whole game
+skills:
+- id: while-loop
+  weight: primary
+- id: elif-chains
+  weight: supporting
+- id: list-indexing
+  weight: supporting
+prerequisites:
+- print-output
+estimatedMinutes: 12
+aiGuidance: allow
+transferFor:
+- while-loop
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Use a box called tries that starts at 0. Get each guess with guesses[tries].
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Loop while guesses[tries] != secret. Add 1 to tries each time round.
+audio:
+  grade3: audio/py/projects-a/guess-the-number/whole-game.grade3.ogg

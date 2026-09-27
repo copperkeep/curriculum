@@ -1,0 +1,10 @@
+Looping over a dict gives its keys. `d.values()` gives the values, and `d.items()`
+gives `(key, value)` pairs — unpack them in the header:
+
+```python
+for name, score in scores.items():
+    print(name, score)
+```
+
+Do not add or remove keys while looping over a dict; loop over `list(d)` if you
+must.

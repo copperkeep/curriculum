@@ -1,0 +1,4 @@
+cases:
+- id: has-space
+  expectedStdout: Hi Sam
+  message: shows Hi Sam, with a space

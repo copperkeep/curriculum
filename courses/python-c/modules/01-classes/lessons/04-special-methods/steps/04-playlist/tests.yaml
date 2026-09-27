@@ -1,0 +1,13 @@
+cases:
+- id: len
+  assert: len(Playlist(['a', 'b'])) == 2
+  message: len works
+- id: index
+  assert: Playlist(['a', 'b'])[-1] == 'b'
+  message: indexing works, negative too
+- id: contains
+  assert: '''a'' in Playlist([''a'']) and ''z'' not in Playlist([''a''])'
+  message: in works
+- id: iterate
+  assert: '[s for s in Playlist([''x'', ''y''])] == [''x'', ''y'']'
+  message: for loops work

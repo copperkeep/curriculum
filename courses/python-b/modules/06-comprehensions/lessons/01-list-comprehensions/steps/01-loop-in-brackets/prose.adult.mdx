@@ -1,0 +1,13 @@
+The build-a-list loop is so common it has its own syntax:
+
+```python
+squares = []
+for n in range(5):
+    squares.append(n * n)
+
+squares = [n * n for n in range(5)]   # same list
+```
+
+Read it left to right as English: "n times n, for each n in range 5". The
+expression comes first, then the loop. Use one when the loop's only job is to
+build the list; keep the full loop when the body does more.

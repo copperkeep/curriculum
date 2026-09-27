@@ -1,0 +1,7 @@
+cases:
+- id: twenty
+  assert: primes(20) == [2, 3, 5, 7, 11, 13, 17, 19]
+  message: primes(20) gives the eight primes below 20
+- id: tiny
+  assert: primes(2) == []
+  message: primes(2) is empty

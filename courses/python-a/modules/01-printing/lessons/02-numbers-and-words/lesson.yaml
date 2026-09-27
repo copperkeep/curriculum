@@ -1,0 +1,9 @@
+id: numbers-and-words
+title: Numbers and words
+claim: Numbers need no quote marks, and Python can do sums with them
+steps:
+- 01-numbers-no-quotes
+- 02-predict-sum
+- 03-predict-no-quotes
+- 04-show-a-sum
+- 05-age-next-year

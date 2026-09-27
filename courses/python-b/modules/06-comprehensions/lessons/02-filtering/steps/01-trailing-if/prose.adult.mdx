@@ -1,0 +1,12 @@
+Add `if condition` after the loop to filter:
+
+```python
+evens = [n for n in nums if n % 2 == 0]
+```
+
+That is different from a conditional *expression* at the front, which transforms
+every item rather than dropping some:
+
+```python
+labels = ["even" if n % 2 == 0 else "odd" for n in nums]
+```

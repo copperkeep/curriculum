@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.defaults-and-keywords.make-tag
+type: free-code
+title: Wrap it in a tag
+skills:
+- id: default-keyword-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Give tag a default of "b" in the def line.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: '"<" + tag + ">" builds the opening tag.'

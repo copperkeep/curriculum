@@ -1,0 +1,10 @@
+cases:
+- id: defaults
+  assert: total(100) == 120
+  message: total(100) gives 120
+- id: discount-only
+  assert: total(100, discount=10) == 108
+  message: total(100, discount=10) gives 108
+- id: no-tax
+  assert: total(50, rate=0) == 50
+  message: total(50, rate=0) gives 50

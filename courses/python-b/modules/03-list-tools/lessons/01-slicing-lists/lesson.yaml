@@ -1,0 +1,9 @@
+id: slicing-lists
+title: Slicing lists
+claim: A slice copies out part of a list
+steps:
+- 01-list-slices
+- 02-predict-step
+- 03-predict-copy
+- 04-middle
+- 05-rotate

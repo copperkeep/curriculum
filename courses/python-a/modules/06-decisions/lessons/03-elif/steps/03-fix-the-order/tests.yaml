@@ -1,0 +1,4 @@
+cases:
+- id: shows-great
+  expectedStdout: great
+  message: shows great for a score of 95

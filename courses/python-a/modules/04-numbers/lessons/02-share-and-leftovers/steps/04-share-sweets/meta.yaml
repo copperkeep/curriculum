@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.numbers.share-and-leftovers.share-sweets
+type: free-code
+title: Share the sweets
+skills:
+- id: int-division-modulo
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Each share uses two slashes. What is left uses %.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'Here is 9 shared by 4: 9 // 4 is 2, and 9 % 4 is 1.'
+audio:
+  grade3: audio/py/numbers/share-and-leftovers/share-sweets.grade3.ogg

@@ -1,0 +1,7 @@
+cases:
+- id: last
+  assert: last([1, 2, 3]) == 3
+  message: last([1, 2, 3]) gives 3
+- id: one
+  assert: last(['x']) == 'x'
+  message: last(['x']) gives x

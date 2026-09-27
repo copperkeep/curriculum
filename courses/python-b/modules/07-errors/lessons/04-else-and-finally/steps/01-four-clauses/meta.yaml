@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.else-and-finally.four-clauses
+type: narrative
+title: The full try statement
+skills:
+- id: try-else-finally
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

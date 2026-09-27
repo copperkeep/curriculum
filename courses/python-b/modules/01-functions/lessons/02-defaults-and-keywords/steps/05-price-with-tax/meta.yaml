@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.return-values.defaults-and-keywords.price-with-tax
+type: free-code
+title: Price with tax
+skills:
+- id: default-keyword-args
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- default-keyword-args
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Two defaults: rate=0.2 and discount=0.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Apply the discount first, then add tax on what is left.

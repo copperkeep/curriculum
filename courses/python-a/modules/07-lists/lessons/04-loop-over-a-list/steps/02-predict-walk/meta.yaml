@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.loop-over-a-list.predict-walk
+type: predict
+title: What comes out?
+skills:
+- id: for-over-list
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- I like red I like blue
+- I like red blue
+- I like colors
+- red blue
+answer: I like red I like blue
+hints: []
+audio:
+  grade3: audio/py/lists/loop-over-a-list/predict-walk.grade3.ogg

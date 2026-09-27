@@ -1,0 +1,31 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.searching.order-binary
+type: parsons
+title: Assemble binary search
+skills:
+- id: searching
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- 'def find(xs, target):'
+- '    lo, hi = 0, len(xs) - 1'
+- '    while lo <= hi:'
+- '        mid = (lo + hi) // 2'
+- '        if xs[mid] == target:'
+- '            return mid'
+- '        elif xs[mid] < target:'
+- '            lo = mid + 1'
+- '        else:'
+- '            hi = mid - 1'
+- '    return -1'
+distractors:
+- '    while lo < hi - 1:'
+- '            lo = mid'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: If lo = mid when the target is bigger, the loop can get stuck.

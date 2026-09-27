@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.pattern-matching.structural-patterns.api-response
+type: free-code
+title: Destructure an API response
+skills:
+- id: structural-patterns
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- structural-patterns
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Nest patterns: {"status": "ok", "data": {"user": {"name": name}}}'

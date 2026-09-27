@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.counting.predict-tally
+type: predict
+title: How many of each?
+skills:
+- id: dict-counting
+  weight: primary
+prerequisites:
+- loop-accumulator
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '{''a'': 2, ''b'': 1}'
+- '{''a'': 1, ''b'': 1}'
+- '{''a'': 2, ''b'': 1, ''c'': 0}'
+- '3'
+answer: '{''a'': 2, ''b'': 1}'
+hints: []

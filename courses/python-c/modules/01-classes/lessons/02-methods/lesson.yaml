@@ -1,0 +1,9 @@
+id: methods
+title: Methods
+claim: A method is a function that belongs to a class and receives the object as self
+steps:
+- 01-self
+- 02-predict-state
+- 03-fix-self
+- 04-account
+- 05-stack

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.sets.predict-dedupe
+type: predict
+title: How many left?
+skills:
+- id: set-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '3'
+- '6'
+- '4'
+- '1'
+answer: '3'
+hints: []

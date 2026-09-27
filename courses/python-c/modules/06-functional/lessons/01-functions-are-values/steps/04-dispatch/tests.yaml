@@ -1,0 +1,7 @@
+cases:
+- id: ops
+  assert: (calc('+', 2, 3), calc('-', 2, 3), calc('*', 2, 3)) == (5, -1, 6)
+  message: +, - and * all work
+- id: bad
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, calc, '/', 1, 2) is None
+  message: an unknown op raises ValueError

@@ -1,0 +1,6 @@
+- An ordinary method receives the instance as `self`.
+- `@classmethod` receives the class as `cls`. Its main use is alternative
+  constructors: `Date.from_string("2026-09-27")`. Because it uses `cls`, a
+  subclass calling it gets an instance of the subclass.
+- `@staticmethod` receives neither. It is a plain function kept in the class's
+  namespace because it belongs there conceptually.

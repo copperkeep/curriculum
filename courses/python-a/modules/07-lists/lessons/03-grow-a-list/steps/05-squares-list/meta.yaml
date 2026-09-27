@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.lists.grow-a-list.squares-list
+type: free-code
+title: Fill a list with a loop
+skills:
+- id: list-append-len
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- list-append-len
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Start with an empty list before the loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Inside the loop, add i times 2 to the list with append.
+audio:
+  grade3: audio/py/lists/grow-a-list/squares-list.grade3.ogg

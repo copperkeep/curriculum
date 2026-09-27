@@ -1,0 +1,29 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.while-loop.order-while
+type: parsons
+title: Double until big
+skills:
+- id: while-loop
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 3
+aiGuidance: suppress
+transferFor: []
+lines:
+- size = 1
+- 'while size < 100:'
+- '    size = size * 2'
+- print(size)
+distractors:
+- while size < 100
+- '    size = 1'
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: size starts at 1 before the loop.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: If size is set to 1 inside the loop, it never grows.
+audio:
+  grade3: audio/py/while-loops/while-loop/order-while.grade3.ogg

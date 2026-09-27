@@ -1,0 +1,22 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.if-else.pass-or-try-again
+type: free-code
+title: Did you pass?
+skills:
+- id: if-else
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- if-else
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Ask if score is 50 or more with >=
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Set a box called result inside each side.
+audio:
+  grade3: audio/py/decisions/if-else/pass-or-try-again.grade3.ogg

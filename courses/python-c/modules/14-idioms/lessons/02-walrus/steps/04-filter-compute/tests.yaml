@@ -1,0 +1,4 @@
+cases:
+- id: words
+  assert: long_upper([' tree ', 'is', ' cloud']) == ['TREE', 'CLOUD']
+  message: keeps tree and cloud

@@ -1,0 +1,4 @@
+`and` is true only when both operands are; `or` when at least one is; `not` negates.
+
+They short-circuit: `and` stops at the first false operand, `or` at the first true
+one. That matters later, when the second check would crash if the first failed.

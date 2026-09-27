@@ -1,0 +1,7 @@
+cases:
+- id: default-tag
+  assert: wrap('hi') == '<b>hi</b>'
+  message: wrap('hi') gives <b>hi</b>
+- id: keyword-tag
+  assert: wrap('hi', tag='i') == '<i>hi</i>'
+  message: wrap('hi', tag='i') gives <i>hi</i>

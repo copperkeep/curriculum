@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.while-loops.break-and-continue.find-first-big
+type: free-code
+title: Find the first big one
+skills:
+- id: break-continue
+  weight: primary
+prerequisites:
+- variables
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Loop over the list. Use if to check each number.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: When you find it, put it in first_big and then break.
+audio:
+  grade3: audio/py/while-loops/break-and-continue/find-first-big.grade3.ogg

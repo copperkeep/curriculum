@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.errors.raising.withdraw
+type: free-code
+title: Withdraw
+skills:
+- id: raise-exceptions
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- raise-exceptions
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Two different checks, two different raises.

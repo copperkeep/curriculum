@@ -1,0 +1,7 @@
+id: idioms
+title: Idioms and the standard library
+lessons:
+- 01-conditional-expressions
+- 02-walrus
+- 03-scripts-and-modules
+- 04-dates-and-times

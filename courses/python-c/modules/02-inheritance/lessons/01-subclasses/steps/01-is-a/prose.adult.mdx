@@ -1,0 +1,9 @@
+`class Dog(Animal):` makes `Dog` a subclass of `Animal`. A `Dog` has every method
+`Animal` defines; define a method with the same name to *override* it.
+
+Method lookup walks up the chain: instance, its class, the parent, and so on to
+`object`. `isinstance(rex, Animal)` is `True` for any subclass instance.
+
+Inherit when the child genuinely *is a* kind of the parent. When it merely *has
+a* part, store that part as an attribute instead (composition) — it is usually the
+better choice.

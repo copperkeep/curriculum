@@ -1,0 +1,10 @@
+cases:
+- id: five
+  assert: middle([1, 2, 3, 4, 5]) == [2, 3, 4]
+  message: middle([1, 2, 3, 4, 5]) gives [2, 3, 4]
+- id: two
+  assert: middle(['a', 'b']) == []
+  message: two items leave nothing
+- id: untouched
+  assert: '(lambda xs: (middle(xs), xs)[1])([1, 2, 3]) == [1, 2, 3]'
+  message: the original list is not changed

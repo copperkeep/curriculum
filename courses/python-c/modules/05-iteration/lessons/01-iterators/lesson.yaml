@@ -1,0 +1,9 @@
+id: iterators
+title: Iterators
+claim: A for loop calls iter once and next until StopIteration
+steps:
+- 01-protocol
+- 02-predict-exhausted
+- 03-predict-next
+- 04-countdown
+- 05-reusable

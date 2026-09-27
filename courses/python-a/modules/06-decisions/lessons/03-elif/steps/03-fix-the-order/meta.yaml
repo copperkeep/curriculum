@@ -1,0 +1,21 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.decisions.elif.fix-the-order
+type: fill-blank
+title: Fix the order
+skills:
+- id: elif-chains
+  weight: primary
+prerequisites:
+- print-output
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: A score of 95 is bigger than 50, so the first question wins.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Ask the 90 question first, then the 50 one.
+audio:
+  grade3: audio/py/decisions/elif/fix-the-order.grade3.ogg

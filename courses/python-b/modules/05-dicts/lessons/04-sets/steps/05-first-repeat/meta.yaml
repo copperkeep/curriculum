@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.dicts.sets.first-repeat
+type: free-code
+title: First repeat
+skills:
+- id: set-basics
+  weight: primary
+prerequisites:
+- list-basics
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- set-basics
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Keep a set of what you have seen so far.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Before adding, check if it is already in the set.

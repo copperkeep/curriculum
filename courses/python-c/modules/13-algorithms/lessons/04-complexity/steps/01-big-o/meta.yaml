@@ -1,0 +1,13 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.complexity.big-o
+type: narrative
+title: Growth, not seconds
+skills:
+- id: complexity
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

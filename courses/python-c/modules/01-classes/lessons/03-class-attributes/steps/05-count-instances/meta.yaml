@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.classes.class-attributes.count-instances
+type: free-code
+title: Count every instance
+skills:
+- id: class-attributes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- class-attributes
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Increment the class attribute through the class, not self: Robot.count += 1'

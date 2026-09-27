@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.list-tools.slicing-lists.rotate
+type: free-code
+title: Rotate a list
+skills:
+- id: list-slicing
+  weight: primary
+prerequisites:
+- list-indexing
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- list-slicing
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Rotating left by 1 is everything from index 1, then the item at index 0.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Use n % len(xs) so rotating by more than the length still works.
