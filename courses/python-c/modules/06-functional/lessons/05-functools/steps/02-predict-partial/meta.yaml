@@ -17,3 +17,5 @@ options:
 - Error
 answer: 8 9
 hints: []
+audio:
+  grade3: audio/py/functional/functools/predict-partial.grade3.ogg

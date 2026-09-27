@@ -17,3 +17,5 @@ options:
 - '[]'
 answer: '[''a'', ''b'']'
 hints: []
+audio:
+  grade3: audio/py/classes/class-attributes/predict-shared-list.grade3.ogg

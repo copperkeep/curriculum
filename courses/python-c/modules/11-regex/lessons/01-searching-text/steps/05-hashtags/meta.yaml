@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: '# followed by one or more word characters: #\w+'
+audio:
+  grade3: audio/py/regex/searching-text/hashtags.grade3.ogg

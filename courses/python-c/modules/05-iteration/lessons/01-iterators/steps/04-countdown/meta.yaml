@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: __iter__ returns self; __next__ returns the next value or raises StopIteration.
+audio:
+  grade3: audio/py/iteration/iterators/countdown.grade3.ogg

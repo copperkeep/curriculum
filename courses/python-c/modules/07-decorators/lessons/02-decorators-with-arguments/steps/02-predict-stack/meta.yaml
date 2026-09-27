@@ -17,3 +17,5 @@ options:
 - hi
 answer: <b><i>hi</i></b>
 hints: []
+audio:
+  grade3: audio/py/decorators/decorators-with-arguments/predict-stack.grade3.ogg

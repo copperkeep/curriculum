@@ -17,3 +17,5 @@ options:
 - Nothing
 answer: start
 hints: []
+audio:
+  grade3: audio/py/return-values/return-a-value/predict-stops.grade3.ogg

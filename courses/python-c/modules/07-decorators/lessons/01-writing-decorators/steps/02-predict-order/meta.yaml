@@ -17,3 +17,5 @@ options:
 - hi
 answer: before hi after
 hints: []
+audio:
+  grade3: audio/py/decorators/writing-decorators/predict-order.grade3.ogg

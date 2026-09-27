@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: random.randint(1, 6) includes both ends.
+audio:
+  grade3: audio/py/modules/importing/seeded-dice.grade3.ogg

@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The lambda can use n from the enclosing function.
+audio:
+  grade3: audio/py/functional/lambdas/make-adder.grade3.ogg

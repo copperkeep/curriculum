@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'if a > b: return a'
+audio:
+  grade3: audio/py/return-values/return-a-value/biggest.grade3.ogg

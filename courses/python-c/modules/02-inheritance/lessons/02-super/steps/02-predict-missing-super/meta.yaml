@@ -17,3 +17,5 @@ options:
 - dog
 answer: AttributeError
 hints: []
+audio:
+  grade3: audio/py/inheritance/super/predict-missing-super.grade3.ogg

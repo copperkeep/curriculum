@@ -17,3 +17,5 @@ options:
 - (1, 2, 3)
 answer: '6'
 hints: []
+audio:
+  grade3: audio/py/return-values/any-number-of-arguments/predict-spread.grade3.ogg

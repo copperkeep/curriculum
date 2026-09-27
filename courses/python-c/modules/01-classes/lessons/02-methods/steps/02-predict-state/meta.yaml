@@ -17,3 +17,5 @@ options:
 - Error
 answer: '3'
 hints: []
+audio:
+  grade3: audio/py/classes/methods/predict-state.grade3.ogg

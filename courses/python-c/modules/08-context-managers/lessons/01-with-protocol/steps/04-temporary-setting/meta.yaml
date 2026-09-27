@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Remember the old value in __enter__, restore it in __exit__.
+audio:
+  grade3: audio/py/context-managers/with-protocol/temporary-setting.grade3.ogg

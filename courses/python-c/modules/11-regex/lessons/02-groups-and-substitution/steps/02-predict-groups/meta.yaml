@@ -17,3 +17,5 @@ options:
 - '[]'
 answer: '[(''a'', ''1''), (''b'', ''2'')]'
 hints: []
+audio:
+  grade3: audio/py/regex/groups-and-substitution/predict-groups.grade3.ogg

@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Create the list in __init__ so each object gets its own.
+audio:
+  grade3: audio/py/classes/class-attributes/fix-shared.grade3.ogg

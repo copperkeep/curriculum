@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: __eq__ compares the coordinates.
+audio:
+  grade3: audio/py/classes/special-methods/vector.grade3.ogg

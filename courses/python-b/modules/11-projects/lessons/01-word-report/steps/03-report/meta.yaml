@@ -22,3 +22,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'key=lambda pair: (-pair[1], pair[0]) sorts by count down, then word up.'
+audio:
+  grade3: audio/py/projects-b/word-report/report.grade3.ogg

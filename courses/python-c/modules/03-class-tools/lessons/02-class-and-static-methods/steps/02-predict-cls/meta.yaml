@@ -17,3 +17,5 @@ options:
 - Error
 answer: Child
 hints: []
+audio:
+  grade3: audio/py/class-tools/class-and-static-methods/predict-cls.grade3.ogg

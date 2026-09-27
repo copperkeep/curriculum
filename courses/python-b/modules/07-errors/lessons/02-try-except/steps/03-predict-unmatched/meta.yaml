@@ -17,3 +17,5 @@ options:
 - caught KeyError
 answer: KeyError
 hints: []
+audio:
+  grade3: audio/py/errors/try-except/predict-unmatched.grade3.ogg

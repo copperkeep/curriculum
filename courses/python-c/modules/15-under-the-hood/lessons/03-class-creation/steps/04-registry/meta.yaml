@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Store the subclass under a lower-cased name.
+audio:
+  grade3: audio/py/under-the-hood/class-creation/registry.grade3.ogg

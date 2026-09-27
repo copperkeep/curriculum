@@ -17,3 +17,5 @@ options:
 - Error
 answer: Rex Fido
 hints: []
+audio:
+  grade3: audio/py/classes/class-and-init/predict-instances.grade3.ogg

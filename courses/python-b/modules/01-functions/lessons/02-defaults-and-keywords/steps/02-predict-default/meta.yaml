@@ -17,3 +17,5 @@ options:
 - Error
 answer: Hello Ana Hi Bo
 hints: []
+audio:
+  grade3: audio/py/return-values/defaults-and-keywords/predict-default.grade3.ogg

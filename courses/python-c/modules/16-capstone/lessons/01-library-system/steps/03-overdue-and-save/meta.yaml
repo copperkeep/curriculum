@@ -24,3 +24,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: For JSON, store dates as ISO strings and rebuild them with date.fromisoformat.
+audio:
+  grade3: audio/py/capstone/library-system/overdue-and-save.grade3.ogg

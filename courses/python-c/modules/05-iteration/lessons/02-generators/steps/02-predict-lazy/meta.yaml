@@ -17,3 +17,5 @@ options:
 - 1 2
 answer: start 1 2
 hints: []
+audio:
+  grade3: audio/py/iteration/generators/predict-lazy.grade3.ogg

@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Make __iter__ return a fresh iterator each time — iter() of a new range works.
+audio:
+  grade3: audio/py/iteration/iterators/reusable.grade3.ogg

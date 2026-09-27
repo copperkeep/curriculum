@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: A dict from value to index answers that in O(1).
+audio:
+  grade3: audio/py/algorithms/complexity/two-sum.grade3.ogg

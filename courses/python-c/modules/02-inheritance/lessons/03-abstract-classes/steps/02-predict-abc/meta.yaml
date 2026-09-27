@@ -17,3 +17,5 @@ options:
 - NotImplementedError
 answer: TypeError
 hints: []
+audio:
+  grade3: audio/py/inheritance/abstract-classes/predict-abc.grade3.ogg

@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: F = C * 9 / 5 + 32
+audio:
+  grade3: audio/py/comprehensions/list-comprehensions/celsius.grade3.ogg

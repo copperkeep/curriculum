@@ -17,3 +17,5 @@ options:
 - '2.7'
 answer: '2.67'
 hints: []
+audio:
+  grade3: audio/py/text/format-numbers/predict-round.grade3.ogg

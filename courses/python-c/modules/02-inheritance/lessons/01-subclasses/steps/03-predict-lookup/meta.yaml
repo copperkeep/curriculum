@@ -17,3 +17,5 @@ options:
 - Error
 answer: I am a Cat
 hints: []
+audio:
+  grade3: audio/py/inheritance/subclasses/predict-lookup.grade3.ogg

@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Change the list before yield, and undo it in a finally after.
+audio:
+  grade3: audio/py/context-managers/contextlib/push-pop.grade3.ogg

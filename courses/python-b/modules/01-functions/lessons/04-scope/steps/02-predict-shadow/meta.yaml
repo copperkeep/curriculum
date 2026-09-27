@@ -17,3 +17,5 @@ options:
 - 1 5
 answer: 5 1
 hints: []
+audio:
+  grade3: audio/py/return-values/scope/predict-shadow.grade3.ogg

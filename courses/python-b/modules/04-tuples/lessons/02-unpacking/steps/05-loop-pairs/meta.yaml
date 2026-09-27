@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'Unpacking works in a for header: for name, age in people:'
+audio:
+  grade3: audio/py/tuples/unpacking/loop-pairs.grade3.ogg

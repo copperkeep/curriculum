@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Sort descending with reverse=True, then slice.
+audio:
+  grade3: audio/py/list-tools/sorting/top-three.grade3.ogg

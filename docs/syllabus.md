@@ -146,4 +146,3 @@ Deliberately out of scope for this pass, with the reason:
 | Threads and processes | Pyodide is single-threaded; `threading` and `multiprocessing` cannot be demonstrated honestly in the browser. |
 | Packaging, `pip`, virtual environments | Nothing to run in the browser. Mentioned in *Scripts and modules*; a project outside the platform suits it better. |
 | Third-party packages via micropip | Needs wheels vendored into the runtimes image and listed in `allowedPackages`. |
-| grade3 prose for Python B and C | Adult prose only. The web client falls back from grade3 to adult, so young readers see adult text in these courses. |

@@ -17,3 +17,5 @@ options:
 - None
 answer: '[''x'', ''added'']'
 hints: []
+audio:
+  grade3: audio/py/list-tools/two-names-one-list/predict-function.grade3.ogg

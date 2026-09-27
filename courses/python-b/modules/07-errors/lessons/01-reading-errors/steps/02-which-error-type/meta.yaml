@@ -17,3 +17,5 @@ options:
 - SyntaxError
 answer: TypeError
 hints: []
+audio:
+  grade3: audio/py/errors/reading-errors/which-error-type.grade3.ogg

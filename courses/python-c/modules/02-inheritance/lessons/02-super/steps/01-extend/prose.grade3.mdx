@@ -1,0 +1,5 @@
+When a new class writes its own `__init__`, the old one does not run. So its values
+do not get set.
+
+`super().__init__(...)` runs the old one first. Then you only add what is new. You
+can use `super()` in any method, not just `__init__`.

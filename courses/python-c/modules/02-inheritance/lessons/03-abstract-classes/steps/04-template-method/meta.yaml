@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The base class's concrete method calls the abstract one.
+audio:
+  grade3: audio/py/inheritance/abstract-classes/template-method.grade3.ogg

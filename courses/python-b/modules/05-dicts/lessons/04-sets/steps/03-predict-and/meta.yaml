@@ -17,3 +17,5 @@ options:
 - '{''a'', ''b'', ''d''}'
 answer: '{''c''}'
 hints: []
+audio:
+  grade3: audio/py/dicts/sets/predict-and.grade3.ogg

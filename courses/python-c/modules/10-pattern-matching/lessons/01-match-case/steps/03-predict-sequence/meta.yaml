@@ -17,3 +17,5 @@ options:
 - Error
 answer: move north 2
 hints: []
+audio:
+  grade3: audio/py/pattern-matching/match-case/predict-sequence.grade3.ogg

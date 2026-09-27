@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[''Banana'', ''apple'', ''cherry'']'
 hints: []
+audio:
+  grade3: audio/py/list-tools/sorting/predict-strings.grade3.ogg

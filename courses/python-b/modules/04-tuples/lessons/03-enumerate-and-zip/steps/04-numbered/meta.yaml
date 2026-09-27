@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: enumerate(items, start=1)
+audio:
+  grade3: audio/py/tuples/enumerate-and-zip/numbered.grade3.ogg

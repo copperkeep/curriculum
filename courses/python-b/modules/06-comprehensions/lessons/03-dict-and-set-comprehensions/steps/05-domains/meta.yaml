@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: email.split('@')[1] is the domain.
+audio:
+  grade3: audio/py/comprehensions/dict-and-set-comprehensions/domains.grade3.ogg

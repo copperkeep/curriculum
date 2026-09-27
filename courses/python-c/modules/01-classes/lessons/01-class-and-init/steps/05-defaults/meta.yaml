@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Parameters can have defaults here too.
+audio:
+  grade3: audio/py/classes/class-and-init/defaults.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - Error
 answer: olleh
 hints: []
+audio:
+  grade3: audio/py/text/slicing-text/predict-reverse.grade3.ogg

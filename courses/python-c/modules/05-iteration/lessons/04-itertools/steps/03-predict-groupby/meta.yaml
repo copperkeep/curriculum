@@ -17,3 +17,5 @@ options:
 - '[''b'', ''a'']'
 answer: '[''a'', ''b'', ''a'']'
 hints: []
+audio:
+  grade3: audio/py/iteration/itertools/predict-groupby.grade3.ogg

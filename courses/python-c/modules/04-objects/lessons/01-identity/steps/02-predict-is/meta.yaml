@@ -17,3 +17,5 @@ options:
 - False True
 answer: True False
 hints: []
+audio:
+  grade3: audio/py/objects/identity/predict-is.grade3.ogg

@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Pass *args and **kwargs through and return the result.
+audio:
+  grade3: audio/py/decorators/writing-decorators/count-calls.grade3.ogg

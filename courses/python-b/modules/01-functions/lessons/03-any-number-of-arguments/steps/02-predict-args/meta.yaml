@@ -17,3 +17,5 @@ options:
 - '3'
 answer: (1, 2, 3)
 hints: []
+audio:
+  grade3: audio/py/return-values/any-number-of-arguments/predict-args.grade3.ogg

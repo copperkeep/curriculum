@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: setUp runs before each test; store the cart on self.
+audio:
+  grade3: audio/py/testing/unittest/fixture.grade3.ogg

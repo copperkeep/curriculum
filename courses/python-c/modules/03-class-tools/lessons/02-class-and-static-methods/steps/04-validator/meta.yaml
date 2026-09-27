@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: __init__ can call it as self.is_valid(...) or Email.is_valid(...).
+audio:
+  grade3: audio/py/class-tools/class-and-static-methods/validator.grade3.ogg

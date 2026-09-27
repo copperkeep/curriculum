@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'The number after < or > is the width: {x:<4} pads x out to 4 characters.'
+audio:
+  grade3: audio/py/text/format-numbers/table.grade3.ogg

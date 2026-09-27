@@ -17,3 +17,5 @@ options:
 - cleanup
 answer: cleanup 1
 hints: []
+audio:
+  grade3: audio/py/errors/else-and-finally/predict-finally-return.grade3.ogg

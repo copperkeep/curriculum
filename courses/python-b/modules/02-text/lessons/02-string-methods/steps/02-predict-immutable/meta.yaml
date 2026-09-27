@@ -17,3 +17,5 @@ options:
 - Error
 answer: shout
 hints: []
+audio:
+  grade3: audio/py/text/string-methods/predict-immutable.grade3.ogg

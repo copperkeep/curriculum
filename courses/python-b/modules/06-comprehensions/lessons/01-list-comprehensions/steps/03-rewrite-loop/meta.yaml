@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: The expression here is len(word).
+audio:
+  grade3: audio/py/comprehensions/list-comprehensions/rewrite-loop.grade3.ogg

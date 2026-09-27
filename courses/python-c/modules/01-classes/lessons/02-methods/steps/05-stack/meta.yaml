@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: is_empty returns a bool.
+audio:
+  grade3: audio/py/classes/methods/stack.grade3.ogg

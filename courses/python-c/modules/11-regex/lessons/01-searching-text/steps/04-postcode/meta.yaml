@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: '[A-Z]{2} is exactly two capitals; \d{3} is exactly three digits.'
+audio:
+  grade3: audio/py/regex/searching-text/postcode.grade3.ogg

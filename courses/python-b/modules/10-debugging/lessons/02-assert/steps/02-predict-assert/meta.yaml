@@ -17,3 +17,5 @@ options:
 - one
 answer: one AssertionError
 hints: []
+audio:
+  grade3: audio/py/debugging/assert/predict-assert.grade3.ogg

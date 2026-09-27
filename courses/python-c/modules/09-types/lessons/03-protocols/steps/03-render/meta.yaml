@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Circle and Square just need a draw method; they do not inherit from Drawable.
+audio:
+  grade3: audio/py/types/protocols/render.grade3.ogg

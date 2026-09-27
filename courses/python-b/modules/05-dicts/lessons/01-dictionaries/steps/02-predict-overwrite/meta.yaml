@@ -17,3 +17,5 @@ options:
 - Error
 answer: '{''a'': 3, ''b'': 2}'
 hints: []
+audio:
+  grade3: audio/py/dicts/dictionaries/predict-overwrite.grade3.ogg

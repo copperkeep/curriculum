@@ -17,3 +17,5 @@ options:
 - It runs forever
 answer: RecursionError
 hints: []
+audio:
+  grade3: audio/py/algorithms/recursion/predict-no-base.grade3.ogg

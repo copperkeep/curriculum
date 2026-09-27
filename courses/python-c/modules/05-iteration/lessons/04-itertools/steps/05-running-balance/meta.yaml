@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: accumulate(amounts, initial=start) includes the starting balance.
+audio:
+  grade3: audio/py/iteration/itertools/running-balance.grade3.ogg

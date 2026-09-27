@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'Commas and decimals combine in one spec: ,.2f'
+audio:
+  grade3: audio/py/text/format-numbers/price-tag.grade3.ogg

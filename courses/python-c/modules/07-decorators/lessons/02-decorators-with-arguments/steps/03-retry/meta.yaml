@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: After the loop, re-raise the last exception.
+audio:
+  grade3: audio/py/decorators/decorators-with-arguments/retry.grade3.ogg

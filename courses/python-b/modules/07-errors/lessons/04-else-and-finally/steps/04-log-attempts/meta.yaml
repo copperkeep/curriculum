@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Return the parsed number in else.
+audio:
+  grade3: audio/py/errors/else-and-finally/log-attempts.grade3.ogg

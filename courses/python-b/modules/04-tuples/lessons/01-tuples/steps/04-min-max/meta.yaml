@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: return a, b returns a tuple of two values.
+audio:
+  grade3: audio/py/tuples/tuples/min-max.grade3.ogg

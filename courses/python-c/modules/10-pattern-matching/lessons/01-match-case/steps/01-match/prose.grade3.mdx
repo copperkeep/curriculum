@@ -1,0 +1,6 @@
+`match` checks a value against a list of shapes, one `case` at a time. The first one
+that fits wins.
+
+A case can be a plain value, like `case "quit":`. It can be a list shape, like
+`case ["go", way]:`. That fits a list of two, and puts the second part in `way`.
+`case _:` fits anything.

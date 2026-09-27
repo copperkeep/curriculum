@@ -17,3 +17,5 @@ options:
 - None
 answer: __main__
 hints: []
+audio:
+  grade3: audio/py/idioms/scripts-and-modules/predict-name.grade3.ogg

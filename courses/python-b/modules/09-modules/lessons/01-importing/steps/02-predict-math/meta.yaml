@@ -17,3 +17,5 @@ options:
 - 2.5 2.5
 answer: 2 3
 hints: []
+audio:
+  grade3: audio/py/modules/importing/predict-math.grade3.ogg

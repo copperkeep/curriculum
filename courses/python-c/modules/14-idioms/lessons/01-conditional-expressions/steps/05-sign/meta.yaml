@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'Two conditional expressions can chain: a if c1 else b if c2 else c — keep it readable.'
+audio:
+  grade3: audio/py/idioms/conditional-expressions/sign.grade3.ogg

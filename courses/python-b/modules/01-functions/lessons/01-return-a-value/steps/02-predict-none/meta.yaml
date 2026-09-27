@@ -17,3 +17,5 @@ options:
 - 10 then None
 answer: 10 then None
 hints: []
+audio:
+  grade3: audio/py/return-values/return-a-value/predict-none.grade3.ogg

@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Use None as the default and create a new list inside the function.
+audio:
+  grade3: audio/py/objects/identity/fix-default.grade3.ogg

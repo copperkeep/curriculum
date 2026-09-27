@@ -17,3 +17,5 @@ options:
 - None ['a', 'b']
 answer: c ['a', 'b']
 hints: []
+audio:
+  grade3: audio/py/list-tools/list-methods/predict-pop.grade3.ogg

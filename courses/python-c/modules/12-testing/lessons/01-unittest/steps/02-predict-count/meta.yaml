@@ -17,3 +17,5 @@ options:
 - '0'
 answer: '2'
 hints: []
+audio:
+  grade3: audio/py/testing/unittest/predict-count.grade3.ogg

@@ -24,3 +24,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Positional arguments must come before keyword arguments in a call.
+audio:
+  grade3: audio/py/return-values/defaults-and-keywords/order-defaults.grade3.ogg

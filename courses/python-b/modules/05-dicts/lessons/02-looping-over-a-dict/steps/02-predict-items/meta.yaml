@@ -17,3 +17,5 @@ options:
 - ('a', 1) ('b', 2)
 answer: a1 b2
 hints: []
+audio:
+  grade3: audio/py/dicts/looping-over-a-dict/predict-items.grade3.ogg

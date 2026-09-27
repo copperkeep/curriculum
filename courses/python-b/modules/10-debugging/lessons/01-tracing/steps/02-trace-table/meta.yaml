@@ -17,3 +17,5 @@ options:
 - '4'
 answer: '8'
 hints: []
+audio:
+  grade3: audio/py/debugging/tracing/trace-table.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - Error
 answer: '2028-02-29'
 hints: []
+audio:
+  grade3: audio/py/idioms/dates-and-times/predict-leap.grade3.ogg

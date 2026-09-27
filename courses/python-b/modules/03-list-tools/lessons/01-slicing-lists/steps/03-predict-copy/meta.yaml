@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[1, 2, 3]'
 hints: []
+audio:
+  grade3: audio/py/list-tools/slicing-lists/predict-copy.grade3.ogg

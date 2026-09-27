@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: describe lives on Shape and calls self.area().
+audio:
+  grade3: audio/py/inheritance/subclasses/shapes.grade3.ogg

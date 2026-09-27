@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Return None if no cell was valid.
+audio:
+  grade3: audio/py/projects-b/gradebook/average-row.grade3.ogg

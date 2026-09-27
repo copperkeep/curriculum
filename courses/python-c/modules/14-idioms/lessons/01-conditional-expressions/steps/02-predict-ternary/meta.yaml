@@ -17,3 +17,5 @@ options:
 - Error
 answer: cold
 hints: []
+audio:
+  grade3: audio/py/idioms/conditional-expressions/predict-ternary.grade3.ogg

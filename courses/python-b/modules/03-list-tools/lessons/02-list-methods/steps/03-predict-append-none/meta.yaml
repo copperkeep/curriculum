@@ -17,3 +17,5 @@ options:
 - Error
 answer: None
 hints: []
+audio:
+  grade3: audio/py/list-tools/list-methods/predict-append-none.grade3.ogg

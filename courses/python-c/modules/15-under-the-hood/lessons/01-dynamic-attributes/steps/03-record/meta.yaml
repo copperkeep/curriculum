@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: __getattr__ looks the name up in the dict; raise AttributeError if it is absent.
+audio:
+  grade3: audio/py/under-the-hood/dynamic-attributes/record.grade3.ogg

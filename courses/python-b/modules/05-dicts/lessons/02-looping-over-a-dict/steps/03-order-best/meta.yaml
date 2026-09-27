@@ -22,3 +22,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Looping over the dict itself only gives keys.
+audio:
+  grade3: audio/py/dicts/looping-over-a-dict/order-best.grade3.ogg

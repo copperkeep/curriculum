@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Check every positional argument in the wrapper before calling func.
+audio:
+  grade3: audio/py/decorators/writing-decorators/guard-args.grade3.ogg

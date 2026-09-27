@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Apply the discount first, then add tax on what is left.
+audio:
+  grade3: audio/py/return-values/defaults-and-keywords/price-with-tax.grade3.ogg

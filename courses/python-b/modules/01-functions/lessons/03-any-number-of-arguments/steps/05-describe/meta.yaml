@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Loop over the dict's keys in the order they were given. sorted() is not needed.
+audio:
+  grade3: audio/py/return-values/any-number-of-arguments/describe.grade3.ogg

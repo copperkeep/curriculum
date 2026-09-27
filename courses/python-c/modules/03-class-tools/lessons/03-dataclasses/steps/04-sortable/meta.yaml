@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Comparison uses the fields in the order they are declared.
+audio:
+  grade3: audio/py/class-tools/dataclasses/sortable.grade3.ogg

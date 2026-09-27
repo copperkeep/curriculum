@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'Loop while the list is not empty: while queue:'
+audio:
+  grade3: audio/py/list-tools/list-methods/queue.grade3.ogg
