@@ -43,7 +43,9 @@ def _exec(code: str, stdin_text: str = "") -> tuple[dict, str, BaseException | N
     saved = (sys.stdout, sys.stdin)
     sys.stdout, sys.stdin = out, io.StringIO(stdin_text)
     try:
-        exec(compile(code, "<lesson>", "exec"), namespace)  # noqa: S102 - that is the job
+        # dont_inherit: this module's own __future__ imports must not leak into the
+        # learner's code, or annotations become strings here but not in the browser.
+        exec(compile(code, "<lesson>", "exec", dont_inherit=True), namespace)  # noqa: S102
         failure = None
     except BaseException as exc:  # noqa: BLE001
         failure = exc
