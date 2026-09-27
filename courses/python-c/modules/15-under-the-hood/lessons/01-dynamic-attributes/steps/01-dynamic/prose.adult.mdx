@@ -1,0 +1,9 @@
+`getattr(obj, "name", default)`, `setattr(obj, "name", value)` and
+`hasattr(obj, "name")` work with attribute names held in strings. An instance's
+attributes live in `obj.__dict__`.
+
+Defining `__getattr__(self, name)` on a class makes it a fallback: Python calls
+it only when normal lookup fails. That is how proxies, lazy loaders and
+"attribute-style dict access" are built. (`__getattribute__` runs for *every*
+lookup — rarely what you want.) `__slots__ = ("x", "y")` replaces the per-instance
+`__dict__` with fixed slots, saving memory and forbidding new attributes.

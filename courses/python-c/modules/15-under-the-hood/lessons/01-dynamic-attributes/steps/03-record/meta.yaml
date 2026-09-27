@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.under-the-hood.dynamic-attributes.record
+type: free-code
+title: Attribute-style access to a dict
+skills:
+- id: dynamic-attributes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: __getattr__ looks the name up in the dict; raise AttributeError if it is absent.

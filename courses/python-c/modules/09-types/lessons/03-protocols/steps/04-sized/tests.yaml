@@ -1,0 +1,4 @@
+cases:
+- id: mixed
+  assert: 'total_area([type(''Sq'', (), {''area'': lambda self: 4.0})(), ''text'', 5]) == 4'
+  message: only objects with area() count

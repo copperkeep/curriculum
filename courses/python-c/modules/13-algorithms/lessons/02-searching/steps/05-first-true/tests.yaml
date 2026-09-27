@@ -1,0 +1,10 @@
+cases:
+- id: exact
+  assert: int_sqrt(49) == 7
+  message: int_sqrt(49) is 7
+- id: floor
+  assert: int_sqrt(50) == 7 and int_sqrt(1) == 1 and int_sqrt(0) == 0
+  message: rounds down, and handles 0 and 1
+- id: huge
+  assert: int_sqrt(10 ** 30) == 10 ** 15
+  message: handles very large numbers quickly

@@ -1,0 +1,7 @@
+cases:
+- id: ok
+  assert: Person('Ana', 9).age == 9
+  message: valid values are stored
+- id: bad
+  assert: __import__('unittest').TestCase().assertRaises(TypeError, Person, 'Ana', 'nine') is None
+  message: a string age raises TypeError

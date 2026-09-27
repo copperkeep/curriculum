@@ -1,0 +1,18 @@
+`class Dog: ...` runs the body, then calls `type("Dog", bases, namespace)` to
+build the class object. You can call `type` yourself:
+`Dog = type("Dog", (), {"sound": "woof"})`.
+
+A *metaclass* is a class whose instances are classes; `type` is the default. You
+will rarely need your own: `__init_subclass__` handles the common case of "do
+something whenever a subclass is defined", such as registering plugins:
+
+```python
+class Plugin:
+    registry = {}
+    def __init_subclass__(cls, **kwargs):
+        super().__init_subclass__(**kwargs)
+        Plugin.registry[cls.__name__] = cls
+```
+
+Decorators on classes, `__init_subclass__`, and descriptors cover nearly
+everything metaclasses used to be needed for.

@@ -1,0 +1,7 @@
+cases:
+- id: output
+  expectedStdout: Hello, world!
+  message: prints Hello, world!
+- id: importable
+  assert: greet('Ana') == 'Hello, Ana!'
+  message: greet works on its own

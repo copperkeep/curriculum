@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.capstone.library-system.plan
+type: narrative
+title: The brief
+skills:
+- id: dataclasses
+  weight: primary
+- id: custom-exceptions
+  weight: supporting
+- id: generators
+  weight: supporting
+- id: unittest-module
+  weight: supporting
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: allow
+transferFor: []
+hints: []

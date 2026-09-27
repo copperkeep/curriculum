@@ -1,0 +1,10 @@
+cases:
+- id: setup
+  assert: '''setUp'' in TestCart.__dict__'
+  message: TestCart has a setUp
+- id: passes
+  assert: unittest.TextTestRunner(stream=__import__('io').StringIO()).run(unittest.defaultTestLoader.loadTestsFromTestCase(TestCart)).wasSuccessful()
+  message: the tests pass
+- id: two
+  assert: unittest.defaultTestLoader.loadTestsFromTestCase(TestCart).countTestCases() >= 2
+  message: there are at least two tests

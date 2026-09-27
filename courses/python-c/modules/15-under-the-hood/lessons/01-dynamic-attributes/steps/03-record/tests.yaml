@@ -1,0 +1,7 @@
+cases:
+- id: read
+  assert: 'Record({''name'': ''Ana'', ''age'': 9}).name == ''Ana'''
+  message: rec.name reads from the dict
+- id: hasattr
+  assert: not hasattr(Record({}), 'nope')
+  message: hasattr is False for a missing key

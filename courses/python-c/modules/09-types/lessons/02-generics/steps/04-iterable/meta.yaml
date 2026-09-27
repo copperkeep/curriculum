@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.types.generics.iterable
+type: free-code
+title: Accept anything iterable
+skills:
+- id: typing-generics
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- typing-generics
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: from collections.abc import Iterable

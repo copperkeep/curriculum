@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.complexity.classify
+type: explain-back
+title: What is the growth?
+skills:
+- id: complexity
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- O(n²)
+- O(n)
+- O(log n)
+- O(1)
+answer: O(n²)
+hints: []

@@ -1,0 +1,4 @@
+cases:
+- id: counts
+  assert: (items(0), items(1), items(5)) == ('0 items', '1 item', '5 items')
+  message: 0 items, 1 item, 5 items

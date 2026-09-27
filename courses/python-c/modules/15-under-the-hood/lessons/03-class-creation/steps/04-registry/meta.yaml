@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.under-the-hood.class-creation.registry
+type: free-code
+title: Auto-registering plugins
+skills:
+- id: class-creation
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- class-creation
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Define __init_subclass__ on the base; it receives each new subclass as cls.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: Store the subclass under a lower-cased name.

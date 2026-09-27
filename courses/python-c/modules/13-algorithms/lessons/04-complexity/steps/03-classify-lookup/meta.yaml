@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.complexity.classify-lookup
+type: explain-back
+title: And this one?
+skills:
+- id: complexity
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- O(n)
+- O(n²)
+- O(log n)
+- O(1)
+answer: O(n)
+hints: []

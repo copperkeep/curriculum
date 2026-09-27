@@ -1,0 +1,26 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.capstone.library-system.overdue-and-save
+type: project
+title: Overdue loans and saving
+skills:
+- id: dataclasses
+  weight: primary
+- id: custom-exceptions
+  weight: supporting
+- id: generators
+  weight: supporting
+- id: unittest-module
+  weight: supporting
+prerequisites:
+- function-parameters
+estimatedMinutes: 20
+aiGuidance: allow
+transferFor:
+- generators
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: overdue(today) yields (member, title, days_late) for each loan whose due < today.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: For JSON, store dates as ISO strings and rebuild them with date.fromisoformat.

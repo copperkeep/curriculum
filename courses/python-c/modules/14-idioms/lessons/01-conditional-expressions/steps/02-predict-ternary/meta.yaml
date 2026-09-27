@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.conditional-expressions.predict-ternary
+type: predict
+title: Which value?
+skills:
+- id: conditional-expression
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- cold
+- warm
+- 'True'
+- Error
+answer: cold
+hints: []

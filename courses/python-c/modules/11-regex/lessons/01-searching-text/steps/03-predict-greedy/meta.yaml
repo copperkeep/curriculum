@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.regex.searching-text.predict-greedy
+type: predict
+title: Greedy
+skills:
+- id: regex-search
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- <b>bold</b>
+- <b>
+- b
+- bold
+answer: <b>bold</b>
+hints: []

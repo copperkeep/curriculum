@@ -1,0 +1,8 @@
+id: scripts-and-modules
+title: Scripts and modules
+claim: if __name__ == "__main__" separates what a file does when run from what it offers when imported
+steps:
+- 01-main-guard
+- 02-predict-name
+- 03-structure
+- 04-explain-guard

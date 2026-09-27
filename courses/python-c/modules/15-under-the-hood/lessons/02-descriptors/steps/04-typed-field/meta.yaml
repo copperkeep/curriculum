@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.under-the-hood.descriptors.typed-field
+type: free-code
+title: A typed field
+skills:
+- id: descriptors
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- descriptors
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Pass the expected type to the descriptor's __init__.

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.pattern-matching.structural-patterns.predict-mapping
+type: predict
+title: Extra keys
+skills:
+- id: structural-patterns
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- click at 3 4
+- no match
+- Error
+- click
+answer: click at 3 4
+hints: []

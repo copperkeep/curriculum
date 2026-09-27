@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.regex.searching-text.postcode
+type: free-code
+title: Validate a code
+skills:
+- id: regex-search
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: fullmatch requires the whole string to match.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: '[A-Z]{2} is exactly two capitals; \d{3} is exactly three digits.'

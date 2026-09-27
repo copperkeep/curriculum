@@ -1,0 +1,10 @@
+cases:
+- id: get
+  assert: Box(3).get() == 3
+  message: get returns the item
+- id: map
+  assert: Box(3).map(str).get() == '3'
+  message: map transforms into a new Box
+- id: generic
+  assert: len(Box.__type_params__) == 1
+  message: Box has one type parameter

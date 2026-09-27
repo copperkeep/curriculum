@@ -1,0 +1,9 @@
+id: searching-text
+title: Searching text with patterns
+claim: A regular expression describes a family of strings to search for
+steps:
+- 01-patterns
+- 02-predict-findall
+- 03-predict-greedy
+- 04-postcode
+- 05-hashtags

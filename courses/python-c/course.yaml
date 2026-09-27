@@ -11,3 +11,11 @@ modules:
 - 06-functional
 - 07-decorators
 - 08-context-managers
+- 09-types
+- 10-pattern-matching
+- 11-regex
+- 12-testing
+- 13-algorithms
+- 14-idioms
+- 15-under-the-hood
+- 16-capstone

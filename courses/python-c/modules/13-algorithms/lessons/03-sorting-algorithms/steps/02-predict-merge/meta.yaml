@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.sorting-algorithms.predict-merge
+type: predict
+title: Merging
+skills:
+- id: sorting-algorithms
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- '[1, 2, 3, 4, 5, 6]'
+- '[1, 3, 5, 2, 4, 6]'
+- '[1, 2, 3]'
+- '[2, 4, 6, 1, 3, 5]'
+answer: '[1, 2, 3, 4, 5, 6]'
+hints: []

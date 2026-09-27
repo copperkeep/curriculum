@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.recursion.permutations
+type: free-code
+title: Every ordering
+skills:
+- id: recursion
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- recursion
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'Base case: a string of length 0 or 1 has one ordering, itself.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: For each character, put it first and append every ordering of the rest.

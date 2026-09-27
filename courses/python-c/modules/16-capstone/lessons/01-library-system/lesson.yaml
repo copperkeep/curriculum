@@ -1,0 +1,7 @@
+id: library-system
+title: A library system
+claim: Classes, errors, iteration, serialisation and tests together make a real program
+steps:
+- 01-plan
+- 02-books-and-errors
+- 03-overdue-and-save

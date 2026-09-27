@@ -1,0 +1,5 @@
+cases:
+- id: codes
+  assert: '[status(c) for c in (200, 404, 418, 503, 302)] == [''ok'', ''not found'', ''client error'',
+    ''server error'', ''unknown'']'
+  message: classifies 200, 404, 418, 503 and 302

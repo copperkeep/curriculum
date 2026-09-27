@@ -1,0 +1,10 @@
+cases:
+- id: later
+  assert: days_until_birthday(date(2026, 9, 27), 12, 25) == 89
+  message: 89 days from 27 Sep to 25 Dec
+- id: passed
+  assert: days_until_birthday(date(2026, 9, 27), 1, 1) == 96
+  message: wraps into next year
+- id: today
+  assert: days_until_birthday(date(2026, 9, 27), 9, 27) == 0
+  message: 0 on the day

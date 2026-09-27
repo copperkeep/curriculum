@@ -1,0 +1,7 @@
+cases:
+- id: found
+  assert: parse_date('due 2026-09-27 at noon') == (2026, 9, 27)
+  message: finds 2026-09-27
+- id: none
+  assert: parse_date('no date') is None
+  message: no date gives None

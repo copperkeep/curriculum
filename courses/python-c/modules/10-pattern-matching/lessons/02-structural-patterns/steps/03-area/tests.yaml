@@ -1,0 +1,10 @@
+cases:
+- id: circle
+  assert: area(Circle(1)) == 3.14
+  message: a unit circle has area 3.14
+- id: rect
+  assert: area(Rect(2, 3)) == 6
+  message: a 2x3 rectangle has area 6
+- id: other
+  assert: __import__('unittest').TestCase().assertRaises(ValueError, area, 'square') is None
+  message: anything else raises ValueError

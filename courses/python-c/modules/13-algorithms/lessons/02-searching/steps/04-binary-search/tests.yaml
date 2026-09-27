@@ -1,0 +1,10 @@
+cases:
+- id: found
+  assert: all(find(list(range(0, 100, 3)), v) == v // 3 for v in range(0, 100, 3))
+  message: finds every item in a sorted list
+- id: missing
+  assert: find([1, 3, 5], 4) == -1 and find([], 1) == -1
+  message: missing items give -1
+- id: fast
+  assert: '(lambda xs: find(xs, 999_999))(list(range(1_000_000))) == 999_999'
+  message: works on a million items

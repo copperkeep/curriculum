@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.scripts-and-modules.structure
+type: free-code
+title: Structure a script
+skills:
+- id: main-guard
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- main-guard
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: Put the work in main(), and call it only under the __name__ check.

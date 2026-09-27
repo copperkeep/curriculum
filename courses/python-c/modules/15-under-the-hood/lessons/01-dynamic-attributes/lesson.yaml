@@ -1,0 +1,8 @@
+id: dynamic-attributes
+title: Dynamic attributes
+claim: getattr, setattr and __getattr__ let code choose attribute names at runtime
+steps:
+- 01-dynamic
+- 02-predict-getattr
+- 03-record
+- 04-update-from

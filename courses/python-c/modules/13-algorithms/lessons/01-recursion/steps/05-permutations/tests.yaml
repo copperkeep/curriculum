@@ -1,0 +1,7 @@
+cases:
+- id: abc
+  assert: perms('abc') == ['abc', 'acb', 'bac', 'bca', 'cab', 'cba']
+  message: all six orderings of abc, in order
+- id: one
+  assert: perms('x') == ['x']
+  message: one character has one ordering

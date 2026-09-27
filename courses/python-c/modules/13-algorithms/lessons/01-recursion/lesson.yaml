@@ -1,0 +1,9 @@
+id: recursion
+title: Recursion
+claim: A recursive function solves a problem by solving a smaller copy of it
+steps:
+- 01-base-case
+- 02-predict-factorial
+- 03-predict-no-base
+- 04-flatten
+- 05-permutations

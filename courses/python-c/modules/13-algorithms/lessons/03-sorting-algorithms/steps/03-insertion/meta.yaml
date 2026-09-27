@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.sorting-algorithms.insertion
+type: free-code
+title: Insertion sort
+skills:
+- id: sorting-algorithms
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: For each i, move xs[i] left while the item before it is larger.

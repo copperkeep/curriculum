@@ -1,0 +1,7 @@
+id: algorithms
+title: Algorithms
+lessons:
+- 01-recursion
+- 02-searching
+- 03-sorting-algorithms
+- 04-complexity

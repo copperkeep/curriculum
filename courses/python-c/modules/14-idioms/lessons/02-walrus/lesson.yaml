@@ -1,0 +1,8 @@
+id: walrus
+title: Assignment expressions
+claim: := assigns a value and uses it in the same expression
+steps:
+- 01-walrus
+- 02-predict-walrus
+- 03-read-chunks
+- 04-filter-compute

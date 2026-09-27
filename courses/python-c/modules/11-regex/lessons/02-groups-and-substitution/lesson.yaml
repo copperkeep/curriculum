@@ -1,0 +1,8 @@
+id: groups-and-substitution
+title: Groups and substitution
+claim: Parentheses capture parts of a match, and sub rewrites every match
+steps:
+- 01-groups
+- 02-predict-groups
+- 03-parse-date
+- 04-redact

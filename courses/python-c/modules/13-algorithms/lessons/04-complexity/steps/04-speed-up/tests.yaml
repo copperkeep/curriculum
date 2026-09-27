@@ -1,0 +1,7 @@
+cases:
+- id: correct
+  assert: common([1, 2, 3, 4], [4, 2]) == [2, 4]
+  message: keeps the items of a that are in b, in a's order
+- id: fast
+  assert: len(common(list(range(40000)), list(range(20000, 60000)))) == 20000
+  message: handles 40,000 items quickly

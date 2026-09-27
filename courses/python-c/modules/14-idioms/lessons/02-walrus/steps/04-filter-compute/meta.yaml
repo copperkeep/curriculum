@@ -1,0 +1,17 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.walrus.filter-compute
+type: free-code
+title: Compute once in a comprehension
+skills:
+- id: walrus-operator
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- walrus-operator
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: '[y for x in xs if (y := f(x)) ...] reuses y in the output.'

@@ -1,0 +1,16 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.pattern-matching.structural-patterns.area
+type: free-code
+title: Area by shape
+skills:
+- id: structural-patterns
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'case Circle(r=r): matches a Circle and binds its r attribute.'

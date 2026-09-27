@@ -1,0 +1,10 @@
+cases:
+- id: good
+  assert: valid('AB-123') is True
+  message: AB-123 is valid
+- id: lower
+  assert: valid('ab-123') is False
+  message: lower case is not
+- id: extra
+  assert: valid('AB-1234') is False and valid('XAB-123') is False
+  message: extra characters are not

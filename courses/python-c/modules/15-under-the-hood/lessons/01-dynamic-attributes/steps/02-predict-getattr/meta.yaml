@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.under-the-hood.dynamic-attributes.predict-getattr
+type: predict
+title: Only when missing
+skills:
+- id: dynamic-attributes
+  weight: primary
+prerequisites:
+- function-parameters
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- 1 missing:y
+- missing:x missing:y
+- 1 AttributeError
+- Error
+answer: 1 missing:y
+hints: []

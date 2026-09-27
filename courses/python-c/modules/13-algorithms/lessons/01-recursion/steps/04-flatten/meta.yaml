@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.recursion.flatten
+type: free-code
+title: Flatten nested lists
+skills:
+- id: recursion
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: If an item is a list, flatten it recursively and extend; otherwise append it.
+- afterSemanticFailures: 4
+  tier: grade3
+  text: isinstance(item, list) tells you which case you are in.

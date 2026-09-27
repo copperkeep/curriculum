@@ -1,0 +1,7 @@
+cases:
+- id: applies
+  assert: '(lambda s: (apply(s, {''theme'': ''dark'', ''bogus'': 1}), s.theme)[1])(Settings()) == ''dark'''
+  message: known settings are applied
+- id: ignores
+  assert: 'apply(Settings(), {''theme'': ''dark'', ''bogus'': 1}) == [''bogus'']'
+  message: unknown names are reported

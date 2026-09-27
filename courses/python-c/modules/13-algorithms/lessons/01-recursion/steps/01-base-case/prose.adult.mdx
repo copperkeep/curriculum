@@ -1,0 +1,15 @@
+A recursive function calls itself on a smaller input:
+
+```python
+def total(xs):
+    if not xs:                  # base case: answer directly
+        return 0
+    return xs[0] + total(xs[1:])  # recursive case: shrink the problem
+```
+
+Every recursive function needs a base case that is reached for every input, and
+each call must move towards it. Otherwise Python stops you with `RecursionError`
+after about a thousand levels.
+
+Recursion fits naturally recursive data — trees, nested lists, file systems —
+and divide-and-conquer algorithms.

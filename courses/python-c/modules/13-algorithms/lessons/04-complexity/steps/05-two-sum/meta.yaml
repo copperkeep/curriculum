@@ -1,0 +1,20 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.algorithms.complexity.two-sum
+type: free-code
+title: Two sum
+skills:
+- id: complexity
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor:
+- complexity
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: For each x, the partner you need is target - x. Have you already seen it?
+- afterSemanticFailures: 4
+  tier: grade3
+  text: A dict from value to index answers that in O(1).

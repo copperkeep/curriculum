@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.pattern-matching.match-case.http-status
+type: free-code
+title: HTTP status
+skills:
+- id: pattern-matching
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 4
+aiGuidance: allow
+transferFor: []
+hints:
+- afterSemanticFailures: 2
+  tier: grade3
+  text: 'case 400 | 404: combines alternatives.'
+- afterSemanticFailures: 4
+  tier: grade3
+  text: 'A guard: case n if 500 <= n < 600:'

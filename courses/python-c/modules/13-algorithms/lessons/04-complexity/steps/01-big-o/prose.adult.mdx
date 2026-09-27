@@ -1,0 +1,14 @@
+Big-O ignores constant factors and asks: if the input doubles, what happens to the
+work?
+
+| Class | Doubling n... | Example |
+|---|---|---|
+| O(1) | same work | dict lookup, `x in set` |
+| O(log n) | one more step | binary search |
+| O(n) | double | a single loop, `x in list` |
+| O(n log n) | a bit more than double | `sorted`, merge sort |
+| O(n²) | four times | a loop inside a loop over the same data |
+| O(2ⁿ) | squares it | naive recursive fib |
+
+The common win in real code is replacing an O(n) `in list` inside a loop with an
+O(1) `in set` — turning O(n²) into O(n).

@@ -1,0 +1,14 @@
+```python
+from datetime import date, datetime, timedelta
+
+d = date(2026, 9, 27)
+d + timedelta(days=30)          # date(2026, 10, 27)
+(date(2026, 12, 25) - d).days   # 89
+d.weekday()                     # Monday is 0
+d.strftime("%d %b %Y")          # "27 Sep 2026"
+date.fromisoformat("2026-09-27")
+```
+
+Month lengths, leap years and year boundaries are handled for you. For real
+timestamps use timezone-aware datetimes (`datetime.now(timezone.utc)`); naive
+ones silently assume local time.

@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.pattern-matching.match-case.predict-sequence
+type: predict
+title: Sequence patterns
+skills:
+- id: pattern-matching
+  weight: primary
+prerequisites:
+- if-else
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- move north 2
+- move
+- unknown
+- Error
+answer: move north 2
+hints: []

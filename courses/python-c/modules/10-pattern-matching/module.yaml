@@ -1,0 +1,5 @@
+id: pattern-matching
+title: Pattern matching
+lessons:
+- 01-match-case
+- 02-structural-patterns

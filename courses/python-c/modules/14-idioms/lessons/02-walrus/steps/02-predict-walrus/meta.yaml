@@ -1,0 +1,19 @@
+# STABLE — never rename, never reuse. Progress events store this as an opaque string.
+id: py.idioms.walrus.predict-walrus
+type: predict
+title: Both at once
+skills:
+- id: walrus-operator
+  weight: primary
+prerequisites:
+- while-loop
+estimatedMinutes: 2
+aiGuidance: suppress
+transferFor: []
+options:
+- True 4
+- 4 4
+- True True
+- Error
+answer: True 4
+hints: []
