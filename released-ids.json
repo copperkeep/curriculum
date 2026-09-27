@@ -1,5 +1,5 @@
 {
-  "contentVersion": "2026.09.3",
+  "contentVersion": "2026.09.4",
   "skills": [
     "abstract-classes",
     "aliasing",
@@ -348,10 +348,12 @@
     "py.inheritance.super.logged-list",
     "py.inheritance.super.predict-missing-super",
     "py.input.ask-a-question.explain-input",
+    "py.input.ask-a-question.greet-back",
     "py.input.ask-a-question.order-ask-then-greet",
     "py.input.ask-a-question.predict-greeting",
     "py.input.ask-a-question.what-input",
     "py.input.text-to-number.add-two-answers",
+    "py.input.text-to-number.double-input",
     "py.input.text-to-number.fix-the-age",
     "py.input.text-to-number.number-in-words",
     "py.input.text-to-number.predict-text-sum",
