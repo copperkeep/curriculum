@@ -17,3 +17,5 @@ options:
 - <class 'class'>
 answer: <class 'type'>
 hints: []
+audio:
+  grade3: audio/py/under-the-hood/class-creation/predict-type-of-class.grade3.ogg

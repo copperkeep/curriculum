@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Store the functions themselves as dict values — no parentheses.
+audio:
+  grade3: audio/py/functional/functions-are-values/dispatch.grade3.ogg

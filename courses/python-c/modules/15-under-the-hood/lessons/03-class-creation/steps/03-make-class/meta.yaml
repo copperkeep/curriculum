@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: type(name, bases, namespace) — namespace is a dict of attributes and functions.
+audio:
+  grade3: audio/py/under-the-hood/class-creation/make-class.grade3.ogg

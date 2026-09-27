@@ -17,3 +17,5 @@ options:
 - click
 answer: click at 3 4
 hints: []
+audio:
+  grade3: audio/py/pattern-matching/structural-patterns/predict-mapping.grade3.ogg

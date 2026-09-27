@@ -19,3 +19,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Keep books in a dict keyed by isbn, and loans in a dict isbn -> (member, due).
+audio:
+  grade3: audio/py/capstone/library-system/books-and-errors.grade3.ogg

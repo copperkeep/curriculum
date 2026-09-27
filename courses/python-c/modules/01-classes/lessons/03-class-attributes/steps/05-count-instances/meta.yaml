@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: 'Increment the class attribute through the class, not self: Robot.count += 1'
+audio:
+  grade3: audio/py/classes/class-attributes/count-instances.grade3.ogg

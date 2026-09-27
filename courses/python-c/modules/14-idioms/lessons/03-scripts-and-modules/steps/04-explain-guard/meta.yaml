@@ -17,3 +17,5 @@ options:
 - So main() can take arguments
 answer: So importing the file does not run main()
 hints: []
+audio:
+  grade3: audio/py/idioms/scripts-and-modules/explain-guard.grade3.ogg

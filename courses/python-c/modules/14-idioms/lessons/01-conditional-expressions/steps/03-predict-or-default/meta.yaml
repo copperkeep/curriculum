@@ -17,3 +17,5 @@ options:
 - anon None
 answer: anon anon
 hints: []
+audio:
+  grade3: audio/py/idioms/conditional-expressions/predict-or-default.grade3.ogg

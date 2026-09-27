@@ -11,3 +11,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/inheritance/custom-exceptions/hierarchy.grade3.ogg

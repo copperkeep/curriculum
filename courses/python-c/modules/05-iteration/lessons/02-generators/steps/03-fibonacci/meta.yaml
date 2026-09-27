@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: a, b = b, a + b
+audio:
+  grade3: audio/py/iteration/generators/fibonacci.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - Error
 answer: GREEN green
 hints: []
+audio:
+  grade3: audio/py/class-tools/enums/predict-enum.grade3.ogg

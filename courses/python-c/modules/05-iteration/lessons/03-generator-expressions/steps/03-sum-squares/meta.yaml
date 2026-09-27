@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: sum(expression for n in range(...)) — no list needed.
+audio:
+  grade3: audio/py/iteration/generator-expressions/sum-squares.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - None
 answer: 'True'
 hints: []
+audio:
+  grade3: audio/py/types/protocols/predict-structural.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - '2'
 answer: hihi
 hints: []
+audio:
+  grade3: audio/py/types/annotations/predict-not-enforced.grade3.ogg

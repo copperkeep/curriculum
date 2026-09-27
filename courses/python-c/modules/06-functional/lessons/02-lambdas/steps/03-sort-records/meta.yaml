@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Negate a number to sort that part descending.
+audio:
+  grade3: audio/py/functional/lambdas/sort-records.grade3.ogg

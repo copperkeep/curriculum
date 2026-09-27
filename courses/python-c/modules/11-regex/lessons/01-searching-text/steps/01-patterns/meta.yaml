@@ -11,3 +11,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/regex/searching-text/patterns.grade3.ogg

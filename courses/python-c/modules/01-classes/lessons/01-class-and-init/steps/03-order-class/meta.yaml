@@ -26,3 +26,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Assigning to plain x makes a local variable, not an attribute.
+audio:
+  grade3: audio/py/classes/class-and-init/order-class.grade3.ogg

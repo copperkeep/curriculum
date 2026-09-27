@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: One test_ method per behaviour; use self.assertEqual and self.assertRaises.
+audio:
+  grade3: audio/py/testing/unittest/write-suite.grade3.ogg

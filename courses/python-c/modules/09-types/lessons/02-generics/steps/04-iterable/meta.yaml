@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: from collections.abc import Iterable
+audio:
+  grade3: audio/py/types/generics/iterable.grade3.ogg

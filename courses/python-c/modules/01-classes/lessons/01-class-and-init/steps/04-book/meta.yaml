@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Store each argument on self in __init__.
+audio:
+  grade3: audio/py/classes/class-and-init/book.grade3.ogg

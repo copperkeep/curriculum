@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: For each character, put it first and append every ordering of the rest.
+audio:
+  grade3: audio/py/algorithms/recursion/permutations.grade3.ogg

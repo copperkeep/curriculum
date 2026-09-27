@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Store copy.deepcopy(self.state) so later changes do not touch the snapshot.
+audio:
+  grade3: audio/py/objects/copying/snapshot.grade3.ogg

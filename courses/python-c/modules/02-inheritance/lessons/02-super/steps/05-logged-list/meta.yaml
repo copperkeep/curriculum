@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Subclass list, override append, and call super().append(x) to do the real work.
+audio:
+  grade3: audio/py/inheritance/super/logged-list.grade3.ogg

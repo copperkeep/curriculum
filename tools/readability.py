@@ -55,7 +55,7 @@ def count_syllables(word: str) -> int:
 
 def flesch_kincaid_grade(text: str) -> float:
     sentence_list = sentences(text)
-    word_list = words(text)
+    word_list = words(strip_markup(text))
     if not sentence_list or not word_list:
         return 0.0
     syllables = sum(count_syllables(w) for w in word_list)
@@ -96,7 +96,7 @@ def check(text: str, tier: str, allowlist: set[str] | None = None) -> list[str]:
             )
 
     if allowlist is not None:
-        unknown = sorted({w for w in words(text) if w not in allowlist})
+        unknown = sorted({w for w in words(strip_markup(text)) if w not in allowlist})
         if unknown:
             problems.append(
                 "words outside the allowlist: "

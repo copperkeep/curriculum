@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: '[y for x in xs if (y := f(x)) ...] reuses y in the output.'
+audio:
+  grade3: audio/py/idioms/walrus/filter-compute.grade3.ogg

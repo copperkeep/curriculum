@@ -17,3 +17,5 @@ options:
 - a c
 answer: a b
 hints: []
+audio:
+  grade3: audio/py/iteration/iterators/predict-next.grade3.ogg

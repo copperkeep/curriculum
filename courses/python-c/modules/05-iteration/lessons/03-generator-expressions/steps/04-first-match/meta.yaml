@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: next(generator, default) gives the first value, or default if there is none.
+audio:
+  grade3: audio/py/iteration/generator-expressions/first-match.grade3.ogg

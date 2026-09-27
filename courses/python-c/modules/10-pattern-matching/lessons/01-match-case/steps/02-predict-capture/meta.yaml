@@ -17,3 +17,5 @@ options:
 - Error
 answer: got 5
 hints: []
+audio:
+  grade3: audio/py/pattern-matching/match-case/predict-capture.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - '16'
 answer: '6'
 hints: []
+audio:
+  grade3: audio/py/iteration/itertools/predict-combos.grade3.ogg

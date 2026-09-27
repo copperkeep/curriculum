@@ -17,3 +17,5 @@ options:
 - <p></p>
 answer: <p> hi </p>
 hints: []
+audio:
+  grade3: audio/py/context-managers/contextlib/predict-tag.grade3.ogg

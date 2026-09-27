@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[(''b'', 1), (''c'', 2), (''a'', 3)]'
 hints: []
+audio:
+  grade3: audio/py/functional/lambdas/predict-key.grade3.ogg

@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Each subclass overrides cost(); total_cost does not check types at all.
+audio:
+  grade3: audio/py/inheritance/subclasses/polymorphism.grade3.ogg

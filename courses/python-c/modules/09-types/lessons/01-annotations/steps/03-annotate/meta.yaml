@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: A list of strings is list[str].
+audio:
+  grade3: audio/py/types/annotations/annotate.grade3.ogg

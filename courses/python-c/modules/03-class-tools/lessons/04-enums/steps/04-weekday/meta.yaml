@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: from enum import Enum, auto
+audio:
+  grade3: audio/py/class-tools/enums/weekday.grade3.ogg

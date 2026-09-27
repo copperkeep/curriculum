@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Keep the last four digits in a group and put it back with \1.
+audio:
+  grade3: audio/py/regex/groups-and-substitution/redact.grade3.ogg

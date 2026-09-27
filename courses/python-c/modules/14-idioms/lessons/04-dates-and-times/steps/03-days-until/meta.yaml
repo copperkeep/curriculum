@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: If this year's date has passed, use next year's.
+audio:
+  grade3: audio/py/idioms/dates-and-times/days-until.grade3.ogg

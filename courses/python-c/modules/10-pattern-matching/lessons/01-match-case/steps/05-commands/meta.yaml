@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: 'case ["drop", *items]: captures every remaining word.'
+audio:
+  grade3: audio/py/pattern-matching/match-case/commands.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - '[]'
 answer: '[''2026'', ''09'', ''27'']'
 hints: []
+audio:
+  grade3: audio/py/regex/searching-text/predict-findall.grade3.ogg

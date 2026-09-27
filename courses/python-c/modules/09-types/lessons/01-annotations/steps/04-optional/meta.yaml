@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Return type int | None says it may return None.
+audio:
+  grade3: audio/py/types/annotations/optional.grade3.ogg

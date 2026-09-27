@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Keep a dict in the outer function; the inner one checks it before calling f.
+audio:
+  grade3: audio/py/functional/closures/memo.grade3.ogg

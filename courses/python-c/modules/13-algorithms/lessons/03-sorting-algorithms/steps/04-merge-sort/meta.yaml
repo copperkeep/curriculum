@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Write merge(a, b) first with two indices, then merge_sort calls itself on each half.
+audio:
+  grade3: audio/py/algorithms/sorting-algorithms/merge-sort.grade3.ogg

@@ -14,3 +14,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: Call super().describe() and add to what it returns.
+audio:
+  grade3: audio/py/inheritance/super/extend-method.grade3.ogg

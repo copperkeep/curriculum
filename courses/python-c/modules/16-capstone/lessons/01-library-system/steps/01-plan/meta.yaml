@@ -17,3 +17,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/capstone/library-system/plan.grade3.ogg

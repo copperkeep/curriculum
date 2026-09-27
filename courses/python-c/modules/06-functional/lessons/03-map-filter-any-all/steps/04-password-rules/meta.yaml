@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: any(ch.isdigit() for ch in pw) checks for at least one digit.
+audio:
+  grade3: audio/py/functional/map-filter-any-all/password-rules.grade3.ogg

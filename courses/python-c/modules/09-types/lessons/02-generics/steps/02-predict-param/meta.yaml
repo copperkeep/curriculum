@@ -17,3 +17,5 @@ options:
 - Error
 answer: ('T',)
 hints: []
+audio:
+  grade3: audio/py/types/generics/predict-param.grade3.ogg

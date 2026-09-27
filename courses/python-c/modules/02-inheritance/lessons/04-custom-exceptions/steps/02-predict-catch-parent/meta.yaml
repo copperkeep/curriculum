@@ -17,3 +17,5 @@ options:
 - Exception
 answer: bank problem
 hints: []
+audio:
+  grade3: audio/py/inheritance/custom-exceptions/predict-catch-parent.grade3.ogg
