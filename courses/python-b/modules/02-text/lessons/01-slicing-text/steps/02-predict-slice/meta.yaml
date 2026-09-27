@@ -17,3 +17,5 @@ options:
 - th
 answer: yth
 hints: []
+audio:
+  grade3: audio/py/text/slicing-text/predict-slice.grade3.ogg

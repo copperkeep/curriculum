@@ -11,3 +11,5 @@ estimatedMinutes: 2
 aiGuidance: allow
 transferFor: []
 hints: []
+audio:
+  grade3: audio/py/errors/else-and-finally/four-clauses.grade3.ogg

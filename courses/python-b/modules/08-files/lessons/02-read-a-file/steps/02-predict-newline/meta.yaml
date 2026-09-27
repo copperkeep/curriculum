@@ -17,3 +17,5 @@ options:
 - '[''a\nb\n'']'
 answer: '[''a\n'', ''b\n'']'
 hints: []
+audio:
+  grade3: audio/py/files/read-a-file/predict-newline.grade3.ogg

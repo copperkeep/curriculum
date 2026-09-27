@@ -17,3 +17,5 @@ options:
 - '[1, ''x'', 2, ''y'']'
 answer: '[(1, ''x''), (2, ''y'')]'
 hints: []
+audio:
+  grade3: audio/py/tuples/enumerate-and-zip/predict-zip.grade3.ogg

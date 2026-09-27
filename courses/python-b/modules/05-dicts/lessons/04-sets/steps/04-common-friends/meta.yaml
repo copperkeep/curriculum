@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: sorted() turns a set into a sorted list.
+audio:
+  grade3: audio/py/dicts/sets/common-friends.grade3.ogg

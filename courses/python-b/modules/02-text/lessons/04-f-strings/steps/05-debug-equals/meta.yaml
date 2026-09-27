@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: f"{x=}" shows both the name and the value.
+audio:
+  grade3: audio/py/text/f-strings/debug-equals.grade3.ogg

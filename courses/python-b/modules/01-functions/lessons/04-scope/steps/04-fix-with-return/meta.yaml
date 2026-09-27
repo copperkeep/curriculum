@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Return the new score, and assign the result back at the call site.
+audio:
+  grade3: audio/py/return-values/scope/fix-with-return.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - 1 2
 answer: 1 a 2 b
 hints: []
+audio:
+  grade3: audio/py/tuples/enumerate-and-zip/predict-enumerate.grade3.ogg

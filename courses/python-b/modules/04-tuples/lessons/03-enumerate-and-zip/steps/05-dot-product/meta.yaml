@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: zip the two lists, multiply each pair, add up the results.
+audio:
+  grade3: audio/py/tuples/enumerate-and-zip/dot-product.grade3.ogg

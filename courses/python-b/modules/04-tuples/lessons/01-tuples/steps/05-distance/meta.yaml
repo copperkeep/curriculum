@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Distance is the square root of dx squared plus dy squared; ** 0.5 is a square root.
+audio:
+  grade3: audio/py/tuples/tuples/distance.grade3.ogg

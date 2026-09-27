@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Look at which items the loop actually visits.
+audio:
+  grade3: audio/py/debugging/tracing/fix-average.grade3.ogg

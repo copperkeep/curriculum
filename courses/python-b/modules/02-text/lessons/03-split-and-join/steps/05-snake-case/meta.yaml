@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Build a list of lower-cased words in a loop, then "_".join(...).
+audio:
+  grade3: audio/py/text/split-and-join/snake-case.grade3.ogg

@@ -17,3 +17,5 @@ options:
 - '{ok: true, n: null}'
 answer: '{"ok": true, "n": null}'
 hints: []
+audio:
+  grade3: audio/py/files/csv-and-json/predict-json.grade3.ogg

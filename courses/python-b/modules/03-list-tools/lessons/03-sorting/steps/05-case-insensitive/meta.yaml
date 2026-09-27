@@ -15,3 +15,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: key can be any function that takes one item — including a method like str.lower.
+audio:
+  grade3: audio/py/list-tools/sorting/case-insensitive.grade3.ogg

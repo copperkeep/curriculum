@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Compare the string with a reversed slice of itself.
+audio:
+  grade3: audio/py/text/slicing-text/palindrome.grade3.ogg

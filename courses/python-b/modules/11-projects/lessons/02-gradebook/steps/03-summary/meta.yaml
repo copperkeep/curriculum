@@ -22,3 +22,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: round(x, 1) rounds to one decimal place.
+audio:
+  grade3: audio/py/projects-b/gradebook/summary.grade3.ogg

@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: '"<" + tag + ">" builds the opening tag.'
+audio:
+  grade3: audio/py/return-values/defaults-and-keywords/make-tag.grade3.ogg

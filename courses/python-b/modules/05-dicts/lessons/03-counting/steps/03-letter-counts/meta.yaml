@@ -17,3 +17,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Skip spaces with continue, or only count ch.isalpha().
+audio:
+  grade3: audio/py/dicts/counting/letter-counts.grade3.ogg

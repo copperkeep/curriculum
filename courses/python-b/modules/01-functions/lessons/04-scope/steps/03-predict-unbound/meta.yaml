@@ -17,3 +17,5 @@ options:
 - None
 answer: UnboundLocalError
 hints: []
+audio:
+  grade3: audio/py/return-values/scope/predict-unbound.grade3.ogg

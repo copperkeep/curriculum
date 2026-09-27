@@ -17,3 +17,5 @@ options:
 - '[''hi'', ''hello'', ''hey'']'
 answer: '[''hi'', ''hey'', ''hello'']'
 hints: []
+audio:
+  grade3: audio/py/list-tools/sorting/predict-key.grade3.ogg

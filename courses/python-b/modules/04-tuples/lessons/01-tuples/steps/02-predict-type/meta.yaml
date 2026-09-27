@@ -17,3 +17,5 @@ options:
 - <class 'tuple'> <class 'int'>
 answer: <class 'int'> <class 'tuple'>
 hints: []
+audio:
+  grade3: audio/py/tuples/tuples/predict-type.grade3.ogg

@@ -1,8 +1,6 @@
 id: python-b
 title: Python B — Working Programs
 description: Functions that return, text and list tools, tuples, dictionaries, sets, comprehensions, errors, files, modules and debugging.
-# Adult prose only for now: the web client falls back grade3 -> adult, so a young reader
-# sees the adult text. A grade3 tier is the next authoring pass for this course.
 targetAge: "10 and up"
 modules:
 - 01-functions

@@ -17,3 +17,5 @@ options:
 - IndexError
 answer: ValueError
 hints: []
+audio:
+  grade3: audio/py/errors/reading-errors/which-error-value.grade3.ogg

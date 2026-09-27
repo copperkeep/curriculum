@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: One bug is about capital letters; one is about where the return is.
+audio:
+  grade3: audio/py/debugging/tracing/fix-count-vowels.grade3.ogg

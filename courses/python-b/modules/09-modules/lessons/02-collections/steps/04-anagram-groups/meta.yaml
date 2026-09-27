@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: defaultdict(list) lets you append without checking the key first.
+audio:
+  grade3: audio/py/modules/collections/anagram-groups.grade3.ogg

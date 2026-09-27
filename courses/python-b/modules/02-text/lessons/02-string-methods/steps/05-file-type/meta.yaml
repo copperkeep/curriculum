@@ -18,3 +18,5 @@ hints:
 - afterSemanticFailures: 4
   tier: grade3
   text: Lower-case the name first so PHOTO.JPG counts.
+audio:
+  grade3: audio/py/text/string-methods/file-type.grade3.ogg

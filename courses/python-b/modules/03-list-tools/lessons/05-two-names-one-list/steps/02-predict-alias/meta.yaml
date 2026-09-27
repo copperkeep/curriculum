@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[1, 2, 3, 4]'
 hints: []
+audio:
+  grade3: audio/py/list-tools/two-names-one-list/predict-alias.grade3.ogg

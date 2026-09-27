@@ -23,3 +23,5 @@ hints:
 - afterSemanticFailures: 2
   tier: grade3
   text: The inner loop walks one row, not the whole grid.
+audio:
+  grade3: audio/py/list-tools/nested-lists/order-nested-loop.grade3.ogg

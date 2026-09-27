@@ -17,3 +17,5 @@ options:
 - Error
 answer: '[''A'', ''B'', ''C'']'
 hints: []
+audio:
+  grade3: audio/py/comprehensions/list-comprehensions/predict-comp.grade3.ogg

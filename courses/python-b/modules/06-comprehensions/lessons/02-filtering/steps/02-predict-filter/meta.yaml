@@ -17,3 +17,5 @@ options:
 - '[3, 4, 5]'
 answer: '[4, 5]'
 hints: []
+audio:
+  grade3: audio/py/comprehensions/filtering/predict-filter.grade3.ogg
