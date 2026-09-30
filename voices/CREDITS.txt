@@ -1,0 +1,4 @@
+Narration generated with Piper (https://github.com/rhasspy/piper, MIT) using the
+en_US-libritts_r-medium voice model (https://huggingface.co/rhasspy/piper-voices),
+trained on LibriTTS-R (http://www.openslr.org/141/), licensed CC BY 4.0
+(https://creativecommons.org/licenses/by/4.0/).

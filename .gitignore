@@ -4,6 +4,7 @@ __pycache__/
 *.py[cod]
 .venv/
 
-# Piper voice models: large, and each carries its own licence. Vendor deliberately.
+# Piper voice models: large, and each carries its own licence. The release job fetches
+# the pinned one; keep a local copy here for tools/audio.py.
 voices/*.onnx
 voices/*.onnx.json

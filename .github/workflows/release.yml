@@ -47,17 +47,25 @@ jobs:
         run: python tools/check.py
 
       - name: Narration
-        # Piper voice models carry their own licences. Ship the model as a repo secret or
-        # a vendored file; without one this step is a no-op and the audio image is empty.
+        # en_US-libritts_r-medium: trained on LibriTTS-R, CC BY 4.0 (credit in
+        # dist-audio/CREDITS.txt). Pinned by hash so a re-upload cannot change the voice
+        # under the same file names. Remove NARRATION_ONLY to narrate every step.
+        env:
+          VOICE_URL: https://huggingface.co/rhasspy/piper-voices/resolve/main/en/en_US/libritts_r/medium/en_US-libritts_r-medium
+          NARRATION_ONLY: audio/py/printing/
         run: |
-          if [ -f voices/voice.onnx ]; then
-            sudo apt-get update && sudo apt-get install -y ffmpeg
-            pipx install piper-tts || pip install piper-tts
-            python tools/audio.py --voice voices/voice.onnx --out dist-audio
-          else
-            echo "no voice model at voices/voice.onnx — skipping narration"
-            mkdir -p dist-audio
-          fi
+          mkdir -p voices dist-audio
+          curl -fsSL -o voices/voice.onnx "$VOICE_URL.onnx"
+          curl -fsSL -o voices/voice.onnx.json "$VOICE_URL.onnx.json"
+          sha256sum -c - <<'SUMS'
+          10bb85e071d616fcf4071f369f1799d0491492ab3c5d552ec19fb548fac13195  voices/voice.onnx
+          b471dc60d2d8335e819c393d196d6fbf792817f40051257b269878505bc9afb3  voices/voice.onnx.json
+          SUMS
+          sudo apt-get update && sudo apt-get install -y ffmpeg
+          pip install piper-tts
+          python tools/audio.py --voice voices/voice.onnx --speaker 0 --out dist-audio \
+            ${NARRATION_ONLY:+--only "$NARRATION_ONLY"}
+          cp voices/CREDITS.txt dist-audio/CREDITS.txt
 
       - uses: docker/setup-qemu-action@v3
       - uses: docker/setup-buildx-action@v3
