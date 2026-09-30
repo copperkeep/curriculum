@@ -8,7 +8,8 @@ synthesis through Google's servers, which fails or degrades on an isolated netwo
 Only changed prose is regenerated — the corpus is 50-200MB and a typo fix must not
 rewrite all of it. A content hash per file is what decides.
 
-    python tools/audio.py --voice voices/en_US-amy-medium.onnx --out dist-audio
+    python tools/audio.py --voice voices/voice.onnx --out dist-audio
+    python tools/audio.py --voice voices/voice.onnx --only audio/py/printing/  # a subset
 
 Piper voice models carry their own licences, separate from Piper's MIT. Check the one
 you ship before shipping its audio.
@@ -44,6 +45,16 @@ def main() -> int:
     parser.add_argument("--voice", type=Path, required=True, help="Piper .onnx voice model")
     parser.add_argument("--out", type=Path, default=ROOT / "dist-audio")
     parser.add_argument("--tier", default="grade3")
+    parser.add_argument(
+        "--speaker", default="0", help="speaker id, for a multi-speaker voice model"
+    )
+    parser.add_argument(
+        "--only",
+        action="append",
+        default=[],
+        metavar="PREFIX",
+        help="narrate only targets under this path prefix (repeatable); default: all",
+    )
     args = parser.parse_args()
 
     if shutil.which("piper") is None:
@@ -64,6 +75,8 @@ def main() -> int:
             text = step["prose"].get(args.tier)
             if not target or not text:
                 continue
+            if args.only and not any(target.startswith(prefix) for prefix in args.only):
+                continue
 
             spoken = speakable(text)
             digest = hashlib.sha256(spoken.encode()).hexdigest()
@@ -77,7 +90,8 @@ def main() -> int:
             destination.parent.mkdir(parents=True, exist_ok=True)
             wav = destination.with_suffix(".wav")
             subprocess.run(
-                ["piper", "--model", str(args.voice), "--output_file", str(wav)],
+                ["piper", "--model", str(args.voice), "--speaker", args.speaker,
+                 "--output_file", str(wav)],
                 input=spoken.encode(),
                 check=True,
             )

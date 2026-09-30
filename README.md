@@ -72,6 +72,10 @@ adaptations under the same terms.
 Share-alike is the part that matters: it keeps an adapted curriculum open rather than
 letting it be repackaged as a closed product.
 
+Narration is generated with Piper's `en_US-libritts_r-medium` voice, trained on
+LibriTTS-R (CC BY 4.0); the credit ships in the audio image as `CREDITS.txt`. It covers
+only `python-a`'s Printing module for now — see `NARRATION_ONLY` in the release workflow.
+
 Contributions follow the platform's [CLA](https://github.com/copperkeep/copperkeep/blob/main/CLA.md),
 for the same reason it exists there.
 
